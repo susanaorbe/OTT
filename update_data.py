@@ -63,11 +63,15 @@ def main() -> int:
             if filename == "events_cdn.json":
                 data, filter_stats = filter_cdn_sports_payload(data)
                 print(
-                    "Filtro de competiciones CDN (reglas Futbolenlatv): "
+                    "Filtro de competiciones CDN: "
                     f"{filter_stats['total_kept']} conservados, "
                     f"{filter_stats['total_removed']} descartados. "
-                    f"Soccer: {filter_stats['kept'].get('Soccer', 0)}; "
-                    f"NBA: {filter_stats['kept'].get('NBA', 0)}."
+                    f"Formula 1: {filter_stats['kept'].get('Motorsport', 0) - sum("
+                    f"1 for e in data.get('cdn-live-tv', {}).get('Motorsport', []) "
+                    f"if e.get('tournament', '').casefold() == 'motogp')}; "
+                    f"MotoGP: {sum("
+                    f"1 for e in data.get('cdn-live-tv', {}).get('Motorsport', []) "
+                    f"if e.get('tournament', '').casefold() == 'motogp')}."
                 )
             if filename == "channels.json":
                 cache_path = DATA_DIR / "channel_checks.json"
