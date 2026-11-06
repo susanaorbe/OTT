@@ -1,6 +1,6 @@
 {
   "data": {
-    "count": 101,
+    "count": 102,
     "events": [
       {
         "channels": [
@@ -333,6 +333,20 @@
         "id": "ftv:2026-11-06:21:00:premier league:everton - coventry city",
         "sport": "Fútbol",
         "time": "21:00"
+      },
+      {
+        "channels": [
+          "FutsalRFEF YouTube"
+        ],
+        "competition": "Liga Portugal Betclic",
+        "competition_key": "ligaportugal",
+        "date": "2026-11-06",
+        "event": "Finalissima - Semifinales - España",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-06:22:30:liga portugal betclic:finalissima - semifinales - espana",
+        "sport": "Fútbol",
+        "time": "22:30"
       },
       {
         "channels": [
