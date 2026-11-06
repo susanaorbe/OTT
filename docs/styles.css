@@ -60,3 +60,17 @@
     height: 34px;
   }
 }
+
+.channel-chip-playable {
+  cursor: pointer;
+  border: 1px solid rgba(169, 199, 255, 0.35);
+  color: #a9c7ff;
+  background: rgba(169, 199, 255, 0.08);
+  font: inherit;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.channel-chip-playable:hover {
+  background: rgba(169, 199, 255, 0.18);
+  border-color: #a9c7ff;
+}
