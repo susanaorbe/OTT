@@ -1,6 +1,6 @@
 {
   "data": {
-    "count": 100,
+    "count": 101,
     "events": [
       {
         "channels": [
@@ -115,6 +115,21 @@
         "id": "ftv:2026-11-06:15:30:masters paris:1 4 de final - l. van assche - r. hijikata",
         "sport": "Tenis",
         "time": "15:30"
+      },
+      {
+        "channels": [
+          "M+ Vamos 2",
+          "M+ Deportes 3"
+        ],
+        "competition": "Liga Portugal Betclic",
+        "competition_key": "ligaportugal",
+        "date": "2026-11-06",
+        "event": "Campeonato del Mundo - Semifinales - España",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-06:16:00:liga portugal betclic:campeonato del mundo - semifinales - espana",
+        "sport": "Fútbol",
+        "time": "16:00"
       },
       {
         "channels": [
