@@ -6,68 +6,41 @@ const EVENT_REFRESH_DELAY_MS = 61000;
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => [...document.querySelectorAll(selector)];
 
-const FIRETV_APP_PACKAGES = {
-  movistar: 'com.movistarplus.androidtv',
-  dazn: 'com.dazn',
-  prime: 'com.amazon.firebat',
-  kodi: 'org.xbmc.kodi'
-};
-const CHANNEL_APP_MAP = {
-  'la 1': 'movistar', 'la 2': 'movistar', 'antena 3': 'movistar', 'cuatro': 'movistar',
-  'telecinco': 'movistar', 'la sexta': 'movistar', 'movistar plus+': 'movistar',
-  'm+ vamos': 'movistar', 'm+ vamos 2': 'movistar', 'm+ vamos 3': 'movistar',
-  'primera federacion': 'movistar', 'eurosport 1': 'movistar', 'eurosport 2': 'movistar',
-  'real madrid tv': 'movistar', 'teledeporte': 'movistar', 'replay': 'movistar',
-  'dazn': 'dazn', 'dazn laliga': 'dazn', 'dazn 1': 'dazn', 'dazn 2': 'dazn',
-  'tennis channel': 'prime', 'tennis channel - orange tv': 'prime', 'amazon prime video': 'prime',
-  'dazn 3': 'kodi', 'dazn 4': 'kodi', 'dazn f1': 'kodi', 'dazn motogp': 'kodi',
-  'dazn baloncesto': 'kodi', 'dazn baloncesto 2': 'kodi', 'dazn baloncesto 3': 'kodi'
-};
-const CHANNEL_APP_LABELS = { movistar: 'Movistar Plus+', dazn: 'DAZN', prime: 'Amazon Prime Video' };
-function isFireTVDevice() {
-  const ua = String(navigator.userAgent || '');
-  return /\bAFT[A-Z0-9]+\b|Fire TV/i.test(ua);
-}
+// Todos los dispositivos usan el mismo reproductor web de Mi TV.
 function normalizeAgendaChannelName(value) {
   return String(value || '').toLocaleLowerCase('es')
     .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
     .replace(/\([^)]*\)/g, '').replace(/\s+/g, ' ').trim();
 }
-function getAgendaChannelApp(value) {
-  let normalized = normalizeAgendaChannelName(value);
-  const aliases = {
-    'movistar plus': 'movistar plus+', 'movistar+': 'movistar plus+', tdp: 'teledeporte',
-    'tennis channel orange tv': 'tennis channel - orange tv', 'm+ #vamos': 'm+ vamos',
-    '#vamos': 'm+ vamos', '#vamos spain': 'm+ vamos', 'm+ vamos 8 y 50': 'm+ vamos'
-  };
-  normalized = aliases[normalized] || normalized;
-  return CHANNEL_APP_MAP[normalized] || 'kodi';
-}
-function getAgendaFireTVIntent(channelName) {
-  const app = getAgendaChannelApp(channelName);
-  if (app === 'kodi' || !FIRETV_APP_PACKAGES[app]) return '';
-  return `intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LEANBACK_LAUNCHER;package=${FIRETV_APP_PACKAGES[app]};end`;
+function normalizeChannelMatchName(value) {
+  return normalizeAgendaChannelName(value)
+    .replace(/\b(?:fhd|uhd|hd|4k|sd)\b\s*$/i, '')
+    .replace(/\s+/g, ' ').trim();
 }
 function findCatalogChannel(channelName) {
   const wanted = normalizeAgendaChannelName(channelName);
   if (!wanted) return null;
-  return state.channels.find(channel => normalizeAgendaChannelName(channel.name) === wanted) || null;
+  const exact = state.channels.filter(channel => normalizeAgendaChannelName(channel.name) === wanted);
+  if (exact.length === 1) return exact[0];
+  if (exact.length > 1) return exact.find(isPlaybackAllowed) || exact[0];
+
+  // La agenda puede nombrar un canal sin indicar su calidad (p. ej. DAZN F1),
+  // mientras que el catálogo sí la especifica (DAZN F1 FHD). Solo aceptamos
+  // la equivalencia si identifica un único canal para evitar enlaces ambiguos.
+  const canonical = normalizeChannelMatchName(channelName);
+  if (!canonical) return null;
+  const matches = state.channels.filter(channel => normalizeChannelMatchName(channel.name) === canonical);
+  return matches.length === 1 ? matches[0] : null;
+}
+function eventHasCatalogChannel(ev) {
+  return (Array.isArray(ev?.channels) ? ev.channels : []).some(channel => {
+    const name = typeof channel === 'string' ? channel : (channel?.channel_name || channel?.name || '');
+    return Boolean(findCatalogChannel(name));
+  });
 }
 function renderAgendaChannel(channelValue) {
   const name = typeof channelValue === 'string' ? channelValue : (channelValue?.channel_name || channelValue?.name || 'Canal');
   const safeName = esc(name);
-  if (isFireTVDevice()) {
-    const intent = getAgendaFireTVIntent(name);
-    if (intent) {
-      const app = getAgendaChannelApp(name);
-      return `<a class="channel-chip channel-chip-link" href="${esc(intent)}" title="Abrir ${esc(CHANNEL_APP_LABELS[app] || app)} en Fire TV">${safeName} 🔗</a>`;
-    }
-    // En Fire TV se conserva el comportamiento original: los canales sin
-    // aplicación asignada (incluidos los destinados a Kodi) no son enlaces.
-    return `<span class="channel-chip">${safeName}</span>`;
-  }
-  // En otros dispositivos, todos los canales siguen el comportamiento normal
-  // de Mi TV: abrir su reproductor oficial si están en el catálogo disponible.
   const catalogChannel = findCatalogChannel(name);
   if (catalogChannel) {
     return `<a class="channel-chip channel-chip-link" href="#canales" data-agenda-channel="${esc(keyOf(catalogChannel))}" title="Abrir ${safeName} en Mi TV">${safeName} 🔗</a>`;
@@ -218,7 +191,8 @@ function eventCard(ev) {
   const title=eventTitle(ev), when=[eventDateLabel(ev),eventTimeLabel(ev)].filter(Boolean).join(' · ')||'Horario no indicado';
   const chips=channels.map(renderAgendaChannel).join('');
   const id=eventId(ev), saved=state.favorites.has(`e:${id}`);
-  const sourceLabel=ev.source==='both'?'CDN + Futbolenlatv':'Futbolenlatv';
+  const sourceLabel = ev.source === 'both' ? 'CDN + Futbolenlatv'
+    : eventHasCatalogChannel(ev) ? 'Futbolenlatv + canales CDN' : 'Futbolenlatv';
   const statusLabel=status==='live'?'EN DIRECTO':status==='finished'?'FINALIZADO':status==='upcoming'?'PRÓXIMO':status==='agenda'?'AGENDA PERSONALIZADA':status.toUpperCase()||'ESTADO NO INDICADO';
   const featured=ev.featured?'<span class="featured-tag">★ Selección de tu agenda</span>':'';
   const sportLabel=ev.icon?`${ev.icon} ${ev.sport}`:(ev.sport==='Soccer'?'⚽ Fútbol':ev.sport);
@@ -250,7 +224,12 @@ function filteredEvents(list) {
   return list.filter(ev=>{
     const date=ev.date||dateKeyFromValue(ev.start||ev.time)||'';
     const sportOk=state.sport==='all'||sportKey(ev.sport)===state.sport;
-    const sourceOk=state.source==='all'||ev.source===state.source||ev.source==='both';
+    // La pestaña CDN muestra eventos de la agenda que tengan al menos un
+    // canal reproducible en el catálogo, aunque CDN no publique una ficha
+    // independiente del evento. La agenda sigue siendo la fuente autorizada.
+    const sourceOk = state.source === 'all' || (state.source === 'cdn'
+      ? ev.source === 'both' || eventHasCatalogChannel(ev)
+      : ev.source === state.source || ev.source === 'both');
     const comp=String(ev.tournament||ev.competition||'').trim();
     const compOk=state.competition==='all'||comp===state.competition;
     let dayOk=true;
@@ -311,12 +290,28 @@ function eventMatchKey(ev) {
   const date = ev.date || dateKeyFromValue(ev.start || ev.time) || '';
   const time = eventTimeLabel(ev).match(/\d{1,2}:\d{2}/)?.[0] || '';
   if (!date || !time) return '';
+  const sport = sportKey(ev.sport || ev.agenda_sport);
+  const competition = ev.competitionKey || ev.agenda_competition_key || ev.competition_key || '';
+
+  // En motor no hay equipos: la identidad fiable es la competición y el
+  // horario exacto. El texto descriptivo cambia entre Futbolenlatv y CDN.
+  if (sport === 'motor') {
+    const motorCompetition = normalizeMatchPart(ev.tournament || ev.competition || ev.agenda_competition || competition || '');
+    return motorCompetition ? `${sport}|${date}|${time}|${motorCompetition}` : '';
+  }
+
   const teams = eventTeams(ev);
-  const identity = teams
-    ? teams.map(normalizeMatchPart).sort().join('|')
-    : `${normalizeMatchPart(eventTitle(ev))}|${normalizeMatchPart(ev.tournament || ev.competition || '')}`;
+  if (teams) return `${sport}|${date}|${time}|${teams.map(normalizeMatchPart).sort().join('|')}`;
+
+  let title = eventTitle(ev);
+  const tournament = String(ev.tournament || ev.competition || ev.agenda_competition || '').trim();
+  if (tournament) {
+    const escapedTournament = tournament.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    title = title.replace(new RegExp(`^${escapedTournament}\\s*[-–—:]\\s*`, 'i'), '');
+  }
+  const identity = `${normalizeMatchPart(title)}|${normalizeMatchPart(competition || tournament)}`;
   if (!identity.replace(/[| ]/g, '')) return '';
-  return `${sportKey(ev.sport)}|${date}|${time}|${identity}`;
+  return `${sport}|${date}|${time}|${identity}`;
 }
 function mergeAgenda(cdnEvents, personalEvents) {
   // Futbolenlatv es la lista autorizada: CDN solo enriquece eventos que ya existen allí.
@@ -335,8 +330,7 @@ function mergeAgenda(cdnEvents, personalEvents) {
 
     const oldChannels = Array.isArray(personalEvent.channels) ? personalEvent.channels : [];
     const cdnChannels = Array.isArray(match.channels) ? match.channels : [];
-    const channelKey = channel => String(typeof channel === 'string' ? channel : (channel?.channel_name || channel?.name || ''))
-      .toLocaleLowerCase('es').normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
+    const channelKey = channel => normalizeChannelMatchName(typeof channel === 'string' ? channel : (channel?.channel_name || channel?.name || ''));
     const channels = [...oldChannels];
     for (const channel of cdnChannels) {
       const normalized = channelKey(channel);
