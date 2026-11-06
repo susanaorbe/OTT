@@ -44,7 +44,6 @@ def main() -> int:
     from server import fetch_json
     from agenda_futbolenlatv import get_agenda_payload
     from channel_catalog import filter_playable_channels
-    from cdn_event_filter import filter_cdn_sports_payload
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     failures: list[str] = []
@@ -60,15 +59,6 @@ def main() -> int:
             data = fetch_json(endpoint)
             if not isinstance(data, dict):
                 raise ValueError("la API no devolvió un objeto JSON")
-            if filename == "events_cdn.json":
-                data, filter_stats = filter_cdn_sports_payload(data)
-                print(
-                    "Filtro de competiciones CDN (reglas Futbolenlatv): "
-                    f"{filter_stats['total_kept']} conservados, "
-                    f"{filter_stats['total_removed']} descartados. "
-                    f"Soccer: {filter_stats['kept'].get('Soccer', 0)}; "
-                    f"NBA: {filter_stats['kept'].get('NBA', 0)}."
-                )
             if filename == "channels.json":
                 cache_path = DATA_DIR / "channel_checks.json"
                 cache_before = cache_path.read_text(encoding="utf-8") if cache_path.exists() else ""

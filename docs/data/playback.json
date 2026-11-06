@@ -1,4 +1,5 @@
 {
-  "version": 1,
-  "channels": []
+  "channels": [],
+  "description": "Configuración manual de reproducción. El catálogo de la API se muestra aunque un canal no esté autorizado para reproducirse.",
+  "version": 1
 }
