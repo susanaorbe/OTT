@@ -106,11 +106,19 @@ function renderChannels() {
   bindChannelActions();
 }
 function sportKey(sport) {
-  const s=String(sport||'').toLowerCase();
-  if(s==='soccer'||s==='fútbol'||s==='futbol') return 'football';
-  if(s==='baloncesto') return 'basketball';
-  if(s==='tenis') return 'tennis';
-  if(s==='motor') return 'motor';
+  const s = String(sport || '').trim().toLowerCase();
+  if (['soccer', 'fútbol', 'futbol', 'football'].includes(s)) {
+    return 'football';
+  }
+  if (['basketball', 'baloncesto', 'nba'].includes(s)) {
+    return 'basketball';
+  }
+  if (['tennis', 'tenis'].includes(s)) {
+    return 'tennis';
+  }
+  if (['motor', 'motorsport', 'motorsports'].includes(s)) {
+    return 'motor';
+  }
   return s;
 }
 function eventId(ev) {
