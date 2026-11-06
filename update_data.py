@@ -68,15 +68,13 @@ def main() -> int:
                     f"{filter_stats['total_removed']} descartados."
                 )
             if filename == "channels.json":
-                cache_path = DATA_DIR / "channel_checks.json"
-                cache_before = cache_path.read_text(encoding="utf-8") if cache_path.exists() else ""
-                data = filter_playable_channels(data, cache_path)
-                cache_after = cache_path.read_text(encoding="utf-8")
-                changed |= cache_after != cache_before
+                data = filter_playable_channels(data)
                 print(
                     "Catálogo: "
-                    f"{data['catalog_check']['playable_channels']} reproducibles de "
-                    f"{data['catalog_check']['online_candidates']} canales online."
+                    f"{data['catalog_check']['playable_channels']} canales online/live "
+                    "con URL oficial válida; "
+                    f"{data['catalog_check']['excluded_offline']} offline y "
+                    f"{data['catalog_check']['excluded_invalid_player_url']} con URL no válida descartados."
                 )
             changed |= write_if_changed(path, {"ok": True, "data": data})
         except Exception as exc:  # una fuente no debe impedir actualizar las demás
