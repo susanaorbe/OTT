@@ -3553,14 +3553,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport HD FR",
-              "id": "6add40b22d4a99e07363feb5",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport SD FR",
               "id": "6add40b22d4a99e07363feb7",
               "image": "",
@@ -3823,14 +3815,6 @@
               "id": "6add40b12d4a99e07363f41d",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport HD FR",
-              "id": "6add40b22d4a99e07363feb5",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -4394,14 +4378,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport HD FR",
-              "id": "6add40b22d4a99e07363feb5",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport SD FR",
               "id": "6add40b22d4a99e07363feb7",
               "image": "",
@@ -4819,14 +4795,6 @@
               "id": "6add40b12d4a99e07363f41d",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport HD FR",
-              "id": "6add40b22d4a99e07363feb5",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -5618,14 +5586,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport HD FR",
-              "id": "6add40b22d4a99e07363feb5",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport SD FR",
               "id": "6add40b22d4a99e07363feb7",
               "image": "",
@@ -5888,14 +5848,6 @@
               "id": "6add40b12d4a99e07363f41d",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport HD FR",
-              "id": "6add40b22d4a99e07363feb5",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -6304,14 +6256,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport HD FR",
-              "id": "6add40b22d4a99e07363feb5",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport SD FR",
               "id": "6add40b22d4a99e07363feb7",
               "image": "",
@@ -6517,14 +6461,6 @@
               "id": "6add40b12d4a99e07363f41d",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport HD FR",
-              "id": "6add40b22d4a99e07363feb5",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -13601,6 +13537,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Sky Sports Football FHD UK",
+              "id": "6add40ae2d4a99e07363c88c",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Football%20FHD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Sky Sports NFL HD UK",
               "id": "6add8cd32d4a99e07393f4b0",
               "image": "",
@@ -19427,7 +19371,7 @@
       ],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1793961379,
+      "timestamp": 1793962039,
       "total_events": 870,
       "total_events_badminton": 5,
       "total_events_basketball": 135,
