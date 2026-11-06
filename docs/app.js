@@ -287,6 +287,8 @@ function openPlayer(channel) {
   const url=safePlayerUrl(channel); if(!url){showNotice('Este canal no tiene una página oficial de reproducción disponible.');return;}
   $('#player-title').textContent=channel.name; $('#player-content').innerHTML=`<iframe src="${esc(url)}" title="${esc(channel.name)}" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
   $('#player-dialog').showModal();
+  // Suspende el refresco mientras el reproductor esté abierto.
+  scheduleEventAutoRefresh();
 }
 function renderAll() {
   updateFavoriteCount();
@@ -415,6 +417,11 @@ function madridLocalTimestamp(dateValue, timeValue) {
 function scheduleEventAutoRefresh() {
   if (eventRefreshTimer) clearTimeout(eventRefreshTimer);
   eventRefreshTimer = null;
+
+  // Un refresco nunca debe interrumpir un canal que se esté reproduciendo.
+  const playerDialog = $('#player-dialog');
+  if (playerDialog?.open) return;
+
   const now = Date.now();
   const targets = state.events.map(ev => {
     const date = ev.date || dateKeyFromValue(ev.start || ev.time) || '';
@@ -423,10 +430,14 @@ function scheduleEventAutoRefresh() {
     return Number.isFinite(start) ? start + EVENT_REFRESH_DELAY_MS : NaN;
   }).filter(target => Number.isFinite(target) && target > now).sort((a, b) => a - b);
   if (!targets.length) return;
-  const delay = Math.min(targets[0] - now, 2147480000);
+  const nextTarget = targets[0];
+  const delay = Math.min(nextTarget - now, 2147480000);
   eventRefreshTimer = setTimeout(() => {
+    eventRefreshTimer = null;
+    // Si el reproductor se abrió mientras esperábamos, se pospone el refresco.
+    if ($('#player-dialog')?.open) return;
     // Si el objetivo se ha limitado por el máximo de setTimeout, vuelve a calcular.
-    if (Date.now() + 1000 < targets[0]) scheduleEventAutoRefresh();
+    if (Date.now() + 1000 < nextTarget) scheduleEventAutoRefresh();
     else window.location.reload();
   }, delay);
 }
@@ -490,7 +501,11 @@ $$('.date-tab').forEach(b=>b.addEventListener('click',()=>{state.daypart=b.datas
 $('#competition-filter').addEventListener('change',()=>{state.competition=$('#competition-filter').value;renderEvents();});
 $$('.source-tab').forEach(b=>b.addEventListener('click',()=>{state.source=b.dataset.source;$$('.source-tab').forEach(x=>x.classList.toggle('active',x===b));renderEvents();}));
 $('#close-player').addEventListener('click',()=>$('#player-dialog').close());
-$('#player-dialog').addEventListener('close',()=>$('#player-content').innerHTML='<p>Selecciona un canal reproducible para abrir su reproductor.</p>');
+$('#player-dialog').addEventListener('close',()=>{
+  $('#player-content').innerHTML='<p>Selecciona un canal reproducible para abrir su reproductor.</p>';
+  // Al cerrar el canal, vuelve a calcular el siguiente refresco pendiente.
+  scheduleEventAutoRefresh();
+});
 $('#channel-letter-filter').hidden=true;
 activateCurrentDaypart();
 saveFavorites();
