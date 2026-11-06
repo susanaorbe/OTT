@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131b">
+  <title>Mi TV</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Mi TV, inicio"><span class="brand-mark">▶</span><span>Mi <b>TV</b></span></a>
+    <nav class="main-nav" aria-label="Secciones">
+      <button class="nav-btn active" data-view="channels">Televisión</button>
+      <button class="nav-btn" data-view="sports">Deportes</button>
+      <button class="nav-btn" data-view="favorites">Favoritos <span id="fav-count" class="count">0</span></button>
+    </nav>
+    <button id="refresh-btn" class="refresh-btn" title="Actualizar datos">↻ <span>Actualizar</span></button>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">TU ESPACIO DE TELEVISIÓN</p>
+        <h1 id="page-title">Canales de televisión</h1>
+        <p id="page-subtitle" class="muted">Explora el catálogo disponible y guarda tus canales favoritos.</p>
+      </div>
+      <div class="hero-stats">
+        <div><strong id="channel-total">—</strong><span>Canales</span></div>
+        <div><strong id="online-total">—</strong><span>En línea</span></div>
+        <div><strong id="event-total">—</strong><span>Eventos</span></div>
+      </div>
+    </section>
+
+    <section class="toolbar" aria-label="Filtros">
+      <label class="search-box"><span>⌕</span><input id="search-input" type="search" placeholder="Buscar canal, país, equipo o competición…" autocomplete="off"></label>
+      <select id="country-filter" aria-label="Filtrar por país"><option value="">Todos los países</option></select>
+      <select id="status-filter" aria-label="Filtrar por estado"><option value="">Cualquier estado</option><option value="online">En línea</option><option value="offline">Fuera de línea</option></select>
+      <select id="competition-filter" aria-label="Filtrar por competición" style="display:none"><option value="all">Todas las competiciones</option></select>
+    </section>
+
+    <section id="channels-view" class="view active">
+      <div class="section-heading"><div><h2>Catálogo de canales</h2><p id="channels-caption" class="muted">Cargando canales…</p></div></div>
+      <div id="channels-grid" class="channel-grid"><div class="loading">Cargando catálogo…</div></div>
+    </section>
+
+    <section id="sports-view" class="view">
+      <div class="section-heading"><div><h2>Agenda deportiva</h2><p class="muted">Eventos de CDN Live TV y de tu agenda personalizada de Futbolenlatv.</p></div></div>
+      <div class="agenda-controls">
+        <div class="date-tabs" id="date-tabs" aria-label="Filtrar por fecha y franja">
+          <button class="date-tab active" data-daypart="all">Todos</button>
+          <button class="date-tab" data-daypart="today">Hoy</button>
+          <button class="date-tab" data-daypart="madrugada">Madrugada</button>
+          <button class="date-tab" data-daypart="manana">Mañana</button>
+          <button class="date-tab" data-daypart="tarde">Tarde</button>
+          <button class="date-tab" data-daypart="noche">Noche</button>
+          <button class="date-tab" data-daypart="upcoming">Próximamente</button>
+          <button class="date-tab" data-daypart="featured">Destacados</button>
+        </div>
+        <div class="sport-tabs" id="sport-tabs" aria-label="Filtrar por deporte">
+          <button class="sport-tab active" data-sport="all">Todos</button>
+          <button class="sport-tab" data-sport="football">Fútbol</button>
+          <button class="sport-tab" data-sport="basketball">Baloncesto</button>
+          <button class="sport-tab" data-sport="tennis">Tenis</button>
+          <button class="sport-tab" data-sport="motor">Motor</button>
+          <button class="sport-tab" data-sport="nba">NBA</button>
+          <button class="sport-tab" data-sport="nhl">NHL</button>
+          <button class="sport-tab" data-sport="nfl">NFL</button>
+        </div>
+        <div class="source-tabs" id="source-tabs" aria-label="Filtrar por fuente">
+          <button class="source-tab active" data-source="all">Todas las fuentes</button>
+          <button class="source-tab" data-source="cdn">CDN Live TV</button>
+          <button class="source-tab" data-source="futbolenlatv">Futbolenlatv</button>
+        </div>
+      </div>
+      <div id="events-list" class="events-list"><div class="loading">Cargando eventos…</div></div>
+    </section>
+
+    <section id="favorites-view" class="view">
+      <div class="section-heading"><div><h2>Tus favoritos</h2><p class="muted">Se guardan en este navegador.</p></div></div>
+      <div id="favorites-grid" class="channel-grid"></div>
+      <div id="favorite-events" class="events-list"></div>
+    </section>
+
+    <div id="notice" class="notice" role="status" aria-live="polite"></div>
+    <footer class="footer">Mi TV · Proyecto personal · Los datos y estados dependen de la fuente externa.</footer>
+  </main>
+
+  <dialog id="player-dialog" class="player-dialog">
+    <div class="player-head"><div><strong id="player-title">Reproductor</strong><p id="player-note" class="muted">Reproducción disponible solo para fuentes autorizadas.</p></div><button id="close-player" class="close-btn" aria-label="Cerrar">✕</button></div>
+    <div id="player-content" class="player-content"><p>La reproducción no está habilitada para este canal.</p></div>
+  </dialog>
+  <script src="./app.js" defer></script>
+</body>
+</html>
