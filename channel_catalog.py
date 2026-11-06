@@ -37,12 +37,14 @@ def valid_player_url(value: Any) -> bool:
         return False
     try:
         parsed = urlparse(value.strip())
-        query = parse_qs(parsed.query)
+        query = parse_qs(parsed.query, keep_blank_values=True)
+
         return (
             parsed.scheme == "https"
             and parsed.hostname in ALLOWED_PLAYER_HOSTS
             and parsed.path == PLAYER_PATH
-            and all(query.get(key) for key in ("name", "code", "user", "plan"))
+            and bool(query.get("name", [""])[0].strip())
+            and "code" in query
             and query.get("user", [""])[0] == "cdnlivetv"
             and query.get("plan", [""])[0] == "free"
         )
