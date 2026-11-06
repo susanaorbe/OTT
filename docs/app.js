@@ -1,7 +1,6 @@
 const API = { channels: './data/channels.json', events: './data/events_cdn.json', futbolenlatv: './data/events_futbolenlatv.json' };
 const FAVORITES_KEY = 'mi-tv-favorites-v1';
-const PLAYBACK_CONFIG_URL = './data/playback.json';
-const state = { view: 'channels', channels: [], events: [], sport: 'all', source: 'all', daypart: 'all', competition: 'all', favorites: loadFavorites(), playback: [], sourceErrors: [] };
+const state = { view: 'channels', channels: [], events: [], sport: 'all', source: 'all', daypart: 'all', competition: 'all', favorites: loadFavorites(), sourceErrors: [] };
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => [...document.querySelectorAll(selector)];
 
@@ -17,8 +16,8 @@ function setView(view) {
   $$('.view').forEach(v=>v.classList.toggle('active',v.id===`${view}-view`));
   const titles={channels:['Canales de televisión','Explora el catálogo disponible y guarda tus canales favoritos.'],sports:['Agenda deportiva','Eventos de CDN Live TV y de tu agenda personalizada de Futbolenlatv.'],favorites:['Tus favoritos','Tus canales y eventos guardados en este navegador.']};
   $('#page-title').textContent=titles[view][0]; $('#page-subtitle').textContent=titles[view][1];
-  $('#country-filter').style.display=view==='channels'?'':'none'; $('#status-filter').style.display=view==='channels'?'':'none'; $('#competition-filter').style.display=view==='sports'?'':'none';
-  $('#search-input').placeholder=view==='sports'?'Buscar equipo, competición o canal…':view==='favorites'?'Buscar en tus favoritos…':'Buscar canal o país…';
+  $('#competition-filter').style.display=view==='sports'?'':'none';
+  $('#search-input').placeholder=view==='sports'?'Buscar equipo, competición o canal…':view==='favorites'?'Buscar en tus favoritos…':'Buscar canal…';
   renderAll();
 }
 function extractChannels(payload) { return Array.isArray(payload?.channels) ? payload.channels : []; }
@@ -48,30 +47,34 @@ function normalizeFutbolenlatv(payload) {
     competitionKey:ev.competition_key, status:'agenda'
   }));
 }
-function normalizeStatus(status) { const s=String(status||'').toLowerCase(); return s==='online'||s==='live'?'online':s==='offline'?'offline':s||'desconocido'; }
 function isPlaybackAllowed(channel) {
-  const entry=state.playback.find(x=>String(x.name||'').trim().toLowerCase()===String(channel.name||'').trim().toLowerCase() && String(x.code||'').toLowerCase()===String(channel.code||'').toLowerCase());
-  return Boolean(entry?.playback_allowed===true && entry?.player_url && entry?.authorized_source);
+  return channel?.playback_allowed === true && Boolean(safePlayerUrl(channel));
 }
 function safePlayerUrl(channel) {
-  const entry=state.playback.find(x=>String(x.name||'').trim().toLowerCase()===String(channel.name||'').trim().toLowerCase() && String(x.code||'').toLowerCase()===String(channel.code||'').toLowerCase());
-  if (!entry || entry.playback_allowed!==true || !entry.authorized_source) return null;
-  try { const u=new URL(entry.player_url); if(u.protocol!=='https:') return null; return u.href; } catch { return null; }
+  const value=channel?.player_url;
+  if(!value)return null;
+  try {
+    const u=new URL(value);
+    if(u.protocol!=='https:' || !['cdnlivetv.tv','www.cdnlivetv.tv'].includes(u.hostname) || u.pathname!=='/api/v1/channels/player/') return null;
+    return u.href;
+  } catch { return null; }
 }
 function channelCard(ch) {
-  const k=keyOf(ch), saved=state.favorites.has(`c:${k}`), status=normalizeStatus(ch.status), playable=isPlaybackAllowed(ch);
+  const k=keyOf(ch), saved=state.favorites.has(`c:${k}`);
   const image=ch.image?`<img class="channel-logo" src="${esc(ch.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`:`<div class="channel-logo channel-placeholder">${esc((ch.name||'?').slice(0,1).toUpperCase())}</div>`;
-  return `<article class="channel-card"><div class="channel-top">${image}<div><div class="channel-name">${esc(ch.name||'Canal sin nombre')}</div><div class="channel-country">${esc(countryName(ch.code))}</div></div></div><div class="channel-bottom"><span class="status ${status}">${esc(status==='online'?'En línea':status==='offline'?'Fuera de línea':status)}</span><div class="card-actions"><button class="play-btn" data-play="${esc(k)}" ${playable?'':'disabled'} title="${playable?'Abrir reproductor autorizado':'Reproducción no habilitada: falta verificar autorización'}">${playable?'▶ Ver':'No disponible'}</button><button class="icon-btn ${saved?'saved':''}" data-fav-channel="${esc(k)}" aria-label="${saved?'Quitar':'Añadir'} favorito">${saved?'★':'☆'}</button></div></div></article>`;
+  return `<article class="channel-card channel-card-clickable" data-channel-card="${esc(k)}" role="button" tabindex="0" aria-label="Abrir ${esc(ch.name||'canal')}"><div class="channel-top">${image}<div><div class="channel-name">${esc(ch.name||'Canal sin nombre')}</div><div class="channel-country">${esc(countryName(ch.code))}</div></div></div><div class="channel-bottom"><span class="channel-availability">▶ Reproducir</span><div class="card-actions"><button class="icon-btn ${saved?'saved':''}" data-fav-channel="${esc(k)}" aria-label="${saved?'Quitar':'Añadir'} favorito">${saved?'★':'☆'}</button></div></div></article>`;
 }
 function filteredChannels(list) {
-  const q=$('#search-input').value.trim().toLocaleLowerCase('es'); const country=$('#country-filter').value; const status=$('#status-filter').value;
-  return list.filter(ch=>(!q||`${ch.name} ${countryName(ch.code)}`.toLocaleLowerCase('es').includes(q))&&(!country||String(ch.code).toLowerCase()===country)&&(!status||normalizeStatus(ch.status)===status)).sort((a,b)=>String(a.name||'').localeCompare(String(b.name||''),'es',{sensitivity:'base',numeric:true}));
+  const q=$('#search-input').value.trim().toLocaleLowerCase('es');
+  return list.filter(ch=>(!q||String(ch.name||'').toLocaleLowerCase('es').includes(q)))
+    .filter(ch=>isPlaybackAllowed(ch))
+    .sort((a,b)=>String(a.name||'').localeCompare(String(b.name||''),'es',{sensitivity:'base',numeric:true}));
 }
 function renderChannels() {
   const list=state.view==='favorites'?state.channels.filter(ch=>state.favorites.has(`c:${keyOf(ch)}`)):state.channels;
   const filtered=filteredChannels(list); const target=state.view==='favorites'?$('#favorites-grid'):$('#channels-grid');
-  target.innerHTML=filtered.length?filtered.map(channelCard).join(''):'<div class="empty-state">No hay canales que coincidan con estos filtros.</div>';
-  $('#channels-caption').textContent=`${filtered.length} de ${state.channels.length} canales mostrados`;
+  target.innerHTML=filtered.length?filtered.map(channelCard).join(''):'<div class="empty-state">No hay canales reproducibles que coincidan con la búsqueda.</div>';
+  $('#channels-caption').textContent=`${filtered.length} canales reproducibles mostrados`;
   bindChannelActions();
 }
 function sportKey(sport) {
@@ -157,22 +160,22 @@ function renderEvents() {
   $$('[data-fav-event]').forEach(btn=>btn.addEventListener('click',()=>toggleFavorite(`e:${btn.dataset.favEvent}`)));
 }
 function bindChannelActions() {
-  $$('[data-fav-channel]').forEach(btn=>btn.addEventListener('click',()=>toggleFavorite(`c:${btn.dataset.favChannel}`)));
-  $$('[data-play]').forEach(btn=>btn.addEventListener('click',()=>{const ch=state.channels.find(x=>keyOf(x)===btn.dataset.play);if(ch)openPlayer(ch);}));
+  $$('[data-fav-channel]').forEach(btn=>btn.addEventListener('click',event=>{event.stopPropagation();toggleFavorite(`c:${btn.dataset.favChannel}`);}));
+  $$('[data-channel-card]').forEach(card=>{
+    const open=()=>{const ch=state.channels.find(x=>keyOf(x)===card.dataset.channelCard);if(ch)openPlayer(ch);};
+    card.addEventListener('click',event=>{if(!event.target.closest('[data-fav-channel]'))open();});
+    card.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();open();}});
+  });
 }
 function toggleFavorite(key) { if(state.favorites.has(key))state.favorites.delete(key);else state.favorites.add(key);saveFavorites();renderAll(); }
 function openPlayer(channel) {
-  const url=safePlayerUrl(channel); if(!url){showNotice('Este canal no tiene una fuente autorizada configurada.');return;}
-  $('#player-title').textContent=channel.name; $('#player-content').innerHTML=`<iframe src="${esc(url)}" title="${esc(channel.name)}" allow="fullscreen" referrerpolicy="no-referrer" allowfullscreen></iframe>`;
+  const url=safePlayerUrl(channel); if(!url){showNotice('Este canal no tiene una página oficial de reproducción disponible.');return;}
+  $('#player-title').textContent=channel.name; $('#player-content').innerHTML=`<iframe src="${esc(url)}" title="${esc(channel.name)}" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
   $('#player-dialog').showModal();
-}
-function renderCountries() {
-  const select=$('#country-filter'), current=select.value; const countries=[...new Set(state.channels.map(c=>String(c.code||'').toLowerCase()).filter(Boolean))].sort((a,b)=>countryName(a).localeCompare(countryName(b),'es',{sensitivity:'base'}));
-  select.innerHTML='<option value="">Todos los países</option>'+countries.map(c=>`<option value="${esc(c)}">${esc(countryName(c))}</option>`).join(''); select.value=countries.includes(current)?current:'';
 }
 function renderAll() {
   $('#fav-count').textContent=state.favorites.size;
-  $('#channel-total').textContent=state.channels.length||'—'; $('#online-total').textContent=state.channels.filter(c=>normalizeStatus(c.status)==='online').length||'0'; $('#event-total').textContent=state.events.length||'0';
+  $('#channel-total').textContent=state.channels.filter(isPlaybackAllowed).length||'0'; $('#event-total').textContent=state.events.length||'0';
   if(state.view==='channels')renderChannels(); if(state.view==='sports')renderEvents(); if(state.view==='favorites'){renderChannels();renderEvents();}
 }
 function eventTeams(ev) {
@@ -211,19 +214,18 @@ async function fetchStaticJson(path) {
 async function loadData() {
   const button=$('#refresh-btn'); button.disabled=true; state.sourceErrors=[];
   try {
-    const paths=[API.channels,API.events,API.futbolenlatv,PLAYBACK_CONFIG_URL];
-    const labels=['CDN Live TV (canales)','CDN Live TV (eventos)','Futbolenlatv','configuración'];
+    const paths=[API.channels,API.events,API.futbolenlatv];
+    const labels=['CDN Live TV (canales)','CDN Live TV (eventos)','Futbolenlatv'];
     const parsed=await Promise.all(paths.map(async(path,i)=>{
       try {return await fetchStaticJson(path);}
       catch(err){state.sourceErrors.push(`${labels[i]}: ${err.message}`);return null;}
     }));
-    const [channelsJson,eventsJson,ftvJson,configJson]=parsed;
-    if(channelsJson)state.channels=extractChannels(channelsJson.data);
-    if(configJson)state.playback=Array.isArray(configJson.channels)?configJson.channels:[];
+    const [channelsJson,eventsJson,ftvJson]=parsed;
+    if(channelsJson)state.channels=extractChannels(channelsJson.data).filter(isPlaybackAllowed).sort((a,b)=>String(a.name||'').localeCompare(String(b.name||''),'es',{sensitivity:'base',numeric:true}));
     const cdnEvents=eventsJson?extractCdnEvents(eventsJson.data):[];
     const personalEvents=ftvJson?normalizeFutbolenlatv(ftvJson.data):[];
     state.events=mergeAgenda(cdnEvents,personalEvents);
-    renderCountries(); populateCompetitionFilter(); renderAll();
+    populateCompetitionFilter(); renderAll();
     if(state.sourceErrors.length) showNotice(`Datos parcialmente actualizados. ${state.sourceErrors.length} archivo(s) no disponibles.`);
     else showNotice('Canales y agendas actualizados.');
     if(!channelsJson)$('#channels-grid').innerHTML='<div class="empty-state">Todavía no hay datos de canales. Comprueba que se haya ejecutado el workflow de actualización.</div>';
@@ -235,11 +237,10 @@ async function loadData() {
 $$('.nav-btn').forEach(b=>b.addEventListener('click',()=>setView(b.dataset.view)));
 $('#refresh-btn').addEventListener('click',loadData);
 $('#search-input').addEventListener('input',renderAll);
-$('#country-filter').addEventListener('change',renderAll); $('#status-filter').addEventListener('change',renderAll);
 $$('.sport-tab').forEach(b=>b.addEventListener('click',()=>{state.sport=b.dataset.sport;$$('.sport-tab').forEach(x=>x.classList.toggle('active',x===b));renderEvents();}));
 $$('.date-tab').forEach(b=>b.addEventListener('click',()=>{state.daypart=b.dataset.daypart;$$('.date-tab').forEach(x=>x.classList.toggle('active',x===b));renderEvents();}));
 $('#competition-filter').addEventListener('change',()=>{state.competition=$('#competition-filter').value;renderEvents();});
 $$('.source-tab').forEach(b=>b.addEventListener('click',()=>{state.source=b.dataset.source;$$('.source-tab').forEach(x=>x.classList.toggle('active',x===b));renderEvents();}));
 $('#close-player').addEventListener('click',()=>$('#player-dialog').close());
-$('#player-dialog').addEventListener('close',()=>$('#player-content').innerHTML='<p>La reproducción no está habilitada para este canal.</p>');
+$('#player-dialog').addEventListener('close',()=>$('#player-content').innerHTML='<p>Selecciona un canal reproducible para abrir su reproductor.</p>');
 saveFavorites(); loadData();
