@@ -27,9 +27,9 @@
         "event": "1/4 de Final - Z. Sonmez - C. Liu",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-06:07:00:wta torneo de hong kong:1 4 de final - z. sonmez - c. liu",
+        "id": "ftv:2026-11-06:07:10:wta torneo de hong kong:1 4 de final - z. sonmez - c. liu",
         "sport": "Tenis",
-        "time": "07:00"
+        "time": "07:10"
       },
       {
         "channels": [
@@ -41,9 +41,9 @@
         "event": "1/4 de Final - S. Cirstea - A. Shubladze",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-06:09:30:wta torneo de hong kong:1 4 de final - s. cirstea - a. shubladze",
+        "id": "ftv:2026-11-06:10:00:wta torneo de hong kong:1 4 de final - s. cirstea - a. shubladze",
         "sport": "Tenis",
-        "time": "09:30"
+        "time": "10:00"
       },
       {
         "channels": [
@@ -55,9 +55,9 @@
         "event": "1/4 de Final - A. Sasnovich - M. Sakkari",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-06:11:30:wta torneo de hong kong:1 4 de final - a. sasnovich - m. sakkari",
+        "id": "ftv:2026-11-06:11:40:wta torneo de hong kong:1 4 de final - a. sasnovich - m. sakkari",
         "sport": "Tenis",
-        "time": "11:30"
+        "time": "11:40"
       },
       {
         "channels": [
@@ -84,9 +84,9 @@
         "event": "1/4 de Final - A. Ruzic - A. Eala",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-06:13:00:wta torneo de hong kong:1 4 de final - a. ruzic - a. eala",
+        "id": "ftv:2026-11-06:13:40:wta torneo de hong kong:1 4 de final - a. ruzic - a. eala",
         "sport": "Tenis",
-        "time": "13:00"
+        "time": "13:40"
       },
       {
         "channels": [
@@ -98,23 +98,9 @@
         "event": "1/4 de Final - B. Shelton - T. Paul",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-06:14:00:masters paris:1 4 de final - b. shelton - t. paul",
+        "id": "ftv:2026-11-06:14:10:masters paris:1 4 de final - b. shelton - t. paul",
         "sport": "Tenis",
-        "time": "14:00"
-      },
-      {
-        "channels": [
-          "M+ Deportes 2"
-        ],
-        "competition": "Masters París",
-        "competition_key": "tenis",
-        "date": "2026-11-06",
-        "event": "1/4 de Final - L. Van Assche - R. Hijikata",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-06:15:30:masters paris:1 4 de final - l. van assche - r. hijikata",
-        "sport": "Tenis",
-        "time": "15:30"
+        "time": "14:10"
       },
       {
         "channels": [
@@ -130,6 +116,20 @@
         "id": "ftv:2026-11-06:16:00:liga portugal betclic:campeonato del mundo - semifinales - espana",
         "sport": "Fútbol",
         "time": "16:00"
+      },
+      {
+        "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "Masters París",
+        "competition_key": "tenis",
+        "date": "2026-11-06",
+        "event": "1/4 de Final - L. Van Assche - R. Hijikata",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-06:16:20:masters paris:1 4 de final - l. van assche - r. hijikata",
+        "sport": "Tenis",
+        "time": "16:20"
       },
       {
         "channels": [
@@ -177,21 +177,6 @@
       },
       {
         "channels": [
-          "Movistar Plus+",
-          "M+ Deportes 2"
-        ],
-        "competition": "Masters París",
-        "competition_key": "tenis",
-        "date": "2026-11-06",
-        "event": "1/4 de Final - T. Fritz - C. Alcaraz",
-        "featured": true,
-        "icon": "🎾",
-        "id": "ftv:2026-11-06:19:00:masters paris:1 4 de final - t. fritz - c. alcaraz",
-        "sport": "Tenis",
-        "time": "19:00"
-      },
-      {
-        "channels": [
           "DAZN",
           "DAZN F1"
         ],
@@ -207,6 +192,21 @@
       },
       {
         "channels": [
+          "Movistar Plus+",
+          "M+ Deportes 2"
+        ],
+        "competition": "Masters París",
+        "competition_key": "tenis",
+        "date": "2026-11-06",
+        "event": "1/4 de Final - T. Fritz - C. Alcaraz",
+        "featured": true,
+        "icon": "🎾",
+        "id": "ftv:2026-11-06:20:05:masters paris:1 4 de final - t. fritz - c. alcaraz",
+        "sport": "Tenis",
+        "time": "20:05"
+      },
+      {
+        "channels": [
           "M+ Baloncesto"
         ],
         "competition": "Euroliga",
@@ -218,20 +218,6 @@
         "id": "ftv:2026-11-06:20:15:euroliga:olympiacos piraeus - crvena zvezda mts belgrade",
         "sport": "Baloncesto",
         "time": "20:15"
-      },
-      {
-        "channels": [
-          "M+ Deportes 2"
-        ],
-        "competition": "Masters París",
-        "competition_key": "tenis",
-        "date": "2026-11-06",
-        "event": "1/4 de Final - C. Ruud - N. Borges",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-06:20:30:masters paris:1 4 de final - c. ruud - n. borges",
-        "sport": "Tenis",
-        "time": "20:30"
       },
       {
         "channels": [
@@ -336,6 +322,20 @@
       },
       {
         "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "Masters París",
+        "competition_key": "tenis",
+        "date": "2026-11-06",
+        "event": "1/4 de Final - C. Ruud - N. Borges",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-06:21:35:masters paris:1 4 de final - c. ruud - n. borges",
+        "sport": "Tenis",
+        "time": "21:35"
+      },
+      {
+        "channels": [
           "FutsalRFEF YouTube"
         ],
         "competition": "Liga Portugal Betclic",
@@ -383,10 +383,10 @@
         "competition": "WTA Torneo de Hong Kong",
         "competition_key": "tenis",
         "date": "2026-11-07",
-        "event": "Semifinal 1",
+        "event": "Semifinal 1 - A. Shubladze - C. Liu",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-07:07:00:wta torneo de hong kong:semifinal 1",
+        "id": "ftv:2026-11-07:07:00:wta torneo de hong kong:semifinal 1 - a. shubladze - c. liu",
         "sport": "Tenis",
         "time": "07:00"
       },
@@ -397,10 +397,10 @@
         "competition": "WTA Torneo de Hong Kong",
         "competition_key": "tenis",
         "date": "2026-11-07",
-        "event": "Semifinal 2",
+        "event": "Semifinal 2 - M. Sakkari - A. Eala",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-07:08:30:wta torneo de hong kong:semifinal 2",
+        "id": "ftv:2026-11-07:08:30:wta torneo de hong kong:semifinal 2 - m. sakkari - a. eala",
         "sport": "Tenis",
         "time": "08:30"
       },
@@ -471,10 +471,10 @@
         "competition": "Masters París",
         "competition_key": "tenis",
         "date": "2026-11-07",
-        "event": "Semifinal 1",
+        "event": "Semifinal 1 - L. Van Assche - B. Shelton",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-07:14:30:masters paris:semifinal 1",
+        "id": "ftv:2026-11-07:14:30:masters paris:semifinal 1 - l. van assche - b. shelton",
         "sport": "Tenis",
         "time": "14:30"
       },
