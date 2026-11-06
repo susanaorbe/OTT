@@ -1,26 +1,25 @@
-#!/usr/bin/env python3
-"""Aplica a los eventos de CDN los mismos criterios de selección que Futbolenlatv.
 
-La clasificación se delega en ``agenda_futbolenlatv.get_sport_and_competition``
-para que las reglas de competiciones no se dupliquen ni diverjan entre fuentes.
-NHL y NFL se conservan como excepción para la vista «Todos»; la interfaz no
-les asigna una pestaña deportiva propia.
+#!/usr/bin/env python3
+"""Filtra los eventos de CDN Live TV.
+
+De esta fuente solo se conservan las competiciones:
+- Formula 1
+- MotoGP
+
+Todas las demás categorías y competiciones se excluyen.
 """
 from __future__ import annotations
 
 from copy import deepcopy
 from typing import Any
 
-from agenda_futbolenlatv import get_sport_and_competition, normalize_search_text
 
+ROOT_KEY = "cdn-live-tv"
 
-ROOT_KEY = "cdnlivetv.tv"
-FILTERED_CATEGORIES = {
-    "Soccer": "Fútbol",
-    "NBA": "Baloncesto",
+ALLOWED_MOTORSPORT_COMPETITIONS = {
+    "formula 1",
+    "motogp",
 }
-PASSTHROUGH_CATEGORIES = ("NHL", "NFL")
-ALL_CATEGORIES = ("Soccer", "NBA", "NHL", "NFL")
 
 
 def _text(value: Any) -> str:
@@ -31,95 +30,91 @@ def _text(value: Any) -> str:
     return ""
 
 
-def _event_is_allowed(category: str, event: dict[str, Any]) -> bool:
-    """Devuelve True solo si el clasificador de Futbolenlatv acepta el evento."""
+def _event_is_allowed(event: dict[str, Any]) -> bool:
+    """Comprueba si el evento pertenece a Formula 1 o MotoGP."""
     tournament = (
         _text(event.get("tournament"))
         or _text(event.get("competition"))
         or _text(event.get("league"))
     )
-    home = _text(event.get("homeTeam"))
-    away = _text(event.get("awayTeam"))
-    title = _text(event.get("eventTitle")) or _text(event.get("title"))
 
-    # No incluimos el país del partido: «Portugal», por ejemplo, podría
-    # confundirse con el nombre de la competición Liga Portugal.
-    text_lines = [part for part in (tournament, home, away, title) if part]
-    if not text_lines:
-        return False
-
-    # El nombre de categoría solo se añade para la categoría NBA, que la API
-    # también utiliza como etiqueta explícita de la competición.
-    if category == "NBA":
-        text_lines.append("NBA")
-
-    blob = normalize_search_text("x " + " ".join(text_lines) + " x")
-    sport, _icon, _competition, _featured, configured, _custom, _key = (
-        get_sport_and_competition(blob, tournament, "", text_lines)
-    )
-    return configured is True and sport == FILTERED_CATEGORIES[category]
+    return tournament.casefold() in ALLOWED_MOTORSPORT_COMPETITIONS
 
 
-def filter_cdn_sports_payload(payload: dict[str, Any]) -> tuple[dict[str, Any], dict[str, Any]]:
-    """Filtra Soccer y NBA con las reglas de Futbolenlatv.
-
-    NHL y NFL se conservan deliberadamente para la vista «Todos». Se devuelve
-    una copia del JSON para no mutar el objeto original.
-    """
+def filter_cdn_sports_payload(
+    payload: dict[str, Any],
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    """Conserva exclusivamente Formula 1 y MotoGP en la respuesta de CDN."""
     if not isinstance(payload, dict):
-        raise ValueError("La respuesta de CDN Live TV no es un objeto JSON")
+        raise ValueError(
+            "La respuesta de CDN Live TV no es un objeto JSON"
+        )
 
     result = deepcopy(payload)
+
     if isinstance(result.get(ROOT_KEY), dict):
         root = result[ROOT_KEY]
-    elif isinstance(result.get("data"), dict) and isinstance(result["data"].get(ROOT_KEY), dict):
+    elif (
+        isinstance(result.get("data"), dict)
+        and isinstance(result["data"].get(ROOT_KEY), dict)
+    ):
         root = result["data"][ROOT_KEY]
-    elif any(category in result for category in ALL_CATEGORIES):
+    elif isinstance(result.get("Motorsport"), list):
         root = result
     else:
-        raise ValueError("La respuesta de CDN Live TV no contiene las categorías deportivas esperadas")
+        raise ValueError(
+            "La respuesta de CDN Live TV no contiene "
+            "la estructura esperada: cdn-live-tv"
+        )
 
-    stats: dict[str, Any] = {"kept": {}, "removed": {}, "total_kept": 0, "total_removed": 0}
+    if not isinstance(root.get("Motorsport"), list):
+        raise ValueError(
+            "La respuesta de CDN Live TV no contiene "
+            "la categoría Motorsport como lista"
+        )
 
-    for category in FILTERED_CATEGORIES:
-        events = root.get(category, [])
+    stats: dict[str, Any] = {
+        "kept": {},
+        "removed": {},
+        "total_kept": 0,
+        "total_removed": 0,
+    }
+
+    # Procesa todas las categorías que contienen listas de eventos.
+    for category, events in list(root.items()):
         if not isinstance(events, list):
-            raise ValueError(f"La categoría {category} de CDN Live TV no es una lista")
+            continue
 
-        kept = [
-            event for event in events
-            if isinstance(event, dict) and _event_is_allowed(category, event)
-        ]
+        if category == "Motorsport":
+            kept = [
+                event
+                for event in events
+                if isinstance(event, dict)
+                and _event_is_allowed(event)
+            ]
+        else:
+            kept = []
+
         removed_count = len(events) - len(kept)
         root[category] = kept
+
         stats["kept"][category] = len(kept)
         stats["removed"][category] = removed_count
         stats["total_kept"] += len(kept)
         stats["total_removed"] += removed_count
 
-    # NHL/NFL siguen visibles únicamente en «Todos», como excepción acordada.
-    for category in PASSTHROUGH_CATEGORIES:
-        events = root.get(category, [])
-        if not isinstance(events, list):
-            raise ValueError(f"La categoría {category} de CDN Live TV no es una lista")
-        stats["kept"][category] = len(events)
-        stats["removed"][category] = 0
-        stats["total_kept"] += len(events)
-
-    # Actualiza los contadores que devuelve CDN para que coincidan con las listas.
+    # Actualiza el contador general.
     if "total_events" in root:
         root["total_events"] = sum(
-            len(root.get(category, []))
-            for category in ALL_CATEGORIES
-            if isinstance(root.get(category, []), list)
+            len(value)
+            for value in root.values()
+            if isinstance(value, list)
         )
-    for category, count_key in (
-        ("Soccer", "total_events_soccer"),
-        ("NBA", "total_events_nba"),
-        ("NHL", "total_events_nhl"),
-        ("NFL", "total_events_NFL"),
-    ):
+
+    # Actualiza los contadores individuales existentes.
+    for category in list(stats["kept"]):
+        count_key = f"total_events_{category.casefold()}"
         if count_key in root:
-            root[count_key] = len(root.get(category, []))
+            root[count_key] = stats["kept"][category]
 
     return result, stats
