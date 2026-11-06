@@ -22,8 +22,10 @@ mi-tv/
 │       ├── channels.json
 │       ├── events_cdn.json
 │       ├── events_futbolenlatv.json
-│       └── playback.json
+│       ├── channel_checks.json # Caché de comprobaciones de reproductores
+│       └── playback.json       # Archivo antiguo; ya no decide qué canales se muestran
 ├── agenda_futbolenlatv.py
+├── channel_catalog.py       # Comprueba las páginas oficiales de reproductor
 ├── server.py                # Solo para pruebas locales
 ├── update_data.py           # Genera los JSON estáticos
 ├── requirements.txt
@@ -66,17 +68,20 @@ Un workflow cada cinco minutos equivale aproximadamente a 8.640 ejecuciones en u
 
 Antes de dejarlo funcionando continuamente, decide la visibilidad del repositorio y revisa **Settings → Billing and licensing → Usage**. Si quieres mantenerlo privado y no consumir minutos adicionales, habrá que reducir la frecuencia (por ejemplo, cada 30 minutos) o estudiar otra forma de ejecutar la actualización. GitHub puede retrasar las ejecuciones programadas; el cron no garantiza que empiecen exactamente al minuto previsto.
 
-## Catálogo de canales
+## Catálogo de canales y comprobación del reproductor
 
-Los canales se muestran en orden alfabético por nombre, también cuando se aplica un filtro o se ven los favoritos. El filtro de país utiliza los códigos que entrega CDN Live TV. Si la fuente agrupa muchos canales como `Otros` o no proporciona un país, Mi TV no inventa nacionalidades: para desglosarlos hará falta otra fuente de metadatos verificable.
+- La vista Televisión solo muestra canales que CDN Live TV marca como `online`, que incluyen una URL HTTPS con el formato de su reproductor oficial y cuya página de reproductor responde con HTTP 200 y contenido HTML.
+- La comprobación se ejecuta en GitHub Actions durante cada actualización. Las comprobaciones correctas se reutilizan durante 6 horas; los fallos se vuelven a comprobar cada hora. Así la agenda y el estado del catálogo se refrescan cada cinco minutos sin consultar cientos de páginas de reproductor en cada ejecución.
+- Las tarjetas se ordenan alfabéticamente. Se ha eliminado el filtro de países y el filtro de estado. El buscador de Televisión busca exclusivamente por nombre del canal.
+- Al pulsar en cualquier parte de una tarjeta se abre el reproductor oficial dentro de Mi TV. El botón de favorito sigue siendo independiente.
+- El catálogo no afirma que el vídeo vaya a reproducirse en todos los navegadores, dispositivos o regiones. HTTP 200 confirma que la página del reproductor responde, pero no verifica que el vídeo cargue ni que esté disponible desde España. La documentación de CDN Live TV muestra su URL de reproductor y el uso de iframe; la autorización de distribución de cada canal debe confirmarse con el proveedor correspondiente.
 
 ## Favoritos y reproducción
 
 - Los favoritos personales se guardan en el navegador mediante `localStorage`; no se escriben en los JSON públicos.
-- La reproducción sigue deshabilitada salvo que se configure una fuente HTTPS y exista autorización expresa para insertarla en una web.
-- `config/channels.json` contiene la configuración manual. `update_data.py` la publica como `docs/data/playback.json`.
-
-No se intentan eludir geobloqueos, DRM, autenticación ni restricciones de acceso. La presencia de un canal en el catálogo no demuestra que su emisión esté autorizada o disponible en España.
+- `channel_catalog.py` solo acepta URLs HTTPS del dominio y ruta oficiales de reproductor publicados por CDN Live TV. No extrae enlaces de vídeo ni intenta obtener fuentes ocultas.
+- No se intentan eludir geobloqueos, DRM, autenticación ni restricciones de acceso. Si el proveedor no ofrece una página oficial de reproductor accesible, el canal no se publica en el catálogo.
+- `config/channels.json` y `docs/data/playback.json` se conservan por compatibilidad, pero ya no controlan la lista visible.
 
 ## Pruebas locales opcionales
 
