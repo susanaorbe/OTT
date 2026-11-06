@@ -233,8 +233,7 @@ function filteredEvents(list) {
     const comp=String(ev.tournament||ev.competition||'').trim();
     const compOk=state.competition==='all'||comp===state.competition;
     let dayOk=true;
-    if(state.daypart==='today')dayOk=date===today;
-    else if(state.daypart==='upcoming')dayOk=Boolean(date&&date>today);
+    if(state.daypart==='upcoming')dayOk=Boolean(date&&date>today);
     else if(state.daypart==='featured')dayOk=ev.featured===true;
     else if(['madrugada','manana','tarde','noche'].includes(state.daypart))dayOk=date===today&&timeSlot(ev)===state.daypart;
     return sportOk&&sourceOk&&compOk&&dayOk&&(!q||eventSearchText(ev).includes(q));
