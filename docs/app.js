@@ -13,11 +13,20 @@ function normalizeAgendaChannelName(value) {
     .replace(/\([^)]*\)/g, '').replace(/\s+/g, ' ').trim();
 }
 function normalizeChannelMatchName(value) {
+  // La calidad puede aparecer al final o antes del país (p. ej. HD UK).
   return normalizeAgendaChannelName(value)
-    .replace(/\b(?:fhd|uhd|hd|4k|sd)\b\s*$/i, '')
+    .replace(/\b(?:fhd|uhd|hd|4k|sd)\b/gi, ' ')
     .replace(/\s+/g, ' ').trim();
 }
-function findCatalogChannel(channelName) {
+function findCatalogChannel(channelValue) {
+  // Si el evento CDN incluye el identificador, es la correspondencia más fiable.
+  const channelId = channelValue && typeof channelValue === 'object'
+    ? (channelValue.id || channelValue.channel_id || channelValue.channelId || '') : '';
+  if (channelId) {
+    const byId = state.channels.filter(channel => String(channel.id || channel.channel_id || channel.channelId || '') === String(channelId));
+    if (byId.length === 1) return byId[0];
+  }
+  const channelName = channelValueName(channelValue);
   const wanted = normalizeAgendaChannelName(channelName);
   if (!wanted) return null;
   const exact = state.channels.filter(channel => normalizeAgendaChannelName(channel.name) === wanted);
@@ -32,16 +41,36 @@ function findCatalogChannel(channelName) {
   const matches = state.channels.filter(channel => normalizeChannelMatchName(channel.name) === canonical);
   return matches.length === 1 ? matches[0] : null;
 }
-function eventHasCatalogChannel(ev) {
-  return (Array.isArray(ev?.channels) ? ev.channels : []).some(channel => {
-    const name = typeof channel === 'string' ? channel : (channel?.channel_name || channel?.name || '');
-    return Boolean(findCatalogChannel(name));
+function channelValueName(channel) {
+  return typeof channel === 'string' ? channel : (channel?.channel_name || channel?.name || '');
+}
+function channelIdentity(channel) {
+  return normalizeChannelMatchName(channelValueName(channel));
+}
+function uniqueChannels(channels) {
+  const seen = new Set();
+  return (Array.isArray(channels) ? channels : []).filter(channel => {
+    const identity = channelIdentity(channel);
+    if (!identity || seen.has(identity)) return false;
+    seen.add(identity);
+    return true;
   });
+}
+function eventHasCatalogChannel(ev) {
+  const channels = Array.isArray(ev?.cdnChannels) ? ev.cdnChannels
+    : (Array.isArray(ev?.channels) ? ev.channels : []);
+  return channels.some(channel => Boolean(findCatalogChannel(channel)));
+}
+function eventChannelsForCurrentSource(ev) {
+  if (state.source === 'cdn') return Array.isArray(ev.cdnChannels) ? ev.cdnChannels : [];
+  if (state.source === 'futbolenlatv') return Array.isArray(ev.futbolenlatvChannels)
+    ? ev.futbolenlatvChannels : (Array.isArray(ev.channels) ? ev.channels : []);
+  return Array.isArray(ev.channels) ? ev.channels : [];
 }
 function renderAgendaChannel(channelValue) {
   const name = typeof channelValue === 'string' ? channelValue : (channelValue?.channel_name || channelValue?.name || 'Canal');
   const safeName = esc(name);
-  const catalogChannel = findCatalogChannel(name);
+  const catalogChannel = findCatalogChannel(channelValue);
   if (catalogChannel) {
     return `<a class="channel-chip channel-chip-link" href="#canales" data-agenda-channel="${esc(keyOf(catalogChannel))}" title="Abrir ${safeName} en Mi TV">${safeName} 🔗</a>`;
   }
@@ -187,19 +216,20 @@ function eventSortKey(ev) {
 }
 function eventTimeLabel(ev) { const raw=String(ev.start||ev.time||''); const match=raw.match(/\d{1,2}:\d{2}/); if(match)return match[0]; if(/^\d{10,13}$/.test(raw)){const d=new Date(Number(raw.length===10?raw+'000':raw));if(!Number.isNaN(d.getTime()))return new Intl.DateTimeFormat('es-ES',{timeZone:'Europe/Madrid',hour:'2-digit',minute:'2-digit',hour12:false}).format(d);} return raw; }
 function eventCard(ev) {
-  const status=String(ev.status||'').toLowerCase(), channels=Array.isArray(ev.channels)?ev.channels:[];
+  const status=String(ev.status||'').toLowerCase(), channels=eventChannelsForCurrentSource(ev);
   const title=eventTitle(ev), when=[eventDateLabel(ev),eventTimeLabel(ev)].filter(Boolean).join(' · ')||'Horario no indicado';
   const chips=channels.map(renderAgendaChannel).join('');
   const id=eventId(ev), saved=state.favorites.has(`e:${id}`);
-  const sourceLabel = ev.source === 'both' ? 'CDN + Futbolenlatv'
-    : eventHasCatalogChannel(ev) ? 'Futbolenlatv + canales CDN' : 'Futbolenlatv';
+  const sourceLabel = state.source === 'cdn' ? 'CDN Play TV'
+    : state.source === 'futbolenlatv' ? 'FutbolenlaTV'
+    : ev.cdnChannels?.length ? 'FutbolenlaTV + CDN Play TV' : 'FutbolenlaTV';
   const statusLabel=status==='live'?'EN DIRECTO':status==='finished'?'FINALIZADO':status==='upcoming'?'PRÓXIMO':status==='agenda'?'AGENDA PERSONALIZADA':status.toUpperCase()||'ESTADO NO INDICADO';
   const featured=ev.featured?'<span class="featured-tag">★ Selección de tu agenda</span>':'';
   const sportLabel=ev.icon?`${ev.icon} ${ev.sport}`:(ev.sport==='Soccer'?'⚽ Fútbol':ev.sport);
   return `<article class="event-card"><div class="event-main"><div class="event-meta"><span>${esc(sportLabel)}</span><span>·</span><span>${esc(ev.tournament||ev.competition||'Competición no indicada')}</span><span>·</span><span>${esc(sourceLabel)}</span>${ev.country?`<span>·</span><span>${esc(ev.country)}</span>`:''}</div><div class="event-title">${esc(title)}</div><div class="event-sub">${esc(when)}</div>${featured}${chips?`<div class="event-channels">${chips}</div>`:''}</div><div class="event-side"><span class="event-status ${status==='live'?'live':''}">${esc(statusLabel)}</span><button class="icon-btn ${saved?'saved':''}" data-fav-event="${esc(id)}" aria-label="${saved?'Quitar':'Añadir'} favorito">${saved?'★':'☆'}</button></div></article>`;
 }
 function eventSearchText(ev) {
-  const channels=(ev.channels||[]).map(c=>typeof c==='string'?c:(c.channel_name||c.name||'')).join(' ');
+  const channels=eventChannelsForCurrentSource(ev).map(channelValueName).join(' ');
   return `${ev.homeTeam||''} ${ev.awayTeam||''} ${eventTitle(ev)} ${ev.tournament||''} ${ev.competition||''} ${ev.country||''} ${channels} ${ev.source||''}`.toLocaleLowerCase('es');
 }
 function timeSlot(ev) {
@@ -224,11 +254,10 @@ function filteredEvents(list) {
   return list.filter(ev=>{
     const date=ev.date||dateKeyFromValue(ev.start||ev.time)||'';
     const sportOk=state.sport==='all'||sportKey(ev.sport)===state.sport;
-    // La pestaña CDN muestra eventos de la agenda que tengan al menos un
-    // canal reproducible en el catálogo, aunque CDN no publique una ficha
-    // independiente del evento. La agenda sigue siendo la fuente autorizada.
+    // CDN Play TV solo muestra eventos de la agenda que tengan canales CDN
+    // asociados. FutbolenlaTV conserva siempre sus canales con prioridad.
     const sourceOk = state.source === 'all' || (state.source === 'cdn'
-      ? ev.source === 'both' || eventHasCatalogChannel(ev)
+      ? Array.isArray(ev.cdnChannels) && ev.cdnChannels.length > 0
       : ev.source === state.source || ev.source === 'both');
     const comp=String(ev.tournament||ev.competition||'').trim();
     const compOk=state.competition==='all'||comp===state.competition;
@@ -314,7 +343,8 @@ function eventMatchKey(ev) {
   return `${sport}|${date}|${time}|${identity}`;
 }
 function mergeAgenda(cdnEvents, personalEvents) {
-  // Futbolenlatv es la lista autorizada: CDN solo enriquece eventos que ya existen allí.
+  // FutbolenlaTV es la lista autorizada de eventos. CDN aporta canales
+  // adicionales, pero nunca crea eventos ni desplaza canales de FutbolenlaTV.
   const cdnByKey = new Map();
   for (const cdnEvent of cdnEvents) {
     const key = eventMatchKey(cdnEvent);
@@ -325,23 +355,27 @@ function mergeAgenda(cdnEvents, personalEvents) {
 
   return personalEvents.map(personalEvent => {
     const key = eventMatchKey(personalEvent);
-    const match = key ? cdnByKey.get(key)?.[0] : null;
-    if (!match) return { ...personalEvent, source: 'futbolenlatv', featured: personalEvent.featured === true };
-
-    const oldChannels = Array.isArray(personalEvent.channels) ? personalEvent.channels : [];
-    const cdnChannels = Array.isArray(match.channels) ? match.channels : [];
-    const channelKey = channel => normalizeChannelMatchName(typeof channel === 'string' ? channel : (channel?.channel_name || channel?.name || ''));
-    const channels = [...oldChannels];
-    for (const channel of cdnChannels) {
-      const normalized = channelKey(channel);
-      if (normalized && !channels.some(existing => channelKey(existing) === normalized)) channels.push(channel);
-    }
+    const matches = key ? (cdnByKey.get(key) || []) : [];
+    const futbolenlatvChannels = uniqueChannels(personalEvent.channels);
+    const futbolenlatvIdentities = new Set(futbolenlatvChannels.map(channelIdentity).filter(Boolean));
+    const allCdnChannels = matches.flatMap(match => Array.isArray(match.channels) ? match.channels : []);
+    // Prioridad absoluta a FutbolenlaTV: cualquier canal equivalente ya
+    // presente allí se excluye de la lista CDN, aunque cambie su sufijo HD/FHD.
+    const cdnChannels = uniqueChannels(allCdnChannels).filter(channel => {
+      const identity = channelIdentity(channel);
+      return identity && !futbolenlatvIdentities.has(identity)
+        && Boolean(findCatalogChannel(channel));
+    });
+    const channels = uniqueChannels([...futbolenlatvChannels, ...cdnChannels]);
+    const matchWithStatus = matches.find(match => match.status);
     return {
       ...personalEvent,
       channels,
-      status: match.status || personalEvent.status,
-      source: 'both',
-      cdnMatched: true,
+      futbolenlatvChannels,
+      cdnChannels,
+      status: matchWithStatus?.status || personalEvent.status,
+      source: cdnChannels.length ? 'both' : 'futbolenlatv',
+      cdnMatched: matches.length > 0,
       // La marca de destacado siempre procede de la agenda personalizada.
       featured: personalEvent.featured === true
     };
