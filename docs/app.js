@@ -1,6 +1,7 @@
+
 const API = { channels: './data/channels.json', events: './data/events_cdn.json', futbolenlatv: './data/events_futbolenlatv.json' };
 const FAVORITES_KEY = 'mi-tv-favorites-v1';
-const state = { view: 'sports', channels: [], events: [], sport: 'all', source: 'all', daypart: 'all', competition: 'all', channelLetter: 'all', favorites: loadFavorites(), sourceErrors: [] };
+const state = { view: 'sports', channels: [], events: [], sport: 'all', source: 'all', daypart: 'featured', competition: 'all', channelLetter: 'all', favorites: loadFavorites(), sourceErrors: [] };
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => [...document.querySelectorAll(selector)];
 
@@ -131,6 +132,7 @@ function normalizeFutbolenlatv(payload) {
     eventId:ev.id, source:'futbolenlatv', date:ev.date, start:ev.time, sport:ev.sport,
     icon:ev.icon, tournament:ev.competition, eventTitle:ev.event,
     channels:(ev.channels||[]).map(name=>({channel_name:name})), featured:ev.featured===true,
+    personalFeatured:ev.featured===true,
     competitionKey:ev.competition_key, status:'agenda'
   }));
 }
@@ -204,7 +206,7 @@ function eventCard(ev) {
   const id=eventId(ev), saved=state.favorites.has(`e:${id}`);
   const sourceLabel=ev.source==='futbolenlatv'?'Futbolenlatv':ev.source==='both'?'CDN + Futbolenlatv':'CDN Live TV';
   const statusLabel=status==='live'?'EN DIRECTO':status==='finished'?'FINALIZADO':status==='upcoming'?'PRÓXIMO':status==='agenda'?'AGENDA PERSONALIZADA':status.toUpperCase()||'ESTADO NO INDICADO';
-  const featured=ev.featured?'<span class="featured-tag">★ Selección de tu agenda</span>':'';
+  const featured=ev.personalFeatured?'<span class="featured-tag">★ Selección de tu agenda</span>':'';
   const sportLabel=ev.icon?`${ev.icon} ${ev.sport}`:(ev.sport==='Soccer'?'⚽ Fútbol':ev.sport);
   return `<article class="event-card"><div class="event-main"><div class="event-meta"><span>${esc(sportLabel)}</span><span>·</span><span>${esc(ev.tournament||ev.competition||'Competición no indicada')}</span><span>·</span><span>${esc(sourceLabel)}</span>${ev.country?`<span>·</span><span>${esc(ev.country)}</span>`:''}</div><div class="event-title">${esc(title)}</div><div class="event-sub">${esc(when)}</div>${featured}${chips?`<div class="event-channels">${chips}</div>`:''}</div><div class="event-side"><span class="event-status ${status==='live'?'live':''}">${esc(statusLabel)}</span><button class="icon-btn ${saved?'saved':''}" data-fav-event="${esc(id)}" aria-label="${saved?'Quitar':'Añadir'} favorito">${saved?'★':'☆'}</button></div></article>`;
 }
@@ -238,9 +240,8 @@ function filteredEvents(list) {
     const comp=String(ev.tournament||ev.competition||'').trim();
     const compOk=state.competition==='all'||comp===state.competition;
     let dayOk=true;
-    if(state.daypart==='today')dayOk=date===today;
-    else if(state.daypart==='upcoming')dayOk=Boolean(date&&date>today);
-    else if(state.daypart==='featured')dayOk=ev.featured===true;
+    if(state.daypart==='upcoming')dayOk=Boolean(date&&date>today);
+    else if(state.daypart==='featured')dayOk=ev.personalFeatured===true;
     else if(['madrugada','manana','tarde','noche'].includes(state.daypart))dayOk=date===today&&timeSlot(ev)===state.daypart;
     return sportOk&&sourceOk&&compOk&&dayOk&&(!q||eventSearchText(ev).includes(q));
   });
@@ -298,7 +299,9 @@ function mergeAgenda(cdnEvents, personalEvents) {
     const old=Array.isArray(existing.channels)?existing.channels:[]; const fresh=Array.isArray(ev.channels)?ev.channels:[];
     const channelKey=c=>String(typeof c==='string'?c:(c.channel_name||c.name||'')).toLowerCase();
     existing.channels=[...old,...fresh.filter(c=>!old.some(o=>channelKey(o)===channelKey(c)))];
-    existing.source='both'; existing.featured=existing.featured||ev.featured;
+    existing.source='both';
+    existing.featured=existing.featured||ev.featured;
+    existing.personalFeatured=existing.personalFeatured||ev.personalFeatured===true;
   }
   return out;
 }
