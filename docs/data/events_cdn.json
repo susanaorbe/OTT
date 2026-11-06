@@ -82,77 +82,6 @@
       "MMA": [],
       "Motorsport": [
         {
-          "agenda_competition": "Fórmula 1",
-          "agenda_competition_key": "motor",
-          "agenda_event_title": "Fórmula 1 - São Paulo Grand Prix Practice 1",
-          "agenda_featured": false,
-          "agenda_icon": "🏆",
-          "agenda_sport": "Motor",
-          "awayTeam": "",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Sky Sports F1 HD DE",
-              "id": "6add8cd32d4a99e07393f431",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20DE&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Sky Sports F1 UK",
-              "id": "6add8cd32d4a99e07393f4a1",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20UK&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Sky Sports F1 HD UK",
-              "id": "6add8cd32d4a99e07393f4a2",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
-              "id": "6add8cd62d4a99e073941640",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "DAZN F1",
-              "id": "6add8cd62d4a99e073941b21",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "Brazil",
-          "countryIMG": "https://flagcdn.com/w40/br.png",
-          "end": "2026-11-06 18:30",
-          "event": "São Paulo Grand Prix Practice 1",
-          "gameID": "2408207",
-          "homeTeam": "",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "start": "2026-11-06 15:30",
-          "status": "NS",
-          "time": "15:30",
-          "tournament": "Formula 1"
-        },
-        {
           "agenda_competition": "MotoGP",
           "agenda_competition_key": "motor",
           "agenda_event_title": "MotoGP - Qatar Practice",
@@ -172,10 +101,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -184,14 +113,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -241,14 +162,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -322,10 +235,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -334,14 +247,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -370,10 +275,10 @@
             },
             {
               "channel_code": "gb",
-              "channel_name": "TNT Sports 2 FHD UK",
-              "id": "6add40ae2d4a99e07363c892",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-2-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%202%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "channel_name": "TNT Sports 2 HD UK",
+              "id": "6add8cd32d4a99e07393f4c9",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-2-hd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%202%20HD%20UK&code=gb&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -505,10 +410,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -517,14 +422,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -584,10 +481,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -596,14 +493,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -653,14 +542,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -734,10 +615,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -746,14 +627,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -803,14 +676,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -893,22 +758,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -949,10 +798,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Tipik FHD BE",
-              "id": "6add40b22d4a99e07363fff3",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Tipik%20FHD%20BE&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -1044,10 +893,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -1056,14 +905,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -1113,14 +954,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -1203,22 +1036,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -1259,10 +1076,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Tipik FHD BE",
-              "id": "6add40b22d4a99e07363fff3",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Tipik%20FHD%20BE&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -1346,14 +1163,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
               "id": "6add8cd32d4a99e07393f431",
               "image": "",
@@ -1415,14 +1224,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -1496,10 +1297,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -1508,14 +1309,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -1575,10 +1368,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -1587,14 +1380,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -1644,14 +1429,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -1715,14 +1492,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -1805,22 +1574,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -1857,6 +1610,14 @@
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -1940,10 +1701,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -1952,14 +1713,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2019,10 +1772,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2031,14 +1784,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2098,10 +1843,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2110,14 +1855,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2177,10 +1914,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2189,14 +1926,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2246,14 +1975,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -2336,22 +2057,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -2388,6 +2093,14 @@
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2471,10 +2184,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2483,14 +2196,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2550,10 +2255,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2562,14 +2267,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2619,14 +2316,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -2700,10 +2389,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2712,14 +2401,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2769,14 +2450,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -2850,10 +2523,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2862,14 +2535,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2929,10 +2594,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2941,14 +2606,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3008,10 +2665,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3020,14 +2677,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3087,10 +2736,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3099,14 +2748,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3156,14 +2797,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -3227,14 +2860,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -3317,22 +2942,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -3373,10 +2982,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Tipik FHD BE",
-              "id": "6add40b22d4a99e07363fff3",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Tipik%20FHD%20BE&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3468,10 +3077,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3480,14 +3089,6 @@
               "id": "6add8cd42d4a99e07393fded",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB2 (D)",
-              "id": "6add8cd42d4a99e07393fdee",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3537,14 +3138,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -3627,22 +3220,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -3683,10 +3260,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Tipik FHD BE",
-              "id": "6add40b22d4a99e07363fff3",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Tipik%20FHD%20BE&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3770,14 +3347,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
               "id": "6add8cd32d4a99e07393f431",
               "image": "",
@@ -3839,14 +3408,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -3912,14 +3473,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
               "id": "6add8cd32d4a99e07393f431",
               "image": "",
@@ -3981,14 +3534,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -4071,22 +3616,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -4127,10 +3656,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Tipik FHD BE",
-              "id": "6add40b22d4a99e07363fff3",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Tipik%20FHD%20BE&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -4214,14 +3743,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
               "id": "6add8cd32d4a99e07393f431",
               "image": "",
@@ -4302,22 +3823,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -4358,10 +3863,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Tipik FHD BE",
-              "id": "6add40b22d4a99e07363fff3",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Tipik%20FHD%20BE&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -4470,8 +3975,8 @@
       "WWE": [],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1793993052,
-      "total_events": 44,
+      "timestamp": 1794001772,
+      "total_events": 43,
       "total_events_badminton": 3,
       "total_events_basketball": 0,
       "total_events_cricket": 0,
@@ -4484,7 +3989,7 @@
       "total_events_horse_racing": 0,
       "total_events_mlb": 0,
       "total_events_mma": 0,
-      "total_events_motorsport": 40,
+      "total_events_motorsport": 39,
       "total_events_nba": 0,
       "total_events_ncaa": 0,
       "total_events_ncaaw": 0,

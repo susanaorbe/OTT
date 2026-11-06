@@ -1,6 +1,6 @@
 {
   "data": {
-    "count": 102,
+    "count": 103,
     "events": [
       {
         "channels": [
@@ -576,6 +576,20 @@
         "id": "ftv:2026-11-07:15:30:bundesliga:rb leipzig - augsburg",
         "sport": "Fútbol",
         "time": "15:30"
+      },
+      {
+        "channels": [
+          "M+ Deportes 5"
+        ],
+        "competition": "Liga Portugal Betclic",
+        "competition_key": "ligaportugal",
+        "date": "2026-11-07",
+        "event": "Campeonato del Mundo - 3er Puesto - TBD",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:16:00:liga portugal betclic:campeonato del mundo - 3er puesto - tbd",
+        "sport": "Fútbol",
+        "time": "16:00"
       },
       {
         "channels": [
