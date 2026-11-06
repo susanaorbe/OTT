@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """Actualiza los JSON estáticos que consume Mi TV en GitHub Pages.
 
@@ -55,115 +54,59 @@ def main() -> int:
         ("channels.json", "channels", {"channels": []}),
         ("events_cdn.json", "events/sports", {}),
     )
-
     for filename, endpoint, empty_data in sources:
         path = DATA_DIR / filename
-
         try:
             data = fetch_json(endpoint)
-
             if not isinstance(data, dict):
                 raise ValueError("la API no devolvió un objeto JSON")
-
             if filename == "events_cdn.json":
                 data, filter_stats = filter_cdn_sports_payload(data)
-
-                motor_events = data.get("cdn-live-tv", {}).get("Motorsport", [])
-
-                formula1_count = sum(
-                    1 for event in motor_events
-                    if isinstance(event, dict)
-                    and str(event.get("tournament") or "").strip().casefold() == "formula 1"
-                )
-
-                motogp_count = sum(
-                    1 for event in motor_events
-                    if isinstance(event, dict)
-                    and str(event.get("tournament") or "").strip().casefold() == "motogp"
-                )
-
                 print(
-                    "Filtro CDN: "
+                    "Eventos CDN filtrados con las reglas de la agenda: "
                     f"{filter_stats['total_kept']} conservados, "
-                    f"{filter_stats['total_removed']} descartados. "
-                    f"Formula 1: {formula1_count}; MotoGP: {motogp_count}."
+                    f"{filter_stats['total_removed']} descartados."
                 )
-
             if filename == "channels.json":
                 cache_path = DATA_DIR / "channel_checks.json"
-                cache_before = (
-                    cache_path.read_text(encoding="utf-8")
-                    if cache_path.exists()
-                    else ""
-                )
-
+                cache_before = cache_path.read_text(encoding="utf-8") if cache_path.exists() else ""
                 data = filter_playable_channels(data, cache_path)
-
                 cache_after = cache_path.read_text(encoding="utf-8")
                 changed |= cache_after != cache_before
-
                 print(
                     "Catálogo: "
                     f"{data['catalog_check']['playable_channels']} reproducibles de "
                     f"{data['catalog_check']['online_candidates']} canales online."
                 )
-
             changed |= write_if_changed(path, {"ok": True, "data": data})
-
-        except Exception as exc:
+        except Exception as exc:  # una fuente no debe impedir actualizar las demás
             message = f"CDN Live TV ({endpoint}): {exc}"
             failures.append(message)
             print(f"AVISO: {message}", file=sys.stderr)
-
             if not path.exists():
-                write_if_changed(
-                    path,
-                    {
-                        "ok": False,
-                        "error": "Todavía no hay datos disponibles.",
-                        "data": empty_data,
-                    },
-                )
+                write_if_changed(path, {"ok": False, "error": "Todavía no hay datos disponibles." , "data": empty_data})
 
     ftv_path = DATA_DIR / "events_futbolenlatv.json"
-
     try:
         data = get_agenda_payload()
-
         if not isinstance(data, dict):
             raise ValueError("el parser no devolvió un objeto JSON")
-
         changed |= write_if_changed(ftv_path, {"ok": True, "data": data})
-
     except Exception as exc:
         message = f"Futbolenlatv: {exc}"
         failures.append(message)
         print(f"AVISO: {message}", file=sys.stderr)
-
         if not ftv_path.exists():
-            write_if_changed(
-                ftv_path,
-                {
-                    "ok": False,
-                    "error": "Todavía no hay datos disponibles.",
-                    "data": {"events": []},
-                },
-            )
+            write_if_changed(ftv_path, {"ok": False, "error": "Todavía no hay datos disponibles.", "data": {"events": []}})
 
     # La disponibilidad de reproducción se incorpora al propio catálogo filtrado.
     # playback.json se conserva por compatibilidad con instalaciones anteriores,
     # pero ya no decide qué canales se muestran.
 
     print(f"\nActualización terminada. Cambios: {'sí' if changed else 'no'}.")
-
     if failures:
-        print(
-            f"Fuentes con errores: {len(failures)}. "
-            "Se conservan los últimos datos válidos cuando existen."
-        )
-        # Fallos parciales no hacen fallar el workflow:
-        # las otras fuentes siguen actualizándose.
-
+        print(f"Fuentes con errores: {len(failures)}. Se conservan los últimos datos válidos cuando existen.")
+        # Fallos parciales no hacen fallar el workflow: las otras fuentes siguen actualizándose.
     return 0
 
 
