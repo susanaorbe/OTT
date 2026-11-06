@@ -322,49 +322,72 @@ function eventMatchKey(ev) {
   const sport = sportKey(ev.sport || ev.agenda_sport);
   const competition = ev.competitionKey || ev.agenda_competition_key || ev.competition_key || '';
 
-  // En motor no hay equipos: la identidad fiable es la competición y el
-  // horario exacto. El texto descriptivo cambia entre Futbolenlatv y CDN.
+  // Clave estricta de respaldo: fecha, hora y equipos/competición.
   if (sport === 'motor') {
-    const motorCompetition = normalizeMatchPart(ev.tournament || ev.competition || ev.agenda_competition || competition || '');
+    const motorCompetition = normalizeMatchPart(ev.agenda_competition || ev.tournament || ev.competition || competition || '');
     return motorCompetition ? `${sport}|${date}|${time}|${motorCompetition}` : '';
   }
 
   const teams = eventTeams(ev);
   if (teams) return `${sport}|${date}|${time}|${teams.map(normalizeMatchPart).sort().join('|')}`;
 
-  let title = eventTitle(ev);
-  const tournament = String(ev.tournament || ev.competition || ev.agenda_competition || '').trim();
-  if (tournament) {
-    const escapedTournament = tournament.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    title = title.replace(new RegExp(`^${escapedTournament}\\s*[-–—:]\\s*`, 'i'), '');
-  }
-  const identity = `${normalizeMatchPart(title)}|${normalizeMatchPart(competition || tournament)}`;
+  const title = eventTitle(ev);
+  const tournament = String(ev.agenda_competition || ev.tournament || ev.competition || '').trim();
+  const titleIdentity = normalizeMatchPart(title);
+  const tournamentIdentity = normalizeMatchPart(tournament);
+  const cleanTitle = tournamentIdentity && titleIdentity.startsWith(`${tournamentIdentity} `)
+    ? titleIdentity.slice(tournamentIdentity.length).trim() : titleIdentity;
+  const identity = `${cleanTitle}|${normalizeMatchPart(competition || tournament)}`;
   if (!identity.replace(/[| ]/g, '')) return '';
   return `${sport}|${date}|${time}|${identity}`;
 }
+
+function eventTitleMatchKey(ev) {
+  // agenda_event_title es la referencia descriptiva común que prepara el
+  // actualizador. Se usa como alternativa cuando las horas de las fuentes
+  // difieren (por ejemplo, por zona horaria o formato del proveedor).
+  const date = ev.date || dateKeyFromValue(ev.start || ev.time) || '';
+  const sport = sportKey(ev.sport || ev.agenda_sport);
+  const title = normalizeMatchPart(eventTitle(ev));
+  const competitionName = normalizeMatchPart(ev.agenda_competition || ev.tournament || ev.competition || '');
+  const competitionKey = normalizeMatchPart(ev.agenda_competition_key || ev.competitionKey || ev.competition_key || competitionName);
+  if (!date || !title || !competitionKey) return '';
+  const cleanTitle = competitionName && title.startsWith(`${competitionName} `)
+    ? title.slice(competitionName.length).trim() : title;
+  return `${sport}|${date}|${competitionKey}|${cleanTitle}`;
+}
+
 function mergeAgenda(cdnEvents, personalEvents) {
   // FutbolenlaTV es la lista autorizada de eventos. CDN aporta canales
   // adicionales, pero nunca crea eventos ni desplaza canales de FutbolenlaTV.
   const cdnByKey = new Map();
+  const cdnByTitleKey = new Map();
+  const addToIndex = (index, key, event) => {
+    if (!key) return;
+    if (!index.has(key)) index.set(key, []);
+    index.get(key).push(event);
+  };
   for (const cdnEvent of cdnEvents) {
-    const key = eventMatchKey(cdnEvent);
-    if (!key) continue;
-    if (!cdnByKey.has(key)) cdnByKey.set(key, []);
-    cdnByKey.get(key).push(cdnEvent);
+    addToIndex(cdnByKey, eventMatchKey(cdnEvent), cdnEvent);
+    addToIndex(cdnByTitleKey, eventTitleMatchKey(cdnEvent), cdnEvent);
   }
 
   return personalEvents.map(personalEvent => {
-    const key = eventMatchKey(personalEvent);
-    const matches = key ? (cdnByKey.get(key) || []) : [];
+    const titleKey = eventTitleMatchKey(personalEvent);
+    const exactKey = eventMatchKey(personalEvent);
+    // La identidad descriptiva común tiene prioridad. La clave estricta
+    // mantiene compatibilidad con eventos antiguos sin agenda_event_title.
+    const titleMatches = titleKey ? (cdnByTitleKey.get(titleKey) || []) : [];
+    const matches = titleMatches.length ? titleMatches : (exactKey ? (cdnByKey.get(exactKey) || []) : []);
     const futbolenlatvChannels = uniqueChannels(personalEvent.channels);
     const futbolenlatvIdentities = new Set(futbolenlatvChannels.map(channelIdentity).filter(Boolean));
     const allCdnChannels = matches.flatMap(match => Array.isArray(match.channels) ? match.channels : []);
-    // Prioridad absoluta a FutbolenlaTV: cualquier canal equivalente ya
-    // presente allí se excluye de la lista CDN, aunque cambie su sufijo HD/FHD.
+    // No descartamos un canal solo porque el catálogo todavía no resuelva
+    // su nombre: el evento y el canal deben seguir visibles. El enlace se
+    // añade cuando renderAgendaChannel consigue identificar su reproductor.
     const cdnChannels = uniqueChannels(allCdnChannels).filter(channel => {
       const identity = channelIdentity(channel);
-      return identity && !futbolenlatvIdentities.has(identity)
-        && Boolean(findCatalogChannel(channel));
+      return identity && !futbolenlatvIdentities.has(identity);
     });
     const channels = uniqueChannels([...futbolenlatvChannels, ...cdnChannels]);
     const matchWithStatus = matches.find(match => match.status);
@@ -381,6 +404,7 @@ function mergeAgenda(cdnEvents, personalEvents) {
     };
   });
 }
+
 function madridClockParts(date = new Date()) {
   const parts = new Intl.DateTimeFormat('en-GB', {
     timeZone: 'Europe/Madrid', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false
