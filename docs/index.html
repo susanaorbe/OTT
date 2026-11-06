@@ -27,15 +27,12 @@
       </div>
       <div class="hero-stats">
         <div><strong id="channel-total">—</strong><span>Canales</span></div>
-        <div><strong id="online-total">—</strong><span>En línea</span></div>
         <div><strong id="event-total">—</strong><span>Eventos</span></div>
       </div>
     </section>
 
     <section class="toolbar" aria-label="Filtros">
-      <label class="search-box"><span>⌕</span><input id="search-input" type="search" placeholder="Buscar canal, país, equipo o competición…" autocomplete="off"></label>
-      <select id="country-filter" aria-label="Filtrar por país"><option value="">Todos los países</option></select>
-      <select id="status-filter" aria-label="Filtrar por estado"><option value="">Cualquier estado</option><option value="online">En línea</option><option value="offline">Fuera de línea</option></select>
+      <label class="search-box"><span>⌕</span><input id="search-input" type="search" placeholder="Buscar canal…" autocomplete="off"></label>
       <select id="competition-filter" aria-label="Filtrar por competición" style="display:none"><option value="all">Todas las competiciones</option></select>
     </section>
 
@@ -87,8 +84,8 @@
   </main>
 
   <dialog id="player-dialog" class="player-dialog">
-    <div class="player-head"><div><strong id="player-title">Reproductor</strong><p id="player-note" class="muted">Reproducción disponible solo para fuentes autorizadas.</p></div><button id="close-player" class="close-btn" aria-label="Cerrar">✕</button></div>
-    <div id="player-content" class="player-content"><p>La reproducción no está habilitada para este canal.</p></div>
+    <div class="player-head"><div><strong id="player-title">Reproductor</strong><p id="player-note" class="muted">Reproductor oficial de CDN Live TV.</p></div><button id="close-player" class="close-btn" aria-label="Cerrar">✕</button></div>
+    <div id="player-content" class="player-content"><p>Selecciona un canal reproducible para abrir su reproductor.</p></div>
   </dialog>
   <script src="./app.js" defer></script>
 </body>
