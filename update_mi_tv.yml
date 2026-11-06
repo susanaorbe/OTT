@@ -1,0 +1,45 @@
+name: Actualizar datos de Mi TV
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: update-mi-tv-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: python -m pip install -r requirements.txt
+
+      - name: Actualizar datos de canales y agenda
+        run: python update_data.py
+
+      - name: Guardar cambios de datos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/*.json
+          if git diff --staged --quiet; then
+            echo "No hay cambios en los datos; se omite el commit."
+          else
+            git commit -m "Actualización automática de datos de Mi TV"
+            git push
+          fi
