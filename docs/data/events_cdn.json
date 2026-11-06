@@ -93,18 +93,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -117,18 +125,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -331,18 +339,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -355,18 +371,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -465,18 +481,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -489,18 +513,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -632,18 +656,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -656,18 +688,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -695,18 +727,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -719,18 +759,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -829,18 +869,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -853,18 +901,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -1036,6 +1084,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Tipik FHD BE",
               "id": "6add40b22d4a99e07363fff3",
               "image": "",
@@ -1123,18 +1179,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -1147,18 +1211,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -1326,6 +1390,14 @@
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -1559,18 +1631,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -1583,18 +1663,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -1622,18 +1702,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -1646,18 +1734,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -1900,6 +1988,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "CANAL+ SPORT 6 FHD PL",
               "id": "6add8cd62d4a99e073941bde",
               "image": "",
@@ -1971,18 +2067,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -1995,18 +2099,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2034,18 +2138,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2058,18 +2170,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2097,18 +2209,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2121,18 +2241,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2160,18 +2280,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2184,18 +2312,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2367,6 +2495,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "CANAL+ SPORT 6 FHD PL",
               "id": "6add8cd62d4a99e073941bde",
               "image": "",
@@ -2438,18 +2574,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2462,18 +2606,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2501,18 +2645,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2525,18 +2677,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2635,18 +2787,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2659,18 +2819,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2769,18 +2929,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2793,18 +2961,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2832,18 +3000,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2856,18 +3032,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2895,18 +3071,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2919,18 +3103,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2958,18 +3142,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2982,18 +3174,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -3236,6 +3428,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Tipik FHD BE",
               "id": "6add40b22d4a99e07363fff3",
               "image": "",
@@ -3323,18 +3523,26 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB4 (D)",
-              "id": "6add8cd42d4a99e07393fdec",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3347,18 +3555,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP HELI (D)",
-              "id": "6add8cd42d4a99e07393fdf0",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -3526,6 +3734,14 @@
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3974,6 +4190,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Tipik FHD BE",
               "id": "6add40b22d4a99e07363fff3",
               "image": "",
@@ -4205,6 +4429,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Tipik FHD BE",
               "id": "6add40b22d4a99e07363fff3",
               "image": "",
@@ -4317,7 +4549,7 @@
       "WWE": [],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1793976977,
+      "timestamp": 1793978825,
       "total_events": 45,
       "total_events_badminton": 3,
       "total_events_basketball": 0,
