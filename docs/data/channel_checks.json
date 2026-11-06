@@ -30,12 +30,6 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=BBC%20America%20US&code=&user=cdnlivetv&plan=free"
     },
-    "bbc four fhd uk|": {
-      "checked_at": "2026-11-06T10:04:39.821445+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=BBC%20Four%20FHD%20UK&code=&user=cdnlivetv&plan=free"
-    },
     "bbc one fhd uk|": {
       "checked_at": "2026-11-06T10:04:39.410487+00:00",
       "ok": true,
@@ -53,6 +47,12 @@
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=BBC%20Two%20FHD%20UK&code=&user=cdnlivetv&plan=free"
+    },
+    "bein sports 1 au|": {
+      "checked_at": "2026-11-06T10:23:36.084025+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20Sports%201%20AU&code=&user=cdnlivetv&plan=free"
     },
     "bein sports 1 fhd tr|": {
       "checked_at": "2026-11-06T10:04:42.060442+00:00",
@@ -84,29 +84,11 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%203%20FHD%20TR&code=&user=cdnlivetv&plan=free"
     },
-    "bein sports 3 hd fr|": {
-      "checked_at": "2026-11-06T10:04:42.889665+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20Sports%203%20HD%20FR&code=&user=cdnlivetv&plan=free"
-    },
-    "bein sports 4 fhd tr|": {
-      "checked_at": "2026-11-06T10:04:42.102697+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%204%20FHD%20TR&code=&user=cdnlivetv&plan=free"
-    },
     "bein sports hd us|": {
       "checked_at": "2026-11-06T10:04:40.248049+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20Sports%20HD%20US&code=&user=cdnlivetv&plan=free"
-    },
-    "bein sports max 4 hd fr|": {
-      "checked_at": "2026-11-06T10:04:42.883802+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20Sports%20Max%204%20HD%20FR&code=&user=cdnlivetv&plan=free"
     },
     "bein sports max 5 hd fr|": {
       "checked_at": "2026-11-06T10:04:42.925415+00:00",
@@ -126,11 +108,23 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20Sports%20Max%207%20HD%20FR&code=&user=cdnlivetv&plan=free"
     },
-    "bein sports xtra fhd us|": {
-      "checked_at": "2026-11-06T10:04:40.241336+00:00",
+    "bein sports max 8 hd fr|": {
+      "checked_at": "2026-11-06T10:23:36.064118+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20Sports%20Xtra%20FHD%20US&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20Sports%20Max%208%20HD%20FR&code=&user=cdnlivetv&plan=free"
+    },
+    "bein sports max 9 hd fr|": {
+      "checked_at": "2026-11-06T10:23:36.048851+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20Sports%20Max%209%20HD%20FR&code=&user=cdnlivetv&plan=free"
+    },
+    "benfica tv fhd pt|": {
+      "checked_at": "2026-11-06T10:23:36.092382+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=BENFICA%20TV%20FHD%20PT&code=&user=cdnlivetv&plan=free"
     },
     "bet uhd us|": {
       "checked_at": "2026-11-06T10:04:39.902115+00:00",
@@ -138,29 +132,11 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=BET%20UHD%20US&code=&user=cdnlivetv&plan=free"
     },
-    "canal 5 hd mx|": {
-      "checked_at": "2026-11-06T10:04:43.353448+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%205%20HD%20MX&code=&user=cdnlivetv&plan=free"
-    },
     "canal 9 hd dk|": {
       "checked_at": "2026-11-06T10:04:37.560222+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%209%20HD%20DK&code=&user=cdnlivetv&plan=free"
-    },
-    "canal+ sport 2 fhd pl|": {
-      "checked_at": "2026-11-06T10:04:42.011892+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%202%20FHD%20PL&code=&user=cdnlivetv&plan=free"
-    },
-    "canal+ sport 3 fhd pl|": {
-      "checked_at": "2026-11-06T10:04:42.011871+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%203%20FHD%20PL&code=&user=cdnlivetv&plan=free"
     },
     "canal+ sport 360 hd fr|": {
       "checked_at": "2026-11-06T10:04:42.604807+00:00",
@@ -168,35 +144,11 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free"
     },
-    "canal+ sport 4 fhd pl|": {
-      "checked_at": "2026-11-06T10:04:42.027006+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%204%20FHD%20PL&code=&user=cdnlivetv&plan=free"
-    },
-    "canal+ sport 5 fhd pl|": {
-      "checked_at": "2026-11-06T10:04:42.081895+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%205%20FHD%20PL&code=&user=cdnlivetv&plan=free"
-    },
     "canal+ sport fhd pl|": {
       "checked_at": "2026-11-06T10:04:41.999563+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20FHD%20PL&code=&user=cdnlivetv&plan=free"
-    },
-    "canal+ sport hd fr|": {
-      "checked_at": "2026-11-06T10:04:42.856135+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free"
-    },
-    "cbs sports golazo network fhd us|": {
-      "checked_at": "2026-11-06T10:04:40.268794+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CBS%20Sports%20Golazo%20Network%20FHD%20US&code=&user=cdnlivetv&plan=free"
     },
     "cbs us|": {
       "checked_at": "2026-11-06T10:04:40.783136+00:00",
@@ -215,12 +167,6 @@
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Channel%205%20FHD%20UK&code=&user=cdnlivetv&plan=free"
-    },
-    "chicago sports network chsn us|": {
-      "checked_at": "2026-11-06T10:04:41.172219+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Chicago%20Sports%20Network%20CHSN%20US&code=&user=cdnlivetv&plan=free"
     },
     "cnbc us|": {
       "checked_at": "2026-11-06T10:04:41.232719+00:00",
@@ -258,6 +204,12 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Cytavision%20Sports%205%20HD%20CY&code=&user=cdnlivetv&plan=free"
     },
+    "cytavision sports 6 hd cy|": {
+      "checked_at": "2026-11-06T10:23:36.660400+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Cytavision%20Sports%206%20HD%20CY&code=&user=cdnlivetv&plan=free"
+    },
     "cytavision sports 7 hd cy|": {
       "checked_at": "2026-11-06T10:04:44.167904+00:00",
       "ok": true,
@@ -269,24 +221,6 @@
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Das%20Erste%20FHD%20DE&code=&user=cdnlivetv&plan=free"
-    },
-    "dazn 1 fhd de|": {
-      "checked_at": "2026-11-06T10:04:39.846487+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%201%20FHD%20DE&code=&user=cdnlivetv&plan=free"
-    },
-    "dazn 1 fhd pt|": {
-      "checked_at": "2026-11-06T10:04:43.050174+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%201%20FHD%20PT&code=&user=cdnlivetv&plan=free"
-    },
-    "dazn 2 fhd de|": {
-      "checked_at": "2026-11-06T10:04:39.832096+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%202%20FHD%20DE&code=&user=cdnlivetv&plan=free"
     },
     "dazn 4 fhd pt|": {
       "checked_at": "2026-11-06T10:04:42.517885+00:00",
@@ -305,6 +239,18 @@
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1%20FHD&code=&user=cdnlivetv&plan=free"
+    },
+    "dazn la liga 2 hd|": {
+      "checked_at": "2026-11-06T10:23:35.482331+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20La%20Liga%202%20HD&code=&user=cdnlivetv&plan=free"
+    },
+    "dazn la liga hd|": {
+      "checked_at": "2026-11-06T10:23:35.511933+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20La%20Liga%20HD&code=&user=cdnlivetv&plan=free"
     },
     "diema sport 2 hd bg|": {
       "checked_at": "2026-11-06T10:04:43.806002+00:00",
@@ -354,6 +300,12 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Eleven%20Sports%201%20FHD%20PL&code=&user=cdnlivetv&plan=free"
     },
+    "espn 2 fhd nl|": {
+      "checked_at": "2026-11-06T10:23:36.070092+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%202%20FHD%20NL&code=&user=cdnlivetv&plan=free"
+    },
     "espn 2 fhd us|": {
       "checked_at": "2026-11-06T10:04:40.263695+00:00",
       "ok": true,
@@ -366,11 +318,11 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20Deportes%20US&code=&user=cdnlivetv&plan=free"
     },
-    "espn fhd nl|": {
-      "checked_at": "2026-11-06T10:04:42.422680+00:00",
+    "espn fhd arg|": {
+      "checked_at": "2026-11-06T10:23:36.096369+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20FHD%20NL&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20FHD%20ARG&code=&user=cdnlivetv&plan=free"
     },
     "espn hd us|": {
       "checked_at": "2026-11-06T10:04:40.260680+00:00",
@@ -390,17 +342,11 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20SEC%20Network%20US&code=&user=cdnlivetv&plan=free"
     },
-    "eurosport 1 fhd uk|": {
-      "checked_at": "2026-11-06T10:04:39.407155+00:00",
+    "espn u fhd us|": {
+      "checked_at": "2026-11-06T10:23:35.495810+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Eurosport%201%20FHD%20UK&code=&user=cdnlivetv&plan=free"
-    },
-    "eurosport 2 fhd uk|": {
-      "checked_at": "2026-11-06T10:04:39.398277+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Eurosport%202%20FHD%20UK&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20U%20FHD%20US&code=&user=cdnlivetv&plan=free"
     },
     "fox news uhd us|": {
       "checked_at": "2026-11-06T10:04:39.911539+00:00",
@@ -426,17 +372,17 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Sports%20501%20AU&code=&user=cdnlivetv&plan=free"
     },
+    "fox sports 501 cricket hd au|": {
+      "checked_at": "2026-11-06T10:23:36.052743+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20Sports%20501%20Cricket%20HD%20AU&code=&user=cdnlivetv&plan=free"
+    },
     "fox sports 502 au|": {
       "checked_at": "2026-11-06T10:04:43.391899+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Sports%20502%20AU&code=&user=cdnlivetv&plan=free"
-    },
-    "fox sports 506 hd au|": {
-      "checked_at": "2026-11-06T10:04:43.433587+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20Sports%20506%20HD%20AU&code=&user=cdnlivetv&plan=free"
     },
     "fox us|": {
       "checked_at": "2026-11-06T10:04:40.786172+00:00",
@@ -456,6 +402,12 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Hallmark%20Channel%20US&code=&user=cdnlivetv&plan=free"
     },
+    "history us|": {
+      "checked_at": "2026-11-06T10:23:35.498516+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=History%20US&code=&user=cdnlivetv&plan=free"
+    },
     "itv 1 fhd uk|": {
       "checked_at": "2026-11-06T10:04:39.783028+00:00",
       "ok": true,
@@ -468,23 +420,35 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ITV%202%20FHD%20UK&code=&user=cdnlivetv&plan=free"
     },
-    "laliga tv fhd uk|": {
-      "checked_at": "2026-11-06T10:04:39.412873+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=LaLiga%20TV%20FHD%20UK&code=&user=cdnlivetv&plan=free"
-    },
     "lifetime uhd us|": {
       "checked_at": "2026-11-06T10:04:40.275071+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Lifetime%20UHD%20US&code=&user=cdnlivetv&plan=free"
     },
+    "marquee sports network fhd us|": {
+      "checked_at": "2026-11-06T10:23:35.475544+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Marquee%20Sports%20Network%20FHD%20US&code=&user=cdnlivetv&plan=free"
+    },
+    "max sport 3 fhd bg|": {
+      "checked_at": "2026-11-06T10:23:36.673376+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Max%20Sport%203%20FHD%20BG&code=&user=cdnlivetv&plan=free"
+    },
     "mlb network hd us|": {
       "checked_at": "2026-11-06T10:04:40.672845+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MLB%20Network%20HD%20US&code=&user=cdnlivetv&plan=free"
+    },
+    "mlb | seattle mariners|": {
+      "checked_at": "2026-11-06T10:23:35.478899+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MLB%20%7C%20Seattle%20Mariners&code=&user=cdnlivetv&plan=free"
     },
     "movistar golf fhd|": {
       "checked_at": "2026-11-06T10:04:41.763160+00:00",
@@ -522,12 +486,6 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NBC%20US&code=&user=cdnlivetv&plan=free"
     },
-    "nesn+ hd us|": {
-      "checked_at": "2026-11-06T10:04:40.722847+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NESN%2B%20HD%20US&code=&user=cdnlivetv&plan=free"
-    },
     "nickelodeon us|": {
       "checked_at": "2026-11-06T10:04:41.170335+00:00",
       "ok": true,
@@ -540,53 +498,11 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Nova%20Sport%205%20HD%20GR&code=&user=cdnlivetv&plan=free"
     },
-    "nova sports prime fhd gr|": {
-      "checked_at": "2026-11-06T10:04:43.898997+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Nova%20Sports%20Prime%20FHD%20GR&code=&user=cdnlivetv&plan=free"
-    },
-    "premiere 1 hd br|": {
-      "checked_at": "2026-11-06T10:04:43.306488+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
     "premiere 2 hd br|": {
       "checked_at": "2026-11-06T10:04:42.951600+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    "premiere 3 hd br|": {
-      "checked_at": "2026-11-06T10:04:43.030433+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%203%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    "premiere 4 hd br|": {
-      "checked_at": "2026-11-06T10:04:42.999458+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    "premiere 5 hd br|": {
-      "checked_at": "2026-11-06T10:04:43.036461+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%205%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    "premiere 6 hd br|": {
-      "checked_at": "2026-11-06T10:04:43.011776+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%206%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    "premiere 7 hd br|": {
-      "checked_at": "2026-11-06T10:04:43.292510+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%207%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     "rds ca|": {
       "checked_at": "2026-11-06T10:04:41.594468+00:00",
@@ -618,17 +534,17 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RTL%20FHD%20DE&code=&user=cdnlivetv&plan=free"
     },
+    "russia 1 ru|ru": {
+      "checked_at": "2026-11-06T10:23:35.450358+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Russia%201%20RU&code=ru&user=cdnlivetv&plan=free"
+    },
     "see hd dk|": {
       "checked_at": "2026-11-06T10:04:37.546612+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=See%20HD%20DK&code=&user=cdnlivetv&plan=free"
-    },
-    "showtime extreme us|": {
-      "checked_at": "2026-11-06T10:04:41.217992+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Showtime%20Extreme%20US&code=&user=cdnlivetv&plan=free"
     },
     "sic hd pt|": {
       "checked_at": "2026-11-06T10:04:42.452164+00:00",
@@ -642,59 +558,11 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Max%20FHD%20UK&code=&user=cdnlivetv&plan=free"
     },
-    "sky sport 1 fhd de|": {
-      "checked_at": "2026-11-06T10:04:38.065661+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%201%20FHD%20DE&code=&user=cdnlivetv&plan=free"
-    },
-    "sky sport 1 nz|": {
-      "checked_at": "2026-11-06T10:04:43.425942+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%201%20NZ&code=&user=cdnlivetv&plan=free"
-    },
-    "sky sport 2 fhd de|": {
-      "checked_at": "2026-11-06T10:04:38.517832+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%202%20FHD%20DE&code=&user=cdnlivetv&plan=free"
-    },
     "sky sport 2 nz|": {
       "checked_at": "2026-11-06T10:04:43.471288+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%202%20NZ&code=&user=cdnlivetv&plan=free"
-    },
-    "sky sport 3 fhd de|": {
-      "checked_at": "2026-11-06T10:04:38.538366+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%203%20FHD%20DE&code=&user=cdnlivetv&plan=free"
-    },
-    "sky sport 3 nz|": {
-      "checked_at": "2026-11-06T10:04:43.483444+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%203%20NZ&code=&user=cdnlivetv&plan=free"
-    },
-    "sky sport 4 nz|": {
-      "checked_at": "2026-11-06T10:04:43.493981+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%204%20NZ&code=&user=cdnlivetv&plan=free"
-    },
-    "sky sport 5 fhd de|": {
-      "checked_at": "2026-11-06T10:04:38.536463+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%205%20FHD%20DE&code=&user=cdnlivetv&plan=free"
-    },
-    "sky sport 5 nz|": {
-      "checked_at": "2026-11-06T10:04:43.717097+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%205%20NZ&code=&user=cdnlivetv&plan=free"
     },
     "sky sport 6 nz|": {
       "checked_at": "2026-11-06T10:04:43.741203+00:00",
@@ -702,17 +570,23 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%206%20NZ&code=&user=cdnlivetv&plan=free"
     },
-    "sky sport 7 nz|": {
-      "checked_at": "2026-11-06T10:04:43.766573+00:00",
+    "sky sport 8 nz|": {
+      "checked_at": "2026-11-06T10:23:36.677660+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%207%20NZ&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%208%20NZ&code=&user=cdnlivetv&plan=free"
     },
     "sky sport austria 3 fhd at|": {
       "checked_at": "2026-11-06T10:04:38.521880+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Austria%203%20FHD%20AT&code=&user=cdnlivetv&plan=free"
+    },
+    "sky sport bundesliga 10 hd de|": {
+      "checked_at": "2026-11-06T10:23:35.490834+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Bundesliga%2010%20HD%20DE&code=&user=cdnlivetv&plan=free"
     },
     "sky sport bundesliga 3 fhd de|": {
       "checked_at": "2026-11-06T10:04:38.076929+00:00",
@@ -732,29 +606,11 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Bundesliga%208%20HD%20DE&code=&user=cdnlivetv&plan=free"
     },
-    "sky sport golf fhd de|": {
-      "checked_at": "2026-11-06T10:04:38.512153+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Golf%20FHD%20DE&code=&user=cdnlivetv&plan=free"
-    },
     "sky sport mix fhd de|": {
       "checked_at": "2026-11-06T10:04:38.513429+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Mix%20FHD%20DE&code=&user=cdnlivetv&plan=free"
-    },
-    "sky sport premier league fhd de|": {
-      "checked_at": "2026-11-06T10:04:38.517821+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Premier%20League%20FHD%20DE&code=&user=cdnlivetv&plan=free"
-    },
-    "sky sport select nz|": {
-      "checked_at": "2026-11-06T10:04:43.797675+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Select%20NZ&code=&user=cdnlivetv&plan=free"
     },
     "sky sport tennis fhd de|": {
       "checked_at": "2026-11-06T10:04:38.535046+00:00",
@@ -767,6 +623,12 @@
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Top%20Event%20FHD%20DE&code=&user=cdnlivetv&plan=free"
+    },
+    "sky sports action fhd uk|": {
+      "checked_at": "2026-11-06T10:23:35.468472+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Action%20FHD%20UK&code=&user=cdnlivetv&plan=free"
     },
     "sky sports arena fhd uk|": {
       "checked_at": "2026-11-06T10:04:38.938202+00:00",
@@ -834,11 +696,35 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Space%20City%20Home%20Network%20US&code=&user=cdnlivetv&plan=free"
     },
+    "sport 5 live hd il|": {
+      "checked_at": "2026-11-06T10:23:36.670936+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%205%20Live%20HD%20IL&code=&user=cdnlivetv&plan=free"
+    },
     "sport tv 1 fhd pt|": {
       "checked_at": "2026-11-06T10:04:42.450189+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%20TV%201%20FHD%20PT&code=&user=cdnlivetv&plan=free"
+    },
+    "sport tv 2 fhd pt|": {
+      "checked_at": "2026-11-06T10:23:36.100767+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%20TV%202%20FHD%20PT&code=&user=cdnlivetv&plan=free"
+    },
+    "sport tv 3 hd pt|": {
+      "checked_at": "2026-11-06T10:23:36.086831+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%20TV%203%20HD%20PT&code=&user=cdnlivetv&plan=free"
+    },
+    "sport tv 4 hd pt|": {
+      "checked_at": "2026-11-06T10:23:36.052726+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%20TV%204%20HD%20PT&code=&user=cdnlivetv&plan=free"
     },
     "sportsnet new york fhd us|": {
       "checked_at": "2026-11-06T10:04:41.589113+00:00",
@@ -846,17 +732,41 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=SportsNet%20New%20York%20FHD%20US&code=&user=cdnlivetv&plan=free"
     },
+    "stan sport 12 fhd au|": {
+      "checked_at": "2026-11-06T10:23:36.579984+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Stan%20Sport%2012%20FHD%20AU&code=&user=cdnlivetv&plan=free"
+    },
+    "stan sport 14 fhd au|": {
+      "checked_at": "2026-11-06T10:23:36.650549+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Stan%20Sport%2014%20FHD%20AU&code=&user=cdnlivetv&plan=free"
+    },
+    "stan sport 18 fhd au|": {
+      "checked_at": "2026-11-06T10:23:36.675339+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Stan%20Sport%2018%20FHD%20AU&code=&user=cdnlivetv&plan=free"
+    },
+    "stan sport 4 fhd au|": {
+      "checked_at": "2026-11-06T10:23:36.074438+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Stan%20Sport%204%20FHD%20AU&code=&user=cdnlivetv&plan=free"
+    },
+    "stan sport 9 fhd au|": {
+      "checked_at": "2026-11-06T10:23:36.097094+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Stan%20Sport%209%20FHD%20AU&code=&user=cdnlivetv&plan=free"
+    },
     "tbs uhd us|": {
       "checked_at": "2026-11-06T10:04:41.156034+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TBS%20UHD%20US&code=&user=cdnlivetv&plan=free"
-    },
-    "telemundo fhd mx|": {
-      "checked_at": "2026-11-06T10:04:43.364342+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Telemundo%20FHD%20MX&code=&user=cdnlivetv&plan=free"
     },
     "tennis channel hd us|": {
       "checked_at": "2026-11-06T10:04:40.699261+00:00",
@@ -923,12 +833,6 @@
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Travel%20Channel%20US&code=&user=cdnlivetv&plan=free"
-    },
-    "trt 1 fhd tr|": {
-      "checked_at": "2026-11-06T10:04:42.181127+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TRT%201%20FHD%20TR&code=&user=cdnlivetv&plan=free"
     },
     "tsn 2 fhd ca|": {
       "checked_at": "2026-11-06T10:04:41.612838+00:00",
@@ -1008,12 +912,6 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TVA%20Sports%20CA&code=&user=cdnlivetv&plan=free"
     },
-    "tvi hd pt|": {
-      "checked_at": "2026-11-06T10:04:42.441007+00:00",
-      "ok": true,
-      "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TVI%20HD%20PT&code=&user=cdnlivetv&plan=free"
-    },
     "univision ca|": {
       "checked_at": "2026-11-06T10:04:41.589096+00:00",
       "ok": true,
@@ -1068,17 +966,29 @@
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Viaplay%20Sports%202%20FHD%20UK&code=&user=cdnlivetv&plan=free"
     },
-    "vtv plus hd uy|": {
-      "checked_at": "2026-11-06T10:04:43.321562+00:00",
+    "vip bein sports 2 fhd ksa|": {
+      "checked_at": "2026-11-06T10:23:35.500324+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=VTV%20Plus%20HD%20UY&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=VIP%20beIN%20SPORTS%202%20FHD%20KSA&code=&user=cdnlivetv&plan=free"
+    },
+    "vip bein sports 6 fhd|": {
+      "checked_at": "2026-11-06T10:23:35.473282+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=VIP%20beIN%20SPORTS%206%20FHD&code=&user=cdnlivetv&plan=free"
     },
     "willow cricket hd us|": {
       "checked_at": "2026-11-06T10:04:40.716239+00:00",
       "ok": true,
       "reason": "página oficial accesible (HTTP 200)",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Willow%20Cricket%20HD%20US&code=&user=cdnlivetv&plan=free"
+    },
+    "wwe network fhd us|": {
+      "checked_at": "2026-11-06T10:23:35.482341+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=WWE%20Network%20FHD%20US&code=&user=cdnlivetv&plan=free"
     },
     "zdf fhd de|": {
       "checked_at": "2026-11-06T10:04:38.072738+00:00",
@@ -1093,6 +1003,6 @@
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Ziggo%20Sport%206%20FHD%20NL&code=&user=cdnlivetv&plan=free"
     }
   },
-  "updated_at": "2026-11-06T10:04:44.169794+00:00",
+  "updated_at": "2026-11-06T10:23:36.678878+00:00",
   "version": 1
 }
