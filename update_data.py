@@ -43,6 +43,7 @@ def load_previous(path: Path, fallback: dict) -> dict:
 def main() -> int:
     from server import fetch_json
     from agenda_futbolenlatv import get_agenda_payload
+    from channel_catalog import filter_playable_channels
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     failures: list[str] = []
@@ -58,6 +59,17 @@ def main() -> int:
             data = fetch_json(endpoint)
             if not isinstance(data, dict):
                 raise ValueError("la API no devolvió un objeto JSON")
+            if filename == "channels.json":
+                cache_path = DATA_DIR / "channel_checks.json"
+                cache_before = cache_path.read_text(encoding="utf-8") if cache_path.exists() else ""
+                data = filter_playable_channels(data, cache_path)
+                cache_after = cache_path.read_text(encoding="utf-8")
+                changed |= cache_after != cache_before
+                print(
+                    "Catálogo: "
+                    f"{data['catalog_check']['playable_channels']} reproducibles de "
+                    f"{data['catalog_check']['online_candidates']} canales online."
+                )
             changed |= write_if_changed(path, {"ok": True, "data": data})
         except Exception as exc:  # una fuente no debe impedir actualizar las demás
             message = f"CDN Live TV ({endpoint}): {exc}"
@@ -79,11 +91,9 @@ def main() -> int:
         if not ftv_path.exists():
             write_if_changed(ftv_path, {"ok": False, "error": "Todavía no hay datos disponibles.", "data": {"events": []}})
 
-    # La configuración de reproducción se publica como JSON estático separado.
-    config_path = ROOT / "config" / "channels.json"
-    playback_path = DATA_DIR / "playback.json"
-    config = load_previous(config_path, {"version": 1, "channels": []})
-    changed |= write_if_changed(playback_path, config)
+    # La disponibilidad de reproducción se incorpora al propio catálogo filtrado.
+    # playback.json se conserva por compatibilidad con instalaciones anteriores,
+    # pero ya no decide qué canales se muestran.
 
     print(f"\nActualización terminada. Cambios: {'sí' if changed else 'no'}.")
     if failures:
