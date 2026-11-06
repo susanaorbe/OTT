@@ -75,9 +75,22 @@ function safePlayerUrl(channel) {
   } catch { return null; }
 }
 function channelCard(ch) {
-  const k=keyOf(ch), saved=state.favorites.has(`c:${k}`);
-  const image=ch.image?`<img class="channel-logo" src="${esc(ch.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`:`<div class="channel-logo channel-placeholder">${esc((ch.name||'?').slice(0,1).toUpperCase())}</div>`;
-  return `<article class="channel-card channel-card-clickable" data-channel-card="${esc(k)}" role="button" tabindex="0" aria-label="Abrir ${esc(ch.name||'canal')}"><div class="channel-top">${image}<div><div class="channel-name">${esc(ch.name||'Canal sin nombre')}</div><div class="channel-country">${esc(countryName(ch.code))}</div></div></div><div class="channel-bottom"><span class="channel-availability">▶ Reproducir</span><div class="card-actions"><button class="icon-btn ${saved?'saved':''}" data-fav-channel="${esc(k)}" aria-label="${saved?'Quitar':'Añadir'} favorito">${saved?'★':'☆'}</button></div></div></article>`;
+  const k = keyOf(ch), saved = state.favorites.has(`c:${k}`);
+  const image = ch.image
+    ? `<img class="channel-logo" src="${esc(ch.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+    : `<div class="channel-logo channel-placeholder">${esc((ch.name||'?').slice(0,1).toUpperCase())}</div>`;
+  return `<article class="channel-card channel-card-clickable" data-channel-card="${esc(k)}" role="button" tabindex="0" aria-label="Abrir ${esc(ch.name||'canal')}">
+    <div class="channel-top">
+      ${image}
+      <div class="channel-name">${esc(ch.name||'Canal sin nombre')}</div>
+    </div>
+    <div class="channel-bottom">
+      <span class="channel-availability">▶ Reproducir</span>
+      <div class="card-actions">
+        <button class="icon-btn ${saved?'saved':''}" data-fav-channel="${esc(k)}" aria-label="${saved?'Quitar':'Añadir'} favorito">${saved?'★':'☆'}</button>
+      </div>
+    </div>
+  </article>`;
 }
 function filteredChannels(list) {
   const q=$('#search-input').value.trim().toLocaleLowerCase('es');
