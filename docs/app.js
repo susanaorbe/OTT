@@ -34,7 +34,12 @@ function dateKeyFromValue(value) {
   return '';
 }
 function extractCdnEvents(payload) {
-  const root = payload?.data?.['cdn-live-tv'] || {};
+  const root =
+    payload?.['cdn-live-tv'] ||
+    payload?.data?.['cdn-live-tv'] ||
+    payload?.['cdnlivetv.tv'] ||
+    payload?.data?.['cdnlivetv.tv'] ||
+    {};
   const out = [];
   for (const [sport, items] of Object.entries(root)) {
     if (!Array.isArray(items)) continue;
