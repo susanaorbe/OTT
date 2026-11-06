@@ -17,3 +17,6 @@
 .channel-chip-link{text-decoration:none;cursor:pointer}
 .channel-chip-link:hover{border-color:#6689c5;background:#77a7ff24;color:#e0ebff}
 @media(max-width:760px){.channel-letter-filter{gap:5px;margin-top:-18px}.letter-filter-letters{gap:4px}.letter-filter-btn{min-width:29px;height:31px;padding:0 7px}}
+
+.hero-side{display:grid;gap:14px;justify-items:end}.time-info{display:flex;gap:16px;flex-wrap:wrap;justify-content:flex-end;color:var(--muted);font-size:11px}.time-info span{display:flex;gap:6px;align-items:center}.time-info strong{color:var(--text);font-variant-numeric:tabular-nums;font-weight:650}.time-info span:last-child strong{color:#b8d0ff}
+@media(max-width:760px){.hero-side{justify-items:start;margin-top:20px}.time-info{justify-content:flex-start;gap:8px 14px}.hero-stats{margin-top:0}}

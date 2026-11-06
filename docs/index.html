@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="es">
 <head>
@@ -24,11 +23,17 @@
       <div>
         <p class="eyebrow">TU ESPACIO DE TELEVISIÓN</p>
         <h1 id="page-title">Agenda deportiva</h1>
-        <p id="page-subtitle" class="muted">Eventos de CDN Live TV y de tu agenda personalizada de Futbolenlatv.</p>
+        <p id="page-subtitle" class="muted">Eventos de tu agenda personalizada de Futbolenlatv; CDN Live TV solo complementa los canales.</p>
       </div>
-      <div class="hero-stats">
-        <div><strong id="channel-total">—</strong><span>Canales</span></div>
-        <div><strong id="event-total">—</strong><span>Eventos</span></div>
+      <div class="hero-side">
+        <div class="hero-stats">
+          <div><strong id="channel-total">—</strong><span>Canales</span></div>
+          <div><strong id="event-total">—</strong><span>Eventos</span></div>
+        </div>
+        <div class="time-info" aria-live="off">
+          <span>Hora actual <strong id="current-time">--:--:--</strong></span>
+          <span>Última actualización <strong id="last-updated">Consultando…</strong></span>
+        </div>
       </div>
     </section>
 
@@ -75,15 +80,15 @@
     </section>
 
     <section id="sports-view" class="view active">
-      <div class="section-heading"><div><h2>Agenda deportiva</h2><p class="muted">Eventos de CDN Live TV y de tu agenda personalizada de Futbolenlatv.</p></div></div>
+      <div class="section-heading"><div><h2>Agenda deportiva</h2><p class="muted">Eventos de tu agenda personalizada de Futbolenlatv; CDN Live TV solo complementa los canales.</p></div></div>
       <div class="agenda-controls">
         <div class="date-tabs" id="date-tabs" aria-label="Filtrar por fecha y franja">
-          <button class="date-tab active" data-daypart="featured">Destacados</button>
           <button class="date-tab" data-daypart="madrugada">Madrugada</button>
           <button class="date-tab" data-daypart="manana">Mañana</button>
           <button class="date-tab" data-daypart="tarde">Tarde</button>
           <button class="date-tab" data-daypart="noche">Noche</button>
           <button class="date-tab" data-daypart="upcoming">Próximamente</button>
+          <button class="date-tab" data-daypart="featured">Destacados</button>
         </div>
         <div class="sport-tabs" id="sport-tabs" aria-label="Filtrar por deporte">
           <button class="sport-tab active" data-sport="all">Todos</button>
