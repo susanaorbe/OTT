@@ -9,21 +9,21 @@
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#inicio" aria-label="Mi TV, inicio"><span class="brand-mark">▶</span><span>Mi <b>TV</b></span></a>
+    <a class="brand" href="https://susanaorbe.github.io/OTT/#inicio" aria-label="Mi TV, inicio"><span class="brand-mark">▶</span><span>Mi <b>TV</b></span></a>
     <nav class="main-nav" aria-label="Secciones">
-      <button class="nav-btn active" data-view="channels">Televisión</button>
-      <button class="nav-btn" data-view="sports">Deportes</button>
+      <button class="nav-btn active" data-view="sports">Agenda</button>
+      <button class="nav-btn" data-view="channels">Canales</button>
       <button class="nav-btn" data-view="favorites">Favoritos <span id="fav-count" class="count">0</span></button>
     </nav>
     <button id="refresh-btn" class="refresh-btn" title="Actualizar datos">↻ <span>Actualizar</span></button>
   </header>
 
-  <main class="page-shell">
+  <main id="inicio" class="page-shell">
     <section class="hero">
       <div>
         <p class="eyebrow">TU ESPACIO DE TELEVISIÓN</p>
-        <h1 id="page-title">Canales de televisión</h1>
-        <p id="page-subtitle" class="muted">Explora el catálogo disponible y guarda tus canales favoritos.</p>
+        <h1 id="page-title">Agenda deportiva</h1>
+        <p id="page-subtitle" class="muted">Eventos de CDN Live TV y de tu agenda personalizada de Futbolenlatv.</p>
       </div>
       <div class="hero-stats">
         <div><strong id="channel-total">—</strong><span>Canales</span></div>
@@ -32,20 +32,53 @@
     </section>
 
     <section class="toolbar" aria-label="Filtros">
-      <label class="search-box"><span>⌕</span><input id="search-input" type="search" placeholder="Buscar canal…" autocomplete="off"></label>
+      <label class="search-box"><span>⌕</span><input id="search-input" type="search" placeholder="Buscar equipo, competición o canal…" autocomplete="off"></label>
       <select id="competition-filter" aria-label="Filtrar por competición" style="display:none"><option value="all">Todas las competiciones</option></select>
     </section>
+    <div id="channel-letter-filter" class="channel-letter-filter" aria-label="Filtrar canales por inicial" hidden>
+      <button class="letter-filter-btn active" data-letter="all" type="button">Todos</button>
+      <button class="letter-filter-btn" data-letter="#" type="button">#</button>
+      <div class="letter-filter-letters">
+        <button class="letter-filter-btn" data-letter="A" type="button">A</button>
+        <button class="letter-filter-btn" data-letter="B" type="button">B</button>
+        <button class="letter-filter-btn" data-letter="C" type="button">C</button>
+        <button class="letter-filter-btn" data-letter="D" type="button">D</button>
+        <button class="letter-filter-btn" data-letter="E" type="button">E</button>
+        <button class="letter-filter-btn" data-letter="F" type="button">F</button>
+        <button class="letter-filter-btn" data-letter="G" type="button">G</button>
+        <button class="letter-filter-btn" data-letter="H" type="button">H</button>
+        <button class="letter-filter-btn" data-letter="I" type="button">I</button>
+        <button class="letter-filter-btn" data-letter="J" type="button">J</button>
+        <button class="letter-filter-btn" data-letter="K" type="button">K</button>
+        <button class="letter-filter-btn" data-letter="L" type="button">L</button>
+        <button class="letter-filter-btn" data-letter="M" type="button">M</button>
+        <button class="letter-filter-btn" data-letter="N" type="button">N</button>
+        <button class="letter-filter-btn" data-letter="O" type="button">O</button>
+        <button class="letter-filter-btn" data-letter="P" type="button">P</button>
+        <button class="letter-filter-btn" data-letter="Q" type="button">Q</button>
+        <button class="letter-filter-btn" data-letter="R" type="button">R</button>
+        <button class="letter-filter-btn" data-letter="S" type="button">S</button>
+        <button class="letter-filter-btn" data-letter="T" type="button">T</button>
+        <button class="letter-filter-btn" data-letter="U" type="button">U</button>
+        <button class="letter-filter-btn" data-letter="V" type="button">V</button>
+        <button class="letter-filter-btn" data-letter="W" type="button">W</button>
+        <button class="letter-filter-btn" data-letter="X" type="button">X</button>
+        <button class="letter-filter-btn" data-letter="Y" type="button">Y</button>
+        <button class="letter-filter-btn" data-letter="Z" type="button">Z</button>
+      </div>
+    </div>
 
-    <section id="channels-view" class="view active">
+    <section id="channels-view" class="view">
       <div class="section-heading"><div><h2>Catálogo de canales</h2><p id="channels-caption" class="muted">Cargando canales…</p></div></div>
       <div id="channels-grid" class="channel-grid"><div class="loading">Cargando catálogo…</div></div>
     </section>
 
-    <section id="sports-view" class="view">
+    <section id="sports-view" class="view active">
       <div class="section-heading"><div><h2>Agenda deportiva</h2><p class="muted">Eventos de CDN Live TV y de tu agenda personalizada de Futbolenlatv.</p></div></div>
       <div class="agenda-controls">
         <div class="date-tabs" id="date-tabs" aria-label="Filtrar por fecha y franja">
           <button class="date-tab active" data-daypart="all">Todos</button>
+          <button class="date-tab" data-daypart="today">Hoy</button>
           <button class="date-tab" data-daypart="madrugada">Madrugada</button>
           <button class="date-tab" data-daypart="manana">Mañana</button>
           <button class="date-tab" data-daypart="tarde">Tarde</button>
