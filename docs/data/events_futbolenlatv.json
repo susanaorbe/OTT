@@ -1,5 +1,1472 @@
 {
-  "ok": false,
-  "error": "Todavía no se ha ejecutado la primera actualización automática.",
-  "data": {"events": []}
+  "data": {
+    "count": 101,
+    "events": [
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto"
+        ],
+        "competition": "NBA",
+        "competition_key": "nba",
+        "date": "2026-11-06",
+        "event": "Phoenix Suns - Orlando Magic",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-06:03:00:nba:phoenix suns - orlando magic",
+        "sport": "Baloncesto",
+        "time": "03:00"
+      },
+      {
+        "channels": [
+          "Tennis Channel"
+        ],
+        "competition": "WTA Torneo de Hong Kong",
+        "competition_key": "tenis",
+        "date": "2026-11-06",
+        "event": "1/4 de Final - Z. Sonmez - C. Liu",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-06:07:00:wta torneo de hong kong:1 4 de final - z. sonmez - c. liu",
+        "sport": "Tenis",
+        "time": "07:00"
+      },
+      {
+        "channels": [
+          "Tennis Channel"
+        ],
+        "competition": "WTA Torneo de Hong Kong",
+        "competition_key": "tenis",
+        "date": "2026-11-06",
+        "event": "1/4 de Final - S. Cirstea - A. Shubladze",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-06:09:30:wta torneo de hong kong:1 4 de final - s. cirstea - a. shubladze",
+        "sport": "Tenis",
+        "time": "09:30"
+      },
+      {
+        "channels": [
+          "Tennis Channel"
+        ],
+        "competition": "WTA Torneo de Hong Kong",
+        "competition_key": "tenis",
+        "date": "2026-11-06",
+        "event": "1/4 de Final - A. Sasnovich - M. Sakkari",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-06:11:30:wta torneo de hong kong:1 4 de final - a. sasnovich - m. sakkari",
+        "sport": "Tenis",
+        "time": "11:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN MotoGP"
+        ],
+        "competition": "MotoGP",
+        "competition_key": "motor",
+        "date": "2026-11-06",
+        "event": "MotoGP - G.P. Catar (Losail) - Libres 1",
+        "featured": false,
+        "icon": "🏆",
+        "id": "ftv:2026-11-06:12:45:motogp:motogp - g.p. catar (losail) - libres 1",
+        "sport": "Motor",
+        "time": "12:45"
+      },
+      {
+        "channels": [
+          "Tennis Channel"
+        ],
+        "competition": "WTA Torneo de Hong Kong",
+        "competition_key": "tenis",
+        "date": "2026-11-06",
+        "event": "1/4 de Final - A. Ruzic - A. Eala",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-06:13:00:wta torneo de hong kong:1 4 de final - a. ruzic - a. eala",
+        "sport": "Tenis",
+        "time": "13:00"
+      },
+      {
+        "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "Masters París",
+        "competition_key": "tenis",
+        "date": "2026-11-06",
+        "event": "1/4 de Final - B. Shelton - T. Paul",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-06:14:00:masters paris:1 4 de final - b. shelton - t. paul",
+        "sport": "Tenis",
+        "time": "14:00"
+      },
+      {
+        "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "Masters París",
+        "competition_key": "tenis",
+        "date": "2026-11-06",
+        "event": "1/4 de Final - L. Van Assche - R. Hijikata",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-06:15:30:masters paris:1 4 de final - l. van assche - r. hijikata",
+        "sport": "Tenis",
+        "time": "15:30"
+      },
+      {
+        "channels": [
+          "M+ Vamos 2",
+          "M+ Deportes 3"
+        ],
+        "competition": "Liga Portugal Betclic",
+        "competition_key": "ligaportugal",
+        "date": "2026-11-06",
+        "event": "Campeonato del Mundo - Semifinales - España",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-06:16:00:liga portugal betclic:campeonato del mundo - semifinales - espana",
+        "sport": "Fútbol",
+        "time": "16:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN F1"
+        ],
+        "competition": "Fórmula 1",
+        "competition_key": "motor",
+        "date": "2026-11-06",
+        "event": "Fórmula 1 - G.P. Brasil (Interlagos) - Libres 1",
+        "featured": false,
+        "icon": "🏆",
+        "id": "ftv:2026-11-06:16:30:formula 1:formula 1 - g.p. brasil (interlagos) - libres 1",
+        "sport": "Motor",
+        "time": "16:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN MotoGP"
+        ],
+        "competition": "MotoGP",
+        "competition_key": "motor",
+        "date": "2026-11-06",
+        "event": "MotoGP - G.P. Catar (Losail) - Libres",
+        "featured": false,
+        "icon": "🏆",
+        "id": "ftv:2026-11-06:17:00:motogp:motogp - g.p. catar (losail) - libres",
+        "sport": "Motor",
+        "time": "17:00"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 2"
+        ],
+        "competition": "Euroliga",
+        "competition_key": "euroliga",
+        "date": "2026-11-06",
+        "event": "Besiktas JK Istanbul - Zalgiris Kaunas",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-06:18:00:euroliga:besiktas jk istanbul - zalgiris kaunas",
+        "sport": "Baloncesto",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "Movistar Plus+",
+          "M+ Deportes 2"
+        ],
+        "competition": "Masters París",
+        "competition_key": "tenis",
+        "date": "2026-11-06",
+        "event": "1/4 de Final - T. Fritz - C. Alcaraz",
+        "featured": true,
+        "icon": "🎾",
+        "id": "ftv:2026-11-06:19:00:masters paris:1 4 de final - t. fritz - c. alcaraz",
+        "sport": "Tenis",
+        "time": "19:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN F1"
+        ],
+        "competition": "Fórmula 1",
+        "competition_key": "motor",
+        "date": "2026-11-06",
+        "event": "Fórmula 1 - G.P. Brasil (Interlagos) - Libres 2",
+        "featured": false,
+        "icon": "🏆",
+        "id": "ftv:2026-11-06:20:00:formula 1:formula 1 - g.p. brasil (interlagos) - libres 2",
+        "sport": "Motor",
+        "time": "20:00"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto"
+        ],
+        "competition": "Euroliga",
+        "competition_key": "euroliga",
+        "date": "2026-11-06",
+        "event": "Olympiacos Piraeus - Crvena Zvezda MTS Belgrade",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-06:20:15:euroliga:olympiacos piraeus - crvena zvezda mts belgrade",
+        "sport": "Baloncesto",
+        "time": "20:15"
+      },
+      {
+        "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "Masters París",
+        "competition_key": "tenis",
+        "date": "2026-11-06",
+        "event": "1/4 de Final - C. Ruud - N. Borges",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-06:20:30:masters paris:1 4 de final - c. ruud - n. borges",
+        "sport": "Tenis",
+        "time": "20:30"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 2"
+        ],
+        "competition": "Euroliga",
+        "competition_key": "euroliga",
+        "date": "2026-11-06",
+        "event": "Virtus Bologna - Dubai Basketball",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-06:20:30:euroliga:virtus bologna - dubai basketball",
+        "sport": "Baloncesto",
+        "time": "20:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Bundesliga",
+        "competition_key": "bundesliga",
+        "date": "2026-11-06",
+        "event": "Hamburger SV - Borussia M'gladbach",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-06:20:30:bundesliga:hamburger sv - borussia m'gladbach",
+        "sport": "Fútbol",
+        "time": "20:30"
+      },
+      {
+        "channels": [
+          "M+ Vamos 3"
+        ],
+        "competition": "Euroliga",
+        "competition_key": "euroliga",
+        "date": "2026-11-06",
+        "event": "BC Partizan Beograd - Maccabi Tel Aviv BC",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-06:20:45:euroliga:bc partizan beograd - maccabi tel aviv bc",
+        "sport": "Baloncesto",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-06",
+        "event": "Venezia FC - Udinese",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-06:20:45:serie a:venezia fc - udinese",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Ligue 1",
+        "competition_key": "ligue1",
+        "date": "2026-11-06",
+        "event": "Toulouse - Strasbourg Alsace",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-06:20:45:ligue 1:toulouse - strasbourg alsace",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN LaLiga",
+          "DAZN",
+          "DAZN App Gratis"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-06",
+        "event": "Sevilla FC - Alavés",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-06:21:00:laliga ea sports:sevilla fc - alaves",
+        "sport": "Fútbol",
+        "time": "21:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN 1"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-06",
+        "event": "Everton - Coventry City",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-06:21:00:premier league:everton - coventry city",
+        "sport": "Fútbol",
+        "time": "21:00"
+      },
+      {
+        "channels": [
+          "Amazon Prime Video"
+        ],
+        "competition": "NBA",
+        "competition_key": "nba",
+        "date": "2026-11-07",
+        "event": "Cleveland Cavaliers - Philadelphia 76ers",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-07:01:30:nba:cleveland cavaliers - philadelphia 76ers",
+        "sport": "Baloncesto",
+        "time": "01:30"
+      },
+      {
+        "channels": [
+          "Amazon Prime Video"
+        ],
+        "competition": "NBA",
+        "competition_key": "nba",
+        "date": "2026-11-07",
+        "event": "Los Angeles Lakers - Portland Trail Blazers",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-07:04:00:nba:los angeles lakers - portland trail blazers",
+        "sport": "Baloncesto",
+        "time": "04:00"
+      },
+      {
+        "channels": [
+          "Tennis Channel"
+        ],
+        "competition": "WTA Torneo de Hong Kong",
+        "competition_key": "tenis",
+        "date": "2026-11-07",
+        "event": "Semifinal 1",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-07:07:00:wta torneo de hong kong:semifinal 1",
+        "sport": "Tenis",
+        "time": "07:00"
+      },
+      {
+        "channels": [
+          "Tennis Channel"
+        ],
+        "competition": "WTA Torneo de Hong Kong",
+        "competition_key": "tenis",
+        "date": "2026-11-07",
+        "event": "Semifinal 2",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-07:08:30:wta torneo de hong kong:semifinal 2",
+        "sport": "Tenis",
+        "time": "08:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN MotoGP"
+        ],
+        "competition": "MotoGP",
+        "competition_key": "motor",
+        "date": "2026-11-07",
+        "event": "MotoGP - G.P. Catar (Losail) - Libres 2",
+        "featured": false,
+        "icon": "🏆",
+        "id": "ftv:2026-11-07:12:00:motogp:motogp - g.p. catar (losail) - libres 2",
+        "sport": "Motor",
+        "time": "12:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN MotoGP"
+        ],
+        "competition": "MotoGP",
+        "competition_key": "motor",
+        "date": "2026-11-07",
+        "event": "MotoGP - G.P. Catar (Losail) - Clasificación",
+        "featured": false,
+        "icon": "🏆",
+        "id": "ftv:2026-11-07:12:40:motogp:motogp - g.p. catar (losail) - clasificacion",
+        "sport": "Motor",
+        "time": "12:40"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN 1"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-07",
+        "event": "Leeds Utd - Tottenham",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:13:30:premier league:leeds utd - tottenham",
+        "sport": "Fútbol",
+        "time": "13:30"
+      },
+      {
+        "channels": [
+          "M+ LALIGA"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-07",
+        "event": "Málaga - Racing Santander",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:14:00:laliga ea sports:malaga - racing santander",
+        "sport": "Fútbol",
+        "time": "14:00"
+      },
+      {
+        "channels": [
+          "Movistar Plus+",
+          "M+ Deportes 2"
+        ],
+        "competition": "Masters París",
+        "competition_key": "tenis",
+        "date": "2026-11-07",
+        "event": "Semifinal 1",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-07:14:30:masters paris:semifinal 1",
+        "sport": "Tenis",
+        "time": "14:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-07",
+        "event": "Cagliari - Frosinone",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:15:00:serie a:cagliari - frosinone",
+        "sport": "Fútbol",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-07",
+        "event": "Torino - US Lecce",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:15:00:serie a:torino - us lecce",
+        "sport": "Fútbol",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN F1"
+        ],
+        "competition": "Fórmula 1",
+        "competition_key": "motor",
+        "date": "2026-11-07",
+        "event": "Fórmula 1 - G.P. Brasil (Interlagos) - Libres 3",
+        "featured": false,
+        "icon": "🏆",
+        "id": "ftv:2026-11-07:15:30:formula 1:formula 1 - g.p. brasil (interlagos) - libres 3",
+        "sport": "Motor",
+        "time": "15:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Bundesliga",
+        "competition_key": "bundesliga",
+        "date": "2026-11-07",
+        "event": "Mainz 05 - FC Bayern",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:15:30:bundesliga:mainz 05 - fc bayern",
+        "sport": "Fútbol",
+        "time": "15:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Bundesliga",
+        "competition_key": "bundesliga",
+        "date": "2026-11-07",
+        "event": "Borussia Dortmund - SV Elversberg",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:15:30:bundesliga:borussia dortmund - sv elversberg",
+        "sport": "Fútbol",
+        "time": "15:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Bundesliga",
+        "competition_key": "bundesliga",
+        "date": "2026-11-07",
+        "event": "Paderborn 07 - Eintracht Frankfurt",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:15:30:bundesliga:paderborn 07 - eintracht frankfurt",
+        "sport": "Fútbol",
+        "time": "15:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Bundesliga",
+        "competition_key": "bundesliga",
+        "date": "2026-11-07",
+        "event": "RB Leipzig - Augsburg",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:15:30:bundesliga:rb leipzig - augsburg",
+        "sport": "Fútbol",
+        "time": "15:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "M+ Vamos 3",
+          "DAZN 2"
+        ],
+        "competition": "Liga F",
+        "competition_key": "other_football",
+        "date": "2026-11-07",
+        "event": "Athletic Femenino - Real Madrid Femenino",
+        "featured": true,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:16:00:liga f:athletic femenino - real madrid femenino",
+        "sport": "Fútbol",
+        "time": "16:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN 1"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-07",
+        "event": "Arsenal - Hull City",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:16:00:premier league:arsenal - hull city",
+        "sport": "Fútbol",
+        "time": "16:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-07",
+        "event": "Fulham - Newcastle",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:16:00:premier league:fulham - newcastle",
+        "sport": "Fútbol",
+        "time": "16:00"
+      },
+      {
+        "channels": [
+          "DAZN LaLiga",
+          "DAZN"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-07",
+        "event": "Espanyol - Deportivo",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:16:15:laliga ea sports:espanyol - deportivo",
+        "sport": "Fútbol",
+        "time": "16:15"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN MotoGP"
+        ],
+        "competition": "MotoGP",
+        "competition_key": "motor",
+        "date": "2026-11-07",
+        "event": "MotoGP - G.P. Catar (Losail) - Sprint",
+        "featured": true,
+        "icon": "🏆",
+        "id": "ftv:2026-11-07:17:00:motogp:motogp - g.p. catar (losail) - sprint",
+        "sport": "Motor",
+        "time": "17:00"
+      },
+      {
+        "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "Masters París",
+        "competition_key": "tenis",
+        "date": "2026-11-07",
+        "event": "Semifinal 2",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-07:17:00:masters paris:semifinal 2",
+        "sport": "Tenis",
+        "time": "17:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto 3"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-07",
+        "event": "Kids&Us Manresa - Monbus Obradoiro",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-07:18:00:liga endesa acb:kids&us manresa - monbus obradoiro",
+        "sport": "Baloncesto",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-07",
+        "event": "Parma - Bologna",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:18:00:serie a:parma - bologna",
+        "sport": "Fútbol",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "M+ LALIGA",
+          "Movistar Plus+"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-07",
+        "event": "Osasuna - Athletic Club",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:18:30:laliga ea sports:osasuna - athletic club",
+        "sport": "Fútbol",
+        "time": "18:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN 1"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-07",
+        "event": "Nottingham Forest - Manchester City",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:18:30:premier league:nottingham forest - manchester city",
+        "sport": "Fútbol",
+        "time": "18:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "M+ Vamos",
+          "M+ Liga de Campeones",
+          "M+ Liga de Campeones 2"
+        ],
+        "competition": "Bundesliga",
+        "competition_key": "bundesliga",
+        "date": "2026-11-07",
+        "event": "Stuttgart - Werder Bremen",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:18:30:bundesliga:stuttgart - werder bremen",
+        "sport": "Fútbol",
+        "time": "18:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN F1"
+        ],
+        "competition": "Fórmula 1",
+        "competition_key": "motor",
+        "date": "2026-11-07",
+        "event": "Fórmula 1 - G.P. Brasil (Interlagos) - Clasificación",
+        "featured": true,
+        "icon": "🏆",
+        "id": "ftv:2026-11-07:19:00:formula 1:formula 1 - g.p. brasil (interlagos) - clasificacion",
+        "sport": "Motor",
+        "time": "19:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Ligue 1",
+        "competition_key": "ligue1",
+        "date": "2026-11-07",
+        "event": "Auxerre - Paris FC",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:19:00:ligue 1:auxerre - paris fc",
+        "sport": "Fútbol",
+        "time": "19:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto 2"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-07",
+        "event": "Basquet Girona - Bilbao Basket",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-07:19:30:liga endesa acb:basquet girona - bilbao basket",
+        "sport": "Baloncesto",
+        "time": "19:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-07",
+        "event": "AS Roma - Sassuolo",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:20:45:serie a:as roma - sassuolo",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN LaLiga",
+          "DAZN"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-07",
+        "event": "Valencia CF - Real Madrid",
+        "featured": true,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:21:00:laliga ea sports:valencia cf - real madrid",
+        "sport": "Fútbol",
+        "time": "21:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "M+ Vamos",
+          "DAZN Baloncesto"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-07",
+        "event": "iLERNA Lleida - Baskonia",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-07:21:00:liga endesa acb:ilerna lleida - baskonia",
+        "sport": "Baloncesto",
+        "time": "21:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Ligue 1",
+        "competition_key": "ligue1",
+        "date": "2026-11-07",
+        "event": "PSG - Troyes",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-07:21:05:ligue 1:psg - troyes",
+        "sport": "Fútbol",
+        "time": "21:05"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "NBA",
+        "competition_key": "nba",
+        "date": "2026-11-08",
+        "event": "Cleveland Cavaliers - New York Knicks",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-08:02:00:nba:cleveland cavaliers - new york knicks",
+        "sport": "Baloncesto",
+        "time": "02:00"
+      },
+      {
+        "channels": [
+          "Tennis Channel"
+        ],
+        "competition": "WTA Torneo de Hong Kong",
+        "competition_key": "tenis",
+        "date": "2026-11-08",
+        "event": "Final",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-08:09:00:wta torneo de hong kong:final",
+        "sport": "Tenis",
+        "time": "09:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto 3"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-08",
+        "event": "Barça Basket - Río Breogán",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-08:12:00:liga endesa acb:barca basket - rio breogan",
+        "sport": "Baloncesto",
+        "time": "12:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Eredivisie",
+        "competition_key": "eredivisie",
+        "date": "2026-11-08",
+        "event": "Heerenveen - Feyenoord",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:12:15:eredivisie:heerenveen - feyenoord",
+        "sport": "Fútbol",
+        "time": "12:15"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "Movistar Plus+"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-08",
+        "event": "San Pablo Burgos - Valencia Basket",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-08:12:30:liga endesa acb:san pablo burgos - valencia basket",
+        "sport": "Baloncesto",
+        "time": "12:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-08",
+        "event": "Napoli - Lazio",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:12:30:serie a:napoli - lazio",
+        "sport": "Fútbol",
+        "time": "12:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-08",
+        "event": "La Laguna Tenerife - Joventut Badalona",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-08:13:00:liga endesa acb:la laguna tenerife - joventut badalona",
+        "sport": "Baloncesto",
+        "time": "13:00"
+      },
+      {
+        "channels": [
+          "DAZN LaLiga",
+          "DAZN"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-08",
+        "event": "Elche - Real Betis",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:14:00:laliga ea sports:elche - real betis",
+        "sport": "Fútbol",
+        "time": "14:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Eredivisie",
+        "competition_key": "eredivisie",
+        "date": "2026-11-08",
+        "event": "Twente - Ajax",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:14:30:eredivisie:twente - ajax",
+        "sport": "Fútbol",
+        "time": "14:30"
+      },
+      {
+        "channels": [
+          "Movistar Plus+",
+          "M+ Deportes 2"
+        ],
+        "competition": "Masters París",
+        "competition_key": "tenis",
+        "date": "2026-11-08",
+        "event": "Final",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-08:15:00:masters paris:final",
+        "sport": "Tenis",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN 2"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-08",
+        "event": "Sunderland - Chelsea",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:15:00:premier league:sunderland - chelsea",
+        "sport": "Fútbol",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-08",
+        "event": "Brighton - Brentford",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:15:00:premier league:brighton - brentford",
+        "sport": "Fútbol",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-08",
+        "event": "Crystal Palace - Liverpool",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:15:00:premier league:crystal palace - liverpool",
+        "sport": "Fútbol",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-08",
+        "event": "Ipswich Town - Bournemouth",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:15:00:premier league:ipswich town - bournemouth",
+        "sport": "Fútbol",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-08",
+        "event": "Genoa - AC Milan",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:15:00:serie a:genoa - ac milan",
+        "sport": "Fútbol",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-08",
+        "event": "Monza - Atalanta",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:15:00:serie a:monza - atalanta",
+        "sport": "Fútbol",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Ligue 1",
+        "competition_key": "ligue1",
+        "date": "2026-11-08",
+        "event": "Rennes - Lille",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:15:00:ligue 1:rennes - lille",
+        "sport": "Fútbol",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Bundesliga",
+        "competition_key": "bundesliga",
+        "date": "2026-11-08",
+        "event": "FC Köln - Bayer Leverkusen",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:15:30:bundesliga:fc köln - bayer leverkusen",
+        "sport": "Fútbol",
+        "time": "15:30"
+      },
+      {
+        "channels": [
+          "Primera Federación",
+          "DAZN"
+        ],
+        "competition": "España - Primera Federación",
+        "competition_key": "other_football",
+        "date": "2026-11-08",
+        "event": "RM Castilla - Hércules",
+        "featured": true,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:16:00:espana - primera federacion:rm castilla - hercules",
+        "sport": "Fútbol",
+        "time": "16:00"
+      },
+      {
+        "channels": [
+          "M+ LALIGA"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-08",
+        "event": "Real Sociedad - Rayo Vallecano",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:16:15:laliga ea sports:real sociedad - rayo vallecano",
+        "sport": "Fútbol",
+        "time": "16:15"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Eredivisie",
+        "competition_key": "eredivisie",
+        "date": "2026-11-08",
+        "event": "AZ Alkmaar - Groningen",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:16:45:eredivisie:az alkmaar - groningen",
+        "sport": "Fútbol",
+        "time": "16:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Eredivisie",
+        "competition_key": "eredivisie",
+        "date": "2026-11-08",
+        "event": "SC Cambuur - PSV Eindhoven",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:16:45:eredivisie:sc cambuur - psv eindhoven",
+        "sport": "Fútbol",
+        "time": "16:45"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN MotoGP"
+        ],
+        "competition": "MotoGP",
+        "competition_key": "motor",
+        "date": "2026-11-08",
+        "event": "MotoGP - G.P. Catar (Losail) - Carrera",
+        "featured": true,
+        "icon": "🏆",
+        "id": "ftv:2026-11-08:17:00:motogp:motogp - g.p. catar (losail) - carrera",
+        "sport": "Motor",
+        "time": "17:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto 3"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-08",
+        "event": "Casademont Zaragoza - Unicaja Málaga",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-08:17:00:liga endesa acb:casademont zaragoza - unicaja malaga",
+        "sport": "Baloncesto",
+        "time": "17:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Ligue 1",
+        "competition_key": "ligue1",
+        "date": "2026-11-08",
+        "event": "Stade Brestois - O. Lyonnais",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:17:15:ligue 1:stade brestois - o. lyonnais",
+        "sport": "Fútbol",
+        "time": "17:15"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Ligue 1",
+        "competition_key": "ligue1",
+        "date": "2026-11-08",
+        "event": "Angers - Nice",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:17:15:ligue 1:angers - nice",
+        "sport": "Fútbol",
+        "time": "17:15"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Ligue 1",
+        "competition_key": "ligue1",
+        "date": "2026-11-08",
+        "event": "Le Mans - AS Monaco",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:17:15:ligue 1:le mans - as monaco",
+        "sport": "Fútbol",
+        "time": "17:15"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Ligue 1",
+        "competition_key": "ligue1",
+        "date": "2026-11-08",
+        "event": "Le Havre AC - Lorient",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:17:15:ligue 1:le havre ac - lorient",
+        "sport": "Fútbol",
+        "time": "17:15"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN 2",
+          "M+ Vamos",
+          "M+ Liga de Campeones"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-08",
+        "event": "Manchester Utd. - Aston Villa",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:17:30:premier league:manchester utd. - aston villa",
+        "sport": "Fútbol",
+        "time": "17:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Bundesliga",
+        "competition_key": "bundesliga",
+        "date": "2026-11-08",
+        "event": "Freiburg - 1. FC Union Berlin",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:17:30:bundesliga:freiburg - 1. fc union berlin",
+        "sport": "Fútbol",
+        "time": "17:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN F1"
+        ],
+        "competition": "Fórmula 1",
+        "competition_key": "motor",
+        "date": "2026-11-08",
+        "event": "Fórmula 1 - G.P. Brasil (Interlagos) - Carrera",
+        "featured": true,
+        "icon": "🏆",
+        "id": "ftv:2026-11-08:18:00:formula 1:formula 1 - g.p. brasil (interlagos) - carrera",
+        "sport": "Motor",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "Teledeporte"
+        ],
+        "competition": "Liga Portugal Betclic",
+        "competition_key": "ligaportugal",
+        "date": "2026-11-08",
+        "event": "EHF Euro Cup - España",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:18:00:liga portugal betclic:ehf euro cup - espana",
+        "sport": "Fútbol",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-08",
+        "event": "Básquet Coruña - MoraBanc Andorra",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-08:18:00:liga endesa acb:basquet coruna - morabanc andorra",
+        "sport": "Baloncesto",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-08",
+        "event": "Inter Milan - Como 1907",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:18:00:serie a:inter milan - como 1907",
+        "sport": "Fútbol",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "M+ LALIGA",
+          "M+ LALIGA 2"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-08",
+        "event": "Celta - Levante",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:18:30:laliga ea sports:celta - levante",
+        "sport": "Fútbol",
+        "time": "18:30"
+      },
+      {
+        "channels": [
+          "DAZN LaLiga",
+          "DAZN"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-08",
+        "event": "Villarreal - Getafe",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:18:30:laliga ea sports:villarreal - getafe",
+        "sport": "Fútbol",
+        "time": "18:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-08",
+        "event": "Real Madrid Baloncesto - UCAM Murcia CB",
+        "featured": true,
+        "icon": "🏀",
+        "id": "ftv:2026-11-08:19:00:liga endesa acb:real madrid baloncesto - ucam murcia cb",
+        "sport": "Baloncesto",
+        "time": "19:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Bundesliga",
+        "competition_key": "bundesliga",
+        "date": "2026-11-08",
+        "event": "Hoffenheim - Schalke 04",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:19:30:bundesliga:hoffenheim - schalke 04",
+        "sport": "Fútbol",
+        "time": "19:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "M+ Vamos",
+          "M+ Liga de Campeones"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-08",
+        "event": "Fiorentina - Juventus",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:20:45:serie a:fiorentina - juventus",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Ligue 1",
+        "competition_key": "ligue1",
+        "date": "2026-11-08",
+        "event": "Lens - O. Marseille",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:20:45:ligue 1:lens - o. marseille",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "Tennis Channel"
+        ],
+        "competition": "WTA Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-08",
+        "event": "Round Robin - E. Rybakina - L. Noskova",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-08:21:00:wta finals:round robin - e. rybakina - l. noskova",
+        "sport": "Tenis",
+        "time": "21:00"
+      },
+      {
+        "channels": [
+          "M+ LALIGA"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-08",
+        "event": "At. Madrid - FC Barcelona",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-08:21:00:laliga ea sports:at. madrid - fc barcelona",
+        "sport": "Fútbol",
+        "time": "21:00"
+      },
+      {
+        "channels": [
+          "Amazon Prime Video"
+        ],
+        "competition": "NBA",
+        "competition_key": "nba",
+        "date": "2026-11-08",
+        "event": "Chicago Bulls - Philadelphia 76ers",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-08:21:30:nba:chicago bulls - philadelphia 76ers",
+        "sport": "Baloncesto",
+        "time": "21:30"
+      },
+      {
+        "channels": [
+          "Tennis Channel"
+        ],
+        "competition": "WTA Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-08",
+        "event": "Round Robin - C. Gauff - J. Pegula",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-08:22:30:wta finals:round robin - c. gauff - j. pegula",
+        "sport": "Tenis",
+        "time": "22:30"
+      }
+    ],
+    "source": "futbolenlatv"
+  },
+  "ok": true
 }

@@ -1,5 +1,41 @@
 {
-  "ok": false,
-  "error": "Todavía no se ha ejecutado la primera actualización automática.",
-  "data": {"channels": []}
+  "data": {
+    "catalog_check": {
+      "checked_at": "2026-11-06T12:41:35.973769+00:00",
+      "excluded_invalid_player_url": 186,
+      "excluded_offline": 217,
+      "note": "HTTP 200 verifies the player page, not successful video playback or regional availability.",
+      "online_candidates": 2,
+      "playable_channels": 2,
+      "source": "CDN Live TV official player page"
+    },
+    "channels": [
+      {
+        "code": "ru",
+        "image": "https://cdnlivetv.tv/api/v1/channels/images6318/russia/russia-1-ru.webp",
+        "name": "Russia 1 RU",
+        "playback_allowed": true,
+        "player_check": "official_player_page_http_200",
+        "player_checked_at": "2026-11-06T12:41:35.973322+00:00",
+        "player_url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Russia%201%20RU&code=ru&user=cdnlivetv&plan=free",
+        "status": "online",
+        "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Russia%201%20RU&code=ru&user=cdnlivetv&plan=free",
+        "viewers": 0
+      },
+      {
+        "code": "us",
+        "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/usa-network-us.webp",
+        "name": "USA Network US",
+        "playback_allowed": true,
+        "player_check": "official_player_page_http_200",
+        "player_checked_at": "2026-11-06T09:43:45.040014+00:00",
+        "player_url": "https://cdnlivetv.tv/api/v1/channels/player/?name=USA%20Network%20US&code=us&user=cdnlivetv&plan=free",
+        "status": "online",
+        "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=USA%20Network%20US&code=us&user=cdnlivetv&plan=free",
+        "viewers": 0
+      }
+    ],
+    "total_channels": 2
+  },
+  "ok": true
 }
