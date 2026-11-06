@@ -34,9 +34,19 @@ function dateKeyFromValue(value) {
   return '';
 }
 function extractCdnEvents(payload) {
-  const root=payload?.['cdnlivetv.tv'] || payload?.data?.['cdnlivetv.tv'] || payload || {};
-  const out=[];
-  for (const sport of ['Soccer','NBA','NHL','NFL']) for (const item of (Array.isArray(root[sport])?root[sport]:[])) out.push({...item,date:item.date||dateKeyFromValue(item.start||item.time),sport,source:'cdn'});
+  const root = payload?.data?.['cdn-live-tv'] || {};
+  const out = [];
+  for (const [sport, items] of Object.entries(root)) {
+    if (!Array.isArray(items)) continue;
+    for (const item of items) {
+      out.push({
+        ...item,
+        date: item.date || dateKeyFromValue(item.start || item.time),
+        sport,
+        source: 'cdn'
+      });
+    }
+  }
   return out;
 }
 function normalizeFutbolenlatv(payload) {
@@ -90,8 +100,11 @@ function eventId(ev) {
   return String(ev.gameID||`${ev.source||'cdn'}:${ev.sport}:${ev.homeTeam||''}:${ev.awayTeam||''}:${ev.start||ev.time||''}`);
 }
 function eventTitle(ev) {
-  if(ev.eventTitle) return ev.eventTitle;
-  return [ev.homeTeam,ev.awayTeam].filter(Boolean).join(' vs ')||'Evento deportivo';
+  if (ev.eventTitle) return ev.eventTitle;
+  if (ev.event) return ev.event;
+  return [ev.homeTeam, ev.awayTeam]
+    .filter(Boolean)
+    .join(' vs ') || 'Evento deportivo';
 }
 function eventDateLabel(ev) {
   if(!ev.date) return '';
