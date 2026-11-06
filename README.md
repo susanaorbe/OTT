@@ -26,10 +26,13 @@ mi-tv/
 │       └── playback.json       # Archivo antiguo; ya no decide qué canales se muestran
 ├── agenda_futbolenlatv.py
 ├── channel_catalog.py       # Comprueba las páginas oficiales de reproductor
+├── cdn_event_filter.py      # Aplica a CDN las reglas de competiciones de Futbolenlatv
 ├── server.py                # Solo para pruebas locales
 ├── update_data.py           # Genera los JSON estáticos
 ├── requirements.txt
 └── tests/
+    ├── test_cdn_event_filter.py
+    ├── test_channel_catalog.py
     └── test_futbolenlatv.py
 ```
 
@@ -55,6 +58,7 @@ El workflow `update_mi_tv.yml` está configurado para ejecutarse cada cinco minu
 - Instala las dependencias Python.
 - Consulta los canales y eventos deportivos de CDN Live TV.
 - Ejecuta el parser personalizado de Futbolenlatv.
+- Filtra los eventos de fútbol y NBA de CDN con el mismo clasificador de competiciones que utiliza `agenda_futbolenlatv.py`; las competiciones no admitidas se descartan antes de publicar el JSON. NHL y NFL se conservan como excepción solo en «Todos» (no tienen pestaña deportiva propia).
 - Guarda los resultados en `docs/data/`.
 - Hace commit únicamente si los JSON han cambiado.
 
