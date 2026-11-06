@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "russia 1 ru|ru": {
+      "checked_at": "2026-11-06T09:43:45.044377+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Russia%201%20RU&code=ru&user=cdnlivetv&plan=free"
+    },
+    "usa network us|us": {
+      "checked_at": "2026-11-06T09:43:45.040014+00:00",
+      "ok": true,
+      "reason": "página oficial accesible (HTTP 200)",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=USA%20Network%20US&code=us&user=cdnlivetv&plan=free"
+    }
+  },
+  "updated_at": "2026-11-06T09:43:45.044602+00:00",
+  "version": 1
+}

@@ -1,6 +1,6 @@
 {
   "data": {
-    "count": 98,
+    "count": 100,
     "events": [
       {
         "channels": [
@@ -90,17 +90,31 @@
       },
       {
         "channels": [
-          "Movistar+"
+          "M+ Deportes 2"
         ],
         "competition": "Masters París",
         "competition_key": "tenis",
         "date": "2026-11-06",
-        "event": "1/4 de Final",
+        "event": "1/4 de Final - B. Shelton - T. Paul",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-06:14:05:masters paris:1 4 de final",
+        "id": "ftv:2026-11-06:14:00:masters paris:1 4 de final - b. shelton - t. paul",
         "sport": "Tenis",
-        "time": "14:05"
+        "time": "14:00"
+      },
+      {
+        "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "Masters París",
+        "competition_key": "tenis",
+        "date": "2026-11-06",
+        "event": "1/4 de Final - L. Van Assche - R. Hijikata",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-06:15:30:masters paris:1 4 de final - l. van assche - r. hijikata",
+        "sport": "Tenis",
+        "time": "15:30"
       },
       {
         "channels": [
@@ -148,6 +162,21 @@
       },
       {
         "channels": [
+          "Movistar Plus+",
+          "M+ Deportes 2"
+        ],
+        "competition": "Masters París",
+        "competition_key": "tenis",
+        "date": "2026-11-06",
+        "event": "1/4 de Final - T. Fritz - C. Alcaraz",
+        "featured": true,
+        "icon": "🎾",
+        "id": "ftv:2026-11-06:19:00:masters paris:1 4 de final - t. fritz - c. alcaraz",
+        "sport": "Tenis",
+        "time": "19:00"
+      },
+      {
+        "channels": [
           "DAZN",
           "DAZN F1"
         ],
@@ -174,6 +203,20 @@
         "id": "ftv:2026-11-06:20:15:euroliga:olympiacos piraeus - crvena zvezda mts belgrade",
         "sport": "Baloncesto",
         "time": "20:15"
+      },
+      {
+        "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "Masters París",
+        "competition_key": "tenis",
+        "date": "2026-11-06",
+        "event": "1/4 de Final - C. Ruud - N. Borges",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-06:20:30:masters paris:1 4 de final - c. ruud - n. borges",
+        "sport": "Tenis",
+        "time": "20:30"
       },
       {
         "channels": [
@@ -549,20 +592,6 @@
         "id": "ftv:2026-11-07:16:00:premier league:fulham - newcastle",
         "sport": "Fútbol",
         "time": "16:00"
-      },
-      {
-        "channels": [
-          "Tennis Channel"
-        ],
-        "competition": "WTA Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-07",
-        "event": "Round Robin",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-07:16:15:wta finals:round robin",
-        "sport": "Tenis",
-        "time": "16:15"
       },
       {
         "channels": [
