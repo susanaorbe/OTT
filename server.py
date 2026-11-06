@@ -47,6 +47,9 @@ class Handler(SimpleHTTPRequestHandler):
         if self.path in routes:
             try:
                 data = fetch_json(routes[self.path])
+                if self.path == "/api/events":
+                    from cdn_event_filter import filter_cdn_sports_payload
+                    data, _filter_stats = filter_cdn_sports_payload(data)
                 self._json(200, {"ok": True, "data": data})
             except (HTTPError, URLError, TimeoutError, RuntimeError, ValueError, json.JSONDecodeError) as exc:
                 self._json(502, {"ok": False, "error": f"No se pudo consultar CDN Live TV: {exc}"})
