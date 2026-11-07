@@ -1,7 +1,7 @@
-const API = { channels: './data/channels.json', events: './data/events_cdn.json', workflowRuns: 'https://api.github.com/repos/susanaorbe/OTT/actions/workflows/update_mi_tv.yml/runs?per_page=10' };
+const API = { channels: './data/channels.json', events: './data/events_cdn.json', futbolenlatv: './data/events_futbolenlatv.json', workflowRuns: 'https://api.github.com/repos/susanaorbe/OTT/actions/workflows/update_mi_tv.yml/runs?per_page=10' };
 const FAVORITES_KEY = 'mi-tv-favorites-v1';
 const HIDDEN_CHANNELS_KEY = 'mi-tv-hidden-channels-v1';
-const state = { view: 'sports', channels: [], events: [], competition: 'all', channelLetter: 'all', channelMode: 'all', favorites: loadFavorites(), hiddenChannels: loadHiddenChannels(), hiddenSelection: new Set(), sourceErrors: [], lastUpdated: null };
+const state = { view: 'sports', channels: [], events: [], sport: 'all', source: 'all', daypart: 'all', competition: 'all', channelLetter: 'all', channelMode: 'all', favorites: loadFavorites(), hiddenChannels: loadHiddenChannels(), hiddenSelection: new Set(), sourceErrors: [], lastUpdated: null };
 let eventRefreshTimer = null;
 const EVENT_REFRESH_DELAY_MS = 61000;
 const $ = (selector) => document.querySelector(selector);
@@ -46,6 +46,8 @@ function channelValueName(channel) {
   return typeof channel === 'string' ? channel : (channel?.channel_name || channel?.name || '');
 }
 function eventChannelsForCurrentSource(ev) {
+  if (state.source === 'cdn') return Array.isArray(ev?.cdnChannels) ? ev.cdnChannels : (ev.source === 'cdn' ? (ev.channels || []) : []);
+  if (state.source === 'futbolenlatv') return Array.isArray(ev?.futbolenlatvChannels) ? ev.futbolenlatvChannels : (ev.source === 'futbolenlatv' ? (ev.channels || []) : []);
   return Array.isArray(ev?.channels) ? ev.channels : [];
 }
 function renderAgendaChannel(channelValue) {
@@ -65,40 +67,38 @@ function keyOf(channel) { return `${String(channel.name || '').trim().toLowerCas
 function updateFavoriteCount() {
   const counter = $('#fav-count');
   if (!counter) return;
-  counter.textContent = String(state.channels.filter(ch =>
-    state.favorites.has(`c:${keyOf(ch)}`) && !state.hiddenChannels.has(keyOf(ch))
-  ).length);
+  const channelCount = state.channels.filter(ch => state.favorites.has(`c:${keyOf(ch)}`) && !state.hiddenChannels.has(keyOf(ch))).length;
+  const eventCount = state.events.filter(ev => state.favorites.has(`e:${eventId(ev)}`)).length;
+  counter.textContent = String(channelCount + eventCount);
+}
+function eventId(ev) {
+  const date = ev.date || dateKeyFromValue(ev.start || ev.time) || '';
+  const time = eventTimeLabel(ev);
+  const title = eventTitle(ev);
+  return String(ev.eventId || ev.gameID || ev.id || `${date}|${time}|${title}`).toLocaleLowerCase('es');
 }
 
 function showNotice(message) { const n=$('#notice'); n.textContent=message; n.classList.add('show'); clearTimeout(showNotice.timer); showNotice.timer=setTimeout(()=>n.classList.remove('show'),3200); }
 function setView(view) {
-  state.view = view === 'channels' ? 'channels' : 'sports';
+  state.view = ['channels', 'favorites'].includes(view) ? view : 'sports';
   $$('.nav-btn').forEach(b => b.classList.toggle('active', b.dataset.view === state.view));
   $$('.view').forEach(v => v.classList.toggle('active', v.id === `${state.view}-view`));
   const titles = {
     channels: ['Canales de televisión', 'Catálogo completo de CDN Live TV. Organiza tus favoritos y oculta los canales que no quieras ver.'],
-    sports: ['Agenda de CDN Live TV', 'Todos los eventos publicados por CDN Live TV y los canales asociados a cada emisión.']
+    sports: ['Agenda deportiva', 'Eventos de CDN Live TV y Futbolenlatv con sus respectivos canales y enlaces.'],
+    favorites: ['Tus favoritos', 'Canales y eventos que has marcado como favoritos.']
   };
   $('#page-title').textContent = titles[state.view][0];
   $('#page-subtitle').textContent = titles[state.view][1];
-  const agendaHeading = $('#sports-view .section-heading h2');
-  const agendaCaption = $('#sports-view .section-heading .muted');
-  if (agendaHeading) agendaHeading.textContent = 'Agenda de CDN Live TV';
-  if (agendaCaption) agendaCaption.textContent = 'Todos los eventos publicados por CDN Live TV y los canales asociados a cada emisión.';
-  $('#competition-filter').style.display = state.view === 'sports' ? '' : 'none';
+  $('#competition-filter').style.display = state.view === 'sports' || state.view === 'favorites' ? '' : 'none';
   $('#channel-letter-filter').hidden = state.view !== 'channels';
-  $('#search-input').placeholder = state.view === 'sports' ? 'Buscar evento, competición o canal…' : 'Buscar canal…';
+  $('#search-input').placeholder = state.view === 'sports' ? 'Buscar evento, competición o canal…' : state.view === 'favorites' ? 'Buscar en tus favoritos…' : 'Buscar canal…';
   renderAll();
 }
 
 function installCdnUi() {
-  const oldFavoritesNav = $('.nav-btn[data-view="favorites"]');
-  if (oldFavoritesNav) oldFavoritesNav.remove();
-  const oldFavoritesView = $('#favorites-view');
-  if (oldFavoritesView) oldFavoritesView.remove();
   const style = document.createElement('style');
   style.textContent = `
-    #sport-tabs, #date-tabs, #source-tabs { display:none !important; }
     #channel-letter-filter { display:flex; flex-wrap:wrap; align-items:center; gap:7px; }
     #channel-letter-filter[hidden] { display:none !important; }
     .channel-mode-controls { display:flex; flex-wrap:wrap; gap:7px; margin-left:8px; }
@@ -234,8 +234,10 @@ function renderChannelModeControls() {
   } else if (bulk) bulk.hidden = true;
 }
 function renderChannels() {
-  const filtered = filteredChannels(state.channels);
-  const target = $('#channels-grid');
+  const channelBase = state.view === 'favorites' ? state.channels.filter(ch => state.favorites.has(`c:${keyOf(ch)}`) && !state.hiddenChannels.has(keyOf(ch))) : state.channels;
+  const filtered = filteredChannels(channelBase);
+  const target = state.view === 'favorites' ? $('#favorites-grid') : $('#channels-grid');
+  if (!target) return;
   target.innerHTML = filtered.length ? filtered.map(channelCard).join('') : `<div class="empty-state">${state.channelMode === 'hidden' ? 'No tienes canales ocultos.' : state.channelMode === 'favorites' ? 'No tienes canales favoritos visibles.' : 'No hay canales que coincidan con la búsqueda.'}</div>`;
   $('#channels-caption').textContent = `${filtered.length} canales ${state.channelMode === 'hidden' ? 'ocultos' : state.channelMode === 'favorites' ? 'favoritos' : 'visibles'} · ${state.channels.length} en el catálogo`;
   renderChannelModeControls();
@@ -289,48 +291,62 @@ function eventCard(ev) {
   const title = eventTitle(ev);
   const when = [eventDateLabel(ev), eventTimeLabel(ev)].filter(Boolean).join(' · ') || 'Horario no indicado';
   const chips = channels.map(renderAgendaChannel).join('');
+  const saved = state.favorites.has(`e:${eventId(ev)}`);
   const statusLabel = status === 'live' ? 'EN DIRECTO'
     : status === 'finished' ? 'FINALIZADO'
     : status === 'upcoming' || status === 'ns' ? 'PRÓXIMO'
     : status.toUpperCase() || 'ESTADO NO INDICADO';
   const sportLabel = ev.icon ? `${ev.icon} ${ev.sport}` : (ev.sport === 'Soccer' ? '⚽ Fútbol' : ev.sport || 'Deporte no indicado');
-  return `<article class="event-card"><div class="event-main"><div class="event-meta"><span>${esc(sportLabel)}</span><span>·</span><span>${esc(ev.tournament || ev.competition || ev.league || 'Competición no indicada')}</span>${ev.country ? `<span>·</span><span>${esc(ev.country)}</span>` : ''}</div><div class="event-title">${esc(title)}</div><div class="event-sub">${esc(when)}</div>${chips ? `<div class="event-channels">${chips}</div>` : '<div class="event-sub">No hay canales asociados a este evento.</div>'}</div><div class="event-side"><span class="event-status ${status === 'live' ? 'live' : ''}">${esc(statusLabel)}</span></div></article>`;
+  return `<article class="event-card"><div class="event-main"><div class="event-meta"><span>${esc(sportLabel)}</span><span>·</span><span>${esc(ev.tournament || ev.competition || ev.league || 'Competición no indicada')}</span>${ev.country ? `<span>·</span><span>${esc(ev.country)}</span>` : ''}</div><div class="event-title">${esc(title)}</div><div class="event-sub">${esc(when)}</div>${chips ? `<div class="event-channels">${chips}</div>` : '<div class="event-sub">No hay canales asociados a este evento.</div>'}</div><div class="event-side"><span class="event-status ${status === 'live' ? 'live' : ''}">${esc(statusLabel)}</span><button class="icon-btn ${saved ? 'saved' : ''}" data-fav-event="${esc(eventId(ev))}" aria-label="${saved ? 'Quitar' : 'Añadir'} favorito">${saved ? '★' : '☆'}</button></div></article>`;
 }
 
 function eventSearchText(ev) {
-  const channels=eventChannelsForCurrentSource(ev).map(channelValueName).join(' ');
-  return `${ev.homeTeam||''} ${ev.awayTeam||''} ${eventTitle(ev)} ${ev.tournament||''} ${ev.competition||''} ${ev.country||''} ${channels} ${ev.source||''}`.toLocaleLowerCase('es');
+  const channels = eventChannelsForCurrentSource(ev).map(channelValueName).join(' ');
+  return `${ev.homeTeam || ''} ${ev.awayTeam || ''} ${eventTitle(ev)} ${ev.tournament || ''} ${ev.competition || ''} ${ev.country || ''} ${channels} ${ev.source || ''}`.toLocaleLowerCase('es');
 }
 function timeSlot(ev) {
-  const value=eventTimeLabel(ev).match(/(\d{1,2}):(\d{2})/);
-  if(!value)return '';
-  const mins=Number(value[1])*60+Number(value[2]);
-  return mins<=419?'madrugada':mins<=839?'manana':mins<=1229?'tarde':'noche';
+  const value = eventTimeLabel(ev).match(/(\d{1,2}):(\d{2})/);
+  if (!value) return '';
+  const mins = Number(value[1]) * 60 + Number(value[2]);
+  return mins <= 419 ? 'madrugada' : mins <= 839 ? 'manana' : mins <= 1229 ? 'tarde' : 'noche';
 }
 function todayKey() {
-  const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Madrid',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
-  const obj=Object.fromEntries(parts.map(p=>[p.type,p.value])); return `${obj.year}-${obj.month}-${obj.day}`;
+  const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Madrid', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date());
+  const obj = Object.fromEntries(parts.map(p => [p.type, p.value]));
+  return `${obj.year}-${obj.month}-${obj.day}`;
 }
 function populateCompetitionFilter() {
-  const select=$('#competition-filter'); if(!select)return;
-  const previous=state.competition;
-  const values=[...new Set(state.events.map(ev=>String(ev.tournament||ev.competition||ev.league||'').trim()).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'es'));
-  select.innerHTML='<option value="all">Todas las competiciones</option>'+values.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join('');
-  state.competition=values.includes(previous)?previous:'all'; select.value=state.competition;
+  const select = $('#competition-filter'); if (!select) return;
+  const previous = state.competition;
+  const values = [...new Set(state.events.map(ev => String(ev.tournament || ev.competition || ev.league || '').trim()).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'es'));
+  select.innerHTML = '<option value="all">Todas las competiciones</option>' + values.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join('');
+  state.competition = values.includes(previous) ? previous : 'all'; select.value = state.competition;
 }
 function filteredEvents(list) {
   const q = $('#search-input').value.trim().toLocaleLowerCase('es');
+  const today = todayKey();
   return list.filter(ev => {
+    const date = ev.date || dateKeyFromValue(ev.start || ev.time) || '';
+    const sportOk = state.sport === 'all' || sportKey(ev.sport) === state.sport;
+    const sourceOk = state.source === 'all' || (state.source === 'cdn' ? ev.source === 'cdn' || ev.source === 'both' : ev.source === 'futbolenlatv' || ev.source === 'both');
     const comp = String(ev.tournament || ev.competition || ev.league || '').trim();
     const compOk = state.competition === 'all' || comp === state.competition;
-    return compOk && (!q || eventSearchText(ev).includes(q));
+    let dayOk = true;
+    if (state.daypart === 'today') dayOk = date === today;
+    else if (state.daypart === 'upcoming') dayOk = Boolean(date && date > today);
+    else if (state.daypart === 'featured') dayOk = ev.featured === true;
+    else if (['madrugada', 'manana', 'tarde', 'noche'].includes(state.daypart)) dayOk = date === today && timeSlot(ev) === state.daypart;
+    return sportOk && sourceOk && compOk && dayOk && (!q || eventSearchText(ev).includes(q));
   });
 }
-
 function renderEvents() {
-  const filtered = filteredEvents(state.events).sort((a, b) => eventSortKey(a).localeCompare(eventSortKey(b)));
-  const target = $('#events-list');
-  target.innerHTML = filtered.length ? filtered.map(eventCard).join('') : '<div class="empty-state">No hay eventos disponibles con estos criterios.</div>';
+  const favoriteOnly = state.view === 'favorites';
+  const list = favoriteOnly ? state.events.filter(ev => state.favorites.has(`e:${eventId(ev)}`)) : state.events;
+  const filtered = filteredEvents(list).sort((a, b) => eventSortKey(a).localeCompare(eventSortKey(b)));
+  const target = favoriteOnly ? $('#favorite-events') : $('#events-list');
+  if (!target) return;
+  target.innerHTML = filtered.length ? filtered.map(eventCard).join('') : '<div class="empty-state">No hay eventos para mostrar con estos filtros.</div>';
+  $$('[data-fav-event]').forEach(btn => btn.addEventListener('click', () => toggleFavorite(`e:${btn.dataset.favEvent}`)));
   $$('[data-agenda-player-url]').forEach(link => link.addEventListener('click', event => {
     event.preventDefault();
     openPlayer({ name: link.dataset.agendaPlayerName || 'Canal CDN Live TV', player_url: link.dataset.agendaPlayerUrl });
@@ -384,10 +400,13 @@ function openPlayer(channel) {
 }
 function renderAll() {
   updateFavoriteCount();
-  $('#channel-total').textContent=state.channels.length || '0'; $('#event-total').textContent=state.events.length || '0';
+  $('#channel-total').textContent = state.channels.length || '0';
+  $('#event-total').textContent = state.events.length || '0';
   if (state.view === 'channels') renderChannels();
   if (state.view === 'sports') renderEvents();
+  if (state.view === 'favorites') { renderChannels(); renderEvents(); }
 }
+
 function madridClockParts(date = new Date()) {
   const parts = new Intl.DateTimeFormat('en-GB', {
     timeZone: 'Europe/Madrid', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false
@@ -471,6 +490,62 @@ function scheduleEventAutoRefresh() {
     else window.location.reload();
   }, delay);
 }
+function normalizeFutbolenlatv(payload) {
+  return (Array.isArray(payload?.events) ? payload.events : []).map(ev => ({
+    ...ev, eventId: ev.id, date: ev.date, start: ev.time, sport: ev.sport, icon: ev.icon,
+    tournament: ev.competition, eventTitle: ev.event,
+    channels: (ev.channels || []).map(name => ({ channel_name: name })),
+    futbolenlatvChannels: (ev.channels || []).map(name => ({ channel_name: name })),
+    cdnChannels: [], source: 'futbolenlatv', featured: ev.featured === true
+  }));
+}
+function eventMergeKey(ev) {
+  const date = ev.date || dateKeyFromValue(ev.start || ev.time) || '';
+  const time = eventTimeLabel(ev).match(/\d{1,2}:\d{2}/)?.[0] || '';
+  const title = eventTitle(ev).toLocaleLowerCase('es').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+  const competition = String(ev.tournament || ev.competition || '').toLocaleLowerCase('es').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+  return date && title ? `${date}|${time}|${title}|${competition}` : '';
+}
+function combineEventSources(cdnEvents, ftvEvents) {
+  const result = [];
+  const byKey = new Map();
+  for (const ev of cdnEvents) {
+    const item = { ...ev, cdnChannels: Array.isArray(ev.channels) ? ev.channels : [], futbolenlatvChannels: [], source: 'cdn' };
+    const key = eventMergeKey(item);
+    if (key) byKey.set(key, item);
+    result.push(item);
+  }
+  for (const ftv of ftvEvents) {
+    const key = eventMergeKey(ftv);
+    const match = key ? byKey.get(key) : null;
+    if (match) {
+      match.futbolenlatvChannels = ftv.futbolenlatvChannels || ftv.channels || [];
+      match.channels = [...(match.cdnChannels || []), ...match.futbolenlatvChannels];
+      match.source = 'both';
+      if (!match.featured && ftv.featured) match.featured = true;
+    } else result.push(ftv);
+  }
+  return result;
+}
+function sportKey(value) {
+  const s = String(value || '').toLocaleLowerCase('es');
+  if (/f[uú]tbol|soccer|football/.test(s)) return 'football';
+  if (/baloncesto|basketball|nba/.test(s)) return 'basketball';
+  if (/tenis|tennis/.test(s)) return 'tennis';
+  if (/motor|moto|f1|formula|motorsport/.test(s)) return 'motor';
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-');
+}
+function currentMadridDaypart() {
+  const parts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Madrid', hour: '2-digit', minute: '2-digit', hour12: false }).formatToParts(new Date());
+  const obj = Object.fromEntries(parts.map(p => [p.type, p.value]));
+  const mins = Number(obj.hour) * 60 + Number(obj.minute);
+  return mins <= 419 ? 'madrugada' : mins <= 839 ? 'manana' : mins <= 1229 ? 'tarde' : 'noche';
+}
+function activateCurrentDaypart() {
+  state.daypart = currentMadridDaypart();
+  $$('.date-tab').forEach(button => button.classList.toggle('active', button.dataset.daypart === state.daypart));
+}
+
 async function fetchStaticJson(path) {
   const separator=path.includes('?')?'&':'?';
   const response=await fetch(`${path}${separator}v=${Date.now()}`,{cache:'no-store'});
@@ -483,18 +558,20 @@ async function loadData() {
   button.disabled = true;
   state.sourceErrors = [];
   try {
-    const paths = [API.channels, API.events];
-    const labels = ['CDN Live TV (canales)', 'CDN Live TV (eventos)'];
+    const paths = [API.channels, API.events, API.futbolenlatv];
+    const labels = ['CDN Live TV (canales)', 'CDN Live TV (eventos)', 'Futbolenlatv'];
     fetchLatestWorkflowRun();
     const parsed = await Promise.all(paths.map(async (path, index) => {
       try { return await fetchStaticJson(path); }
       catch (error) { state.sourceErrors.push(`${labels[index]}: ${error.message}`); return null; }
     }));
-    const [channelsJson, eventsJson] = parsed;
+    const [channelsJson, eventsJson, ftvJson] = parsed;
     if (channelsJson) state.channels = extractChannels(channelsJson.data)
       .filter(channel => channel && String(channel.name || '').trim())
       .sort((a, b) => String(a.name || '').localeCompare(String(b.name || ''), 'es', { sensitivity: 'base', numeric: true }));
-    if (eventsJson) state.events = extractCdnEvents(eventsJson.data);
+    const cdnEvents = eventsJson ? extractCdnEvents(eventsJson.data) : [];
+    const ftvEvents = ftvJson ? normalizeFutbolenlatv(ftvJson.data) : [];
+    state.events = combineEventSources(cdnEvents, ftvEvents);
     populateCompetitionFilter();
     renderAll();
     updateClock();
@@ -502,7 +579,7 @@ async function loadData() {
     if (state.sourceErrors.length) showNotice(`Datos parcialmente actualizados. ${state.sourceErrors.length} fuente(s) no disponibles.`);
     else showNotice('Catálogo y agenda de CDN Live TV actualizados.');
     if (!channelsJson) $('#channels-grid').innerHTML = '<div class="empty-state">No se ha podido cargar el catálogo completo de CDN Live TV.</div>';
-    if (!eventsJson) $('#events-list').innerHTML = '<div class="empty-state">No se ha podido cargar la agenda de CDN Live TV.</div>';
+    if (!eventsJson && !ftvJson) $('#events-list').innerHTML = '<div class="empty-state">No se ha podido cargar ninguna fuente de eventos.</div>';
   } catch (error) {
     showNotice(error.message || 'No se pudieron cargar los datos.');
   } finally {
@@ -511,6 +588,7 @@ async function loadData() {
 }
 
 $$('.nav-btn').forEach(b=>b.addEventListener('click',()=>setView(b.dataset.view)));
+$$('[data-fav-event]').forEach(btn=>btn.addEventListener('click',()=>toggleFavorite(`e:${btn.dataset.favEvent}`)));
 $('#refresh-btn').addEventListener('click',loadData);
 $('#search-input').addEventListener('input',renderAll);
 $$('[data-letter]').forEach(button=>button.addEventListener('click',()=>{
@@ -519,6 +597,21 @@ $$('[data-letter]').forEach(button=>button.addEventListener('click',()=>{
   renderChannels();
 }));
 
+$('.sport-tab') && $$('.sport-tab').forEach(button => button.addEventListener('click', () => {
+  state.sport = button.dataset.sport;
+  $$('.sport-tab').forEach(item => item.classList.toggle('active', item === button));
+  renderEvents();
+}));
+$$('.date-tab').forEach(button => button.addEventListener('click', () => {
+  state.daypart = button.dataset.daypart;
+  $$('.date-tab').forEach(item => item.classList.toggle('active', item === button));
+  renderEvents();
+}));
+$$('.source-tab').forEach(button => button.addEventListener('click', () => {
+  state.source = button.dataset.source;
+  $$('.source-tab').forEach(item => item.classList.toggle('active', item === button));
+  renderEvents();
+}));
 $('#competition-filter').addEventListener('change',()=>{state.competition=$('#competition-filter').value;renderEvents();});
 
 $('#close-player').addEventListener('click',()=>$('#player-dialog').close());
@@ -528,6 +621,7 @@ $('#player-dialog').addEventListener('close',()=>{
   scheduleEventAutoRefresh();
 });
 $('#channel-letter-filter').hidden=true;
+activateCurrentDaypart();
 setView('sports');
 updateClock();
 setInterval(updateClock, 1000);
