@@ -40,9 +40,9 @@
         "event": "Semifinal 1 - A. Shubladze - C. Liu",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-07:07:00:wta torneo de hong kong:semifinal 1 - a. shubladze - c. liu",
+        "id": "ftv:2026-11-07:07:10:wta torneo de hong kong:semifinal 1 - a. shubladze - c. liu",
         "sport": "Tenis",
-        "time": "07:00"
+        "time": "07:10"
       },
       {
         "channels": [
@@ -54,9 +54,9 @@
         "event": "Semifinal 2 - M. Sakkari - A. Eala",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-07:08:30:wta torneo de hong kong:semifinal 2 - m. sakkari - a. eala",
+        "id": "ftv:2026-11-07:09:30:wta torneo de hong kong:semifinal 2 - m. sakkari - a. eala",
         "sport": "Tenis",
-        "time": "08:30"
+        "time": "09:30"
       },
       {
         "channels": [
@@ -156,9 +156,9 @@
         "event": "Semifinal 1 - L. Van Assche - B. Shelton",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-07:14:30:masters paris:semifinal 1 - l. van assche - b. shelton",
+        "id": "ftv:2026-11-07:14:45:masters paris:semifinal 1 - l. van assche - b. shelton",
         "sport": "Tenis",
-        "time": "14:30"
+        "time": "14:45"
       },
       {
         "channels": [
@@ -374,9 +374,9 @@
         "event": "Semifinal 2 - C. Ruud - C. Alcaraz",
         "featured": true,
         "icon": "🎾",
-        "id": "ftv:2026-11-07:17:00:masters paris:semifinal 2 - c. ruud - c. alcaraz",
+        "id": "ftv:2026-11-07:17:30:masters paris:semifinal 2 - c. ruud - c. alcaraz",
         "sport": "Tenis",
-        "time": "17:00"
+        "time": "17:30"
       },
       {
         "channels": [
@@ -578,10 +578,10 @@
         "competition": "WTA Torneo de Hong Kong",
         "competition_key": "tenis",
         "date": "2026-11-08",
-        "event": "Final",
+        "event": "Final - C. Liu - A. Eala",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-08:09:00:wta torneo de hong kong:final",
+        "id": "ftv:2026-11-08:09:00:wta torneo de hong kong:final - c. liu - a. eala",
         "sport": "Tenis",
         "time": "09:00"
       },
@@ -695,10 +695,10 @@
         "competition": "Masters París",
         "competition_key": "tenis",
         "date": "2026-11-08",
-        "event": "Final",
-        "featured": false,
+        "event": "Final - B. Shelton - C. Alcaraz",
+        "featured": true,
         "icon": "🎾",
-        "id": "ftv:2026-11-08:15:00:masters paris:final",
+        "id": "ftv:2026-11-08:15:00:masters paris:final - b. shelton - c. alcaraz",
         "sport": "Tenis",
         "time": "15:00"
       },
