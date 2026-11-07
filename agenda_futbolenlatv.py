@@ -47,7 +47,7 @@ def create_http_session() -> requests.Session:
     }
     try:
         retry = Retry(**retry_options, allowed_methods=frozenset({"GET"}))
-    except TypeError:  # Compatibilidad con versiones antiguas de urllib3.
+    except TypeError:
         retry = Retry(**retry_options, method_whitelist=frozenset({"GET"}))
     adapter = HTTPAdapter(max_retries=retry)
     session.mount("https://", adapter)
@@ -120,6 +120,7 @@ EXCLUDED_CHANNELS = {
     "fip - international padel federation youtube", "fip youtube"
 }
 
+
 def channel_exclusion_key(channel: str) -> str:
     """Clave de comparación sin acentos, puntuación ni identificadores entre paréntesis."""
     base = re.sub(r"\([^)]*\)", "", normalize_search_text(channel))
@@ -178,7 +179,7 @@ PRIMERA_RFEF_RE = rx(
 )
 
 LALIGA_RE = rx(
-    r" liga ea sports ", r" liga ea ", r" primera division ", 
+    r" liga ea sports ", r" liga ea ", r" primera division ",
     r" españa - la liga ", r" laliga(?![\s\-]*(?:hypermotion|smartbank|tv hypermotion|123)) "
 )
 
@@ -199,7 +200,7 @@ TIME_RE = re.compile(r"\b\d{1,2}:\d{2}\b")
 DATE_RE = re.compile(r"(\d{1,2})/(\d{1,2})/(\d{4})")
 
 CLEAN_TV_RE = re.compile(
-    r"\(ver en directo\)|\(ver gratis\)|\(acceder\)|\(ver\)|\(m\d+[^)]*\)|ver partido|acceder", 
+    r"\(ver en directo\)|\(ver gratis\)|\(acceder\)|\(ver\)|\(m\d+[^)]*\)|ver partido|acceder",
     re.IGNORECASE
 )
 EVENT_TEXT_RE = re.compile(r"[a-zA-Z0-9]")
@@ -239,7 +240,7 @@ BUNDESLIGA_RE = rx(r" bundesliga ", r" alemania - bundesliga ")
 BUNDESLIGA_2_RE = rx(r"2\.?\s*bundesliga ")
 LIGUE1_RE = rx(r" ligue 1 ", r" francia - ligue 1 ")
 EREDIVISIE_RE = rx(r" eredivisie ")
-LIGA_PORTUGAL_RE = rx(r" liga portugal ", r" portugal ", r" betclic ")
+LIGA_PORTUGAL_RE = rx(r" liga portugal ")
 WORLD_CUP_RE = rx(r" copa mundial ", r" mundial de la fifa ", r" world cup ")
 EUROCUP_RE = rx(r" eurocup ")
 EURO_FINAL_RE = rx(r" eurocopa ", r" euro\s*20\d{2} ", r" euro\s*cup ")
@@ -269,10 +270,10 @@ def parse_motor_event(blob: str, raw_tournament: str, text_lines: list[str]) -> 
     valid_lines = [l for l in text_lines if normalize_search_text(l) not in {normalize_search_text(comp_name), "motor", "automovilismo", "motociclismo"}]
     clean_desc = " - ".join(valid_lines).strip()
     clean_desc = EVENT_CLEANUP_TRAIL_RE.sub("", clean_desc).strip()
-    
+
     if not clean_desc or clean_desc == "-":
         clean_desc = "Carrera"
-    
+
     event_title = f"{comp_name} - {clean_desc}"
     clean_norm = normalize_search_text(event_title)
 
@@ -285,7 +286,56 @@ def parse_motor_event(blob: str, raw_tournament: str, text_lines: list[str]) -> 
     return (comp_name, event_title, is_fav)
 
 
-def get_sport_and_competition(blob: str, raw_tournament: str, tv_blob: str, text_lines: list[str]) -> tuple[str, str, str, bool, bool, str, str]:
+def detect_explicit_sport(item) -> str:
+    """Detecta el deporte mediante enlaces de categoría y etiquetas ALT."""
+    if item is None or not hasattr(item, "find_all"):
+        return ""
+
+    sport_aliases = {
+        "padel": "padel",
+        "pádel": "padel",
+        "tenis": "tenis",
+        "tennis": "tenis",
+        "futbol": "futbol",
+        "fútbol": "futbol",
+        "football": "futbol",
+        "baloncesto": "baloncesto",
+        "basketball": "baloncesto",
+        "motor": "motor",
+        "motociclismo": "motor",
+        "automovilismo": "motor",
+    }
+
+    for link in item.find_all("a", href=True):
+        href = normalize_search_text(link.get("href", ""))
+        match = re.search(r"/deporte/([^/?#]+)", href)
+        if match:
+            category = normalize_search_text(match.group(1))
+            if category in sport_aliases:
+                return sport_aliases[category]
+
+    for img in item.find_all("img"):
+        alt = normalize_search_text(img.get("alt", ""))
+        for alias, sport in sport_aliases.items():
+            normalized_alias = normalize_search_text(alias)
+            if re.search(r"\b" + re.escape(normalized_alias) + r"\b", alt):
+                return sport
+
+    return ""
+
+
+def get_sport_and_competition(
+    blob: str,
+    raw_tournament: str,
+    tv_blob: str,
+    text_lines: list[str],
+    explicit_sport: str = ""
+) -> tuple[str, str, str, bool, bool, str, str]:
+
+    # La categoría explícita de pádel tiene prioridad sobre las exclusiones.
+    if explicit_sport == "padel":
+        return ("Pádel", "🎾", raw_tournament or "Pádel", False, True, "", "padel")
+
     if EXCLUDED_SPORTS_RE.search(blob) or "ehf tv" in tv_blob or "movistar golf" in tv_blob:
         return ("", "", "", False, False, "", "")
     if EXCLUDED_COMPETITIONS_RE.search(blob):
@@ -351,7 +401,8 @@ def get_sport_and_competition(blob: str, raw_tournament: str, tv_blob: str, text
     if EREDIVISIE_RE.search(blob):
         return ("Fútbol", "⚽", "Eredivisie", False, True, "", "eredivisie")
 
-    if LIGA_PORTUGAL_RE.search(blob):
+    # Solo el nombre de la competición puede activar Liga Portugal.
+    if LIGA_PORTUGAL_RE.search(normalize_search_text(raw_tournament)):
         return ("Fútbol", "⚽", "Liga Portugal Betclic", False, True, "", "ligaportugal")
 
     if WORLD_CUP_RE.search(blob):
@@ -371,9 +422,11 @@ def get_sport_and_competition(blob: str, raw_tournament: str, tv_blob: str, text
     return ("", "", "", False, False, "", "")
 
 
-def parse_row_elements(item) -> tuple[str, str, list[str], str, list[str]]:
+def parse_row_elements(item) -> tuple[str, str, list[str], str, list[str], str]:
     if item is None or not hasattr(item, "get_text"):
-        return "", "", [], "", []
+        return "", "", [], "", [], ""
+
+    explicit_sport = detect_explicit_sport(item)
 
     raw_parts = [
         part.strip()
@@ -381,14 +434,14 @@ def parse_row_elements(item) -> tuple[str, str, list[str], str, list[str]]:
         if part.strip()
     ]
     if not 3 <= len(raw_parts) <= 30:
-        return "", "", [], "", []
+        return "", "", [], "", [], ""
 
     text_full = " | ".join(raw_parts)
     time_match = TIME_RE.search(text_full)
     time_clean = clean_time(time_match.group(0)) if time_match else ""
 
     if not time_clean:
-        return "", "", [], "", []
+        return "", "", [], "", [], ""
 
     channels: list[str] = []
     channel_keys = set()
@@ -396,7 +449,7 @@ def parse_row_elements(item) -> tuple[str, str, list[str], str, list[str]]:
 
     competition_terms = (
         "liga", "primera", "segunda", "tercera", "federacion", "division", "grupo", "torneo", "serie a",
-        "endesa", "bundesliga", "atp", "wta", "masters", "copa", "champions", "superbike", "eredivisie", "euroliga", "euroleague", "nba", "portugal"
+        "endesa", "bundesliga", "atp", "wta", "masters", "copa", "champions", "superbike", "eredivisie", "euroliga", "euroleague", "nba"
     )
 
     for part in raw_parts:
@@ -417,9 +470,6 @@ def parse_row_elements(item) -> tuple[str, str, list[str], str, list[str]]:
 
         is_primera_federacion_channel = part_lower == "primera federacion"
 
-        # "LaLiga EA Sports" es una competición, no un canal. Solo tratamos
-        # una línea que contenga LaLiga como canal cuando incluye un indicador
-        # inequívoco de emisión (TV, M+, Movistar o DAZN).
         is_laliga_competition = (
             "laliga" in part_lower
             and not any(token in part_lower for token in (" tv", "m+", "movistar", "dazn"))
@@ -461,7 +511,7 @@ def parse_row_elements(item) -> tuple[str, str, list[str], str, list[str]]:
         text_lines.append(part)
 
     if not text_lines or not channels:
-        return "", "", [], "", []
+        return "", "", [], "", [], ""
 
     tournament_candidates = []
     matchup_candidates = []
@@ -486,16 +536,13 @@ def parse_row_elements(item) -> tuple[str, str, list[str], str, list[str]]:
         tournament = tournament_candidates[0]
         event_lines = [part for part in matchup_candidates if part != tournament]
     else:
-        # Cuando no hay una línea que identifique claramente la competición,
-        # mantenemos la primera como competición por compatibilidad con el origen.
         tournament = text_lines[0]
         event_lines = text_lines[1:]
 
     matchup = " - ".join(event_lines) if event_lines else tournament
-
     matchup = EVENT_CLEANUP_TRAIL_RE.sub("", matchup).strip()
 
-    return time_clean, matchup, channels, tournament, text_lines
+    return time_clean, matchup, channels, tournament, text_lines, explicit_sport
 
 
 def fetch_and_parse_agenda() -> list[dict]:
@@ -511,8 +558,6 @@ def fetch_and_parse_agenda() -> list[dict]:
             response.raise_for_status()
         soup = BeautifulSoup(response.content, "html.parser")
 
-        # Si la agenda usa filas de tabla, son la unidad de evento más fiable.
-        # Solo recurrimos a contenedores genéricos cuando no existen filas.
         elements = soup.find_all("tr")
         if not elements:
             elements = soup.find_all(["article", "li", "div", "section", "p"])
@@ -532,7 +577,7 @@ def fetch_and_parse_agenda() -> list[dict]:
                 except ValueError:
                     pass
 
-            time_clean, event_str, channels, tournament, text_lines = parse_row_elements(element)
+            time_clean, event_str, channels, tournament, text_lines, explicit_sport = parse_row_elements(element)
             if not time_clean or not channels:
                 continue
 
@@ -561,7 +606,7 @@ def fetch_and_parse_agenda() -> list[dict]:
                 continue
 
             sport, icon, competition, is_favorite, is_configured, custom_event, comp_key = get_sport_and_competition(
-                blob, tournament, tv_blob, text_lines
+                blob, tournament, tv_blob, text_lines, explicit_sport
             )
             if not sport:
                 continue
@@ -580,7 +625,7 @@ def fetch_and_parse_agenda() -> list[dict]:
                 continue
 
             event_key = (current_date_obj, time_clean, normalize_search_text(competition), normalize_search_text(final_event))
-            if event_key in seen_events: 
+            if event_key in seen_events:
                 continue
             seen_events.add(event_key)
 
@@ -631,4 +676,3 @@ def get_agenda_payload():
             for item in events
         ],
     }
-
