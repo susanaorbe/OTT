@@ -19,6 +19,14 @@ function normalizeChannelMatchName(value) {
     .replace(/\b(?:fhd|uhd|hd|4k|sd)\b/gi, ' ')
     .replace(/\s+/g, ' ').trim();
 }
+// Algunos nombres de Futbolenlatv se enlazan deliberadamente a otro canal
+// del catálogo CDN que ofrece la emisión equivalente. Los destinos se
+// resuelven por nombre exacto y único: nunca por similitud aproximada.
+const AGENDA_CHANNEL_ALIASES = new Map([
+  ['tennis channel', 'Tennis Channel HD US'],
+  ['dazn motogp', 'Sport TV 4 HD PT'],
+  ['m* laliga', 'LaLiga TV FHD UK']
+]);
 function findCatalogChannel(channelValue) {
   // Si el evento CDN incluye el identificador, es la correspondencia más fiable.
   const channelId = channelValue && typeof channelValue === 'object'
@@ -30,6 +38,16 @@ function findCatalogChannel(channelValue) {
   const channelName = channelValueName(channelValue);
   const wanted = normalizeAgendaChannelName(channelName);
   if (!wanted) return null;
+
+  // Alias explícito: si el destino no existe o no es único, no se enlaza.
+  const aliasTarget = AGENDA_CHANNEL_ALIASES.get(wanted);
+  if (aliasTarget) {
+    const aliasMatches = state.channels.filter(channel =>
+      normalizeAgendaChannelName(channel.name) === normalizeAgendaChannelName(aliasTarget)
+    );
+    return aliasMatches.length === 1 ? aliasMatches[0] : null;
+  }
+
   const exact = state.channels.filter(channel => normalizeAgendaChannelName(channel.name) === wanted);
   if (exact.length === 1) return exact[0];
   if (exact.length > 1) return exact.find(isPlaybackAllowed) || exact[0];
@@ -52,8 +70,13 @@ function eventChannelsForCurrentSource(ev) {
 }
 function renderAgendaChannel(channelValue) {
   const name = channelValueName(channelValue) || 'Canal';
+  const normalizedName = normalizeAgendaChannelName(name);
+  const hasExplicitAlias = AGENDA_CHANNEL_ALIASES.has(normalizedName);
   const catalogChannel = findCatalogChannel(channelValue);
-  const url = safePlayerUrl(channelValue) || (catalogChannel ? safePlayerUrl(catalogChannel) : null);
+  // Para los tres alias se prioriza siempre el destino exacto del catálogo.
+  const url = hasExplicitAlias
+    ? (catalogChannel ? safePlayerUrl(catalogChannel) : null)
+    : (safePlayerUrl(channelValue) || (catalogChannel ? safePlayerUrl(catalogChannel) : null));
   if (!url) return `<span class="channel-chip" title="CDN Live TV no proporciona una URL oficial válida para este canal">${esc(name)}</span>`;
   return `<a class="channel-chip channel-chip-link" href="#reproductor" data-agenda-player-url="${esc(url)}" data-agenda-player-name="${esc(name)}" title="Abrir ${esc(name)} en el reproductor de CDN Live TV">${esc(name)} 🔗</a>`;
 }

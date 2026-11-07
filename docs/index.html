@@ -15,6 +15,10 @@
       <button class="nav-btn" data-view="channels">Canales</button>
       <button class="nav-btn" data-view="favorites">Favoritos <span id="fav-count" class="count">0</span></button>
     </nav>
+    <div class="time-info topbar-time-info" aria-live="off">
+      <span>Hora actual <strong id="current-time">--:--:--</strong></span>
+      <span>Última actualización <strong id="last-updated">Consultando…</strong></span>
+    </div>
     <button id="refresh-btn" class="refresh-btn" title="Actualizar datos">↻ <span>Actualizar</span></button>
   </header>
 
@@ -30,10 +34,6 @@
           <div><strong id="channel-total">—</strong><span>Canales</span></div>
           <div><strong id="event-total">—</strong><span>Eventos</span></div>
         </div>
-        <div class="time-info" aria-live="off">
-          <span>Hora actual <strong id="current-time">--:--:--</strong></span>
-          <span>Última actualización <strong id="last-updated">Consultando…</strong></span>
-        </div>
       </div>
     </section>
 
@@ -45,32 +45,7 @@
       <button class="letter-filter-btn active" data-letter="all" type="button">Todos</button>
       <button class="letter-filter-btn" data-letter="#" type="button">#</button>
       <div class="letter-filter-letters">
-        <button class="letter-filter-btn" data-letter="A" type="button">A</button>
-        <button class="letter-filter-btn" data-letter="B" type="button">B</button>
-        <button class="letter-filter-btn" data-letter="C" type="button">C</button>
-        <button class="letter-filter-btn" data-letter="D" type="button">D</button>
-        <button class="letter-filter-btn" data-letter="E" type="button">E</button>
-        <button class="letter-filter-btn" data-letter="F" type="button">F</button>
-        <button class="letter-filter-btn" data-letter="G" type="button">G</button>
-        <button class="letter-filter-btn" data-letter="H" type="button">H</button>
-        <button class="letter-filter-btn" data-letter="I" type="button">I</button>
-        <button class="letter-filter-btn" data-letter="J" type="button">J</button>
-        <button class="letter-filter-btn" data-letter="K" type="button">K</button>
-        <button class="letter-filter-btn" data-letter="L" type="button">L</button>
-        <button class="letter-filter-btn" data-letter="M" type="button">M</button>
-        <button class="letter-filter-btn" data-letter="N" type="button">N</button>
-        <button class="letter-filter-btn" data-letter="O" type="button">O</button>
-        <button class="letter-filter-btn" data-letter="P" type="button">P</button>
-        <button class="letter-filter-btn" data-letter="Q" type="button">Q</button>
-        <button class="letter-filter-btn" data-letter="R" type="button">R</button>
-        <button class="letter-filter-btn" data-letter="S" type="button">S</button>
-        <button class="letter-filter-btn" data-letter="T" type="button">T</button>
-        <button class="letter-filter-btn" data-letter="U" type="button">U</button>
-        <button class="letter-filter-btn" data-letter="V" type="button">V</button>
-        <button class="letter-filter-btn" data-letter="W" type="button">W</button>
-        <button class="letter-filter-btn" data-letter="X" type="button">X</button>
-        <button class="letter-filter-btn" data-letter="Y" type="button">Y</button>
-        <button class="letter-filter-btn" data-letter="Z" type="button">Z</button>
+        <button class="letter-filter-btn" data-letter="A" type="button">A</button><button class="letter-filter-btn" data-letter="B" type="button">B</button><button class="letter-filter-btn" data-letter="C" type="button">C</button><button class="letter-filter-btn" data-letter="D" type="button">D</button><button class="letter-filter-btn" data-letter="E" type="button">E</button><button class="letter-filter-btn" data-letter="F" type="button">F</button><button class="letter-filter-btn" data-letter="G" type="button">G</button><button class="letter-filter-btn" data-letter="H" type="button">H</button><button class="letter-filter-btn" data-letter="I" type="button">I</button><button class="letter-filter-btn" data-letter="J" type="button">J</button><button class="letter-filter-btn" data-letter="K" type="button">K</button><button class="letter-filter-btn" data-letter="L" type="button">L</button><button class="letter-filter-btn" data-letter="M" type="button">M</button><button class="letter-filter-btn" data-letter="N" type="button">N</button><button class="letter-filter-btn" data-letter="O" type="button">O</button><button class="letter-filter-btn" data-letter="P" type="button">P</button><button class="letter-filter-btn" data-letter="Q" type="button">Q</button><button class="letter-filter-btn" data-letter="R" type="button">R</button><button class="letter-filter-btn" data-letter="S" type="button">S</button><button class="letter-filter-btn" data-letter="T" type="button">T</button><button class="letter-filter-btn" data-letter="U" type="button">U</button><button class="letter-filter-btn" data-letter="V" type="button">V</button><button class="letter-filter-btn" data-letter="W" type="button">W</button><button class="letter-filter-btn" data-letter="X" type="button">X</button><button class="letter-filter-btn" data-letter="Y" type="button">Y</button><button class="letter-filter-btn" data-letter="Z" type="button">Z</button>
       </div>
     </div>
 
@@ -83,24 +58,13 @@
       <div class="section-heading"><div><h2>Agenda deportiva</h2><p class="muted">Eventos de tu agenda personalizada de Futbolenlatv; CDN Live TV solo complementa los canales.</p></div></div>
       <div class="agenda-controls">
         <div class="date-tabs" id="date-tabs" aria-label="Filtrar por fecha y franja">
-          <button class="date-tab" data-daypart="madrugada">Madrugada</button>
-          <button class="date-tab" data-daypart="manana">Mañana</button>
-          <button class="date-tab" data-daypart="tarde">Tarde</button>
-          <button class="date-tab" data-daypart="noche">Noche</button>
-          <button class="date-tab" data-daypart="upcoming">Próximamente</button>
-          <button class="date-tab" data-daypart="featured">Destacados</button>
+          <button class="date-tab" data-daypart="madrugada">Madrugada</button><button class="date-tab" data-daypart="manana">Mañana</button><button class="date-tab" data-daypart="tarde">Tarde</button><button class="date-tab" data-daypart="noche">Noche</button><button class="date-tab" data-daypart="upcoming">Próximamente</button><button class="date-tab" data-daypart="featured">Destacados</button>
         </div>
         <div class="sport-tabs" id="sport-tabs" aria-label="Filtrar por deporte">
-          <button class="sport-tab active" data-sport="all">Todos</button>
-          <button class="sport-tab" data-sport="football">Fútbol</button>
-          <button class="sport-tab" data-sport="basketball">Baloncesto</button>
-          <button class="sport-tab" data-sport="tennis">Tenis</button>
-          <button class="sport-tab" data-sport="motor">Motor</button>
+          <button class="sport-tab active" data-sport="all">Todos</button><button class="sport-tab" data-sport="football">Fútbol</button><button class="sport-tab" data-sport="basketball">Baloncesto</button><button class="sport-tab" data-sport="tennis">Tenis</button><button class="sport-tab" data-sport="padel">Pádel</button><button class="sport-tab" data-sport="motor">Motor</button>
         </div>
         <div class="source-tabs" id="source-tabs" aria-label="Filtrar por fuente">
-          <button class="source-tab active" data-source="all">Todas las fuentes</button>
-          <button class="source-tab" data-source="cdn">CDN Live TV</button>
-          <button class="source-tab" data-source="futbolenlatv">Futbolenlatv</button>
+          <button class="source-tab active" data-source="all">Todas las fuentes</button><button class="source-tab" data-source="cdn">CDN Live TV</button><button class="source-tab" data-source="futbolenlatv">Futbolenlatv</button>
         </div>
       </div>
       <div id="events-list" class="events-list"><div class="loading">Cargando eventos…</div></div>
@@ -108,8 +72,7 @@
 
     <section id="favorites-view" class="view">
       <div class="section-heading"><div><h2>Tus favoritos</h2><p class="muted">Se guardan en este navegador.</p></div></div>
-      <div id="favorites-grid" class="channel-grid"></div>
-      <div id="favorite-events" class="events-list"></div>
+      <div id="favorites-grid" class="channel-grid"></div><div id="favorite-events" class="events-list"></div>
     </section>
 
     <div id="notice" class="notice" role="status" aria-live="polite"></div>
