@@ -1,353 +1,7 @@
 {
   "data": {
-    "count": 103,
+    "count": 82,
     "events": [
-      {
-        "channels": [
-          "DAZN",
-          "DAZN Baloncesto"
-        ],
-        "competition": "NBA",
-        "competition_key": "nba",
-        "date": "2026-11-06",
-        "event": "Phoenix Suns - Orlando Magic",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-06:03:00:nba:phoenix suns - orlando magic",
-        "sport": "Baloncesto",
-        "time": "03:00"
-      },
-      {
-        "channels": [
-          "Tennis Channel"
-        ],
-        "competition": "WTA Torneo de Hong Kong",
-        "competition_key": "tenis",
-        "date": "2026-11-06",
-        "event": "1/4 de Final - Z. Sonmez - C. Liu",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-06:07:10:wta torneo de hong kong:1 4 de final - z. sonmez - c. liu",
-        "sport": "Tenis",
-        "time": "07:10"
-      },
-      {
-        "channels": [
-          "Tennis Channel"
-        ],
-        "competition": "WTA Torneo de Hong Kong",
-        "competition_key": "tenis",
-        "date": "2026-11-06",
-        "event": "1/4 de Final - S. Cirstea - A. Shubladze",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-06:10:00:wta torneo de hong kong:1 4 de final - s. cirstea - a. shubladze",
-        "sport": "Tenis",
-        "time": "10:00"
-      },
-      {
-        "channels": [
-          "Tennis Channel"
-        ],
-        "competition": "WTA Torneo de Hong Kong",
-        "competition_key": "tenis",
-        "date": "2026-11-06",
-        "event": "1/4 de Final - A. Sasnovich - M. Sakkari",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-06:11:40:wta torneo de hong kong:1 4 de final - a. sasnovich - m. sakkari",
-        "sport": "Tenis",
-        "time": "11:40"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN MotoGP"
-        ],
-        "competition": "MotoGP",
-        "competition_key": "motor",
-        "date": "2026-11-06",
-        "event": "MotoGP - G.P. Catar (Losail) - Libres 1",
-        "featured": false,
-        "icon": "🏆",
-        "id": "ftv:2026-11-06:12:45:motogp:motogp - g.p. catar (losail) - libres 1",
-        "sport": "Motor",
-        "time": "12:45"
-      },
-      {
-        "channels": [
-          "Tennis Channel"
-        ],
-        "competition": "WTA Torneo de Hong Kong",
-        "competition_key": "tenis",
-        "date": "2026-11-06",
-        "event": "1/4 de Final - A. Ruzic - A. Eala",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-06:13:40:wta torneo de hong kong:1 4 de final - a. ruzic - a. eala",
-        "sport": "Tenis",
-        "time": "13:40"
-      },
-      {
-        "channels": [
-          "M+ Deportes 2"
-        ],
-        "competition": "Masters París",
-        "competition_key": "tenis",
-        "date": "2026-11-06",
-        "event": "1/4 de Final - B. Shelton - T. Paul",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-06:14:10:masters paris:1 4 de final - b. shelton - t. paul",
-        "sport": "Tenis",
-        "time": "14:10"
-      },
-      {
-        "channels": [
-          "M+ Vamos 2",
-          "M+ Deportes 3"
-        ],
-        "competition": "Liga Portugal Betclic",
-        "competition_key": "ligaportugal",
-        "date": "2026-11-06",
-        "event": "Campeonato del Mundo - Semifinales - España",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-06:16:00:liga portugal betclic:campeonato del mundo - semifinales - espana",
-        "sport": "Fútbol",
-        "time": "16:00"
-      },
-      {
-        "channels": [
-          "M+ Deportes 2"
-        ],
-        "competition": "Masters París",
-        "competition_key": "tenis",
-        "date": "2026-11-06",
-        "event": "1/4 de Final - L. Van Assche - R. Hijikata",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-06:16:20:masters paris:1 4 de final - l. van assche - r. hijikata",
-        "sport": "Tenis",
-        "time": "16:20"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN F1"
-        ],
-        "competition": "Fórmula 1",
-        "competition_key": "motor",
-        "date": "2026-11-06",
-        "event": "Fórmula 1 - G.P. Brasil (Interlagos) - Libres 1",
-        "featured": false,
-        "icon": "🏆",
-        "id": "ftv:2026-11-06:16:30:formula 1:formula 1 - g.p. brasil (interlagos) - libres 1",
-        "sport": "Motor",
-        "time": "16:30"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN MotoGP"
-        ],
-        "competition": "MotoGP",
-        "competition_key": "motor",
-        "date": "2026-11-06",
-        "event": "MotoGP - G.P. Catar (Losail) - Libres",
-        "featured": false,
-        "icon": "🏆",
-        "id": "ftv:2026-11-06:17:00:motogp:motogp - g.p. catar (losail) - libres",
-        "sport": "Motor",
-        "time": "17:00"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 2"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-06",
-        "event": "Besiktas JK Istanbul - Zalgiris Kaunas",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-06:18:00:euroliga:besiktas jk istanbul - zalgiris kaunas",
-        "sport": "Baloncesto",
-        "time": "18:00"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN F1"
-        ],
-        "competition": "Fórmula 1",
-        "competition_key": "motor",
-        "date": "2026-11-06",
-        "event": "Fórmula 1 - G.P. Brasil (Interlagos) - Libres 2",
-        "featured": false,
-        "icon": "🏆",
-        "id": "ftv:2026-11-06:20:00:formula 1:formula 1 - g.p. brasil (interlagos) - libres 2",
-        "sport": "Motor",
-        "time": "20:00"
-      },
-      {
-        "channels": [
-          "Movistar Plus+",
-          "M+ Deportes 2"
-        ],
-        "competition": "Masters París",
-        "competition_key": "tenis",
-        "date": "2026-11-06",
-        "event": "1/4 de Final - T. Fritz - C. Alcaraz",
-        "featured": true,
-        "icon": "🎾",
-        "id": "ftv:2026-11-06:20:05:masters paris:1 4 de final - t. fritz - c. alcaraz",
-        "sport": "Tenis",
-        "time": "20:05"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-06",
-        "event": "Olympiacos Piraeus - Crvena Zvezda MTS Belgrade",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-06:20:15:euroliga:olympiacos piraeus - crvena zvezda mts belgrade",
-        "sport": "Baloncesto",
-        "time": "20:15"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 2"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-06",
-        "event": "Virtus Bologna - Dubai Basketball",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-06:20:30:euroliga:virtus bologna - dubai basketball",
-        "sport": "Baloncesto",
-        "time": "20:30"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "Bundesliga",
-        "competition_key": "bundesliga",
-        "date": "2026-11-06",
-        "event": "Hamburger SV - Borussia M'gladbach",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-06:20:30:bundesliga:hamburger sv - borussia m'gladbach",
-        "sport": "Fútbol",
-        "time": "20:30"
-      },
-      {
-        "channels": [
-          "M+ Vamos 3"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-06",
-        "event": "BC Partizan Beograd - Maccabi Tel Aviv BC",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-06:20:45:euroliga:bc partizan beograd - maccabi tel aviv bc",
-        "sport": "Baloncesto",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "Serie A",
-        "competition_key": "seriea",
-        "date": "2026-11-06",
-        "event": "Venezia FC - Udinese",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-06:20:45:serie a:venezia fc - udinese",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "Ligue 1",
-        "competition_key": "ligue1",
-        "date": "2026-11-06",
-        "event": "Toulouse - Strasbourg Alsace",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-06:20:45:ligue 1:toulouse - strasbourg alsace",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN LaLiga",
-          "DAZN",
-          "DAZN App Gratis"
-        ],
-        "competition": "LaLiga EA Sports",
-        "competition_key": "laliga",
-        "date": "2026-11-06",
-        "event": "Sevilla FC - Alavés",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-06:21:00:laliga ea sports:sevilla fc - alaves",
-        "sport": "Fútbol",
-        "time": "21:00"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN 1"
-        ],
-        "competition": "Premier League",
-        "competition_key": "premier",
-        "date": "2026-11-06",
-        "event": "Everton - Coventry City",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-06:21:00:premier league:everton - coventry city",
-        "sport": "Fútbol",
-        "time": "21:00"
-      },
-      {
-        "channels": [
-          "M+ Deportes 2"
-        ],
-        "competition": "Masters París",
-        "competition_key": "tenis",
-        "date": "2026-11-06",
-        "event": "1/4 de Final - C. Ruud - N. Borges",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-06:21:35:masters paris:1 4 de final - c. ruud - n. borges",
-        "sport": "Tenis",
-        "time": "21:35"
-      },
-      {
-        "channels": [
-          "FutsalRFEF YouTube"
-        ],
-        "competition": "Liga Portugal Betclic",
-        "competition_key": "ligaportugal",
-        "date": "2026-11-06",
-        "event": "Finalissima - Semifinales - España",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-06:22:30:liga portugal betclic:finalissima - semifinales - espana",
-        "sport": "Fútbol",
-        "time": "22:30"
-      },
       {
         "channels": [
           "Amazon Prime Video"
@@ -465,7 +119,6 @@
       },
       {
         "channels": [
-          "Movistar Plus+",
           "M+ Deportes 2"
         ],
         "competition": "Masters París",
@@ -584,17 +237,17 @@
         "competition": "Liga Portugal Betclic",
         "competition_key": "ligaportugal",
         "date": "2026-11-07",
-        "event": "Campeonato del Mundo - 3er Puesto - TBD",
+        "event": "Campeonato del Mundo - 3er Puesto - Italia",
         "featured": false,
         "icon": "⚽",
-        "id": "ftv:2026-11-07:16:00:liga portugal betclic:campeonato del mundo - 3er puesto - tbd",
+        "id": "ftv:2026-11-07:16:00:liga portugal betclic:campeonato del mundo - 3er puesto - italia",
         "sport": "Fútbol",
         "time": "16:00"
       },
       {
         "channels": [
           "DAZN",
-          "M+ Vamos 3",
+          "Movistar Plus+",
           "DAZN 2"
         ],
         "competition": "Liga F",
@@ -668,15 +321,16 @@
       },
       {
         "channels": [
+          "M+ Vamos",
           "M+ Deportes 2"
         ],
         "competition": "Masters París",
         "competition_key": "tenis",
         "date": "2026-11-07",
-        "event": "Semifinal 2",
-        "featured": false,
+        "event": "Semifinal 2 - C. Ruud - C. Alcaraz",
+        "featured": true,
         "icon": "🎾",
-        "id": "ftv:2026-11-07:17:00:masters paris:semifinal 2",
+        "id": "ftv:2026-11-07:17:00:masters paris:semifinal 2 - c. ruud - c. alcaraz",
         "sport": "Tenis",
         "time": "17:00"
       },
@@ -1490,6 +1144,49 @@
         "featured": false,
         "icon": "🎾",
         "id": "ftv:2026-11-08:22:30:wta finals:round robin - c. gauff - j. pegula",
+        "sport": "Tenis",
+        "time": "22:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto 3"
+        ],
+        "competition": "NBA",
+        "competition_key": "nba",
+        "date": "2026-11-09",
+        "event": "Detroit Pistons - Los Angeles Lakers",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-09:00:00:nba:detroit pistons - los angeles lakers",
+        "sport": "Baloncesto",
+        "time": "00:00"
+      },
+      {
+        "channels": [
+          "Tennis Channel"
+        ],
+        "competition": "WTA Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-09",
+        "event": "Round Robin - A. Sabalenka - K. Muchova",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-09:21:00:wta finals:round robin - a. sabalenka - k. muchova",
+        "sport": "Tenis",
+        "time": "21:00"
+      },
+      {
+        "channels": [
+          "Tennis Channel"
+        ],
+        "competition": "WTA Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-09",
+        "event": "Round Robin - M. Andreeva - E. Svitolina",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-09:22:30:wta finals:round robin - m. andreeva - e. svitolina",
         "sport": "Tenis",
         "time": "22:30"
       }
