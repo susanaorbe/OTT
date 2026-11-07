@@ -11,3 +11,6 @@
 .hero-side{display:flex;align-items:flex-end;justify-items:end}
 @media(max-width:1050px){.topbar{gap:18px}.topbar .topbar-time-info{gap:6px 10px}.topbar .topbar-time-info span{gap:4px}}
 @media(max-width:760px){.topbar{gap:10px}.topbar .topbar-time-info{order:1;flex:1 1 auto;margin-left:0;justify-content:flex-end;white-space:normal;font-size:10px}.topbar .topbar-time-info span{display:flex;gap:4px}.topbar .refresh-btn{order:2;margin-left:0}.topbar .main-nav{order:3}.hero-side{margin-top:20px}.hero-stats{margin-top:0}}
+
+/* v0.7.3: último evento iniciado por fuente, estimado por hora de comienzo. */
+.event-card.current-event-highlight{border-color:#6689c5;box-shadow:inset 3px 0 0 #77a7ff;background:linear-gradient(90deg,#77a7ff12,var(--panel) 24%)}

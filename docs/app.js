@@ -1,7 +1,7 @@
 const API = { channels: './data/channels.json', events: './data/events_cdn.json', futbolenlatv: './data/events_futbolenlatv.json', workflowRuns: 'https://api.github.com/repos/susanaorbe/OTT/actions/workflows/update_mi_tv.yml/runs?per_page=10' };
 const FAVORITES_KEY = 'mi-tv-favorites-v1';
 const HIDDEN_CHANNELS_KEY = 'mi-tv-hidden-channels-v1';
-const state = { view: 'sports', channels: [], events: [], sport: 'all', source: 'all', daypart: 'all', competition: 'all', channelLetter: 'all', channelMode: 'all', favorites: loadFavorites(), hiddenChannels: loadHiddenChannels(), hiddenSelection: new Set(), sourceErrors: [], lastUpdated: null };
+const state = { view: 'sports', channels: [], events: [], sport: 'all', source: 'futbolenlatv', daypart: 'all', competition: 'all', channelLetter: 'all', channelMode: 'all', favorites: loadFavorites(), hiddenChannels: loadHiddenChannels(), hiddenSelection: new Set(), sourceErrors: [], lastUpdated: null };
 let eventRefreshTimer = null;
 const EVENT_REFRESH_DELAY_MS = 61000;
 const $ = (selector) => document.querySelector(selector);
@@ -25,7 +25,12 @@ function normalizeChannelMatchName(value) {
 const AGENDA_CHANNEL_ALIASES = new Map([
   ['tennis channel', 'Tennis Channel HD US'],
   ['dazn motogp', 'Sport TV 4 HD PT'],
-  ['m* laliga', 'LaLiga TV FHD UK']
+  ['m* laliga', 'LaLiga TV FHD UK'],
+  ['m+ laliga', 'LaLiga TV FHD UK'],
+  ['dazn laliga', 'DAZN La Liga HD'],
+  ['teledeporte', 'Teledeporte FHD'],
+  ['real madrid tv', 'Real Madrid TV. ES'],
+  ['m+ deportes', 'Movistar Deportes 1 FHD']
 ]);
 function findCatalogChannel(channelValue) {
   // Si el evento CDN incluye el identificador, es la correspondencia más fiable.
@@ -91,8 +96,7 @@ function updateFavoriteCount() {
   const counter = $('#fav-count');
   if (!counter) return;
   const channelCount = state.channels.filter(ch => state.favorites.has(`c:${keyOf(ch)}`) && !state.hiddenChannels.has(keyOf(ch))).length;
-  const eventCount = state.events.filter(ev => state.favorites.has(`e:${eventId(ev)}`)).length;
-  counter.textContent = String(channelCount + eventCount);
+  counter.textContent = String(channelCount);
 }
 function eventId(ev) {
   const date = ev.date || dateKeyFromValue(ev.start || ev.time) || '';
@@ -103,19 +107,18 @@ function eventId(ev) {
 
 function showNotice(message) { const n=$('#notice'); n.textContent=message; n.classList.add('show'); clearTimeout(showNotice.timer); showNotice.timer=setTimeout(()=>n.classList.remove('show'),3200); }
 function setView(view) {
-  state.view = ['channels', 'favorites'].includes(view) ? view : 'sports';
+  state.view = view === 'channels' ? 'channels' : 'sports';
   $$('.nav-btn').forEach(b => b.classList.toggle('active', b.dataset.view === state.view));
   $$('.view').forEach(v => v.classList.toggle('active', v.id === `${state.view}-view`));
   const titles = {
     channels: ['Canales de televisión', 'Catálogo completo de CDN Live TV. Organiza tus favoritos y oculta los canales que no quieras ver.'],
-    sports: ['Agenda deportiva', 'Eventos de CDN Live TV y Futbolenlatv con sus respectivos canales y enlaces.'],
-    favorites: ['Tus favoritos', 'Canales y eventos que has marcado como favoritos.']
+    sports: ['Agenda deportiva', 'Eventos de CDN Live TV y Futbolenlatv con sus respectivos canales y enlaces.']
   };
   $('#page-title').textContent = titles[state.view][0];
   $('#page-subtitle').textContent = titles[state.view][1];
-  $('#competition-filter').style.display = state.view === 'sports' || state.view === 'favorites' ? '' : 'none';
+  $('#competition-filter').style.display = state.view === 'sports' ? '' : 'none';
   $('#channel-letter-filter').hidden = state.view !== 'channels';
-  $('#search-input').placeholder = state.view === 'sports' ? 'Buscar evento, competición o canal…' : state.view === 'favorites' ? 'Buscar en tus favoritos…' : 'Buscar canal…';
+  $('#search-input').placeholder = state.view === 'sports' ? 'Buscar evento, competición o canal…' : 'Buscar canal…';
   renderAll();
 }
 
@@ -257,9 +260,8 @@ function renderChannelModeControls() {
   } else if (bulk) bulk.hidden = true;
 }
 function renderChannels() {
-  const channelBase = state.view === 'favorites' ? state.channels.filter(ch => state.favorites.has(`c:${keyOf(ch)}`) && !state.hiddenChannels.has(keyOf(ch))) : state.channels;
-  const filtered = filteredChannels(channelBase);
-  const target = state.view === 'favorites' ? $('#favorites-grid') : $('#channels-grid');
+  const filtered = filteredChannels(state.channels);
+  const target = $('#channels-grid');
   if (!target) return;
   target.innerHTML = filtered.length ? filtered.map(channelCard).join('') : `<div class="empty-state">${state.channelMode === 'hidden' ? 'No tienes canales ocultos.' : state.channelMode === 'favorites' ? 'No tienes canales favoritos visibles.' : 'No hay canales que coincidan con la búsqueda.'}</div>`;
   $('#channels-caption').textContent = `${filtered.length} canales ${state.channelMode === 'hidden' ? 'ocultos' : state.channelMode === 'favorites' ? 'favoritos' : 'visibles'} · ${state.channels.length} en el catálogo`;
@@ -308,19 +310,20 @@ function eventSortKey(ev) {
   return `${date||'9999-99-99'}T${time.match(/\d{1,2}:\d{2}/)?.[0]||'99:99'}`;
 }
 function eventTimeLabel(ev) { const raw=String(ev.start||ev.time||''); const match=raw.match(/\d{1,2}:\d{2}/); if(match)return match[0]; if(/^\d{10,13}$/.test(raw)){const d=new Date(Number(raw.length===10?raw+'000':raw));if(!Number.isNaN(d.getTime()))return new Intl.DateTimeFormat('es-ES',{timeZone:'Europe/Madrid',hour:'2-digit',minute:'2-digit',hour12:false}).format(d);} return raw; }
-function eventCard(ev) {
+function eventCard(ev, highlightIds = new Set()) {
   const status = String(ev.status || '').toLowerCase();
   const channels = eventChannelsForCurrentSource(ev);
   const title = eventTitle(ev);
   const when = [eventDateLabel(ev), eventTimeLabel(ev)].filter(Boolean).join(' · ') || 'Horario no indicado';
   const chips = channels.map(renderAgendaChannel).join('');
-  const saved = state.favorites.has(`e:${eventId(ev)}`);
   const statusLabel = status === 'live' ? 'EN DIRECTO'
     : status === 'finished' ? 'FINALIZADO'
     : status === 'upcoming' || status === 'ns' ? 'PRÓXIMO'
     : status.toUpperCase() || 'ESTADO NO INDICADO';
   const sportLabel = ev.icon ? `${ev.icon} ${ev.sport}` : (ev.sport === 'Soccer' ? '⚽ Fútbol' : ev.sport || 'Deporte no indicado');
-  return `<article class="event-card"><div class="event-main"><div class="event-meta"><span>${esc(sportLabel)}</span><span>·</span><span>${esc(ev.tournament || ev.competition || ev.league || 'Competición no indicada')}</span>${ev.country ? `<span>·</span><span>${esc(ev.country)}</span>` : ''}</div><div class="event-title">${esc(title)}</div><div class="event-sub">${esc(when)}</div>${chips ? `<div class="event-channels">${chips}</div>` : '<div class="event-sub">No hay canales asociados a este evento.</div>'}</div><div class="event-side"><span class="event-status ${status === 'live' ? 'live' : ''}">${esc(statusLabel)}</span><button class="icon-btn ${saved ? 'saved' : ''}" data-fav-event="${esc(eventId(ev))}" aria-label="${saved ? 'Quitar' : 'Añadir'} favorito">${saved ? '★' : '☆'}</button></div></article>`;
+  const featuredTag = ev.featured === true ? '<span class="featured-tag">DESTACADO</span>' : '';
+  const currentClass = highlightIds.has(eventId(ev)) ? ' current-event-highlight' : '';
+  return `<article class="event-card${currentClass}"><div class="event-main"><div class="event-meta"><span>${esc(sportLabel)}</span><span>·</span><span>${esc(ev.tournament || ev.competition || ev.league || 'Competición no indicada')}</span>${ev.country ? `<span>·</span><span>${esc(ev.country)}</span>` : ''}</div><div class="event-title">${esc(title)}</div><div class="event-sub">${esc(when)}</div>${featuredTag}${chips ? `<div class="event-channels">${chips}</div>` : '<div class="event-sub">No hay canales asociados a este evento.</div>'}</div><div class="event-side"><span class="event-status ${status === 'live' ? 'live' : ''}">${esc(statusLabel)}</span></div></article>`;
 }
 
 function eventSearchText(ev) {
@@ -363,13 +366,11 @@ function filteredEvents(list) {
   });
 }
 function renderEvents() {
-  const favoriteOnly = state.view === 'favorites';
-  const list = favoriteOnly ? state.events.filter(ev => state.favorites.has(`e:${eventId(ev)}`)) : state.events;
-  const filtered = filteredEvents(list).sort((a, b) => eventSortKey(a).localeCompare(eventSortKey(b)));
-  const target = favoriteOnly ? $('#favorite-events') : $('#events-list');
+  const filtered = filteredEvents(state.events).sort((a, b) => eventSortKey(a).localeCompare(eventSortKey(b)));
+  const target = $('#events-list');
   if (!target) return;
-  target.innerHTML = filtered.length ? filtered.map(eventCard).join('') : '<div class="empty-state">No hay eventos para mostrar con estos filtros.</div>';
-  $$('[data-fav-event]').forEach(btn => btn.addEventListener('click', () => toggleFavorite(`e:${btn.dataset.favEvent}`)));
+  const highlightIds = latestStartedEventIds();
+  target.innerHTML = filtered.length ? filtered.map(ev => eventCard(ev, highlightIds)).join('') : '<div class="empty-state">No hay eventos para mostrar con estos filtros.</div>';
   $$('[data-agenda-player-url]').forEach(link => link.addEventListener('click', event => {
     event.preventDefault();
     openPlayer({ name: link.dataset.agendaPlayerName || 'Canal CDN Live TV', player_url: link.dataset.agendaPlayerUrl });
@@ -427,7 +428,6 @@ function renderAll() {
   $('#event-total').textContent = state.events.length || '0';
   if (state.view === 'channels') renderChannels();
   if (state.view === 'sports') renderEvents();
-  if (state.view === 'favorites') { renderChannels(); renderEvents(); }
 }
 
 function madridClockParts(date = new Date()) {
@@ -486,6 +486,30 @@ function madridLocalTimestamp(dateValue, timeValue) {
   const offsetMinutes = offsetMatch ? (offsetMatch[1] === '-' ? -1 : 1) * (Number(offsetMatch[2]) * 60 + Number(offsetMatch[3])) : 0;
   return utcGuess - offsetMinutes * 60000;
 }
+function eventStartTimestamp(ev) {
+  const date = dateKeyFromValue(ev.date) || dateKeyFromValue(ev.start || ev.time) || ev.date || '';
+  const time = eventTimeLabel(ev).match(/\d{1,2}:\d{2}/)?.[0] || '';
+  return madridLocalTimestamp(date, time);
+}
+function latestStartedEventIds(now = Date.now()) {
+  const includeCdn = state.source !== 'futbolenlatv';
+  const includeFutbolenlatv = state.source !== 'cdn';
+  const latest = { cdn: -Infinity, futbolenlatv: -Infinity };
+  for (const ev of state.events) {
+    const start = eventStartTimestamp(ev);
+    if (!Number.isFinite(start) || start > now) continue;
+    if (includeCdn && (ev.source === 'cdn' || ev.source === 'both')) latest.cdn = Math.max(latest.cdn, start);
+    if (includeFutbolenlatv && (ev.source === 'futbolenlatv' || ev.source === 'both')) latest.futbolenlatv = Math.max(latest.futbolenlatv, start);
+  }
+  const ids = new Set();
+  for (const ev of state.events) {
+    const start = eventStartTimestamp(ev);
+    if (!Number.isFinite(start) || start > now) continue;
+    if (includeCdn && (ev.source === 'cdn' || ev.source === 'both') && start === latest.cdn) ids.add(eventId(ev));
+    if (includeFutbolenlatv && (ev.source === 'futbolenlatv' || ev.source === 'both') && start === latest.futbolenlatv) ids.add(eventId(ev));
+  }
+  return ids;
+}
 function scheduleEventAutoRefresh() {
   if (eventRefreshTimer) clearTimeout(eventRefreshTimer);
   eventRefreshTimer = null;
@@ -522,6 +546,12 @@ function normalizeFutbolenlatv(payload) {
     cdnChannels: [], source: 'futbolenlatv', featured: ev.featured === true
   }));
 }
+function isPadelEvent(ev) {
+  const values = [ev?.sport, ev?.category, ev?.discipline, ev?.tournament, ev?.competition, ev?.league, ev?.eventTitle, ev?.event, ev?.title];
+  return values.some(value => String(value || '').toLocaleLowerCase('es')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .split(/[^a-z0-9]+/).includes('padel'));
+}
 function eventMergeKey(ev) {
   const date = ev.date || dateKeyFromValue(ev.start || ev.time) || '';
   const time = eventTimeLabel(ev).match(/\d{1,2}:\d{2}/)?.[0] || '';
@@ -530,6 +560,8 @@ function eventMergeKey(ev) {
   return date && title ? `${date}|${time}|${title}|${competition}` : '';
 }
 function combineEventSources(cdnEvents, ftvEvents) {
+  cdnEvents = cdnEvents.filter(ev => !isPadelEvent(ev));
+  ftvEvents = ftvEvents.filter(ev => !isPadelEvent(ev));
   const result = [];
   const byKey = new Map();
   for (const ev of cdnEvents) {
@@ -611,7 +643,6 @@ async function loadData() {
 }
 
 $$('.nav-btn').forEach(b=>b.addEventListener('click',()=>setView(b.dataset.view)));
-$$('[data-fav-event]').forEach(btn=>btn.addEventListener('click',()=>toggleFavorite(`e:${btn.dataset.favEvent}`)));
 $('#refresh-btn').addEventListener('click',loadData);
 $('#search-input').addEventListener('input',renderAll);
 $$('[data-letter]').forEach(button=>button.addEventListener('click',()=>{
@@ -648,4 +679,5 @@ activateCurrentDaypart();
 setView('sports');
 updateClock();
 setInterval(updateClock, 1000);
+setInterval(() => { if (state.view === 'sports' && !$('#player-dialog')?.open) renderEvents(); }, 30000);
 loadData();

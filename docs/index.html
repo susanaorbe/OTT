@@ -13,7 +13,6 @@
     <nav class="main-nav" aria-label="Secciones">
       <button class="nav-btn active" data-view="sports">Agenda</button>
       <button class="nav-btn" data-view="channels">Canales</button>
-      <button class="nav-btn" data-view="favorites">Favoritos <span id="fav-count" class="count">0</span></button>
     </nav>
     <div class="time-info topbar-time-info" aria-live="off">
       <span>Hora actual <strong id="current-time">--:--:--</strong></span>
@@ -61,18 +60,13 @@
           <button class="date-tab" data-daypart="madrugada">Madrugada</button><button class="date-tab" data-daypart="manana">Mañana</button><button class="date-tab" data-daypart="tarde">Tarde</button><button class="date-tab" data-daypart="noche">Noche</button><button class="date-tab" data-daypart="upcoming">Próximamente</button><button class="date-tab" data-daypart="featured">Destacados</button>
         </div>
         <div class="sport-tabs" id="sport-tabs" aria-label="Filtrar por deporte">
-          <button class="sport-tab active" data-sport="all">Todos</button><button class="sport-tab" data-sport="football">Fútbol</button><button class="sport-tab" data-sport="basketball">Baloncesto</button><button class="sport-tab" data-sport="tennis">Tenis</button><button class="sport-tab" data-sport="padel">Pádel</button><button class="sport-tab" data-sport="motor">Motor</button>
+          <button class="sport-tab active" data-sport="all">Todos</button><button class="sport-tab" data-sport="football">Fútbol</button><button class="sport-tab" data-sport="basketball">Baloncesto</button><button class="sport-tab" data-sport="tennis">Tenis</button><button class="sport-tab" data-sport="motor">Motor</button>
         </div>
         <div class="source-tabs" id="source-tabs" aria-label="Filtrar por fuente">
-          <button class="source-tab active" data-source="all">Todas las fuentes</button><button class="source-tab" data-source="cdn">CDN Live TV</button><button class="source-tab" data-source="futbolenlatv">Futbolenlatv</button>
+          <button class="source-tab active" data-source="futbolenlatv">Futbolenlatv</button><button class="source-tab" data-source="cdn">CDN Live TV</button><button class="source-tab" data-source="all">Todas las fuentes</button>
         </div>
       </div>
       <div id="events-list" class="events-list"><div class="loading">Cargando eventos…</div></div>
-    </section>
-
-    <section id="favorites-view" class="view">
-      <div class="section-heading"><div><h2>Tus favoritos</h2><p class="muted">Se guardan en este navegador.</p></div></div>
-      <div id="favorites-grid" class="channel-grid"></div><div id="favorite-events" class="events-list"></div>
     </section>
 
     <div id="notice" class="notice" role="status" aria-live="polite"></div>
