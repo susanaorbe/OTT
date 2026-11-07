@@ -3,7 +3,7 @@
     "catalog_check": {
       "channels_with_official_player_url": 405,
       "channels_without_valid_player_url": 0,
-      "checked_at": "2026-11-07T10:24:21.909791+00:00",
+      "checked_at": "2026-11-07T10:25:30.006445+00:00",
       "note": "Se conservan todos los canales con nombre, independientemente de su estado. La URL oficial se valida por formato; no se verifica la reproducción del vídeo.",
       "source": "CDN Live TV API complete channel catalog",
       "status_filter_applied": false,
@@ -160,7 +160,7 @@
         "playback_allowed": true,
         "player_check": "official_player_url_format",
         "player_url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%202%20FHD%20TR&code=&user=cdnlivetv&plan=free",
-        "status": "offline",
+        "status": "online",
         "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%202%20FHD%20TR&code=&user=cdnlivetv&plan=free",
         "viewers": 0
       },
@@ -204,7 +204,7 @@
         "playback_allowed": true,
         "player_check": "official_player_url_format",
         "player_url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%204%20FHD%20TR&code=&user=cdnlivetv&plan=free",
-        "status": "offline",
+        "status": "online",
         "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%204%20FHD%20TR&code=&user=cdnlivetv&plan=free",
         "viewers": 0
       },
@@ -281,7 +281,7 @@
         "playback_allowed": true,
         "player_check": "official_player_url_format",
         "player_url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20Sports%20Max%208%20HD%20FR&code=&user=cdnlivetv&plan=free",
-        "status": "offline",
+        "status": "online",
         "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20Sports%20Max%208%20HD%20FR&code=&user=cdnlivetv&plan=free",
         "viewers": 0
       },
@@ -853,7 +853,7 @@
         "playback_allowed": true,
         "player_check": "official_player_url_format",
         "player_url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Cytavision%20Sports%204%20HD%20CY&code=&user=cdnlivetv&plan=free",
-        "status": "offline",
+        "status": "online",
         "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Cytavision%20Sports%204%20HD%20CY&code=&user=cdnlivetv&plan=free",
         "viewers": 0
       },
@@ -2360,7 +2360,7 @@
         "playback_allowed": true,
         "player_check": "official_player_url_format",
         "player_url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Nova%20Sport%20Start%20HD%20GR&code=&user=cdnlivetv&plan=free",
-        "status": "offline",
+        "status": "online",
         "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Nova%20Sport%20Start%20HD%20GR&code=&user=cdnlivetv&plan=free",
         "viewers": 0
       },
@@ -4263,7 +4263,7 @@
         "playback_allowed": true,
         "player_check": "official_player_url_format",
         "player_url": "https://cdnlivetv.tv/api/v1/channels/player/?name=VIP%20beIN%20SPORTS%202%20FHD%20KSA&code=&user=cdnlivetv&plan=free",
-        "status": "offline",
+        "status": "online",
         "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=VIP%20beIN%20SPORTS%202%20FHD%20KSA&code=&user=cdnlivetv&plan=free",
         "viewers": 0
       },
