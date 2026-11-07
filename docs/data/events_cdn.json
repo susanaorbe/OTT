@@ -2759,10 +2759,10 @@
             },
             {
               "channel_code": "gb",
-              "channel_name": "TNT Sports 2 FHD UK",
-              "id": "6add40ae2d4a99e07363c892",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-2-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%202%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "channel_name": "TNT Sports 2 HD UK",
+              "id": "6add8cd32d4a99e07393f4c9",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-2-hd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%202%20HD%20UK&code=gb&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3163,10 +3163,10 @@
             },
             {
               "channel_code": "gb",
-              "channel_name": "TNT Sports 2 FHD UK",
-              "id": "6add40ae2d4a99e07363c892",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-2-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%202%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "channel_name": "TNT Sports 2 HD UK",
+              "id": "6add8cd32d4a99e07393f4c9",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-2-hd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%202%20HD%20UK&code=gb&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -14340,6 +14340,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Sky Sports Football HD UK",
+              "id": "6add40ae2d4a99e07363c88b",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Football%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Sky Sports Football FHD UK",
               "id": "6add40ae2d4a99e07363c88c",
               "image": "",
@@ -19720,7 +19728,7 @@
       ],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1794047130,
+      "timestamp": 1794047754,
       "total_events": 843,
       "total_events_badminton": 5,
       "total_events_basketball": 135,
