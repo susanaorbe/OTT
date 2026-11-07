@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Actualiza los JSON estáticos que consume Mi TV en GitHub Pages.
-
-Cada fuente se actualiza de forma independiente. Si una fuente falla, se
-conserva el último JSON válido para no borrar datos por un fallo temporal.
-"""
+"""Actualiza los JSON estáticos de Mi TV sin filtrar el catálogo ni la agenda CDN."""
 from __future__ import annotations
 
 import json
@@ -32,14 +28,6 @@ def write_if_changed(path: Path, payload: Any) -> bool:
     return True
 
 
-def load_previous(path: Path, fallback: dict) -> dict:
-    try:
-        value = json.loads(path.read_text(encoding="utf-8"))
-        return value if isinstance(value, dict) else fallback
-    except (OSError, json.JSONDecodeError):
-        return fallback
-
-
 def main() -> int:
     from server import fetch_json
     from agenda_futbolenlatv import get_agenda_payload
@@ -49,7 +37,6 @@ def main() -> int:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     failures: list[str] = []
     changed = False
-
     sources = (
         ("channels.json", "channels", {"channels": []}),
         ("events_cdn.json", "events/sports", {}),
@@ -61,29 +48,26 @@ def main() -> int:
             if not isinstance(data, dict):
                 raise ValueError("la API no devolvió un objeto JSON")
             if filename == "events_cdn.json":
-                data, filter_stats = filter_cdn_sports_payload(data)
-                print(
-                    "Eventos CDN filtrados con las reglas de la agenda: "
-                    f"{filter_stats['total_kept']} conservados, "
-                    f"{filter_stats['total_removed']} descartados."
-                )
-            if filename == "channels.json":
+                data, stats = filter_cdn_sports_payload(data)
+                print(f"Agenda CDN completa: {stats['total_kept']} eventos conservados; 0 descartados.")
+            elif filename == "channels.json":
                 data = filter_playable_channels(data)
+                check = data.get("catalog_check", {})
                 print(
-                    "Catálogo: "
-                    f"{data['catalog_check']['playable_channels']} canales online/live "
-                    "con URL oficial válida; "
-                    f"{data['catalog_check']['excluded_offline']} offline y "
-                    f"{data['catalog_check']['excluded_invalid_player_url']} con URL no válida descartados."
+                    f"Catálogo CDN completo: {check.get('total_channels', len(data.get('channels', [])))} canales; "
+                    f"{check.get('channels_with_official_player_url', 0)} con reproductor oficial y "
+                    f"{check.get('channels_without_valid_player_url', 0)} sin URL oficial válida."
                 )
             changed |= write_if_changed(path, {"ok": True, "data": data})
-        except Exception as exc:  # una fuente no debe impedir actualizar las demás
+        except Exception as exc:
             message = f"CDN Live TV ({endpoint}): {exc}"
             failures.append(message)
             print(f"AVISO: {message}", file=sys.stderr)
             if not path.exists():
-                write_if_changed(path, {"ok": False, "error": "Todavía no hay datos disponibles." , "data": empty_data})
+                write_if_changed(path, {"ok": False, "error": "Todavía no hay datos disponibles.", "data": empty_data})
 
+    # Se sigue actualizando el JSON de Futbolenlatv para no tocar ni romper
+    # el proyecto de agenda personalizada; Mi TV ya no lo consulta.
     ftv_path = DATA_DIR / "events_futbolenlatv.json"
     try:
         data = get_agenda_payload()
@@ -97,14 +81,9 @@ def main() -> int:
         if not ftv_path.exists():
             write_if_changed(ftv_path, {"ok": False, "error": "Todavía no hay datos disponibles.", "data": {"events": []}})
 
-    # La disponibilidad de reproducción se incorpora al propio catálogo filtrado.
-    # playback.json se conserva por compatibilidad con instalaciones anteriores,
-    # pero ya no decide qué canales se muestran.
-
     print(f"\nActualización terminada. Cambios: {'sí' if changed else 'no'}.")
     if failures:
         print(f"Fuentes con errores: {len(failures)}. Se conservan los últimos datos válidos cuando existen.")
-        # Fallos parciales no hacen fallar el workflow: las otras fuentes siguen actualizándose.
     return 0
 
 

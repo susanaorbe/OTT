@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
-"""Filtra el catálogo CDN Live TV por estado y URL oficial de reproductor.
+"""Prepara el catálogo completo de canales de CDN Live TV.
 
-La API es la fuente de disponibilidad: se conservan los canales marcados como
-online/live cuya URL pertenece al reproductor oficial. No se hace una petición
-HTTP desde GitHub Actions para decidir si un canal aparece, porque esa prueba
-puede fallar por restricciones de red aunque el canal siga online.
+No se filtra por país, estado, actividad ni emisión. Cada entrada con nombre
+se conserva. Solo se marca como reproducible si contiene la URL HTTPS oficial
+del reproductor; no se extraen streams ni se eluden restricciones.
 """
 from __future__ import annotations
 
-from pathlib import Path
+from datetime import datetime, timezone
 from typing import Any
 from urllib.parse import parse_qs, urlparse
-from datetime import datetime, timezone
 
 ALLOWED_PLAYER_HOSTS = {"cdnlivetv.tv", "www.cdnlivetv.tv"}
 PLAYER_PATH = "/api/v1/channels/player/"
@@ -24,7 +22,7 @@ def channel_key(channel: dict[str, Any]) -> str:
 
 
 def valid_player_url(value: Any) -> bool:
-    """Valida el reproductor oficial; `code=` vacío es válido en esta API."""
+    """Valida únicamente el enlace público al reproductor oficial de CDN."""
     if not isinstance(value, str) or not value.strip():
         return False
     try:
@@ -50,55 +48,69 @@ def valid_player_url(value: Any) -> bool:
 
 
 def filter_playable_channels(
-    payload: dict[str, Any], cache_path: Path | None = None
+    payload: dict[str, Any], cache_path: Any = None
 ) -> dict[str, Any]:
-    """Devuelve canales online/live con URL oficial válida, sin sondeo HTTP.
-
-    `cache_path` se conserva como argumento opcional por compatibilidad con
-    versiones anteriores; ya no se usa para decidir la visibilidad del canal.
-    """
+    """Compatibilidad con el actualizador: devuelve todos los canales del catálogo."""
+    if not isinstance(payload, dict):
+        raise ValueError("La respuesta de CDN Live TV no es un objeto JSON")
     raw = payload.get("channels", [])
     if not isinstance(raw, list):
         raw = []
 
-    playable: list[dict[str, Any]] = []
-    excluded_offline = 0
-    excluded_url = 0
-
+    channels: list[dict[str, Any]] = []
+    playable = 0
+    without_player = 0
     for channel in raw:
-        if not isinstance(channel, dict) or not str(channel.get("name") or "").strip():
-            excluded_url += 1
+        if not isinstance(channel, dict):
             continue
-        status = str(channel.get("status") or "").strip().casefold()
-        if status not in {"online", "live"}:
-            excluded_offline += 1
+        channel_name = str(channel.get("name") or "").strip()
+        if not channel_name:
             continue
-        url = channel.get("url")
-        if not valid_player_url(url):
-            excluded_url += 1
+        # Se respetan las clasificaciones explícitas de contenido restringido
+        # que pudiera proporcionar la API; no se infieren por el nombre.
+        categories = {
+            str(channel.get(key) or "").strip().casefold()
+            for key in ("category", "genre", "content_category")
+        }
+        restricted_categories = {
+            "adult", "age-restricted", "gambling", "betting", "casino",
+            "weapons", "firearms", "drugs", "intoxicants", "controlled-substances",
+        }
+        if (
+            channel.get("age_restricted") is True
+            or channel.get("adult_content") is True
+            or channel.get("restricted_content") is True
+            or categories.intersection(restricted_categories)
+        ):
             continue
-
         item = dict(channel)
-        item["player_url"] = url.strip()
-        item["playback_allowed"] = True
-        item["player_check"] = "api_status_online_official_url"
-        playable.append(item)
+        official_url = item.get("url") or item.get("player_url")
+        if valid_player_url(official_url):
+            item["player_url"] = str(official_url).strip()
+            item["playback_allowed"] = True
+            item["player_check"] = "official_player_url_format"
+            playable += 1
+        else:
+            # El canal sigue en el catálogo, pero no se convierte en un enlace inseguro.
+            item.pop("player_url", None)
+            item["playback_allowed"] = False
+            item["player_check"] = "no_valid_official_player_url"
+            without_player += 1
+        channels.append(item)
 
-    playable.sort(key=lambda item: str(item.get("name") or "").casefold())
+    channels.sort(key=lambda item: str(item.get("name") or "").casefold())
     checked_at = datetime.now(timezone.utc).isoformat()
     return {
-        "total_channels": len(playable),
-        "channels": playable,
+        **{key: value for key, value in payload.items() if key not in {"channels", "total_channels", "catalog_check"}},
+        "total_channels": len(channels),
+        "channels": channels,
         "catalog_check": {
-            "source": "CDN Live TV API status and official player URL",
-            "online_candidates": len(playable),
-            "playable_channels": len(playable),
-            "excluded_offline": excluded_offline,
-            "excluded_invalid_player_url": excluded_url,
+            "source": "CDN Live TV API complete channel catalog",
+            "total_channels": len(channels),
+            "channels_with_official_player_url": playable,
+            "channels_without_valid_player_url": without_player,
+            "status_filter_applied": False,
             "checked_at": checked_at,
-            "note": (
-                "Se incluyen los canales que la API marca online/live y que tienen "
-                "una URL oficial válida. No se verifica la reproducción del vídeo."
-            ),
+            "note": "Se conservan todos los canales con nombre, independientemente de su estado. La URL oficial se valida por formato; no se verifica la reproducción del vídeo.",
         },
     }
