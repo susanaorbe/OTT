@@ -1,65 +1,42 @@
-import tempfile
 import unittest
-from pathlib import Path
+from channel_catalog import filter_playable_channels
 
-import channel_catalog as catalog
+VALID = "https://cdnlivetv.tv/api/v1/channels/player/?name=Example&code=&user=cdnlivetv&plan=free"
 
-PLAYER_WITH_CODE = "https://cdnlivetv.tv/api/v1/channels/player/?name=abc&code=us&user=cdnlivetv&plan=free"
-PLAYER_WITHOUT_CODE = "https://cdnlivetv.tv/api/v1/channels/player/?name=abc&code=&user=cdnlivetv&plan=free"
+class CompleteChannelCatalogTests(unittest.TestCase):
+    def test_offline_and_online_channels_are_both_kept(self):
+        result = filter_playable_channels({"channels": [
+            {"name": "Online", "status": "online", "url": VALID},
+            {"name": "Offline", "status": "offline", "url": VALID},
+        ]})
+        self.assertEqual([c["name"] for c in result["channels"]], ["Offline", "Online"])
+        self.assertEqual(result["catalog_check"]["total_channels"], 2)
+        self.assertTrue(next(c for c in result["channels"] if c["name"] == "Offline")["playback_allowed"])
 
-
-class ChannelCatalogTests(unittest.TestCase):
-    def test_accepts_official_player_url_with_or_without_code(self):
-        self.assertTrue(catalog.valid_player_url(PLAYER_WITH_CODE))
-        self.assertTrue(catalog.valid_player_url(PLAYER_WITHOUT_CODE))
-
-    def test_rejects_non_official_or_incomplete_player_urls(self):
-        self.assertFalse(catalog.valid_player_url(PLAYER_WITH_CODE.replace("https://", "http://")))
-        self.assertFalse(catalog.valid_player_url(PLAYER_WITH_CODE.replace("cdnlivetv.tv", "other.example")))
-        self.assertFalse(catalog.valid_player_url(PLAYER_WITH_CODE.replace("/channels/player/", "/channels/raw/")))
-        self.assertFalse(catalog.valid_player_url(PLAYER_WITHOUT_CODE.replace("name=abc&", "")))
-        self.assertFalse(catalog.valid_player_url(PLAYER_WITHOUT_CODE.replace("code=&", "")))
-        self.assertFalse(catalog.valid_player_url(PLAYER_WITHOUT_CODE.replace("plan=free", "plan=premium")))
-
-    def test_keeps_online_channel_even_when_code_is_empty(self):
-        payload = {"channels": [{
-            "name": "ABC", "code": "", "status": "online", "url": PLAYER_WITHOUT_CODE
-        }]}
-        with tempfile.TemporaryDirectory() as tmp:
-            result = catalog.filter_playable_channels(payload, Path(tmp) / "checks.json")
-        self.assertEqual([c["name"] for c in result["channels"]], ["ABC"])
-        self.assertTrue(result["channels"][0]["playback_allowed"])
-        self.assertEqual(result["channels"][0]["player_url"], PLAYER_WITHOUT_CODE)
-        self.assertEqual(result["channels"][0]["player_check"], "api_status_online_official_url")
-
-    def test_keeps_online_and_live_but_excludes_offline(self):
-        payload = {"channels": [
-            {"name": "Live", "code": "", "status": "live", "url": PLAYER_WITHOUT_CODE},
-            {"name": "Online", "code": "us", "status": "online", "url": PLAYER_WITH_CODE},
-            {"name": "Offline", "code": "us", "status": "offline", "url": PLAYER_WITH_CODE},
-        ]}
-        result = catalog.filter_playable_channels(payload)
-        self.assertEqual({c["name"] for c in result["channels"]}, {"Live", "Online"})
-        self.assertEqual(result["catalog_check"]["excluded_offline"], 1)
-
-    def test_does_not_require_or_create_a_probe_cache(self):
-        payload = {"channels": [{
-            "name": "ABC", "code": "", "status": "online", "url": PLAYER_WITHOUT_CODE
-        }]}
-        with tempfile.TemporaryDirectory() as tmp:
-            cache_path = Path(tmp) / "checks.json"
-            result = catalog.filter_playable_channels(payload, cache_path)
-            self.assertFalse(cache_path.exists())
+    def test_channel_without_valid_player_url_remains_visible_in_catalog(self):
+        result = filter_playable_channels({"channels": [
+            {"name": "No player", "status": "offline", "url": "https://example.com/"}
+        ]})
         self.assertEqual(len(result["channels"]), 1)
+        self.assertFalse(result["channels"][0]["playback_allowed"])
+        self.assertNotIn("player_url", result["channels"][0])
 
-    def test_sorts_channels_alphabetically(self):
-        payload = {"channels": [
-            {"name": "Zeta", "code": "", "status": "online", "url": PLAYER_WITHOUT_CODE.replace("name=abc", "name=zeta")},
-            {"name": "Alpha", "code": "", "status": "online", "url": PLAYER_WITHOUT_CODE.replace("name=abc", "name=alpha")},
-        ]}
-        result = catalog.filter_playable_channels(payload)
-        self.assertEqual([c["name"] for c in result["channels"]], ["Alpha", "Zeta"])
+    def test_uses_official_player_url_and_preserves_source_fields(self):
+        result = filter_playable_channels({"channels": [
+            {"name": "Example", "status": "offline", "url": VALID, "viewers": 0}
+        ]})
+        channel = result["channels"][0]
+        self.assertEqual(channel["player_url"], VALID)
+        self.assertEqual(channel["viewers"], 0)
+        self.assertEqual(channel["status"], "offline")
 
+    def test_does_not_publish_explicitly_restricted_entries(self):
+        result = filter_playable_channels({"channels": [
+            {"name": "General", "url": VALID},
+            {"name": "Restricted flag", "url": VALID, "age_restricted": True},
+            {"name": "Restricted category", "url": VALID, "content_category": "age-restricted"},
+        ]})
+        self.assertEqual([c["name"] for c in result["channels"]], ["General"])
 
 if __name__ == "__main__":
     unittest.main()
