@@ -1,6 +1,6 @@
 {
   "data": {
-    "count": 82,
+    "count": 84,
     "events": [
       {
         "channels": [
@@ -71,6 +71,35 @@
         "icon": "🏆",
         "id": "ftv:2026-11-07:12:00:motogp:motogp - g.p. catar (losail) - libres 2",
         "sport": "Motor",
+        "time": "12:00"
+      },
+      {
+        "channels": [
+          "M+ Vamos 2",
+          "M+ Deportes"
+        ],
+        "competition": "Mundial Femenino",
+        "competition_key": "padel",
+        "date": "2026-11-07",
+        "event": "Final - España - Argentina",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-07:12:00:mundial femenino:final - espana - argentina",
+        "sport": "Pádel",
+        "time": "12:00"
+      },
+      {
+        "channels": [
+          "M+ Deportes 5"
+        ],
+        "competition": "Mundial Femenino",
+        "competition_key": "padel",
+        "date": "2026-11-07",
+        "event": "3er Puesto - Francia - Italia",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-07:12:00:mundial femenino:3er puesto - francia - italia",
+        "sport": "Pádel",
         "time": "12:00"
       },
       {
@@ -234,14 +263,29 @@
         "channels": [
           "M+ Deportes 5"
         ],
-        "competition": "Liga Portugal Betclic",
-        "competition_key": "ligaportugal",
+        "competition": "Campeonato del Mundo",
+        "competition_key": "padel",
         "date": "2026-11-07",
-        "event": "Campeonato del Mundo - 3er Puesto - Italia",
+        "event": "3er Puesto - Italia - Portugal",
         "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-07:16:00:liga portugal betclic:campeonato del mundo - 3er puesto - italia",
-        "sport": "Fútbol",
+        "icon": "🎾",
+        "id": "ftv:2026-11-07:16:00:campeonato del mundo:3er puesto - italia - portugal",
+        "sport": "Pádel",
+        "time": "16:00"
+      },
+      {
+        "channels": [
+          "M+ Vamos 2",
+          "M+ Deportes"
+        ],
+        "competition": "Campeonato del Mundo",
+        "competition_key": "padel",
+        "date": "2026-11-07",
+        "event": "Final - Argentina - España",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-07:16:00:campeonato del mundo:final - argentina - espana",
+        "sport": "Pádel",
         "time": "16:00"
       },
       {
@@ -958,20 +1002,6 @@
         "icon": "🏆",
         "id": "ftv:2026-11-08:18:00:formula 1:formula 1 - g.p. brasil (interlagos) - carrera",
         "sport": "Motor",
-        "time": "18:00"
-      },
-      {
-        "channels": [
-          "Teledeporte"
-        ],
-        "competition": "Liga Portugal Betclic",
-        "competition_key": "ligaportugal",
-        "date": "2026-11-08",
-        "event": "EHF Euro Cup - España",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-08:18:00:liga portugal betclic:ehf euro cup - espana",
-        "sport": "Fútbol",
         "time": "18:00"
       },
       {

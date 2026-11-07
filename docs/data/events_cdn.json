@@ -2759,10 +2759,10 @@
             },
             {
               "channel_code": "gb",
-              "channel_name": "TNT Sports 2 HD UK",
-              "id": "6add8cd32d4a99e07393f4c9",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-2-hd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%202%20HD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "channel_name": "TNT Sports 2 FHD UK",
+              "id": "6add40ae2d4a99e07363c892",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-2-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%202%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3163,10 +3163,10 @@
             },
             {
               "channel_code": "gb",
-              "channel_name": "TNT Sports 2 HD UK",
-              "id": "6add8cd32d4a99e07393f4c9",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-2-hd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%202%20HD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "channel_name": "TNT Sports 2 FHD UK",
+              "id": "6add40ae2d4a99e07363c892",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-2-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%202%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3368,14 +3368,6 @@
               "id": "6add40b12d4a99e07363f417",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%205%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3682,14 +3674,6 @@
               "id": "6add40b12d4a99e07363f417",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%205%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -4317,14 +4301,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 1 FHD PL",
               "id": "6add40b12d4a99e07363f419",
               "image": "",
@@ -4854,14 +4830,6 @@
               "id": "6add40b12d4a99e07363f417",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%205%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -5837,14 +5805,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 1 FHD PL",
               "id": "6add40b12d4a99e07363f419",
               "image": "",
@@ -6147,14 +6107,6 @@
               "id": "6add40b12d4a99e07363f417",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%205%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -6579,14 +6531,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 1 FHD PL",
               "id": "6add40b12d4a99e07363f419",
               "image": "",
@@ -6808,14 +6752,6 @@
               "id": "6add40b12d4a99e07363f417",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%205%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -14324,6 +14260,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "Sky Sports NFL HD UK",
+              "id": "6add40ae2d4a99e07363c86f",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20NFL%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Sky Sports NFL FHD UK",
               "id": "6add40ae2d4a99e07363c870",
               "image": "",
@@ -14581,6 +14525,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "Sky Sports NFL HD UK",
+              "id": "6add40ae2d4a99e07363c86f",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20NFL%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Sky Sports NFL FHD UK",
               "id": "6add40ae2d4a99e07363c870",
               "image": "",
@@ -14620,6 +14572,14 @@
           "awayTeam": "Buffalo Bills",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134918",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports NFL HD UK",
+              "id": "6add40ae2d4a99e07363c86f",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20NFL%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports NFL FHD UK",
@@ -19728,7 +19688,7 @@
       ],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1794047754,
+      "timestamp": 1794050204,
       "total_events": 843,
       "total_events_badminton": 5,
       "total_events_basketball": 135,
