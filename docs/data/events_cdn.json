@@ -2711,6 +2711,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
               "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
@@ -2784,14 +2792,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
               "id": "6add8cd32d4a99e07393f431",
               "image": "",
@@ -2816,26 +2816,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
-              "id": "6add8cd62d4a99e073941640",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "DAZN F1",
               "id": "6add8cd62d4a99e073941b21",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "gb",
-              "channel_name": "Sky Sports F1 FHD UK",
-              "id": "6add40ae2d4a99e07363c85c",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2887,14 +2871,6 @@
               "viewers": 0
             },
             {
-              "channel_code": "au",
-              "channel_name": "FOX Sports 506 HD AU",
-              "id": "6add40b32d4a99e073640fa9",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/australia/fox-sports-506-hd-au.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20Sports%20506%20HD%20AU&code=au&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
               "channel_code": "hu",
               "channel_name": "M4 Sport FHD HU",
               "id": "6add8cd72d4a99e073942366",
@@ -2932,6 +2908,30 @@
               "id": "6add8cd82d4a99e0739433e6",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PTV%20SPORTS%20HD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
+              "id": "6add8cd62d4a99e073941640",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "au",
+              "channel_name": "FOX Sports 506 HD AU",
+              "id": "6add40b32d4a99e073640fa9",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/australia/fox-sports-506-hd-au.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20Sports%20506%20HD%20AU&code=au&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -3124,6 +3124,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
               "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
@@ -3195,6 +3203,14 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
@@ -3399,14 +3415,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport 3 FHD PL",
-              "id": "6add40b12d4a99e07363f415",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport 4 FHD PL",
               "id": "6add40b12d4a99e07363f416",
               "image": "",
@@ -3552,6 +3560,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
               "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
@@ -3623,6 +3639,14 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
@@ -3698,6 +3722,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
               "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
@@ -3769,6 +3801,14 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
@@ -3904,14 +3944,6 @@
               "id": "6add40b12d4a99e07363f414",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%202%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport 3 FHD PL",
-              "id": "6add40b12d4a99e07363f415",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -4061,6 +4093,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
               "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
@@ -4132,6 +4172,14 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
@@ -4272,6 +4320,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
               "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
@@ -4410,6 +4466,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
               "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
@@ -4481,6 +4545,14 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
@@ -4556,6 +4628,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
               "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
@@ -4627,6 +4707,14 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
@@ -4831,14 +4919,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport 3 FHD PL",
-              "id": "6add40b12d4a99e07363f415",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport 4 FHD PL",
               "id": "6add40b12d4a99e07363f416",
               "image": "",
@@ -5000,6 +5080,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
               "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
@@ -5133,14 +5221,6 @@
               "id": "6add40b12d4a99e07363f414",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%202%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport 3 FHD PL",
-              "id": "6add40b12d4a99e07363f415",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -5565,14 +5645,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport 3 FHD PL",
-              "id": "6add40b12d4a99e07363f415",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport 4 FHD PL",
               "id": "6add40b12d4a99e07363f416",
               "image": "",
@@ -5794,14 +5866,6 @@
               "id": "6add40b12d4a99e07363f414",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%202%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport 3 FHD PL",
-              "id": "6add40b12d4a99e07363f415",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -11101,14 +11165,6 @@
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134923",
           "channels": [
             {
-              "channel_code": "",
-              "channel_name": "NFL Network HD DE",
-              "id": "6add8cd32d4a99e07393f457",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NFL%20Network%20HD%20DE&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
               "channel_code": "gb",
               "channel_name": "Sky Sports Football FHD UK",
               "id": "6add40ae2d4a99e07363c88c",
@@ -11157,14 +11213,6 @@
               "viewers": 0
             },
             {
-              "channel_code": "ar",
-              "channel_name": "FOX Sports 3 Premium HD ARG",
-              "id": "6add8cd72d4a99e073942cad",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/argentina/fox-sports-3-premium-hd-arg.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20Sports%203%20Premium%20HD%20ARG&code=ar&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
               "channel_code": "dk",
               "channel_name": "TV2 Sport HD DK",
               "id": "6add40ae2d4a99e07363c422",
@@ -11178,6 +11226,22 @@
               "id": "6add8cd42d4a99e07393ff97",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NFL%20RedZone%20FHD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NFL Network HD DE",
+              "id": "6add8cd32d4a99e07393f457",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NFL%20Network%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "ar",
+              "channel_name": "FOX Sports 3 Premium HD ARG",
+              "id": "6add8cd72d4a99e073942cad",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/argentina/fox-sports-3-premium-hd-arg.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20Sports%203%20Premium%20HD%20ARG&code=ar&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -11651,6 +11715,14 @@
               "id": "6add8cd32d4a99e07393f4b1",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20NFL%20FHD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports NFL HD UK",
+              "id": "6add40ae2d4a99e07363c86f",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20NFL%20HD%20UK&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -13916,6 +13988,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Premiere 5 HD BR",
               "id": "6add8cd72d4a99e073942ab9",
               "image": "",
@@ -13989,6 +14069,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Premiere 5 HD BR",
               "id": "6add8cd72d4a99e073942ab9",
               "image": "",
@@ -14058,6 +14146,14 @@
               "id": "6add8cd72d4a99e073942ab7",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%203%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -14439,6 +14535,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Premiere 5 HD BR",
               "id": "6add8cd72d4a99e073942ab9",
               "image": "",
@@ -14508,6 +14612,14 @@
               "id": "6add8cd72d4a99e073942ab7",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%203%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -14585,6 +14697,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Premiere 5 HD BR",
               "id": "6add8cd72d4a99e073942ab9",
               "image": "",
@@ -14654,6 +14774,14 @@
               "id": "6add8cd72d4a99e073942ab7",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%203%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -14731,6 +14859,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Premiere 5 HD BR",
               "id": "6add8cd72d4a99e073942ab9",
               "image": "",
@@ -14800,6 +14936,14 @@
               "id": "6add8cd72d4a99e073942ab7",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%203%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -14877,6 +15021,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Premiere 5 HD BR",
               "id": "6add8cd72d4a99e073942ab9",
               "image": "",
@@ -14946,6 +15098,14 @@
               "id": "6add8cd72d4a99e073942ab7",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%203%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -15023,6 +15183,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Premiere 5 HD BR",
               "id": "6add8cd72d4a99e073942ab9",
               "image": "",
@@ -15092,6 +15260,14 @@
               "id": "6add8cd72d4a99e073942ab7",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%203%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -16165,7 +16341,7 @@
       ],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1794148689,
+      "timestamp": 1794164857,
       "total_events": 720,
       "total_events_badminton": 5,
       "total_events_basketball": 135,
