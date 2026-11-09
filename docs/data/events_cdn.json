@@ -2555,46 +2555,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "PPV 01: UFC Fight Night Acosta v Walker 5:00 pm",
-              "id": "6add8cd42d4a99e07393fbbd",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2001%3A%20UFC%20Fight%20Night%20Acosta%20v%20Walker%205%3A00%20pm&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 07 ⓧ| UFC | Early Prelims | Sat 7th Nov 10:00PM UK/5:00PM ET",
-              "id": "6add8cd42d4a99e07393fbc9",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2007%20%E2%93%A7%7C%20UFC%20%7C%20Early%20Prelims%20%7C%20Sat%207th%20Nov%2010%3A00PM%20UK%2F5%3A00PM%20ET&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 08 ⓧ| UFC | Prelims | Sat 7th Nov 11:00PM UK/6:00PM ET",
-              "id": "6add8cd42d4a99e07393fbcc",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2008%20%E2%93%A7%7C%20UFC%20%7C%20Prelims%20%7C%20Sat%207th%20Nov%2011%3A00PM%20UK%2F6%3A00PM%20ET&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 09 ⓧ| UFC | Cortes Acosta v Walker | Sat 7th Nov 1:00AM UK/8:00PM ET",
-              "id": "6add8cd42d4a99e07393fbcd",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2009%20%E2%93%A7%7C%20UFC%20%7C%20Cortes%20Acosta%20v%20Walker%20%7C%20Sat%207th%20Nov%201%3A00AM%20UK%2F8%3A00PM%20ET&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 10 ⓧ| UFC | Cortes Acosta v Walker | Sat 7th Nov 1:00AM UK/8:00PM ET (Backup)",
-              "id": "6add8cd42d4a99e07393fbd0",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2010%20%E2%93%A7%7C%20UFC%20%7C%20Cortes%20Acosta%20v%20Walker%20%7C%20Sat%207th%20Nov%201%3A00AM%20UK%2F8%3A00PM%20ET%20(Backup)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "UFC 24/7 HD US",
               "id": "6add8cd42d4a99e07393fd1e",
               "image": "",
@@ -2607,6 +2567,38 @@
               "id": "6add8cd42d4a99e07393fd1f",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Channel%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 1 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f4",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%201%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 2",
+              "id": "6add8cd62d4a99e0739419f5",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%202&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 3 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%203%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC Fightpass HD BR",
+              "id": "6add8cd72d4a99e073942bfb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Fightpass%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2636,46 +2628,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "PPV 01: UFC Fight Night Acosta v Walker 5:00 pm",
-              "id": "6add8cd42d4a99e07393fbbd",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2001%3A%20UFC%20Fight%20Night%20Acosta%20v%20Walker%205%3A00%20pm&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 07 ⓧ| UFC | Early Prelims | Sat 7th Nov 10:00PM UK/5:00PM ET",
-              "id": "6add8cd42d4a99e07393fbc9",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2007%20%E2%93%A7%7C%20UFC%20%7C%20Early%20Prelims%20%7C%20Sat%207th%20Nov%2010%3A00PM%20UK%2F5%3A00PM%20ET&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 08 ⓧ| UFC | Prelims | Sat 7th Nov 11:00PM UK/6:00PM ET",
-              "id": "6add8cd42d4a99e07393fbcc",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2008%20%E2%93%A7%7C%20UFC%20%7C%20Prelims%20%7C%20Sat%207th%20Nov%2011%3A00PM%20UK%2F6%3A00PM%20ET&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 09 ⓧ| UFC | Cortes Acosta v Walker | Sat 7th Nov 1:00AM UK/8:00PM ET",
-              "id": "6add8cd42d4a99e07393fbcd",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2009%20%E2%93%A7%7C%20UFC%20%7C%20Cortes%20Acosta%20v%20Walker%20%7C%20Sat%207th%20Nov%201%3A00AM%20UK%2F8%3A00PM%20ET&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 10 ⓧ| UFC | Cortes Acosta v Walker | Sat 7th Nov 1:00AM UK/8:00PM ET (Backup)",
-              "id": "6add8cd42d4a99e07393fbd0",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2010%20%E2%93%A7%7C%20UFC%20%7C%20Cortes%20Acosta%20v%20Walker%20%7C%20Sat%207th%20Nov%201%3A00AM%20UK%2F8%3A00PM%20ET%20(Backup)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "UFC 24/7 HD US",
               "id": "6add8cd42d4a99e07393fd1e",
               "image": "",
@@ -2688,6 +2640,38 @@
               "id": "6add8cd42d4a99e07393fd1f",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Channel%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 1 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f4",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%201%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 2",
+              "id": "6add8cd62d4a99e0739419f5",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%202&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 3 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%203%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC Fightpass HD BR",
+              "id": "6add8cd72d4a99e073942bfb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Fightpass%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2709,14 +2693,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -2774,14 +2750,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -3003,14 +2971,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
               "id": "6add8cd32d4a99e07393f431",
               "image": "",
@@ -3066,14 +3026,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -3164,6 +3116,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -3176,14 +3136,6 @@
               "id": "6add40b12d4a99e07363f41c",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 4 FHD PL",
-              "id": "6add40b12d4a99e07363f41d",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3601,14 +3553,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
               "id": "6add8cd32d4a99e07393f431",
               "image": "",
@@ -3697,6 +3641,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -3709,14 +3661,6 @@
               "id": "6add40b12d4a99e07363f41c",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 4 FHD PL",
-              "id": "6add40b12d4a99e07363f41d",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3972,14 +3916,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
               "id": "6add8cd32d4a99e07393f431",
               "image": "",
@@ -4124,14 +4060,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -4523,14 +4451,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
               "id": "6add8cd32d4a99e07393f431",
               "image": "",
@@ -4594,14 +4514,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -4750,14 +4662,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
               "id": "6add8cd32d4a99e07393f431",
               "image": "",
@@ -4846,6 +4750,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -4858,14 +4770,6 @@
               "id": "6add40b12d4a99e07363f41c",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 4 FHD PL",
-              "id": "6add40b12d4a99e07363f41d",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -4975,14 +4879,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
               "id": "6add8cd32d4a99e07393f431",
               "image": "",
@@ -5038,14 +4934,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -5105,14 +4993,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
               "id": "6add8cd32d4a99e07393f431",
               "image": "",
@@ -5168,14 +5048,6 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
@@ -5266,6 +5138,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -5278,14 +5158,6 @@
               "id": "6add40b12d4a99e07363f41c",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 4 FHD PL",
-              "id": "6add40b12d4a99e07363f41d",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -5395,14 +5267,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
               "id": "6add8cd32d4a99e07393f431",
               "image": "",
@@ -5491,6 +5355,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -5503,14 +5375,6 @@
               "id": "6add40b12d4a99e07363f41c",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 4 FHD PL",
-              "id": "6add40b12d4a99e07363f41d",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -6980,16 +6844,7 @@
         {
           "awayTeam": "North Carolina Central",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137055",
-          "channels": [
-            {
-              "channel_code": "us",
-              "channel_name": "ESPN FHD US",
-              "id": "6add8cd42d4a99e07393fa59",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/espn-fhd-us.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20FHD%20US&code=us&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
+          "channels": [],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-14 20:30",
@@ -10750,253 +10605,17 @@
       "NCAAW": [],
       "NFL": [
         {
-          "awayTeam": "Houston Texans",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134926",
-          "channels": [
-            {
-              "channel_code": "us",
-              "channel_name": "CBS US",
-              "id": "6add40af2d4a99e07363cf91",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/cbs-us.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CBS%20US&code=us&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-09 00:05",
-          "event": "Los Angeles Chargers vs Houston Texans",
-          "gameID": "2475504",
-          "homeTeam": "Los Angeles Chargers",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135908",
-          "start": "2026-11-08 21:05",
-          "status": "NS",
-          "time": "21:05",
-          "tournament": "NFL"
-        },
-        {
-          "awayTeam": "Las Vegas Raiders",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134932",
-          "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "Sky Sports+ FHD UK",
-              "id": "6add8cd32d4a99e07393f4b6",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%2B%20FHD%20UK&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "br",
-              "channel_name": "ESPN 2 HD BR",
-              "id": "6add40b22d4a99e073640585",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/brazil/espn-2-hd-br.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%202%20HD%20BR&code=br&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-09 00:25",
-          "event": "San Francisco 49ers vs Las Vegas Raiders",
-          "gameID": "2475505",
-          "homeTeam": "San Francisco 49ers",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134948",
-          "start": "2026-11-08 21:25",
-          "status": "NS",
-          "time": "21:25",
-          "tournament": "NFL"
-        },
-        {
-          "awayTeam": "Green Bay Packers",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134940",
-          "channels": [
-            {
-              "channel_code": "de",
-              "channel_name": "RTL FHD DE",
-              "id": "6add40ae2d4a99e07363c54f",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/rtl-fhd-de.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RTL%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "ca",
-              "channel_name": "RDS 2 CA",
-              "id": "6add8cd62d4a99e07394175b",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/canada/rds-2-ca.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RDS%202%20CA&code=ca&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "gb",
-              "channel_name": "Sky Sports Main Event FHD UK",
-              "id": "6add40ae2d4a99e07363c855",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-main-event-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Main%20Event%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "fr",
-              "channel_name": "beIN SPORTS 1 FR FHD",
-              "id": "6add8cd52d4a99e073940885",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/france/bein-sports-1-fr-fhd.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%201%20FR%20FHD&code=fr&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "dk",
-              "channel_name": "TV2 Sport HD DK",
-              "id": "6add40ae2d4a99e07363c422",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/denmark/tv2-sport-hd-dk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TV2%20Sport%20HD%20DK&code=dk&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "bg",
-              "channel_name": "Max Sport 2 FHD BG",
-              "id": "6add40b32d4a99e0736411db",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/bg/max-sport-2-fhd-bg.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Max%20Sport%202%20FHD%20BG&code=bg&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-09 00:25",
-          "event": "New England Patriots vs Green Bay Packers",
-          "gameID": "2475506",
-          "homeTeam": "New England Patriots",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134920",
-          "start": "2026-11-08 21:25",
-          "status": "NS",
-          "time": "21:25",
-          "tournament": "NFL"
-        },
-        {
-          "awayTeam": "Arizona Cardinals",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134946",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-09 00:25",
-          "event": "Seattle Seahawks vs Arizona Cardinals",
-          "gameID": "2475507",
-          "homeTeam": "Seattle Seahawks",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134949",
-          "start": "2026-11-08 21:25",
-          "status": "NS",
-          "time": "21:25",
-          "tournament": "NFL"
-        },
-        {
-          "awayTeam": "Tampa Bay Buccaneers",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134945",
-          "channels": [
-            {
-              "channel_code": "us",
-              "channel_name": "NBC US",
-              "id": "6add40af2d4a99e07363cff6",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/nbc-us.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NBC%20US&code=us&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "gb",
-              "channel_name": "Sky Sports Main Event FHD UK",
-              "id": "6add40ae2d4a99e07363c855",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-main-event-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Main%20Event%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "gb",
-              "channel_name": "Sky Sports NFL FHD UK",
-              "id": "6add8cd32d4a99e07393f4b1",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-nfl-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20NFL%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "TSN 1 FHD CA",
-              "id": "6add8cd62d4a99e073941790",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%201%20FHD%20CA&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "ca",
-              "channel_name": "RDS CA",
-              "id": "6add40b12d4a99e07363ed29",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/canada/rds-ca.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RDS%20CA&code=ca&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "TSN 3 FHD CA",
-              "id": "6add40b12d4a99e07363ed3d",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%203%20FHD%20CA&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "de",
-              "channel_name": "RTL FHD DE",
-              "id": "6add40ae2d4a99e07363c54f",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/rtl-fhd-de.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RTL%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "de",
-              "channel_name": "Sky Sport Top Event FHD DE",
-              "id": "6add40ae2d4a99e07363c7cb",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-top-event-fhd-de.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Top%20Event%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "fr",
-              "channel_name": "beIN SPORTS 1 FR FHD",
-              "id": "6add8cd52d4a99e073940885",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/france/bein-sports-1-fr-fhd.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%201%20FR%20FHD&code=fr&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "nl",
-              "channel_name": "ESPN 3 FHD NL",
-              "id": "6add40b12d4a99e07363f7d5",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/netherlands/espn-3-fhd-nl.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%203%20FHD%20NL&code=nl&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "ar",
-              "channel_name": "ESPN 2 Primera FHD ARG",
-              "id": "6add8cd72d4a99e073942c97",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/argentina/espn-2-primera-fhd-arg.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%202%20Primera%20FHD%20ARG&code=ar&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-09 04:20",
-          "event": "Chicago Bears vs Tampa Bay Buccaneers",
-          "gameID": "2475508",
-          "homeTeam": "Chicago Bears",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134938",
-          "start": "2026-11-09 01:20",
-          "status": "NS",
-          "time": "01:20",
-          "tournament": "NFL"
-        },
-        {
           "awayTeam": "Buffalo Bills",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134918",
           "channels": [
+            {
+              "channel_code": "us",
+              "channel_name": "ESPN FHD US",
+              "id": "6add8cd42d4a99e07393fa59",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/espn-fhd-us.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20FHD%20US&code=us&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "us",
               "channel_name": "ESPN 2 FHD US",
@@ -11019,6 +10638,14 @@
               "id": "6add8cd52d4a99e0739403fb",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ABC%207%20New%20York&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NFL Network HD DE",
+              "id": "6add8cd32d4a99e07393f457",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NFL%20Network%20HD%20DE&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -11139,22 +10766,6 @@
               "id": "6add40b32d4a99e07364135b",
               "image": "https://cdnlivetv.tv/api/v1/channels/images6318/israel/sport-5-live-hd-il.webp",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%205%20Live%20HD%20IL&code=il&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "us",
-              "channel_name": "ESPN FHD US",
-              "id": "6add8cd42d4a99e07393fa59",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/espn-fhd-us.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20FHD%20US&code=us&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "NFL Network HD DE",
-              "id": "6add8cd32d4a99e07393f457",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NFL%20Network%20HD%20DE&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -13399,168 +13010,6 @@
       "Rugby": [],
       "Soccer": [
         {
-          "awayTeam": "América Mineiro",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134742",
-          "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "Premiere Clubes HD BR",
-              "id": "6add8cd72d4a99e073942beb",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 2 HD BR",
-              "id": "6add8cd72d4a99e073942ab6",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 3 HD BR",
-              "id": "6add8cd72d4a99e073942ab7",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%203%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 4 HD BR",
-              "id": "6add8cd72d4a99e073942ab8",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 5 HD BR",
-              "id": "6add8cd72d4a99e073942ab9",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%205%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 6 HD BR",
-              "id": "6add8cd72d4a99e073942aba",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%206%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 7 HD BR",
-              "id": "6add8cd72d4a99e073942abb",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%207%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 1 HD BR",
-              "id": "6add40b22d4a99e073640628",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "Brazil",
-          "countryIMG": "https://flagcdn.com/w40/br.png",
-          "end": "2026-11-09 01:15",
-          "event": "Ceará vs América Mineiro",
-          "gameID": "2431529",
-          "homeTeam": "Ceará",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134744",
-          "start": "2026-11-08 22:15",
-          "status": "NS",
-          "time": "22:15",
-          "tournament": "Brazilian Serie B"
-        },
-        {
-          "awayTeam": "Ponte Preta",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134290",
-          "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "Premiere Clubes HD BR",
-              "id": "6add8cd72d4a99e073942beb",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 2 HD BR",
-              "id": "6add8cd72d4a99e073942ab6",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 3 HD BR",
-              "id": "6add8cd72d4a99e073942ab7",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%203%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 4 HD BR",
-              "id": "6add8cd72d4a99e073942ab8",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 5 HD BR",
-              "id": "6add8cd72d4a99e073942ab9",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%205%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 6 HD BR",
-              "id": "6add8cd72d4a99e073942aba",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%206%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 7 HD BR",
-              "id": "6add8cd72d4a99e073942abb",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%207%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 1 HD BR",
-              "id": "6add40b22d4a99e073640628",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "Brazil",
-          "countryIMG": "https://flagcdn.com/w40/br.png",
-          "end": "2026-11-09 01:15",
-          "event": "Goiás vs Ponte Preta",
-          "gameID": "2431531",
-          "homeTeam": "Goiás",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134295",
-          "start": "2026-11-08 22:15",
-          "status": "NS",
-          "time": "22:15",
-          "tournament": "Brazilian Serie B"
-        },
-        {
           "awayTeam": "Chinese Taipei",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/140147",
           "channels": [],
@@ -13870,14 +13319,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "Premiere Clubes HD BR",
-              "id": "6add8cd72d4a99e073942beb",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 2 HD BR",
               "id": "6add8cd72d4a99e073942ab6",
               "image": "",
@@ -13894,14 +13335,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Premiere 4 HD BR",
-              "id": "6add8cd72d4a99e073942ab8",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 5 HD BR",
               "id": "6add8cd72d4a99e073942ab9",
               "image": "",
@@ -13914,6 +13347,14 @@
               "id": "6add8cd72d4a99e073942aba",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%206%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -13951,14 +13392,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "Premiere Clubes HD BR",
-              "id": "6add8cd72d4a99e073942beb",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 2 HD BR",
               "id": "6add8cd72d4a99e073942ab6",
               "image": "",
@@ -13975,14 +13408,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Premiere 4 HD BR",
-              "id": "6add8cd72d4a99e073942ab8",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 5 HD BR",
               "id": "6add8cd72d4a99e073942ab9",
               "image": "",
@@ -13995,6 +13420,14 @@
               "id": "6add8cd72d4a99e073942aba",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%206%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -14032,14 +13465,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "Premiere Clubes HD BR",
-              "id": "6add8cd72d4a99e073942beb",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 2 HD BR",
               "id": "6add8cd72d4a99e073942ab6",
               "image": "",
@@ -14056,14 +13481,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Premiere 4 HD BR",
-              "id": "6add8cd72d4a99e073942ab8",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 5 HD BR",
               "id": "6add8cd72d4a99e073942ab9",
               "image": "",
@@ -14076,6 +13493,14 @@
               "id": "6add8cd72d4a99e073942aba",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%206%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -14113,14 +13538,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "Premiere Clubes HD BR",
-              "id": "6add8cd72d4a99e073942beb",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 2 HD BR",
               "id": "6add8cd72d4a99e073942ab6",
               "image": "",
@@ -14137,14 +13554,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Premiere 4 HD BR",
-              "id": "6add8cd72d4a99e073942ab8",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 5 HD BR",
               "id": "6add8cd72d4a99e073942ab9",
               "image": "",
@@ -14157,6 +13566,14 @@
               "id": "6add8cd72d4a99e073942aba",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%206%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -14194,14 +13611,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "Premiere Clubes HD BR",
-              "id": "6add8cd72d4a99e073942beb",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 2 HD BR",
               "id": "6add8cd72d4a99e073942ab6",
               "image": "",
@@ -14218,14 +13627,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Premiere 4 HD BR",
-              "id": "6add8cd72d4a99e073942ab8",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 5 HD BR",
               "id": "6add8cd72d4a99e073942ab9",
               "image": "",
@@ -14238,6 +13639,14 @@
               "id": "6add8cd72d4a99e073942aba",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%206%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -14275,14 +13684,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "Premiere Clubes HD BR",
-              "id": "6add8cd72d4a99e073942beb",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 2 HD BR",
               "id": "6add8cd72d4a99e073942ab6",
               "image": "",
@@ -14299,14 +13700,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Premiere 4 HD BR",
-              "id": "6add8cd72d4a99e073942ab8",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 5 HD BR",
               "id": "6add8cd72d4a99e073942ab9",
               "image": "",
@@ -14319,6 +13712,14 @@
               "id": "6add8cd72d4a99e073942aba",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%206%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -14356,14 +13757,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "Premiere Clubes HD BR",
-              "id": "6add8cd72d4a99e073942beb",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 2 HD BR",
               "id": "6add8cd72d4a99e073942ab6",
               "image": "",
@@ -14380,14 +13773,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Premiere 4 HD BR",
-              "id": "6add8cd72d4a99e073942ab8",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 5 HD BR",
               "id": "6add8cd72d4a99e073942ab9",
               "image": "",
@@ -14400,6 +13785,14 @@
               "id": "6add8cd72d4a99e073942aba",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%206%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -14437,14 +13830,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "Premiere Clubes HD BR",
-              "id": "6add8cd72d4a99e073942beb",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 2 HD BR",
               "id": "6add8cd72d4a99e073942ab6",
               "image": "",
@@ -14461,14 +13846,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Premiere 4 HD BR",
-              "id": "6add8cd72d4a99e073942ab8",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 5 HD BR",
               "id": "6add8cd72d4a99e073942ab9",
               "image": "",
@@ -14481,6 +13858,14 @@
               "id": "6add8cd72d4a99e073942aba",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%206%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -14518,14 +13903,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "Premiere Clubes HD BR",
-              "id": "6add8cd72d4a99e073942beb",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 2 HD BR",
               "id": "6add8cd72d4a99e073942ab6",
               "image": "",
@@ -14542,14 +13919,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Premiere 4 HD BR",
-              "id": "6add8cd72d4a99e073942ab8",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 5 HD BR",
               "id": "6add8cd72d4a99e073942ab9",
               "image": "",
@@ -14562,6 +13931,14 @@
               "id": "6add8cd72d4a99e073942aba",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%206%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -14599,14 +13976,6 @@
           "channels": [
             {
               "channel_code": "",
-              "channel_name": "Premiere Clubes HD BR",
-              "id": "6add8cd72d4a99e073942beb",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 2 HD BR",
               "id": "6add8cd72d4a99e073942ab6",
               "image": "",
@@ -14623,14 +13992,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Premiere 4 HD BR",
-              "id": "6add8cd72d4a99e073942ab8",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Premiere 5 HD BR",
               "id": "6add8cd72d4a99e073942ab9",
               "image": "",
@@ -14643,6 +14004,14 @@
               "id": "6add8cd72d4a99e073942aba",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%206%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Premiere 4 HD BR",
+              "id": "6add8cd72d4a99e073942ab8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%204%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -14995,46 +14364,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "PPV 01: UFC Fight Night Acosta v Walker 5:00 pm",
-              "id": "6add8cd42d4a99e07393fbbd",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2001%3A%20UFC%20Fight%20Night%20Acosta%20v%20Walker%205%3A00%20pm&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 07 ⓧ| UFC | Early Prelims | Sat 7th Nov 10:00PM UK/5:00PM ET",
-              "id": "6add8cd42d4a99e07393fbc9",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2007%20%E2%93%A7%7C%20UFC%20%7C%20Early%20Prelims%20%7C%20Sat%207th%20Nov%2010%3A00PM%20UK%2F5%3A00PM%20ET&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 08 ⓧ| UFC | Prelims | Sat 7th Nov 11:00PM UK/6:00PM ET",
-              "id": "6add8cd42d4a99e07393fbcc",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2008%20%E2%93%A7%7C%20UFC%20%7C%20Prelims%20%7C%20Sat%207th%20Nov%2011%3A00PM%20UK%2F6%3A00PM%20ET&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 09 ⓧ| UFC | Cortes Acosta v Walker | Sat 7th Nov 1:00AM UK/8:00PM ET",
-              "id": "6add8cd42d4a99e07393fbcd",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2009%20%E2%93%A7%7C%20UFC%20%7C%20Cortes%20Acosta%20v%20Walker%20%7C%20Sat%207th%20Nov%201%3A00AM%20UK%2F8%3A00PM%20ET&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 10 ⓧ| UFC | Cortes Acosta v Walker | Sat 7th Nov 1:00AM UK/8:00PM ET (Backup)",
-              "id": "6add8cd42d4a99e07393fbd0",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2010%20%E2%93%A7%7C%20UFC%20%7C%20Cortes%20Acosta%20v%20Walker%20%7C%20Sat%207th%20Nov%201%3A00AM%20UK%2F8%3A00PM%20ET%20(Backup)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "UFC 24/7 HD US",
               "id": "6add8cd42d4a99e07393fd1e",
               "image": "",
@@ -15047,6 +14376,38 @@
               "id": "6add8cd42d4a99e07393fd1f",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Channel%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 1 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f4",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%201%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 2",
+              "id": "6add8cd62d4a99e0739419f5",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%202&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 3 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%203%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC Fightpass HD BR",
+              "id": "6add8cd72d4a99e073942bfb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Fightpass%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -15076,46 +14437,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "PPV 01: UFC Fight Night Acosta v Walker 5:00 pm",
-              "id": "6add8cd42d4a99e07393fbbd",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2001%3A%20UFC%20Fight%20Night%20Acosta%20v%20Walker%205%3A00%20pm&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 07 ⓧ| UFC | Early Prelims | Sat 7th Nov 10:00PM UK/5:00PM ET",
-              "id": "6add8cd42d4a99e07393fbc9",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2007%20%E2%93%A7%7C%20UFC%20%7C%20Early%20Prelims%20%7C%20Sat%207th%20Nov%2010%3A00PM%20UK%2F5%3A00PM%20ET&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 08 ⓧ| UFC | Prelims | Sat 7th Nov 11:00PM UK/6:00PM ET",
-              "id": "6add8cd42d4a99e07393fbcc",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2008%20%E2%93%A7%7C%20UFC%20%7C%20Prelims%20%7C%20Sat%207th%20Nov%2011%3A00PM%20UK%2F6%3A00PM%20ET&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 09 ⓧ| UFC | Cortes Acosta v Walker | Sat 7th Nov 1:00AM UK/8:00PM ET",
-              "id": "6add8cd42d4a99e07393fbcd",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2009%20%E2%93%A7%7C%20UFC%20%7C%20Cortes%20Acosta%20v%20Walker%20%7C%20Sat%207th%20Nov%201%3A00AM%20UK%2F8%3A00PM%20ET&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 10 ⓧ| UFC | Cortes Acosta v Walker | Sat 7th Nov 1:00AM UK/8:00PM ET (Backup)",
-              "id": "6add8cd42d4a99e07393fbd0",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2010%20%E2%93%A7%7C%20UFC%20%7C%20Cortes%20Acosta%20v%20Walker%20%7C%20Sat%207th%20Nov%201%3A00AM%20UK%2F8%3A00PM%20ET%20(Backup)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "UFC 24/7 HD US",
               "id": "6add8cd42d4a99e07393fd1e",
               "image": "",
@@ -15128,6 +14449,38 @@
               "id": "6add8cd42d4a99e07393fd1f",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Channel%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 1 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f4",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%201%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 2",
+              "id": "6add8cd62d4a99e0739419f5",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%202&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 3 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%203%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC Fightpass HD BR",
+              "id": "6add8cd72d4a99e073942bfb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Fightpass%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -15157,46 +14510,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "PPV 01: UFC Fight Night Acosta v Walker 5:00 pm",
-              "id": "6add8cd42d4a99e07393fbbd",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2001%3A%20UFC%20Fight%20Night%20Acosta%20v%20Walker%205%3A00%20pm&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 07 ⓧ| UFC | Early Prelims | Sat 7th Nov 10:00PM UK/5:00PM ET",
-              "id": "6add8cd42d4a99e07393fbc9",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2007%20%E2%93%A7%7C%20UFC%20%7C%20Early%20Prelims%20%7C%20Sat%207th%20Nov%2010%3A00PM%20UK%2F5%3A00PM%20ET&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 08 ⓧ| UFC | Prelims | Sat 7th Nov 11:00PM UK/6:00PM ET",
-              "id": "6add8cd42d4a99e07393fbcc",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2008%20%E2%93%A7%7C%20UFC%20%7C%20Prelims%20%7C%20Sat%207th%20Nov%2011%3A00PM%20UK%2F6%3A00PM%20ET&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 09 ⓧ| UFC | Cortes Acosta v Walker | Sat 7th Nov 1:00AM UK/8:00PM ET",
-              "id": "6add8cd42d4a99e07393fbcd",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2009%20%E2%93%A7%7C%20UFC%20%7C%20Cortes%20Acosta%20v%20Walker%20%7C%20Sat%207th%20Nov%201%3A00AM%20UK%2F8%3A00PM%20ET&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "PPV 10 ⓧ| UFC | Cortes Acosta v Walker | Sat 7th Nov 1:00AM UK/8:00PM ET (Backup)",
-              "id": "6add8cd42d4a99e07393fbd0",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=PPV%2010%20%E2%93%A7%7C%20UFC%20%7C%20Cortes%20Acosta%20v%20Walker%20%7C%20Sat%207th%20Nov%201%3A00AM%20UK%2F8%3A00PM%20ET%20(Backup)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "UFC 24/7 HD US",
               "id": "6add8cd42d4a99e07393fd1e",
               "image": "",
@@ -15209,6 +14522,38 @@
               "id": "6add8cd42d4a99e07393fd1f",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Channel%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 1 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f4",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%201%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 2",
+              "id": "6add8cd62d4a99e0739419f5",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%202&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 3 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%203%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC Fightpass HD BR",
+              "id": "6add8cd72d4a99e073942bfb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Fightpass%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -15227,39 +14572,6 @@
       ],
       "Volleyball": [],
       "WWE": [
-        {
-          "awayTeam": "",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "ECHOSTAR WWE HD KRD",
-              "id": "6add8cd62d4a99e07394175a",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "NEWROZ WWE HD KRD",
-              "id": "6add8cd62d4a99e073941997",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-09 03:00",
-          "event": "RAW #1746",
-          "gameID": "2624416",
-          "homeTeam": "",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "start": "2026-11-09 00:00",
-          "status": "NS",
-          "time": "00:00",
-          "tournament": "WWE"
-        },
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
@@ -15692,8 +15004,8 @@
       ],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1794189968,
-      "total_events": 708,
+      "timestamp": 1794217189,
+      "total_events": 700,
       "total_events_badminton": 5,
       "total_events_basketball": 135,
       "total_events_cricket": 0,
@@ -15710,15 +15022,15 @@
       "total_events_nba": 0,
       "total_events_ncaa": 320,
       "total_events_ncaaw": 0,
-      "total_events_nfl": 145,
+      "total_events_nfl": 140,
       "total_events_nhl": 0,
       "total_events_rugby": 0,
-      "total_events_soccer": 50,
+      "total_events_soccer": 48,
       "total_events_tennis": 0,
       "total_events_ufc": 3,
       "total_events_volleyball": 0,
       "total_events_winter_sports": 0,
-      "total_events_wwe": 14
+      "total_events_wwe": 13
     }
   },
   "ok": true

@@ -1,6 +1,6 @@
 {
   "data": {
-    "count": 12,
+    "count": 13,
     "events": [
       {
         "channels": [
@@ -95,10 +95,10 @@
         "competition": "WTA Finals",
         "competition_key": "tenis",
         "date": "2026-11-10",
-        "event": "Round Robin",
+        "event": "Round Robin - M. Kostyuk - J. Pegula",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-10:21:00:wta finals:round robin",
+        "id": "ftv:2026-11-10:21:00:wta finals:round robin - m. kostyuk - j. pegula",
         "sport": "Tenis",
         "time": "21:00"
       },
@@ -115,6 +115,20 @@
         "id": "ftv:2026-11-10:21:00:copa del rey:1ª ronda - ue tavernes - valencia cf",
         "sport": "Fútbol",
         "time": "21:00"
+      },
+      {
+        "channels": [
+          "Tennis Channel"
+        ],
+        "competition": "WTA Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-10",
+        "event": "Round Robin - C. Gauff - L. Noskova",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-10:22:30:wta finals:round robin - c. gauff - l. noskova",
+        "sport": "Tenis",
+        "time": "22:30"
       },
       {
         "channels": [
