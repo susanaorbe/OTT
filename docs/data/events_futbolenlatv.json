@@ -1,6 +1,6 @@
 {
   "data": {
-    "count": 31,
+    "count": 32,
     "events": [
       {
         "channels": [
@@ -165,12 +165,26 @@
         "competition": "WTA Finals",
         "competition_key": "tenis",
         "date": "2026-11-11",
-        "event": "Round Robin",
+        "event": "Round Robin - E. Svitolina - K. Muchova",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-11:21:00:wta finals:round robin",
+        "id": "ftv:2026-11-11:21:00:wta finals:round robin - e. svitolina - k. muchova",
         "sport": "Tenis",
         "time": "21:00"
+      },
+      {
+        "channels": [
+          "Tennis Channel"
+        ],
+        "competition": "WTA Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-11",
+        "event": "Round Robin - A. Sabalenka - M. Andreeva",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-11:22:30:wta finals:round robin - a. sabalenka - m. andreeva",
+        "sport": "Tenis",
+        "time": "22:30"
       },
       {
         "channels": [
