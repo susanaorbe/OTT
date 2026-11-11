@@ -1,6 +1,6 @@
 {
   "data": {
-    "count": 50,
+    "count": 52,
     "events": [
       {
         "channels": [
@@ -61,7 +61,8 @@
       },
       {
         "channels": [
-          "Tennis Channel"
+          "Tennis Channel",
+          "Amazon Prime Video"
         ],
         "competition": "WTA Finals",
         "competition_key": "tenis",
@@ -75,7 +76,8 @@
       },
       {
         "channels": [
-          "Tennis Channel"
+          "Tennis Channel",
+          "Amazon Prime Video"
         ],
         "competition": "WTA Finals",
         "competition_key": "tenis",
@@ -147,7 +149,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -330,7 +333,8 @@
       },
       {
         "channels": [
-          "Tennis Channel"
+          "Tennis Channel",
+          "Amazon Prime Video"
         ],
         "competition": "WTA Finals",
         "competition_key": "tenis",
@@ -358,7 +362,8 @@
       },
       {
         "channels": [
-          "Tennis Channel"
+          "Tennis Channel",
+          "Amazon Prime Video"
         ],
         "competition": "WTA Finals",
         "competition_key": "tenis",
@@ -432,6 +437,20 @@
       },
       {
         "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "Torneo de Estocolmo",
+        "competition_key": "tenis",
+        "date": "2026-11-13",
+        "event": "Semifinal 1",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-13:14:30:torneo de estocolmo:semifinal 1",
+        "sport": "Tenis",
+        "time": "14:30"
+      },
+      {
+        "channels": [
           "M+ Deportes 3"
         ],
         "competition": "Dubai Open",
@@ -461,7 +480,22 @@
       },
       {
         "channels": [
-          "DAZN"
+          "M+ Deportes 2"
+        ],
+        "competition": "Torneo de Estocolmo",
+        "competition_key": "tenis",
+        "date": "2026-11-13",
+        "event": "Semifinal 2",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-13:18:00:torneo de estocolmo:semifinal 2",
+        "sport": "Tenis",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -659,7 +693,8 @@
       },
       {
         "channels": [
-          "Tennis Channel"
+          "Tennis Channel",
+          "Amazon Prime Video"
         ],
         "competition": "WTA Finals",
         "competition_key": "tenis",
@@ -702,7 +737,8 @@
       },
       {
         "channels": [
-          "Tennis Channel"
+          "Tennis Channel",
+          "Amazon Prime Video"
         ],
         "competition": "WTA Finals",
         "competition_key": "tenis",
