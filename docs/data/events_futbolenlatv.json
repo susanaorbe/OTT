@@ -1,94 +1,7 @@
 {
   "data": {
-    "count": 52,
+    "count": 66,
     "events": [
-      {
-        "channels": [
-          "DAZN",
-          "DAZN Baloncesto"
-        ],
-        "competition": "NBA",
-        "competition_key": "nba",
-        "date": "2026-11-11",
-        "event": "Philadelphia 76ers - Boston Celtics",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-11:02:00:nba:philadelphia 76ers - boston celtics",
-        "sport": "Baloncesto",
-        "time": "02:00"
-      },
-      {
-        "channels": [
-          "Premier Padel YouTube"
-        ],
-        "competition": "Dubai Open",
-        "competition_key": "padel",
-        "date": "2026-11-11",
-        "event": "2ª Ronda - Premier Padel Tour",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-11:09:00:dubai open:2ª ronda - premier padel tour",
-        "sport": "Pádel",
-        "time": "09:00"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-11",
-        "event": "BC Partizan Beograd - Baskonia",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-11:20:45:euroliga:bc partizan beograd - baskonia",
-        "sport": "Baloncesto",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 2"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-11",
-        "event": "Paris Basketball - Fenerbahce Istanbul",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-11:20:45:euroliga:paris basketball - fenerbahce istanbul",
-        "sport": "Baloncesto",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "Tennis Channel",
-          "Amazon Prime Video"
-        ],
-        "competition": "WTA Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-11",
-        "event": "Round Robin - E. Svitolina - K. Muchova",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-11:21:00:wta finals:round robin - e. svitolina - k. muchova",
-        "sport": "Tenis",
-        "time": "21:00"
-      },
-      {
-        "channels": [
-          "Tennis Channel",
-          "Amazon Prime Video"
-        ],
-        "competition": "WTA Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-11",
-        "event": "Round Robin - A. Sabalenka - M. Andreeva",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-11:22:30:wta finals:round robin - a. sabalenka - m. andreeva",
-        "sport": "Tenis",
-        "time": "22:30"
-      },
       {
         "channels": [
           "DAZN",
@@ -749,6 +662,294 @@
         "id": "ftv:2026-11-13:22:30:wta finals:semifinal 2",
         "sport": "Tenis",
         "time": "22:30"
+      },
+      {
+        "channels": [
+          "Amazon Prime Video"
+        ],
+        "competition": "NBA",
+        "competition_key": "nba",
+        "date": "2026-11-14",
+        "event": "Indiana Pacers - New York Knicks",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-14:01:00:nba:indiana pacers - new york knicks",
+        "sport": "Baloncesto",
+        "time": "01:00"
+      },
+      {
+        "channels": [
+          "Amazon Prime Video"
+        ],
+        "competition": "NBA",
+        "competition_key": "nba",
+        "date": "2026-11-14",
+        "event": "San Antonio Spurs - Golden State Warriors",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-14:03:30:nba:san antonio spurs - golden state warriors",
+        "sport": "Baloncesto",
+        "time": "03:30"
+      },
+      {
+        "channels": [
+          "M+ Vamos",
+          "M+ Deportes"
+        ],
+        "competition": "Dubai Open",
+        "competition_key": "padel",
+        "date": "2026-11-14",
+        "event": "Semifinal Femenina - Premier Padel Tour",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-14:13:00:dubai open:semifinal femenina - premier padel tour",
+        "sport": "Pádel",
+        "time": "13:00"
+      },
+      {
+        "channels": [
+          "M+ Deportes"
+        ],
+        "competition": "Dubai Open",
+        "competition_key": "padel",
+        "date": "2026-11-14",
+        "event": "Semifinal Femenina - Premier Padel Tour",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-14:14:30:dubai open:semifinal femenina - premier padel tour",
+        "sport": "Pádel",
+        "time": "14:30"
+      },
+      {
+        "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "Torneo de Estocolmo",
+        "competition_key": "tenis",
+        "date": "2026-11-14",
+        "event": "Final",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-14:15:00:torneo de estocolmo:final",
+        "sport": "Tenis",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-14",
+        "event": "UEFA Nations League - Kosovo - Israel",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-14:15:00:uefa nations league:uefa nations league - kosovo - israel",
+        "sport": "Fútbol",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "M+ Deportes"
+        ],
+        "competition": "Dubai Open",
+        "competition_key": "padel",
+        "date": "2026-11-14",
+        "event": "Semifinal Masculina - Premier Padel Tour",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-14:16:00:dubai open:semifinal masculina - premier padel tour",
+        "sport": "Pádel",
+        "time": "16:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-14",
+        "event": "UEFA Nations League - Noruega - Gales",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-14:18:00:uefa nations league:uefa nations league - noruega - gales",
+        "sport": "Fútbol",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-14",
+        "event": "UEFA Nations League - Georgia - Hungría",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-14:18:00:uefa nations league:uefa nations league - georgia - hungria",
+        "sport": "Fútbol",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "M+ Deportes"
+        ],
+        "competition": "Dubai Open",
+        "competition_key": "padel",
+        "date": "2026-11-14",
+        "event": "Semifinal Masculina - Premier Padel Tour",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-14:18:00:dubai open:semifinal masculina - premier padel tour",
+        "sport": "Pádel",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-14",
+        "event": "Río Breogán - San Pablo Burgos",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-14:18:00:liga endesa acb:rio breogan - san pablo burgos",
+        "sport": "Baloncesto",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto 2"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-14",
+        "event": "MoraBanc Andorra - La Laguna Tenerife",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-14:19:30:liga endesa acb:morabanc andorra - la laguna tenerife",
+        "sport": "Baloncesto",
+        "time": "19:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN 1",
+          "Teledeporte"
+        ],
+        "competition": "Liga F",
+        "competition_key": "other_football",
+        "date": "2026-11-14",
+        "event": "Real Madrid Femenino - FC Badalona Women",
+        "featured": true,
+        "icon": "⚽",
+        "id": "ftv:2026-11-14:20:30:liga f:real madrid femenino - fc badalona women",
+        "sport": "Fútbol",
+        "time": "20:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-14",
+        "event": "UEFA Nations League - Suecia - Bosnia",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-14:20:45:uefa nations league:uefa nations league - suecia - bosnia",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-14",
+        "event": "UEFA Nations League - Portugal - Dinamarca",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-14:20:45:uefa nations league:uefa nations league - portugal - dinamarca",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-14",
+        "event": "UEFA Nations League - Rumanía - Polonia",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-14:20:45:uefa nations league:uefa nations league - rumania - polonia",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-14",
+        "event": "UEFA Nations League - Irlanda del Norte - Ucrania",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-14:20:45:uefa nations league:uefa nations league - irlanda del norte - ucrania",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-14",
+        "event": "UEFA Nations League - Austria - República Irlanda",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-14:20:45:uefa nations league:uefa nations league - austria - republica irlanda",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "Tennis Channel",
+          "Amazon Prime Video"
+        ],
+        "competition": "WTA Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-14",
+        "event": "Final",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-14:21:00:wta finals:final",
+        "sport": "Tenis",
+        "time": "21:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "Movistar Plus+",
+          "DAZN Baloncesto 3"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-14",
+        "event": "Joventut Badalona - Casademont Zaragoza",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-14:21:00:liga endesa acb:joventut badalona - casademont zaragoza",
+        "sport": "Baloncesto",
+        "time": "21:00"
       }
     ],
     "source": "futbolenlatv"
