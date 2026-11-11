@@ -78,122 +78,6 @@
       ],
       "Basketball": [
         {
-          "awayTeam": "KK Budućnost",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136093",
-          "channels": [],
-          "country": "France",
-          "countryIMG": "https://flagcdn.com/w40/fr.png",
-          "end": "2026-11-10 21:30",
-          "event": "Bourg-en-Bresse vs KK Budućnost",
-          "gameID": "2588482",
-          "homeTeam": "Bourg-en-Bresse",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135234",
-          "start": "2026-11-10 18:30",
-          "status": "NS",
-          "time": "18:30",
-          "tournament": "EuroCup Basketball"
-        },
-        {
-          "awayTeam": "Tofaş SK",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136078",
-          "channels": [
-            {
-              "channel_code": "tr",
-              "channel_name": "TRT Spor FHD TR",
-              "id": "6add40b12d4a99e07363f5d2",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/turkey/trt-spor-fhd-tr.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TRT%20Spor%20FHD%20TR&code=tr&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "Italy",
-          "countryIMG": "https://flagcdn.com/w40/it.png",
-          "end": "2026-11-10 22:00",
-          "event": "Trento vs Tofaş SK",
-          "gameID": "2588474",
-          "homeTeam": "Trento",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135382",
-          "start": "2026-11-10 19:00",
-          "status": "NS",
-          "time": "19:00",
-          "tournament": "EuroCup Basketball"
-        },
-        {
-          "awayTeam": "KK Cedevita Olimpija",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137290",
-          "channels": [
-            {
-              "channel_code": "gr",
-              "channel_name": "Nova Sport Start HD GR",
-              "id": "6add40b32d4a99e0736412a8",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/greece/nova-sport-start-hd-gr.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Nova%20Sport%20Start%20HD%20GR&code=gr&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "Germany",
-          "countryIMG": "https://flagcdn.com/w40/de.png",
-          "end": "2026-11-10 22:00",
-          "event": "Rostock Seawolves vs KK Cedevita Olimpija",
-          "gameID": "2588477",
-          "homeTeam": "Rostock Seawolves",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/144604",
-          "start": "2026-11-10 19:00",
-          "status": "NS",
-          "time": "19:00",
-          "tournament": "EuroCup Basketball"
-        },
-        {
-          "awayTeam": "Reyer Venezia Mestre",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135391",
-          "channels": [
-            {
-              "channel_code": "il",
-              "channel_name": "Sport 1 HD IL",
-              "id": "6add40b32d4a99e073641351",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/israel/sport-1-hd-il.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%201%20HD%20IL&code=il&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "England",
-          "countryIMG": "https://flagcdn.com/w40/gb.png",
-          "end": "2026-11-10 22:30",
-          "event": "London Lions vs Reyer Venezia Mestre",
-          "gameID": "2588480",
-          "homeTeam": "London Lions",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135348",
-          "start": "2026-11-10 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "EuroCup Basketball"
-        },
-        {
-          "awayTeam": "KK Bosna Royal",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/140006",
-          "channels": [
-            {
-              "channel_code": "bg",
-              "channel_name": "Max Sport 2 FHD BG",
-              "id": "6add40b32d4a99e0736411db",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/bg/max-sport-2-fhd-bg.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Max%20Sport%202%20FHD%20BG&code=bg&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "Spain",
-          "countryIMG": "https://flagcdn.com/w40/es.png",
-          "end": "2026-11-10 22:30",
-          "event": "Basquet Manresa vs KK Bosna Royal",
-          "gameID": "2608075",
-          "homeTeam": "Basquet Manresa",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135087",
-          "start": "2026-11-10 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "EuroCup Basketball"
-        },
-        {
           "awayTeam": "BC Lietkabelis",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136106",
           "channels": [
@@ -2921,6 +2805,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
               "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
@@ -2992,6 +2884,14 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
@@ -3228,6 +3128,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -3264,6 +3172,14 @@
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3331,6 +3247,14 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
@@ -3406,6 +3330,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
               "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
@@ -3479,6 +3411,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
               "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
@@ -3550,6 +3490,14 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
@@ -3721,6 +3669,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -3757,6 +3713,14 @@
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3824,6 +3788,14 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
@@ -3897,6 +3869,14 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
@@ -4045,6 +4025,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
               "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
@@ -4191,6 +4179,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
               "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
@@ -4262,6 +4258,14 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
@@ -4337,6 +4341,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
               "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
@@ -4408,6 +4420,14 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
@@ -4629,6 +4649,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "MotoGP Commentary (D)",
               "id": "6add8cd42d4a99e07393fdeb",
               "image": "",
@@ -4798,6 +4826,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -4834,6 +4870,14 @@
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -5210,6 +5254,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -5246,6 +5298,14 @@
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -5427,6 +5487,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -5463,6 +5531,14 @@
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -14989,10 +15065,10 @@
       ],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1794352309,
-      "total_events": 694,
+      "timestamp": 1794365198,
+      "total_events": 689,
       "total_events_badminton": 4,
-      "total_events_basketball": 131,
+      "total_events_basketball": 126,
       "total_events_cricket": 0,
       "total_events_cycling": 0,
       "total_events_darts": 0,
