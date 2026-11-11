@@ -1,6 +1,6 @@
 {
   "data": {
-    "count": 49,
+    "count": 50,
     "events": [
       {
         "channels": [
@@ -335,10 +335,10 @@
         "competition": "WTA Finals",
         "competition_key": "tenis",
         "date": "2026-11-12",
-        "event": "Round Robin",
+        "event": "Round Robin - M. Kostyuk - C. Gauff",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-12:21:00:wta finals:round robin",
+        "id": "ftv:2026-11-12:21:00:wta finals:round robin - m. kostyuk - c. gauff",
         "sport": "Tenis",
         "time": "21:00"
       },
@@ -355,6 +355,20 @@
         "id": "ftv:2026-11-12:21:00:euroliga:real madrid baloncesto - crvena zvezda mts belgrade",
         "sport": "Baloncesto",
         "time": "21:00"
+      },
+      {
+        "channels": [
+          "Tennis Channel"
+        ],
+        "competition": "WTA Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-12",
+        "event": "Round Robin - J. Pegula - L. Noskova",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-12:22:30:wta finals:round robin - j. pegula - l. noskova",
+        "sport": "Tenis",
+        "time": "22:30"
       },
       {
         "channels": [
