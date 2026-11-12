@@ -1,6 +1,6 @@
 {
   "data": {
-    "count": 66,
+    "count": 67,
     "events": [
       {
         "channels": [
@@ -48,7 +48,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -612,10 +613,10 @@
         "competition": "WTA Finals",
         "competition_key": "tenis",
         "date": "2026-11-13",
-        "event": "Semifinal 1",
+        "event": "Round Robin - M. Andreeva - K. Muchova",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-13:21:00:wta finals:semifinal 1",
+        "id": "ftv:2026-11-13:21:00:wta finals:round robin - m. andreeva - k. muchova",
         "sport": "Tenis",
         "time": "21:00"
       },
@@ -656,10 +657,10 @@
         "competition": "WTA Finals",
         "competition_key": "tenis",
         "date": "2026-11-13",
-        "event": "Semifinal 2",
+        "event": "Round Robin - A. Sabalenka - E. Svitolina",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-13:22:30:wta finals:semifinal 2",
+        "id": "ftv:2026-11-13:22:30:wta finals:round robin - a. sabalenka - e. svitolina",
         "sport": "Tenis",
         "time": "22:30"
       },
@@ -736,7 +737,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -764,7 +766,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -778,7 +781,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -852,7 +856,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -866,7 +871,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -880,7 +886,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -894,7 +901,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -908,7 +916,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -928,10 +937,10 @@
         "competition": "WTA Finals",
         "competition_key": "tenis",
         "date": "2026-11-14",
-        "event": "Final",
+        "event": "Semifinal 1",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-14:21:00:wta finals:final",
+        "id": "ftv:2026-11-14:21:00:wta finals:semifinal 1",
         "sport": "Tenis",
         "time": "21:00"
       },
@@ -950,6 +959,21 @@
         "id": "ftv:2026-11-14:21:00:liga endesa acb:joventut badalona - casademont zaragoza",
         "sport": "Baloncesto",
         "time": "21:00"
+      },
+      {
+        "channels": [
+          "Tennis Channel",
+          "Amazon Prime Video"
+        ],
+        "competition": "WTA Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-14",
+        "event": "Semifinal 2",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-14:22:30:wta finals:semifinal 2",
+        "sport": "Tenis",
+        "time": "22:30"
       }
     ],
     "source": "futbolenlatv"
