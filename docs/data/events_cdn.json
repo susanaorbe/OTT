@@ -2796,6 +2796,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -3293,6 +3301,14 @@
               "id": "6add40b12d4a99e07363f418",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -4212,6 +4228,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -4506,6 +4530,14 @@
               "id": "6add40b12d4a99e07363f418",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -4930,6 +4962,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -5151,6 +5191,14 @@
               "id": "6add40b12d4a99e07363f418",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -12507,86 +12555,6 @@
       "Rugby": [],
       "Soccer": [
         {
-          "awayTeam": "Paraguay",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136471",
-          "channels": [],
-          "country": "Singapore",
-          "countryIMG": "",
-          "end": "2026-11-13 15:00",
-          "event": "Singapore vs Paraguay",
-          "gameID": "2606352",
-          "homeTeam": "Singapore",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/140152",
-          "start": "2026-11-13 12:00",
-          "status": "NS",
-          "time": "12:00",
-          "tournament": "International Friendlies"
-        },
-        {
-          "awayTeam": "Kyrgyzstan",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/140158",
-          "channels": [],
-          "country": "Taiwan",
-          "countryIMG": "",
-          "end": "2026-11-13 15:00",
-          "event": "Chinese Taipei vs Kyrgyzstan",
-          "gameID": "2623094",
-          "homeTeam": "Chinese Taipei",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/140147",
-          "start": "2026-11-13 12:00",
-          "status": "NS",
-          "time": "12:00",
-          "tournament": "International Friendlies"
-        },
-        {
-          "awayTeam": "Honduras",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134508",
-          "channels": [],
-          "country": "United Arab Emirates",
-          "countryIMG": "https://flagcdn.com/w40/ae.png",
-          "end": "2026-11-13 16:00",
-          "event": "United Arab Emirates vs Honduras",
-          "gameID": "2624394",
-          "homeTeam": "United Arab Emirates",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/140163",
-          "start": "2026-11-13 13:00",
-          "status": "NS",
-          "time": "13:00",
-          "tournament": "International Friendlies"
-        },
-        {
-          "awayTeam": "South Korea",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134517",
-          "channels": [],
-          "country": "Saudi Arabia",
-          "countryIMG": "https://flagcdn.com/w40/sa.png",
-          "end": "2026-11-13 17:30",
-          "event": "Saudi Arabia vs South Korea",
-          "gameID": "2623095",
-          "homeTeam": "Saudi Arabia",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136137",
-          "start": "2026-11-13 14:30",
-          "status": "NS",
-          "time": "14:30",
-          "tournament": "International Friendlies"
-        },
-        {
-          "awayTeam": "Australia",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134500",
-          "channels": [],
-          "country": "Qatar",
-          "countryIMG": "https://flagcdn.com/w40/qa.png",
-          "end": "2026-11-13 17:45",
-          "event": "Qatar vs Australia",
-          "gameID": "2606353",
-          "homeTeam": "Qatar",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136472",
-          "start": "2026-11-13 14:45",
-          "status": "NS",
-          "time": "14:45",
-          "tournament": "International Friendlies"
-        },
-        {
           "awayTeam": "Italy U21",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136842",
           "channels": [
@@ -12596,6 +12564,14 @@
               "id": "6add40b12d4a99e07363ed81",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=3%3A00%20PM%20EDT%20Oregon%20%40%20Illinois%2010%2F24%20%5BDAZN%20CA%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "3:30 PM EDT BYU @ UCF 10/24 [DAZN CA]",
+              "id": "6add40b12d4a99e07363ed82",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=3%3A30%20PM%20EDT%20BYU%20%40%20UCF%2010%2F24%20%5BDAZN%20CA%5D&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -13244,6 +13220,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "Premiere 1 HD BR",
+              "id": "6add40b22d4a99e073640628",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Premiere Clubes HD BR",
               "id": "6add8cd72d4a99e073942beb",
               "image": "",
@@ -13296,14 +13280,6 @@
               "id": "6add8cd72d4a99e073942abb",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%207%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 1 HD BR",
-              "id": "6add40b22d4a99e073640628",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -13325,6 +13301,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "Premiere 1 HD BR",
+              "id": "6add40b22d4a99e073640628",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Premiere Clubes HD BR",
               "id": "6add8cd72d4a99e073942beb",
               "image": "",
@@ -13377,14 +13361,6 @@
               "id": "6add8cd72d4a99e073942abb",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%207%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 1 HD BR",
-              "id": "6add40b22d4a99e073640628",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -13406,6 +13382,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "Premiere 1 HD BR",
+              "id": "6add40b22d4a99e073640628",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Premiere Clubes HD BR",
               "id": "6add8cd72d4a99e073942beb",
               "image": "",
@@ -13458,14 +13442,6 @@
               "id": "6add8cd72d4a99e073942abb",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%207%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 1 HD BR",
-              "id": "6add40b22d4a99e073640628",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -13487,6 +13463,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "Premiere 1 HD BR",
+              "id": "6add40b22d4a99e073640628",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Premiere Clubes HD BR",
               "id": "6add8cd72d4a99e073942beb",
               "image": "",
@@ -13539,14 +13523,6 @@
               "id": "6add8cd72d4a99e073942abb",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%207%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 1 HD BR",
-              "id": "6add40b22d4a99e073640628",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -13568,6 +13544,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "Premiere 1 HD BR",
+              "id": "6add40b22d4a99e073640628",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Premiere Clubes HD BR",
               "id": "6add8cd72d4a99e073942beb",
               "image": "",
@@ -13620,14 +13604,6 @@
               "id": "6add8cd72d4a99e073942abb",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%207%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 1 HD BR",
-              "id": "6add40b22d4a99e073640628",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -13649,6 +13625,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "Premiere 1 HD BR",
+              "id": "6add40b22d4a99e073640628",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Premiere Clubes HD BR",
               "id": "6add8cd72d4a99e073942beb",
               "image": "",
@@ -13701,14 +13685,6 @@
               "id": "6add8cd72d4a99e073942abb",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%207%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 1 HD BR",
-              "id": "6add40b22d4a99e073640628",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -13730,6 +13706,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "Premiere 1 HD BR",
+              "id": "6add40b22d4a99e073640628",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Premiere Clubes HD BR",
               "id": "6add8cd72d4a99e073942beb",
               "image": "",
@@ -13782,14 +13766,6 @@
               "id": "6add8cd72d4a99e073942abb",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%207%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 1 HD BR",
-              "id": "6add40b22d4a99e073640628",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -13811,6 +13787,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "Premiere 1 HD BR",
+              "id": "6add40b22d4a99e073640628",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Premiere Clubes HD BR",
               "id": "6add8cd72d4a99e073942beb",
               "image": "",
@@ -13863,14 +13847,6 @@
               "id": "6add8cd72d4a99e073942abb",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%207%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 1 HD BR",
-              "id": "6add40b22d4a99e073640628",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -13892,6 +13868,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "Premiere 1 HD BR",
+              "id": "6add40b22d4a99e073640628",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Premiere Clubes HD BR",
               "id": "6add8cd72d4a99e073942beb",
               "image": "",
@@ -13944,14 +13928,6 @@
               "id": "6add8cd72d4a99e073942abb",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%207%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 1 HD BR",
-              "id": "6add40b22d4a99e073640628",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -13973,6 +13949,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "Premiere 1 HD BR",
+              "id": "6add40b22d4a99e073640628",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Premiere Clubes HD BR",
               "id": "6add8cd72d4a99e073942beb",
               "image": "",
@@ -14025,14 +14009,6 @@
               "id": "6add8cd72d4a99e073942abb",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%207%20HD%20BR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Premiere 1 HD BR",
-              "id": "6add40b22d4a99e073640628",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%201%20HD%20BR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -14985,8 +14961,8 @@
       ],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1794587750,
-      "total_events": 666,
+      "timestamp": 1794607717,
+      "total_events": 661,
       "total_events_badminton": 4,
       "total_events_basketball": 118,
       "total_events_cricket": 0,
@@ -15006,7 +14982,7 @@
       "total_events_nfl": 138,
       "total_events_nhl": 0,
       "total_events_rugby": 0,
-      "total_events_soccer": 44,
+      "total_events_soccer": 39,
       "total_events_tennis": 0,
       "total_events_ufc": 3,
       "total_events_volleyball": 0,

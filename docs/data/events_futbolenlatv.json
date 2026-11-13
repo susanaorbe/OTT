@@ -72,9 +72,9 @@
         "event": "Semifinal 1 - A. Tabilo - TA. Tirante",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-13:14:00:torneo de estocolmo:semifinal 1 - a. tabilo - ta. tirante",
+        "id": "ftv:2026-11-13:14:10:torneo de estocolmo:semifinal 1 - a. tabilo - ta. tirante",
         "sport": "Tenis",
-        "time": "14:00"
+        "time": "14:10"
       },
       {
         "channels": [
@@ -115,9 +115,9 @@
         "event": "Semifinal 2 - T. Fritz - L. Musetti",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-13:17:00:torneo de estocolmo:semifinal 2 - t. fritz - l. musetti",
+        "id": "ftv:2026-11-13:17:10:torneo de estocolmo:semifinal 2 - t. fritz - l. musetti",
         "sport": "Tenis",
-        "time": "17:00"
+        "time": "17:10"
       },
       {
         "channels": [
@@ -407,6 +407,20 @@
       },
       {
         "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "Torneo de Estocolmo",
+        "competition_key": "tenis",
+        "date": "2026-11-14",
+        "event": "Final - T. Fritz - TA. Tirante",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-14:13:00:torneo de estocolmo:final - t. fritz - ta. tirante",
+        "sport": "Tenis",
+        "time": "13:00"
+      },
+      {
+        "channels": [
           "M+ Vamos",
           "M+ Deportes"
         ],
@@ -433,20 +447,6 @@
         "id": "ftv:2026-11-14:14:30:dubai open:semifinal femenina - premier padel tour",
         "sport": "Pádel",
         "time": "14:30"
-      },
-      {
-        "channels": [
-          "M+ Deportes 2"
-        ],
-        "competition": "Torneo de Estocolmo",
-        "competition_key": "tenis",
-        "date": "2026-11-14",
-        "event": "Final",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-14:15:00:torneo de estocolmo:final",
-        "sport": "Tenis",
-        "time": "15:00"
       },
       {
         "channels": [
