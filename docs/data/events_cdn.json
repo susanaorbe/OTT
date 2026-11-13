@@ -78,22 +78,6 @@
       ],
       "Basketball": [
         {
-          "awayTeam": "Maxima Roma",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/156537",
-          "channels": [],
-          "country": "Germany",
-          "countryIMG": "https://flagcdn.com/w40/de.png",
-          "end": "2026-11-12 22:00",
-          "event": "Skyliners Frankfurt vs Maxima Roma",
-          "gameID": "2588489",
-          "homeTeam": "Skyliners Frankfurt",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135425",
-          "start": "2026-11-12 19:00",
-          "status": "NS",
-          "time": "19:00",
-          "tournament": "EuroCup Basketball"
-        },
-        {
           "awayTeam": "BC Lietkabelis",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136106",
           "channels": [],
@@ -2225,14 +2209,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -2241,10 +2217,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add40b12d4a99e07363f41c",
+              "channel_name": "Canal+ Sport Extra 4 FHD PL",
+              "id": "6add40b12d4a99e07363f41d",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2450,14 +2426,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -2466,10 +2434,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add40b12d4a99e07363f41c",
+              "channel_name": "Canal+ Sport Extra 4 FHD PL",
+              "id": "6add40b12d4a99e07363f41d",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2771,14 +2739,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -2787,10 +2747,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add40b12d4a99e07363f41c",
+              "channel_name": "Canal+ Sport Extra 4 FHD PL",
+              "id": "6add40b12d4a99e07363f41d",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2964,14 +2924,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -2980,10 +2932,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add40b12d4a99e07363f41c",
+              "channel_name": "Canal+ Sport Extra 4 FHD PL",
+              "id": "6add40b12d4a99e07363f41d",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3189,14 +3141,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -3205,10 +3149,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add40b12d4a99e07363f41c",
+              "channel_name": "Canal+ Sport Extra 4 FHD PL",
+              "id": "6add40b12d4a99e07363f41d",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3366,14 +3310,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -3382,10 +3318,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add40b12d4a99e07363f41c",
+              "channel_name": "Canal+ Sport Extra 4 FHD PL",
+              "id": "6add40b12d4a99e07363f41d",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -8560,10 +8496,10 @@
             },
             {
               "channel_code": "gb",
-              "channel_name": "Sky Sports Main Event FHD UK",
-              "id": "6add40ae2d4a99e07363c855",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-main-event-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Main%20Event%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "channel_name": "Sky Sports Main Event HD UK",
+              "id": "6add8cd32d4a99e07393f49c",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-main-event-hd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Main%20Event%20HD%20UK&code=gb&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -10856,38 +10792,6 @@
       "Rugby": [],
       "Soccer": [
         {
-          "awayTeam": "Russia",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/133903",
-          "channels": [],
-          "country": "Uzbekistan",
-          "countryIMG": "",
-          "end": "2026-11-12 18:00",
-          "event": "Uzbekistan vs Russia",
-          "gameID": "2623092",
-          "homeTeam": "Uzbekistan",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/140151",
-          "start": "2026-11-12 15:00",
-          "status": "NS",
-          "time": "15:00",
-          "tournament": "International Friendlies"
-        },
-        {
-          "awayTeam": "Eswatini",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136501",
-          "channels": [],
-          "country": "Malta",
-          "countryIMG": "",
-          "end": "2026-11-12 20:30",
-          "event": "Malta vs Eswatini",
-          "gameID": "2623093",
-          "homeTeam": "Malta",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136465",
-          "start": "2026-11-12 17:30",
-          "status": "NS",
-          "time": "17:30",
-          "tournament": "International Friendlies"
-        },
-        {
           "awayTeam": "Paraguay",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136471",
           "channels": [],
@@ -11068,14 +10972,6 @@
               "viewers": 0
             },
             {
-              "channel_code": "cy",
-              "channel_name": "Cytavision Sports 4 HD CY",
-              "id": "6add40b32d4a99e0736412cb",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/cy/cytavision-sports-4-hd-cy.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Cytavision%20Sports%204%20HD%20CY&code=cy&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
               "channel_code": "dk",
               "channel_name": "TV2 Sport X HD DK",
               "id": "6add40ae2d4a99e07363c425",
@@ -11085,10 +10981,10 @@
             },
             {
               "channel_code": "bg",
-              "channel_name": "Diema Sport 3 FHD BG",
-              "id": "6add40b32d4a99e073641199",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/bg/diema-sport-3-fhd-bg.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Diema%20Sport%203%20FHD%20BG&code=bg&user=cdnlivetv&plan=free",
+              "channel_name": "Diema Sport 3 HD BG",
+              "id": "6add8cd82d4a99e073943752",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/bg/diema-sport-3-hd-bg.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Diema%20Sport%203%20HD%20BG&code=bg&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -12037,10 +11933,10 @@
       ],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1794515398,
-      "total_events": 673,
+      "timestamp": 1794533104,
+      "total_events": 670,
       "total_events_badminton": 4,
-      "total_events_basketball": 119,
+      "total_events_basketball": 118,
       "total_events_cricket": 0,
       "total_events_cycling": 0,
       "total_events_darts": 0,
@@ -12058,7 +11954,7 @@
       "total_events_nfl": 139,
       "total_events_nhl": 0,
       "total_events_rugby": 0,
-      "total_events_soccer": 46,
+      "total_events_soccer": 44,
       "total_events_tennis": 0,
       "total_events_ufc": 3,
       "total_events_volleyball": 0,
