@@ -69,12 +69,12 @@
         "competition": "Torneo de Estocolmo",
         "competition_key": "tenis",
         "date": "2026-11-13",
-        "event": "Semifinal 1",
+        "event": "Semifinal 1 - A. Tabilo - TA. Tirante",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-13:14:30:torneo de estocolmo:semifinal 1",
+        "id": "ftv:2026-11-13:14:00:torneo de estocolmo:semifinal 1 - a. tabilo - ta. tirante",
         "sport": "Tenis",
-        "time": "14:30"
+        "time": "14:00"
       },
       {
         "channels": [
@@ -112,12 +112,12 @@
         "competition": "Torneo de Estocolmo",
         "competition_key": "tenis",
         "date": "2026-11-13",
-        "event": "Semifinal 2",
+        "event": "Semifinal 2 - T. Fritz - L. Musetti",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-13:18:00:torneo de estocolmo:semifinal 2",
+        "id": "ftv:2026-11-13:17:00:torneo de estocolmo:semifinal 2 - t. fritz - l. musetti",
         "sport": "Tenis",
-        "time": "18:00"
+        "time": "17:00"
       },
       {
         "channels": [
