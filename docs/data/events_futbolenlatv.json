@@ -32,20 +32,6 @@
       },
       {
         "channels": [
-          "M+ Deportes 2"
-        ],
-        "competition": "Torneo de Estocolmo",
-        "competition_key": "tenis",
-        "date": "2026-11-14",
-        "event": "Final - T. Fritz - TA. Tirante",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-14:13:00:torneo de estocolmo:final - t. fritz - ta. tirante",
-        "sport": "Tenis",
-        "time": "13:00"
-      },
-      {
-        "channels": [
           "M+ Vamos",
           "M+ Deportes"
         ],
@@ -58,6 +44,20 @@
         "id": "ftv:2026-11-14:13:00:dubai open:semifinal femenina - premier padel tour",
         "sport": "Pádel",
         "time": "13:00"
+      },
+      {
+        "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "Torneo de Estocolmo",
+        "competition_key": "tenis",
+        "date": "2026-11-14",
+        "event": "Final - T. Fritz - TA. Tirante",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-14:13:10:torneo de estocolmo:final - t. fritz - ta. tirante",
+        "sport": "Tenis",
+        "time": "13:10"
       },
       {
         "channels": [
