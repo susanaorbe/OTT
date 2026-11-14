@@ -1,382 +1,7 @@
 {
   "data": {
-    "count": 70,
+    "count": 56,
     "events": [
-      {
-        "channels": [
-          "DAZN",
-          "DAZN Baloncesto"
-        ],
-        "competition": "NBA",
-        "competition_key": "nba",
-        "date": "2026-11-13",
-        "event": "Philadelphia 76ers - Toronto Raptors",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-13:01:00:nba:philadelphia 76ers - toronto raptors",
-        "sport": "Baloncesto",
-        "time": "01:00"
-      },
-      {
-        "channels": [
-          "M+ Vamos",
-          "M+ Deportes",
-          "M+ Deportes 3"
-        ],
-        "competition": "Dubai Open",
-        "competition_key": "padel",
-        "date": "2026-11-13",
-        "event": "1/4 de final femenino - Premier Padel Tour",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-13:09:00:dubai open:1 4 de final femenino - premier padel tour",
-        "sport": "Pádel",
-        "time": "09:00"
-      },
-      {
-        "channels": [
-          "M+ Deportes",
-          "M+ Deportes 3"
-        ],
-        "competition": "Dubai Open",
-        "competition_key": "padel",
-        "date": "2026-11-13",
-        "event": "1/4 de final femenino - Premier Padel Tour",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-13:11:00:dubai open:1 4 de final femenino - premier padel tour",
-        "sport": "Pádel",
-        "time": "11:00"
-      },
-      {
-        "channels": [
-          "M+ Deportes"
-        ],
-        "competition": "Dubai Open",
-        "competition_key": "padel",
-        "date": "2026-11-13",
-        "event": "1/4 de final femenino - Premier Padel Tour",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-13:13:00:dubai open:1 4 de final femenino - premier padel tour",
-        "sport": "Pádel",
-        "time": "13:00"
-      },
-      {
-        "channels": [
-          "M+ Deportes 2"
-        ],
-        "competition": "Torneo de Estocolmo",
-        "competition_key": "tenis",
-        "date": "2026-11-13",
-        "event": "Semifinal 1 - A. Tabilo - TA. Tirante",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-13:14:10:torneo de estocolmo:semifinal 1 - a. tabilo - ta. tirante",
-        "sport": "Tenis",
-        "time": "14:10"
-      },
-      {
-        "channels": [
-          "M+ Deportes 3"
-        ],
-        "competition": "Dubai Open",
-        "competition_key": "padel",
-        "date": "2026-11-13",
-        "event": "1/4 de final masculino - Premier Padel Tour",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-13:15:00:dubai open:1 4 de final masculino - premier padel tour",
-        "sport": "Pádel",
-        "time": "15:00"
-      },
-      {
-        "channels": [
-          "M+ Vamos",
-          "M+ Deportes"
-        ],
-        "competition": "Dubai Open",
-        "competition_key": "padel",
-        "date": "2026-11-13",
-        "event": "1/4 de final masculino - Premier Padel Tour",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-13:16:00:dubai open:1 4 de final masculino - premier padel tour",
-        "sport": "Pádel",
-        "time": "16:00"
-      },
-      {
-        "channels": [
-          "M+ Deportes 2"
-        ],
-        "competition": "Torneo de Estocolmo",
-        "competition_key": "tenis",
-        "date": "2026-11-13",
-        "event": "Semifinal 2 - T. Fritz - L. Musetti",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-13:17:10:torneo de estocolmo:semifinal 2 - t. fritz - l. musetti",
-        "sport": "Tenis",
-        "time": "17:10"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN App Gratis"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-13",
-        "event": "UEFA Nations League - Moldavia - Kazajistán",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-13:18:00:uefa nations league:uefa nations league - moldavia - kazajistan",
-        "sport": "Fútbol",
-        "time": "18:00"
-      },
-      {
-        "channels": [
-          "M+ Deportes"
-        ],
-        "competition": "Dubai Open",
-        "competition_key": "padel",
-        "date": "2026-11-13",
-        "event": "1/4 de final masculino - Premier Padel Tour",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-13:18:00:dubai open:1 4 de final masculino - premier padel tour",
-        "sport": "Pádel",
-        "time": "18:00"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 2"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-13",
-        "event": "Anadolu Efes Istanbul - Virtus Bologna",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-13:18:30:euroliga:anadolu efes istanbul - virtus bologna",
-        "sport": "Baloncesto",
-        "time": "18:30"
-      },
-      {
-        "channels": [
-          "Movistar Plus+",
-          "M+ Baloncesto"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-13",
-        "event": "Panathinaikos BC - Barça Basket",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-13:20:15:euroliga:panathinaikos bc - barca basket",
-        "sport": "Baloncesto",
-        "time": "20:15"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 3"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-13",
-        "event": "ASVEL Lyon-Villeurbanne - Besiktas JK Istanbul",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-13:20:30:euroliga:asvel lyon-villeurbanne - besiktas jk istanbul",
-        "sport": "Baloncesto",
-        "time": "20:30"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-13",
-        "event": "UEFA Nations League - Holanda - Grecia",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-13:20:45:uefa nations league:uefa nations league - holanda - grecia",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-13",
-        "event": "UEFA Nations League - Eslovenia - Suiza",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-13:20:45:uefa nations league:uefa nations league - eslovenia - suiza",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "La 1 TVE"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-13",
-        "event": "UEFA Nations League - Serbia - Alemania",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-13:20:45:uefa nations league:uefa nations league - serbia - alemania",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-13",
-        "event": "UEFA Nations League - Eslovaquia - Islas Feroe",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-13:20:45:uefa nations league:uefa nations league - eslovaquia - islas feroe",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-13",
-        "event": "UEFA Nations League - Escocia - Macedonia Norte",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-13:20:45:uefa nations league:uefa nations league - escocia - macedonia norte",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-13",
-        "event": "UEFA Nations League - Bulgaria - Islandia",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-13:20:45:uefa nations league:uefa nations league - bulgaria - islandia",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-13",
-        "event": "UEFA Nations League - Liechtenstein - Azerbaiyán",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-13:20:45:uefa nations league:uefa nations league - liechtenstein - azerbaiyan",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-13",
-        "event": "UEFA Nations League - Luxemburgo - Estonia",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-13:20:45:uefa nations league:uefa nations league - luxemburgo - estonia",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-13",
-        "event": "UEFA Nations League - Andorra - Gibraltar",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-13:20:45:uefa nations league:uefa nations league - andorra - gibraltar",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "Tennis Channel",
-          "Amazon Prime Video"
-        ],
-        "competition": "WTA Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-13",
-        "event": "Round Robin - M. Andreeva - K. Muchova",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-13:21:00:wta finals:round robin - m. andreeva - k. muchova",
-        "sport": "Tenis",
-        "time": "21:00"
-      },
-      {
-        "channels": [
-          "M+ LALIGA"
-        ],
-        "competition": "Copa del Rey",
-        "competition_key": "copadelrey",
-        "date": "2026-11-13",
-        "event": "1ª Ronda - Salamanca UDS - Celta",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-13:21:00:copa del rey:1ª ronda - salamanca uds - celta",
-        "sport": "Fútbol",
-        "time": "21:00"
-      },
-      {
-        "channels": [
-          "Primera Federación",
-          "DAZN"
-        ],
-        "competition": "España - Primera Federación",
-        "competition_key": "other_football",
-        "date": "2026-11-13",
-        "event": "Nástic Tarragona - RM Castilla",
-        "featured": true,
-        "icon": "⚽",
-        "id": "ftv:2026-11-13:21:15:espana - primera federacion:nastic tarragona - rm castilla",
-        "sport": "Fútbol",
-        "time": "21:15"
-      },
-      {
-        "channels": [
-          "Tennis Channel",
-          "Amazon Prime Video"
-        ],
-        "competition": "WTA Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-13",
-        "event": "Round Robin - A. Sabalenka - E. Svitolina",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-13:22:30:wta finals:round robin - a. sabalenka - e. svitolina",
-        "sport": "Tenis",
-        "time": "22:30"
-      },
       {
         "channels": [
           "Amazon Prime Video"
@@ -1026,6 +651,181 @@
         "id": "ftv:2026-11-15:23:00:nba:utah jazz - san antonio spurs",
         "sport": "Baloncesto",
         "time": "23:00"
+      },
+      {
+        "channels": [
+          "Movistar Plus+",
+          "M+ Deportes 2"
+        ],
+        "competition": "ATP Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-16",
+        "event": "Round Robin - C. Alcaraz - F. Tiafoe",
+        "featured": true,
+        "icon": "🎾",
+        "id": "ftv:2026-11-16:14:00:atp finals:round robin - c. alcaraz - f. tiafoe",
+        "sport": "Tenis",
+        "time": "14:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN App Gratis"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-16",
+        "event": "UEFA Nations League - Kazajistán - Eslovaquia",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-16:16:00:uefa nations league:uefa nations league - kazajistan - eslovaquia",
+        "sport": "Fútbol",
+        "time": "16:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN App Gratis"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-16",
+        "event": "UEFA Nations League - Islas Feroe - Moldavia",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-16:16:00:uefa nations league:uefa nations league - islas feroe - moldavia",
+        "sport": "Fútbol",
+        "time": "16:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN App Gratis"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-16",
+        "event": "UEFA Nations League - Islandia - Luxemburgo",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-16:18:00:uefa nations league:uefa nations league - islandia - luxemburgo",
+        "sport": "Fútbol",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN App Gratis"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-16",
+        "event": "UEFA Nations League - Lituania - Liechtenstein",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-16:18:00:uefa nations league:uefa nations league - lituania - liechtenstein",
+        "sport": "Fútbol",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN App Gratis"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-16",
+        "event": "UEFA Nations League - Estonia - Bulgaria",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-16:18:00:uefa nations league:uefa nations league - estonia - bulgaria",
+        "sport": "Fútbol",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "ATP Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-16",
+        "event": "Round Robin - D. Medvedev - F. Cobolli",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-16:20:30:atp finals:round robin - d. medvedev - f. cobolli",
+        "sport": "Tenis",
+        "time": "20:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "Teledeporte"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-16",
+        "event": "UEFA Nations League - Alemania - Holanda",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-16:20:45:uefa nations league:uefa nations league - alemania - holanda",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-16",
+        "event": "UEFA Nations League - Grecia - Serbia",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-16:20:45:uefa nations league:uefa nations league - grecia - serbia",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-16",
+        "event": "UEFA Nations League - Suiza - Escocia",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-16:20:45:uefa nations league:uefa nations league - suiza - escocia",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-16",
+        "event": "UEFA Nations League - Macedonia Norte - Eslovenia",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-16:20:45:uefa nations league:uefa nations league - macedonia norte - eslovenia",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-16",
+        "event": "UEFA Nations League - Gibraltar - Malta",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-16:20:45:uefa nations league:uefa nations league - gibraltar - malta",
+        "sport": "Fútbol",
+        "time": "20:45"
       }
     ],
     "source": "futbolenlatv"
