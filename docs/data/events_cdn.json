@@ -53,16 +53,7 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [
-            {
-              "channel_code": "dk",
-              "channel_name": "TV2 Sport HD DK",
-              "id": "6add40ae2d4a99e07363c422",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/denmark/tv2-sport-hd-dk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TV2%20Sport%20HD%20DK&code=dk&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
+          "channels": [],
           "country": "China",
           "countryIMG": "https://flagcdn.com/w40/cn.png",
           "end": "2026-12-09 03:00",
@@ -2193,14 +2184,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -2229,14 +2212,6 @@
               "id": "6add40b22d4a99e07363feb2",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport HD FR",
-              "id": "6add40b22d4a99e07363feb5",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2285,6 +2260,14 @@
               "id": "6add8cd62d4a99e073941be3",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add8cd72d4a99e0739425a4",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2418,14 +2401,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -2454,14 +2429,6 @@
               "id": "6add40b22d4a99e07363feb2",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport HD FR",
-              "id": "6add40b22d4a99e07363feb5",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2510,6 +2477,14 @@
               "id": "6add8cd62d4a99e073941be3",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add8cd72d4a99e0739425a4",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2807,14 +2782,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -2843,14 +2810,6 @@
               "id": "6add40b22d4a99e07363feb2",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport HD FR",
-              "id": "6add40b22d4a99e07363feb5",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2907,6 +2866,14 @@
               "id": "6add8cd62d4a99e073941be3",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add8cd72d4a99e0739425a4",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3032,14 +2999,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -3068,14 +3027,6 @@
               "id": "6add40b22d4a99e07363feb2",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport HD FR",
-              "id": "6add40b22d4a99e07363feb5",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3132,6 +3083,14 @@
               "id": "6add8cd62d4a99e073941be3",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add8cd72d4a99e0739425a4",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3209,14 +3168,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -3245,14 +3196,6 @@
               "id": "6add40b22d4a99e07363feb2",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport HD FR",
-              "id": "6add40b22d4a99e07363feb5",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3313,6 +3256,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add8cd72d4a99e0739425a4",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Tipik FHD BE",
               "id": "6add8cd72d4a99e0739426dd",
               "image": "",
@@ -3335,134 +3286,6 @@
       ],
       "NBA": [],
       "NCAA": [
-        {
-          "awayTeam": "Oregon State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136939",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-15 01:00",
-          "event": "Boise State vs Oregon State",
-          "gameID": "2499303",
-          "homeTeam": "Boise State",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136867",
-          "start": "2026-11-14 22:00",
-          "status": "NS",
-          "time": "22:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Stephen F. Austin",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137082",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-15 01:00",
-          "event": "UT Rio Grande Valley vs Stephen F. Austin",
-          "gameID": "2598593",
-          "homeTeam": "UT Rio Grande Valley",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/157099",
-          "start": "2026-11-14 22:00",
-          "status": "NS",
-          "time": "22:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "San Jose State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136946",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-15 02:00",
-          "event": "Air Force vs San Jose State",
-          "gameID": "2499304",
-          "homeTeam": "Air Force",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136166",
-          "start": "2026-11-14 23:00",
-          "status": "NS",
-          "time": "23:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "McNeese State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137041",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-15 02:00",
-          "event": "Southeastern Louisiana vs McNeese State",
-          "gameID": "2594311",
-          "homeTeam": "Southeastern Louisiana",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137078",
-          "start": "2026-11-14 23:00",
-          "status": "NS",
-          "time": "23:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "UNLV",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136925",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-15 02:30",
-          "event": "New Mexico vs UNLV",
-          "gameID": "2499305",
-          "homeTeam": "New Mexico",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136926",
-          "start": "2026-11-14 23:30",
-          "status": "NS",
-          "time": "23:30",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Utah State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136969",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-15 04:30",
-          "event": "San Diego State vs Utah State",
-          "gameID": "2499306",
-          "homeTeam": "San Diego State",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136945",
-          "start": "2026-11-15 01:30",
-          "status": "NS",
-          "time": "01:30",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Colorado State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136881",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-15 05:30",
-          "event": "Washington State vs Colorado State",
-          "gameID": "2499307",
-          "homeTeam": "Washington State",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136975",
-          "start": "2026-11-15 02:30",
-          "status": "NS",
-          "time": "02:30",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Idaho State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137027",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-15 05:30",
-          "event": "Montana vs Idaho State",
-          "gameID": "2594312",
-          "homeTeam": "Montana",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137046",
-          "start": "2026-11-15 02:30",
-          "status": "NS",
-          "time": "02:30",
-          "tournament": "NCAA Division 1 Football"
-        },
         {
           "awayTeam": "North Dakota State",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137056",
@@ -9218,63 +9041,6 @@
       "Rugby": [],
       "Soccer": [
         {
-          "awayTeam": "Boca Juniors",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135156",
-          "channels": [
-            {
-              "channel_code": "ar",
-              "channel_name": "TYC Sports FHD ARG",
-              "id": "6add40b22d4a99e0736406a4",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/argentina/tyc-sports-fhd-arg.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TYC%20Sports%20FHD%20ARG&code=ar&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "pt",
-              "channel_name": "Sport TV 2 FHD PT",
-              "id": "6add40b12d4a99e07363fa72",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/portugal/sport-tv-2-fhd-pt.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%20TV%202%20FHD%20PT&code=pt&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "il",
-              "channel_name": "Sport 2 HD IL",
-              "id": "6add40b32d4a99e073641355",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/israel/sport-2-hd-il.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%202%20HD%20IL&code=il&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "Argentina",
-          "countryIMG": "https://flagcdn.com/w40/ar.png",
-          "end": "2026-11-15 01:00",
-          "event": "Banfield vs Boca Juniors",
-          "gameID": "2611378",
-          "homeTeam": "Banfield",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135154",
-          "start": "2026-11-14 22:00",
-          "status": "NS",
-          "time": "22:00",
-          "tournament": "Copa Argentina"
-        },
-        {
-          "awayTeam": "India",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/140157",
-          "channels": [],
-          "country": "New Zealand",
-          "countryIMG": "",
-          "end": "2026-11-15 06:00",
-          "event": "New Zealand vs India",
-          "gameID": "2529319",
-          "homeTeam": "New Zealand",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137449",
-          "start": "2026-11-15 03:00",
-          "status": "NS",
-          "time": "03:00",
-          "tournament": "International Friendlies"
-        },
-        {
           "awayTeam": "Vietnam",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/140161",
           "channels": [],
@@ -9779,8 +9545,8 @@
       ],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1794712436,
-      "total_events": 526,
+      "timestamp": 1794740264,
+      "total_events": 516,
       "total_events_badminton": 4,
       "total_events_basketball": 118,
       "total_events_cricket": 0,
@@ -9795,12 +9561,12 @@
       "total_events_mma": 1,
       "total_events_motorsport": 29,
       "total_events_nba": 0,
-      "total_events_ncaa": 199,
+      "total_events_ncaa": 191,
       "total_events_ncaaw": 0,
       "total_events_nfl": 138,
       "total_events_nhl": 0,
       "total_events_rugby": 0,
-      "total_events_soccer": 19,
+      "total_events_soccer": 17,
       "total_events_tennis": 0,
       "total_events_ufc": 2,
       "total_events_volleyball": 0,

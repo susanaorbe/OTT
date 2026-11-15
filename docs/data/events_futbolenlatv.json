@@ -304,10 +304,10 @@
         "competition": "WTA Finals",
         "competition_key": "tenis",
         "date": "2026-11-15",
-        "event": "Final",
+        "event": "Final - E. Svitolina - M. Andreeva",
         "featured": false,
         "icon": "🎾",
-        "id": "ftv:2026-11-15:21:00:wta finals:final",
+        "id": "ftv:2026-11-15:21:00:wta finals:final - e. svitolina - m. andreeva",
         "sport": "Tenis",
         "time": "21:00"
       },
