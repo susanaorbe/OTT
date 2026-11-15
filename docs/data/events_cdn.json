@@ -2286,14 +2286,6 @@
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport SD FR",
-              "id": "6add8cd72d4a99e0739425a4",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
             }
           ],
           "country": "United States",
@@ -2518,14 +2510,6 @@
               "id": "6add8cd62d4a99e073941be3",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport SD FR",
-              "id": "6add8cd72d4a99e0739425a4",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2927,14 +2911,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport SD FR",
-              "id": "6add8cd72d4a99e0739425a4",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Tipik FHD BE",
               "id": "6add8cd72d4a99e0739426dd",
               "image": "",
@@ -3160,14 +3136,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport SD FR",
-              "id": "6add8cd72d4a99e0739425a4",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Tipik FHD BE",
               "id": "6add8cd72d4a99e0739426dd",
               "image": "",
@@ -3345,14 +3313,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport SD FR",
-              "id": "6add8cd72d4a99e0739425a4",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Tipik FHD BE",
               "id": "6add8cd72d4a99e0739426dd",
               "image": "",
@@ -3375,550 +3335,6 @@
       ],
       "NBA": [],
       "NCAA": [
-        {
-          "awayTeam": "Kennesaw State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137035",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 21:00",
-          "event": "Sam Houston State vs Kennesaw State",
-          "gameID": "2499292",
-          "homeTeam": "Sam Houston State",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137072",
-          "start": "2026-11-14 18:00",
-          "status": "NS",
-          "time": "18:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Campbell",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136994",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 21:00",
-          "event": "Elon vs Campbell",
-          "gameID": "2594290",
-          "homeTeam": "Elon",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137014",
-          "start": "2026-11-14 18:00",
-          "status": "NS",
-          "time": "18:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Northern Iowa",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137059",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 21:00",
-          "event": "South Dakota vs Northern Iowa",
-          "gameID": "2594291",
-          "homeTeam": "South Dakota",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137075",
-          "start": "2026-11-14 18:00",
-          "status": "NS",
-          "time": "18:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "South Dakota State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137076",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 21:00",
-          "event": "Southern Illinois vs South Dakota State",
-          "gameID": "2594292",
-          "homeTeam": "Southern Illinois",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137080",
-          "start": "2026-11-14 18:00",
-          "status": "NS",
-          "time": "18:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Lehigh",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137038",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 21:00",
-          "event": "Richmond vs Lehigh",
-          "gameID": "2594293",
-          "homeTeam": "Richmond",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137067",
-          "start": "2026-11-14 18:00",
-          "status": "NS",
-          "time": "18:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Abilene Christian",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136981",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 21:00",
-          "event": "Austin Peay vs Abilene Christian",
-          "gameID": "2594294",
-          "homeTeam": "Austin Peay",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136987",
-          "start": "2026-11-14 18:00",
-          "status": "NS",
-          "time": "18:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Montana State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137047",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 21:00",
-          "event": "Northern Colorado vs Montana State",
-          "gameID": "2594295",
-          "homeTeam": "Northern Colorado",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137058",
-          "start": "2026-11-14 18:00",
-          "status": "NS",
-          "time": "18:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Central Arkansas",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136995",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 21:00",
-          "event": "Eastern Kentucky vs Central Arkansas",
-          "gameID": "2594296",
-          "homeTeam": "Eastern Kentucky",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137012",
-          "start": "2026-11-14 18:00",
-          "status": "NS",
-          "time": "18:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Southeast Missouri State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137077",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 21:00",
-          "event": "Charleston Southern vs Southeast Missouri State",
-          "gameID": "2594297",
-          "homeTeam": "Charleston Southern",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136997",
-          "start": "2026-11-14 18:00",
-          "status": "NS",
-          "time": "18:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Gardner-Webb",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137018",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 21:00",
-          "event": "Western Illinois vs Gardner-Webb",
-          "gameID": "2594298",
-          "homeTeam": "Western Illinois",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137097",
-          "start": "2026-11-14 18:00",
-          "status": "NS",
-          "time": "18:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Houston Baptist",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137024",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 21:00",
-          "event": "Northwestern State vs Houston Baptist",
-          "gameID": "2594299",
-          "homeTeam": "Northwestern State",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137060",
-          "start": "2026-11-14 18:00",
-          "status": "NS",
-          "time": "18:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "North Alabama",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137110",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 21:00",
-          "event": "West Georgia vs North Alabama",
-          "gameID": "2598590",
-          "homeTeam": "West Georgia",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/157106",
-          "start": "2026-11-14 18:00",
-          "status": "NS",
-          "time": "18:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Drake",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137008",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 21:00",
-          "event": "Saint Thomas (MN) vs Drake",
-          "gameID": "2598795",
-          "homeTeam": "Saint Thomas (MN)",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/157151",
-          "start": "2026-11-14 18:00",
-          "status": "NS",
-          "time": "18:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Mercer",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137042",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 21:30",
-          "event": "Tennessee Tech vs Mercer",
-          "gameID": "2594300",
-          "homeTeam": "Tennessee Tech",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137086",
-          "start": "2026-11-14 18:30",
-          "status": "NS",
-          "time": "18:30",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "New Mexico State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136927",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 22:00",
-          "event": "Missouri State vs New Mexico State",
-          "gameID": "2499293",
-          "homeTeam": "Missouri State",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137044",
-          "start": "2026-11-14 19:00",
-          "status": "NS",
-          "time": "19:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "FIU",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136886",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 22:00",
-          "event": "Delaware vs FIU",
-          "gameID": "2499294",
-          "homeTeam": "Delaware",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137006",
-          "start": "2026-11-14 19:00",
-          "status": "NS",
-          "time": "19:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Texas Southern",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137087",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 22:00",
-          "event": "Alabama A and M vs Texas Southern",
-          "gameID": "2594301",
-          "homeTeam": "Alabama A and M",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136982",
-          "start": "2026-11-14 19:00",
-          "status": "NS",
-          "time": "19:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Jackson State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137031",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 22:00",
-          "event": "Alabama State vs Jackson State",
-          "gameID": "2594302",
-          "homeTeam": "Alabama State",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136983",
-          "start": "2026-11-14 19:00",
-          "status": "NS",
-          "time": "19:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Alcorn State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136985",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 22:00",
-          "event": "Southern vs Alcorn State",
-          "gameID": "2594303",
-          "homeTeam": "Southern",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137079",
-          "start": "2026-11-14 19:00",
-          "status": "NS",
-          "time": "19:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Prairie View A and M",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137063",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 22:00",
-          "event": "Arkansas-Pine Bluff vs Prairie View A and M",
-          "gameID": "2594304",
-          "homeTeam": "Arkansas-Pine Bluff",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136986",
-          "start": "2026-11-14 19:00",
-          "status": "NS",
-          "time": "19:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Mississippi Valley State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137043",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 22:00",
-          "event": "Florida A and M vs Mississippi Valley State",
-          "gameID": "2594305",
-          "homeTeam": "Florida A and M",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137015",
-          "start": "2026-11-14 19:00",
-          "status": "NS",
-          "time": "19:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Nicholls",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137052",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 22:00",
-          "event": "Incarnate Word vs Nicholls",
-          "gameID": "2594306",
-          "homeTeam": "Incarnate Word",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137029",
-          "start": "2026-11-14 19:00",
-          "status": "NS",
-          "time": "19:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Lindenwood",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/149265",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 22:00",
-          "event": "UT Martin vs Lindenwood",
-          "gameID": "2594440",
-          "homeTeam": "UT Martin",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137090",
-          "start": "2026-11-14 19:00",
-          "status": "NS",
-          "time": "19:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Tarleton State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/146573",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 22:00",
-          "event": "West Florida vs Tarleton State",
-          "gameID": "2598591",
-          "homeTeam": "West Florida",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/157105",
-          "start": "2026-11-14 19:00",
-          "status": "NS",
-          "time": "19:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Jacksonville State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137033",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 22:30",
-          "event": "Western Kentucky vs Jacksonville State",
-          "gameID": "2499291",
-          "homeTeam": "Western Kentucky",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136977",
-          "start": "2026-11-14 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Boston College",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136868",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 22:30",
-          "event": "Notre Dame vs Boston College",
-          "gameID": "2499300",
-          "homeTeam": "Notre Dame",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136246",
-          "start": "2026-11-14 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Middle Tennessee",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136917",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 22:30",
-          "event": "Liberty vs Middle Tennessee",
-          "gameID": "2499301",
-          "homeTeam": "Liberty",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136904",
-          "start": "2026-11-14 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Eastern Illinois",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137011",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 22:30",
-          "event": "Tennessee State vs Eastern Illinois",
-          "gameID": "2594307",
-          "homeTeam": "Tennessee State",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137085",
-          "start": "2026-11-14 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Western Carolina",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137096",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 22:30",
-          "event": "Samford vs Western Carolina",
-          "gameID": "2594308",
-          "homeTeam": "Samford",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137073",
-          "start": "2026-11-14 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Fresno State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136890",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 23:00",
-          "event": "Texas State vs Fresno State",
-          "gameID": "2499302",
-          "homeTeam": "Texas State",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136960",
-          "start": "2026-11-14 20:00",
-          "status": "NS",
-          "time": "20:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "UC Davis",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137089",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 23:00",
-          "event": "Idaho vs UC Davis",
-          "gameID": "2594309",
-          "homeTeam": "Idaho",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137026",
-          "start": "2026-11-14 20:00",
-          "status": "NS",
-          "time": "20:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Weber State",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137095",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 23:00",
-          "event": "Northern Arizona vs Weber State",
-          "gameID": "2594310",
-          "homeTeam": "Northern Arizona",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137057",
-          "start": "2026-11-14 20:00",
-          "status": "NS",
-          "time": "20:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Eastern Washington",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137013",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 23:00",
-          "event": "Utah Tech vs Eastern Washington",
-          "gameID": "2594441",
-          "homeTeam": "Utah Tech",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/146574",
-          "start": "2026-11-14 20:00",
-          "status": "NS",
-          "time": "20:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "East Texas A and M",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/157068",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-14 23:00",
-          "event": "Lamar vs East Texas A and M",
-          "gameID": "2598592",
-          "homeTeam": "Lamar",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137037",
-          "start": "2026-11-14 20:00",
-          "status": "NS",
-          "time": "20:00",
-          "tournament": "NCAA Division 1 Football"
-        },
         {
           "awayTeam": "Oregon State",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136939",
@@ -4482,7 +3898,16 @@
         {
           "awayTeam": "Texas Tech",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136961",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "us",
+              "channel_name": "ESPN FHD US",
+              "id": "6add8cd42d4a99e07393fa59",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/espn-fhd-us.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20FHD%20US&code=us&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-21 07:00",
@@ -7109,7 +6534,104 @@
         {
           "awayTeam": "New England Patriots",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134920",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "us",
+              "channel_name": "FOX US",
+              "id": "6add40af2d4a99e07363cfae",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/fox-us.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20US&code=us&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "FOX 5 New York",
+              "id": "6add8cd52d4a99e073940324",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%205%20New%20York&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "TSN 3 FHD CA",
+              "id": "6add40b12d4a99e07363ed3d",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%203%20FHD%20CA&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "gb",
+              "channel_name": "Sky Sports NFL FHD UK",
+              "id": "6add8cd32d4a99e07393f4b1",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-nfl-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20NFL%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "ca",
+              "channel_name": "RDS CA",
+              "id": "6add40b12d4a99e07363ed29",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/canada/rds-ca.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RDS%20CA&code=ca&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "de",
+              "channel_name": "RTL FHD DE",
+              "id": "6add40ae2d4a99e07363c54f",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/rtl-fhd-de.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RTL%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "de",
+              "channel_name": "Sky Sport Top Event FHD DE",
+              "id": "6add40ae2d4a99e07363c7cb",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-top-event-fhd-de.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Top%20Event%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "gb",
+              "channel_name": "Sky Sports Football FHD UK",
+              "id": "6add40ae2d4a99e07363c88c",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-football-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Football%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "fr",
+              "channel_name": "beIN SPORTS 2 FR FHD",
+              "id": "6add8cd52d4a99e073940887",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/france/bein-sports-2-fr-fhd.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%202%20FR%20FHD&code=fr&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Fox Deportes HD US",
+              "id": "6add40af2d4a99e07363cf21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Deportes%20HD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "bg",
+              "channel_name": "Max Sport 3 FHD BG",
+              "id": "6add40b32d4a99e0736411de",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/bg/max-sport-3-fhd-bg.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Max%20Sport%203%20FHD%20BG&code=bg&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "dk",
+              "channel_name": "TV2 Sport HD DK",
+              "id": "6add40ae2d4a99e07363c422",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/denmark/tv2-sport-hd-dk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TV2%20Sport%20HD%20DK&code=dk&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Germany",
           "countryIMG": "https://flagcdn.com/w40/de.png",
           "end": "2026-11-15 17:30",
@@ -7125,7 +6647,48 @@
         {
           "awayTeam": "Kansas City Chiefs",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134931",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "gb",
+              "channel_name": "5Action HD UK",
+              "id": "6add8cd32d4a99e07393f52a",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/5action-hd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=5Action%20HD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "TSN 2 FHD CA",
+              "id": "6add40b12d4a99e07363ed3a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%202%20FHD%20CA&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "de",
+              "channel_name": "RTL FHD DE",
+              "id": "6add40ae2d4a99e07363c54f",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/rtl-fhd-de.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RTL%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "ar",
+              "channel_name": "Fox Sports 2 Argentina HD ARG",
+              "id": "6add40b22d4a99e073640853",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/argentina/fox-sports-2-argentina-hd-arg.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Sports%202%20Argentina%20HD%20ARG&code=ar&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "br",
+              "channel_name": "ESPN 2 HD BR",
+              "id": "6add40b22d4a99e073640585",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/brazil/espn-2-hd-br.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%202%20HD%20BR&code=br&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-15 21:00",
@@ -7141,7 +6704,16 @@
         {
           "awayTeam": "Houston Texans",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134926",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports+ FHD UK",
+              "id": "6add8cd32d4a99e07393f4b6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%2B%20FHD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-15 21:00",
@@ -7157,7 +6729,80 @@
         {
           "awayTeam": "Minnesota Vikings",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134941",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "us",
+              "channel_name": "FOX US",
+              "id": "6add40af2d4a99e07363cfae",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/fox-us.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20US&code=us&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "FOX 5 New York",
+              "id": "6add8cd52d4a99e073940324",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%205%20New%20York&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "ca",
+              "channel_name": "RDS CA",
+              "id": "6add40b12d4a99e07363ed29",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/canada/rds-ca.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RDS%20CA&code=ca&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "gb",
+              "channel_name": "Sky Sports NFL FHD UK",
+              "id": "6add8cd32d4a99e07393f4b1",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-nfl-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20NFL%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "ca",
+              "channel_name": "RDS 2 CA",
+              "id": "6add8cd62d4a99e07394175b",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/canada/rds-2-ca.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RDS%202%20CA&code=ca&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "fr",
+              "channel_name": "beIN SPORTS 2 FR FHD",
+              "id": "6add8cd52d4a99e073940887",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/france/bein-sports-2-fr-fhd.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%202%20FR%20FHD&code=fr&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "bg",
+              "channel_name": "Max Sport 3 FHD BG",
+              "id": "6add40b32d4a99e0736411de",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/bg/max-sport-3-fhd-bg.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Max%20Sport%203%20FHD%20BG&code=bg&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "dk",
+              "channel_name": "TV2 Sport HD DK",
+              "id": "6add40ae2d4a99e07363c422",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/denmark/tv2-sport-hd-dk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TV2%20Sport%20HD%20DK&code=dk&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "il",
+              "channel_name": "Sport 5 Live HD IL",
+              "id": "6add40b32d4a99e07364135b",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/israel/sport-5-live-hd-il.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%205%20Live%20HD%20IL&code=il&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-15 21:00",
@@ -7221,7 +6866,24 @@
         {
           "awayTeam": "Buffalo Bills",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134918",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "us",
+              "channel_name": "CBS US",
+              "id": "6add40af2d4a99e07363cf91",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/cbs-us.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CBS%20US&code=us&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "us",
+              "channel_name": "CBS 2 (WCBS) New York HD US",
+              "id": "6add8cd52d4a99e07394049a",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/cbs-2-wcbs-new-york-hd-us.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CBS%202%20(WCBS)%20New%20York%20HD%20US&code=us&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-15 21:00",
@@ -7237,7 +6899,16 @@
         {
           "awayTeam": "Seattle Seahawks",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134949",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "TSN 2 FHD CA",
+              "id": "6add40b12d4a99e07363ed3a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%202%20FHD%20CA&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-16 00:05",
@@ -7253,7 +6924,16 @@
         {
           "awayTeam": "Los Angeles Rams",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135907",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports+ FHD UK",
+              "id": "6add8cd32d4a99e07393f4b6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%2B%20FHD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-16 00:05",
@@ -7269,7 +6949,112 @@
         {
           "awayTeam": "San Francisco 49ers",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134948",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "us",
+              "channel_name": "FOX US",
+              "id": "6add40af2d4a99e07363cfae",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/fox-us.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20US&code=us&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "FOX 5 New York",
+              "id": "6add8cd52d4a99e073940324",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%205%20New%20York&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "gb",
+              "channel_name": "Channel 5 FHD UK",
+              "id": "6add40ae2d4a99e07363c8d4",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/channel-5-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Channel%205%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "gb",
+              "channel_name": "Sky Sports Golf FHD UK",
+              "id": "6add40ae2d4a99e07363c864",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-golf-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Golf%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "gb",
+              "channel_name": "Sky Sports NFL FHD UK",
+              "id": "6add8cd32d4a99e07393f4b1",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-nfl-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20NFL%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "ca",
+              "channel_name": "RDS 2 CA",
+              "id": "6add8cd62d4a99e07394175b",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/canada/rds-2-ca.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RDS%202%20CA&code=ca&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "de",
+              "channel_name": "RTL FHD DE",
+              "id": "6add40ae2d4a99e07363c54f",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/rtl-fhd-de.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RTL%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "fr",
+              "channel_name": "beIN SPORTS 2 FR FHD",
+              "id": "6add8cd52d4a99e073940887",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/france/bein-sports-2-fr-fhd.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%202%20FR%20FHD&code=fr&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Fox Deportes HD US",
+              "id": "6add40af2d4a99e07363cf21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Deportes%20HD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "dk",
+              "channel_name": "TV2 Sport HD DK",
+              "id": "6add40ae2d4a99e07363c422",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/denmark/tv2-sport-hd-dk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TV2%20Sport%20HD%20DK&code=dk&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "br",
+              "channel_name": "ESPN 2 HD BR",
+              "id": "6add40b22d4a99e073640585",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/brazil/espn-2-hd-br.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%202%20HD%20BR&code=br&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "bg",
+              "channel_name": "Max Sport 2 FHD BG",
+              "id": "6add40b32d4a99e0736411db",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/bg/max-sport-2-fhd-bg.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Max%20Sport%202%20FHD%20BG&code=bg&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "il",
+              "channel_name": "Sport 5 Live HD IL",
+              "id": "6add40b32d4a99e07364135b",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/israel/sport-5-live-hd-il.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%205%20Live%20HD%20IL&code=il&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-16 00:25",
@@ -7285,7 +7070,104 @@
         {
           "awayTeam": "Pittsburgh Steelers",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134925",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "us",
+              "channel_name": "NBC US",
+              "id": "6add40af2d4a99e07363cff6",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/nbc-us.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NBC%20US&code=us&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "us",
+              "channel_name": "NBC 4 (WNBC) New York HD US",
+              "id": "6add8cd52d4a99e0739406d3",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/nbc-4-wnbc-new-york-hd-us.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NBC%204%20(WNBC)%20New%20York%20HD%20US&code=us&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "gb",
+              "channel_name": "Sky Sports Main Event FHD UK",
+              "id": "6add40ae2d4a99e07363c855",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-main-event-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Main%20Event%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "gb",
+              "channel_name": "Sky Sports NFL FHD UK",
+              "id": "6add8cd32d4a99e07393f4b1",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-nfl-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20NFL%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "ca",
+              "channel_name": "RDS 2 CA",
+              "id": "6add8cd62d4a99e07394175b",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/canada/rds-2-ca.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RDS%202%20CA&code=ca&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "TSN 2 FHD CA",
+              "id": "6add40b12d4a99e07363ed3a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%202%20FHD%20CA&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "de",
+              "channel_name": "RTL FHD DE",
+              "id": "6add40ae2d4a99e07363c54f",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/rtl-fhd-de.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RTL%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "de",
+              "channel_name": "Sky Sport Top Event FHD DE",
+              "id": "6add40ae2d4a99e07363c7cb",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-top-event-fhd-de.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Top%20Event%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "ar",
+              "channel_name": "ESPN 2 Primera FHD ARG",
+              "id": "6add8cd72d4a99e073942c97",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/argentina/espn-2-primera-fhd-arg.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%202%20Primera%20FHD%20ARG&code=ar&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "fr",
+              "channel_name": "beIN SPORTS 1 FR FHD",
+              "id": "6add8cd52d4a99e073940885",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/france/bein-sports-1-fr-fhd.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%201%20FR%20FHD&code=fr&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "nl",
+              "channel_name": "ESPN 3 FHD NL",
+              "id": "6add40b12d4a99e07363f7d5",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/netherlands/espn-3-fhd-nl.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%203%20FHD%20NL&code=nl&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "il",
+              "channel_name": "Sport 5 Live HD IL",
+              "id": "6add40b32d4a99e07364135b",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/israel/sport-5-live-hd-il.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%205%20Live%20HD%20IL&code=il&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-16 04:20",
@@ -9013,7 +8895,24 @@
         {
           "awayTeam": "New York Jets",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134921",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "us",
+              "channel_name": "CBS US",
+              "id": "6add40af2d4a99e07363cf91",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/cbs-us.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CBS%20US&code=us&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "us",
+              "channel_name": "CBS 2 (WCBS) New York HD US",
+              "id": "6add8cd52d4a99e07394049a",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/cbs-2-wcbs-new-york-hd-us.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CBS%202%20(WCBS)%20New%20York%20HD%20US&code=us&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2027-01-10 03:00",
@@ -9318,166 +9217,6 @@
       "NHL": [],
       "Rugby": [],
       "Soccer": [
-        {
-          "awayTeam": "Avaí",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134738",
-          "channels": [],
-          "country": "Brazil",
-          "countryIMG": "https://flagcdn.com/w40/br.png",
-          "end": "2026-11-14 22:30",
-          "event": "América Mineiro vs Avaí",
-          "gameID": "2431536",
-          "homeTeam": "América Mineiro",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134742",
-          "start": "2026-11-14 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "Brazilian Serie B"
-        },
-        {
-          "awayTeam": "Cuiabá",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136831",
-          "channels": [],
-          "country": "Brazil",
-          "countryIMG": "https://flagcdn.com/w40/br.png",
-          "end": "2026-11-14 22:30",
-          "event": "Atlético Goianiense vs Cuiabá",
-          "gameID": "2431537",
-          "homeTeam": "Atlético Goianiense",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134737",
-          "start": "2026-11-14 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "Brazilian Serie B"
-        },
-        {
-          "awayTeam": "Ceará",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134744",
-          "channels": [],
-          "country": "Brazil",
-          "countryIMG": "https://flagcdn.com/w40/br.png",
-          "end": "2026-11-14 22:30",
-          "event": "CRB vs Ceará",
-          "gameID": "2431538",
-          "homeTeam": "CRB",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135680",
-          "start": "2026-11-14 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "Brazilian Serie B"
-        },
-        {
-          "awayTeam": "Novorizontino",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/141182",
-          "channels": [],
-          "country": "Brazil",
-          "countryIMG": "https://flagcdn.com/w40/br.png",
-          "end": "2026-11-14 22:30",
-          "event": "Criciúma vs Novorizontino",
-          "gameID": "2431539",
-          "homeTeam": "Criciúma",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134292",
-          "start": "2026-11-14 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "Brazilian Serie B"
-        },
-        {
-          "awayTeam": "Vila Nova",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134734",
-          "channels": [],
-          "country": "Brazil",
-          "countryIMG": "https://flagcdn.com/w40/br.png",
-          "end": "2026-11-14 22:30",
-          "event": "Fortaleza vs Vila Nova",
-          "gameID": "2431540",
-          "homeTeam": "Fortaleza",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136186",
-          "start": "2026-11-14 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "Brazilian Serie B"
-        },
-        {
-          "awayTeam": "Botafogo-SP",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136830",
-          "channels": [],
-          "country": "Brazil",
-          "countryIMG": "https://flagcdn.com/w40/br.png",
-          "end": "2026-11-14 22:30",
-          "event": "Juventude vs Botafogo-SP",
-          "gameID": "2431541",
-          "homeTeam": "Juventude",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135887",
-          "start": "2026-11-14 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "Brazilian Serie B"
-        },
-        {
-          "awayTeam": "Náutico",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134289",
-          "channels": [],
-          "country": "Brazil",
-          "countryIMG": "https://flagcdn.com/w40/br.png",
-          "end": "2026-11-14 22:30",
-          "event": "Londrina vs Náutico",
-          "gameID": "2431542",
-          "homeTeam": "Londrina",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135664",
-          "start": "2026-11-14 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "Brazilian Serie B"
-        },
-        {
-          "awayTeam": "Operário Ferroviário",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136829",
-          "channels": [],
-          "country": "Brazil",
-          "countryIMG": "https://flagcdn.com/w40/br.png",
-          "end": "2026-11-14 22:30",
-          "event": "Ponte Preta vs Operário Ferroviário",
-          "gameID": "2431543",
-          "homeTeam": "Ponte Preta",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134290",
-          "start": "2026-11-14 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "Brazilian Serie B"
-        },
-        {
-          "awayTeam": "Athletic Club-MG",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/147142",
-          "channels": [],
-          "country": "Brazil",
-          "countryIMG": "https://flagcdn.com/w40/br.png",
-          "end": "2026-11-14 22:30",
-          "event": "São Bernardo vs Athletic Club-MG",
-          "gameID": "2431544",
-          "homeTeam": "São Bernardo",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/145389",
-          "start": "2026-11-14 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "Brazilian Serie B"
-        },
-        {
-          "awayTeam": "Goiás",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134295",
-          "channels": [],
-          "country": "Brazil",
-          "countryIMG": "https://flagcdn.com/w40/br.png",
-          "end": "2026-11-14 22:30",
-          "event": "Sport Recife vs Goiás",
-          "gameID": "2431545",
-          "homeTeam": "Sport Recife",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136250",
-          "start": "2026-11-14 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "Brazilian Serie B"
-        },
         {
           "awayTeam": "Boca Juniors",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135156",
@@ -10040,8 +9779,8 @@
       ],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1794700337,
-      "total_events": 570,
+      "timestamp": 1794712436,
+      "total_events": 526,
       "total_events_badminton": 4,
       "total_events_basketball": 118,
       "total_events_cricket": 0,
@@ -10056,12 +9795,12 @@
       "total_events_mma": 1,
       "total_events_motorsport": 29,
       "total_events_nba": 0,
-      "total_events_ncaa": 233,
+      "total_events_ncaa": 199,
       "total_events_ncaaw": 0,
       "total_events_nfl": 138,
       "total_events_nhl": 0,
       "total_events_rugby": 0,
-      "total_events_soccer": 29,
+      "total_events_soccer": 19,
       "total_events_tennis": 0,
       "total_events_ufc": 2,
       "total_events_volleyball": 0,
