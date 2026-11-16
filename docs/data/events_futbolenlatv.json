@@ -1,6 +1,6 @@
 {
   "data": {
-    "count": 33,
+    "count": 35,
     "events": [
       {
         "channels": [
@@ -13,9 +13,9 @@
         "event": "Round Robin - C. Alcaraz - F. Tiafoe",
         "featured": true,
         "icon": "🎾",
-        "id": "ftv:2026-11-16:14:00:atp finals:round robin - c. alcaraz - f. tiafoe",
+        "id": "ftv:2026-11-16:14:10:atp finals:round robin - c. alcaraz - f. tiafoe",
         "sport": "Tenis",
-        "time": "14:00"
+        "time": "14:10"
       },
       {
         "channels": [
@@ -179,15 +179,16 @@
       },
       {
         "channels": [
+          "Movistar Plus+",
           "M+ Deportes 2"
         ],
         "competition": "ATP Finals",
         "competition_key": "tenis",
         "date": "2026-11-17",
-        "event": "Round Robin",
-        "featured": false,
+        "event": "Round Robin - A. Fils - R. Jódar",
+        "featured": true,
         "icon": "🎾",
-        "id": "ftv:2026-11-17:14:00:atp finals:round robin",
+        "id": "ftv:2026-11-17:14:00:atp finals:round robin - a. fils - r. jodar",
         "sport": "Tenis",
         "time": "14:00"
       },
@@ -246,6 +247,34 @@
         "id": "ftv:2026-11-17:19:00:euroliga:zalgiris kaunas - fc bayern basketball",
         "sport": "Baloncesto",
         "time": "19:00"
+      },
+      {
+        "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "ATP Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-17",
+        "event": "Round Robin - A. Zverev - B. Shelton",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-17:20:30:atp finals:round robin - a. zverev - b. shelton",
+        "sport": "Tenis",
+        "time": "20:30"
+      },
+      {
+        "channels": [
+          "M+ Vamos 2"
+        ],
+        "competition": "Euroliga",
+        "competition_key": "euroliga",
+        "date": "2026-11-17",
+        "event": "AX Olimpia Milano - Crvena Zvezda MTS Belgrade",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-17:20:30:euroliga:ax olimpia milano - crvena zvezda mts belgrade",
+        "sport": "Baloncesto",
+        "time": "20:30"
       },
       {
         "channels": [
@@ -417,7 +446,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN Baloncesto"
         ],
         "competition": "NBA",
         "competition_key": "nba",
