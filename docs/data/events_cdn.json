@@ -1965,7 +1965,48 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "Golf Channel HD US",
+              "id": "6add8cd42d4a99e07393fa82",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Golf%20Channel%20HD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports Golf HD UK",
+              "id": "6add8cd32d4a99e07393f4a8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Golf%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports Golf UK",
+              "id": "6add8cd32d4a99e07393f4a6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Golf%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sport Golf HD DE",
+              "id": "6add8cd32d4a99e07393f435",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Golf%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Golf+ HD FR",
+              "id": "6add8cd72d4a99e0739425a9",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Golf%2B%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-19 03:00",
@@ -1981,7 +2022,48 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "Golf Channel HD US",
+              "id": "6add8cd42d4a99e07393fa82",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Golf%20Channel%20HD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports Golf HD UK",
+              "id": "6add8cd32d4a99e07393f4a8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Golf%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports Golf UK",
+              "id": "6add8cd32d4a99e07393f4a6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Golf%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sport Golf HD DE",
+              "id": "6add8cd32d4a99e07393f435",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Golf%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Golf+ HD FR",
+              "id": "6add8cd72d4a99e0739425a9",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Golf%2B%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Bahamas",
           "countryIMG": "",
           "end": "2026-12-03 03:00",
@@ -1997,7 +2079,48 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "Golf Channel HD US",
+              "id": "6add8cd42d4a99e07393fa82",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Golf%20Channel%20HD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports Golf HD UK",
+              "id": "6add8cd32d4a99e07393f4a8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Golf%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports Golf UK",
+              "id": "6add8cd32d4a99e07393f4a6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Golf%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sport Golf HD DE",
+              "id": "6add8cd32d4a99e07393f435",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Golf%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Golf+ HD FR",
+              "id": "6add8cd72d4a99e0739425a9",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Golf%2B%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-12-10 03:00",
@@ -2013,7 +2136,48 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "Golf Channel HD US",
+              "id": "6add8cd42d4a99e07393fa82",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Golf%20Channel%20HD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports Golf HD UK",
+              "id": "6add8cd32d4a99e07393f4a8",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Golf%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports Golf UK",
+              "id": "6add8cd32d4a99e07393f4a6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Golf%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sport Golf HD DE",
+              "id": "6add8cd32d4a99e07393f435",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Golf%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Golf+ HD FR",
+              "id": "6add8cd72d4a99e0739425a9",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Golf%2B%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-12-11 03:00",
@@ -2035,7 +2199,64 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "UFC Fight Pass 24/7 FHD US",
+              "id": "6add8cd42d4a99e07393fbba",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Fight%20Pass%2024%2F7%20FHD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 24/7 HD US",
+              "id": "6add8cd42d4a99e07393fd1e",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%2024%2F7%20HD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC Channel US",
+              "id": "6add8cd42d4a99e07393fd1f",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Channel%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 1 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f4",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%201%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 2",
+              "id": "6add8cd62d4a99e0739419f5",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%202&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 3 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%203%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC Fightpass HD BR",
+              "id": "6add8cd72d4a99e073942bfb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Fightpass%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "France",
           "countryIMG": "https://flagcdn.com/w40/fr.png",
           "end": "2026-12-19 03:00",
@@ -2053,7 +2274,56 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD DE",
+              "id": "6add8cd32d4a99e07393f431",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 UK",
+              "id": "6add8cd32d4a99e07393f4a1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
+              "id": "6add8cd62d4a99e073941640",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "DAZN F1",
+              "id": "6add8cd62d4a99e073941b21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-20 03:30",
@@ -2069,7 +2339,56 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD DE",
+              "id": "6add8cd32d4a99e07393f431",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 UK",
+              "id": "6add8cd32d4a99e07393f4a1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
+              "id": "6add8cd62d4a99e073941640",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "DAZN F1",
+              "id": "6add8cd62d4a99e073941b21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-20 07:00",
@@ -2085,7 +2404,72 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB3 (D)",
+              "id": "6add8cd42d4a99e07393fded",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB2 (D)",
+              "id": "6add8cd42d4a99e07393fdee",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Ambient (D)",
+              "id": "6add8cd42d4a99e07393fdf1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Portugal",
           "countryIMG": "https://flagcdn.com/w40/pt.png",
           "end": "2026-11-20 13:45",
@@ -2101,7 +2485,72 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB3 (D)",
+              "id": "6add8cd42d4a99e07393fded",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB2 (D)",
+              "id": "6add8cd42d4a99e07393fdee",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Ambient (D)",
+              "id": "6add8cd42d4a99e07393fdf1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Portugal",
           "countryIMG": "https://flagcdn.com/w40/pt.png",
           "end": "2026-11-20 18:00",
@@ -2117,7 +2566,56 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD DE",
+              "id": "6add8cd32d4a99e07393f431",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 UK",
+              "id": "6add8cd32d4a99e07393f4a1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
+              "id": "6add8cd62d4a99e073941640",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "DAZN F1",
+              "id": "6add8cd62d4a99e073941b21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-21 03:30",
@@ -2136,6 +2634,54 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD DE",
+              "id": "6add8cd32d4a99e07393f431",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 UK",
+              "id": "6add8cd32d4a99e07393f4a1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
+              "id": "6add8cd62d4a99e073941640",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "DAZN F1",
+              "id": "6add8cd62d4a99e073941b21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport FHD PL",
               "id": "6add40b12d4a99e07363f413",
               "image": "",
@@ -2192,10 +2738,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add40b12d4a99e07363f41c",
+              "channel_name": "Canal+ Sport Extra 2 FHD PL",
+              "id": "6add40b12d4a99e07363f41b",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%202%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2220,6 +2766,14 @@
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2260,14 +2814,6 @@
               "id": "6add8cd62d4a99e073941be3",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport SD FR",
-              "id": "6add8cd72d4a99e0739425a4",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2286,7 +2832,72 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB3 (D)",
+              "id": "6add8cd42d4a99e07393fded",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB2 (D)",
+              "id": "6add8cd42d4a99e07393fdee",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Ambient (D)",
+              "id": "6add8cd42d4a99e07393fdf1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Portugal",
           "countryIMG": "https://flagcdn.com/w40/pt.png",
           "end": "2026-11-21 13:10",
@@ -2302,7 +2913,72 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB3 (D)",
+              "id": "6add8cd42d4a99e07393fded",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB2 (D)",
+              "id": "6add8cd42d4a99e07393fdee",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Ambient (D)",
+              "id": "6add8cd42d4a99e07393fdf1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Portugal",
           "countryIMG": "https://flagcdn.com/w40/pt.png",
           "end": "2026-11-21 13:50",
@@ -2318,7 +2994,72 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB3 (D)",
+              "id": "6add8cd42d4a99e07393fded",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB2 (D)",
+              "id": "6add8cd42d4a99e07393fdee",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Ambient (D)",
+              "id": "6add8cd42d4a99e07393fdf1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Portugal",
           "countryIMG": "https://flagcdn.com/w40/pt.png",
           "end": "2026-11-21 14:15",
@@ -2334,7 +3075,72 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB3 (D)",
+              "id": "6add8cd42d4a99e07393fded",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB2 (D)",
+              "id": "6add8cd42d4a99e07393fdee",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Ambient (D)",
+              "id": "6add8cd42d4a99e07393fdf1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Portugal",
           "countryIMG": "https://flagcdn.com/w40/pt.png",
           "end": "2026-11-21 18:00",
@@ -2351,6 +3157,54 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD DE",
+              "id": "6add8cd32d4a99e07393f431",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 UK",
+              "id": "6add8cd32d4a99e07393f4a1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
+              "id": "6add8cd62d4a99e073941640",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "DAZN F1",
+              "id": "6add8cd62d4a99e073941b21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "",
               "channel_name": "Canal+ Sport FHD PL",
@@ -2409,10 +3263,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add40b12d4a99e07363f41c",
+              "channel_name": "Canal+ Sport Extra 2 FHD PL",
+              "id": "6add40b12d4a99e07363f41b",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%202%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2437,6 +3291,14 @@
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2478,14 +3340,6 @@
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport SD FR",
-              "id": "6add8cd72d4a99e0739425a4",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
             }
           ],
           "country": "United States",
@@ -2503,7 +3357,72 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB3 (D)",
+              "id": "6add8cd42d4a99e07393fded",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB2 (D)",
+              "id": "6add8cd42d4a99e07393fdee",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Ambient (D)",
+              "id": "6add8cd42d4a99e07393fdf1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Portugal",
           "countryIMG": "https://flagcdn.com/w40/pt.png",
           "end": "2026-11-22 16:00",
@@ -2519,7 +3438,72 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB3 (D)",
+              "id": "6add8cd42d4a99e07393fded",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB2 (D)",
+              "id": "6add8cd42d4a99e07393fdee",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Ambient (D)",
+              "id": "6add8cd42d4a99e07393fdf1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Spain",
           "countryIMG": "https://flagcdn.com/w40/es.png",
           "end": "2026-11-27 12:45",
@@ -2536,6 +3520,54 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD DE",
+              "id": "6add8cd32d4a99e07393f431",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 UK",
+              "id": "6add8cd32d4a99e07393f4a1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
+              "id": "6add8cd62d4a99e073941640",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "DAZN F1",
+              "id": "6add8cd62d4a99e073941b21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "gb",
               "channel_name": "Sky Sports F1 FHD UK",
@@ -2560,7 +3592,72 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB3 (D)",
+              "id": "6add8cd42d4a99e07393fded",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB2 (D)",
+              "id": "6add8cd42d4a99e07393fdee",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Ambient (D)",
+              "id": "6add8cd42d4a99e07393fdf1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Spain",
           "countryIMG": "https://flagcdn.com/w40/es.png",
           "end": "2026-11-27 17:00",
@@ -2577,6 +3674,54 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD DE",
+              "id": "6add8cd32d4a99e07393f431",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 UK",
+              "id": "6add8cd32d4a99e07393f4a1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
+              "id": "6add8cd62d4a99e073941640",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "DAZN F1",
+              "id": "6add8cd62d4a99e073941b21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "gb",
               "channel_name": "Sky Sports F1 FHD UK",
@@ -2601,7 +3746,72 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB3 (D)",
+              "id": "6add8cd42d4a99e07393fded",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB2 (D)",
+              "id": "6add8cd42d4a99e07393fdee",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Ambient (D)",
+              "id": "6add8cd42d4a99e07393fdf1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Spain",
           "countryIMG": "https://flagcdn.com/w40/es.png",
           "end": "2026-11-28 12:10",
@@ -2617,7 +3827,72 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB3 (D)",
+              "id": "6add8cd42d4a99e07393fded",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB2 (D)",
+              "id": "6add8cd42d4a99e07393fdee",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Ambient (D)",
+              "id": "6add8cd42d4a99e07393fdf1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Spain",
           "countryIMG": "https://flagcdn.com/w40/es.png",
           "end": "2026-11-28 12:50",
@@ -2633,7 +3908,72 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB3 (D)",
+              "id": "6add8cd42d4a99e07393fded",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB2 (D)",
+              "id": "6add8cd42d4a99e07393fdee",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Ambient (D)",
+              "id": "6add8cd42d4a99e07393fdf1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Spain",
           "countryIMG": "https://flagcdn.com/w40/es.png",
           "end": "2026-11-28 13:15",
@@ -2649,7 +3989,72 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB3 (D)",
+              "id": "6add8cd42d4a99e07393fded",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB2 (D)",
+              "id": "6add8cd42d4a99e07393fdee",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Ambient (D)",
+              "id": "6add8cd42d4a99e07393fdf1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Spain",
           "countryIMG": "https://flagcdn.com/w40/es.png",
           "end": "2026-11-28 17:00",
@@ -2666,6 +4071,54 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD DE",
+              "id": "6add8cd32d4a99e07393f431",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 UK",
+              "id": "6add8cd32d4a99e07393f4a1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
+              "id": "6add8cd62d4a99e073941640",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "DAZN F1",
+              "id": "6add8cd62d4a99e073941b21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "gb",
               "channel_name": "Sky Sports F1 FHD UK",
@@ -2692,6 +4145,54 @@
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
             {
+              "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD DE",
+              "id": "6add8cd32d4a99e07393f431",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 UK",
+              "id": "6add8cd32d4a99e07393f4a1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
+              "id": "6add8cd62d4a99e073941640",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "DAZN F1",
+              "id": "6add8cd62d4a99e073941b21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
               "channel_code": "gb",
               "channel_name": "Sky Sports F1 FHD UK",
               "id": "6add40ae2d4a99e07363c85c",
@@ -2715,7 +4216,72 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "05:00 MotoGP | Round 18 | Australia motogp FHD 10/25 [HBO Max UK]",
+              "id": "6add8cd42d4a99e07393f693",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=05%3A00%20MotoGP%20%7C%20Round%2018%20%7C%20Australia%20motogp%20FHD%2010%2F25%20%5BHBO%20Max%20UK%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Commentary (D)",
+              "id": "6add8cd42d4a99e07393fdeb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Commentary%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB4 (D)",
+              "id": "6add8cd42d4a99e07393fdec",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB3 (D)",
+              "id": "6add8cd42d4a99e07393fded",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB2 (D)",
+              "id": "6add8cd42d4a99e07393fdee",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB2%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP OB1 (D)",
+              "id": "6add8cd42d4a99e07393fdef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB1%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP HELI (D)",
+              "id": "6add8cd42d4a99e07393fdf0",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "MotoGP Ambient (D)",
+              "id": "6add8cd42d4a99e07393fdf1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Spain",
           "countryIMG": "https://flagcdn.com/w40/es.png",
           "end": "2026-11-29 16:00",
@@ -2732,6 +4298,54 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD DE",
+              "id": "6add8cd32d4a99e07393f431",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 UK",
+              "id": "6add8cd32d4a99e07393f4a1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
+              "id": "6add8cd62d4a99e073941640",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "DAZN F1",
+              "id": "6add8cd62d4a99e073941b21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "",
               "channel_name": "Canal+ Sport FHD PL",
@@ -2790,10 +4404,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add40b12d4a99e07363f41c",
+              "channel_name": "Canal+ Sport Extra 2 FHD PL",
+              "id": "6add40b12d4a99e07363f41b",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%202%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2818,6 +4432,14 @@
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2866,14 +4488,6 @@
               "id": "6add8cd62d4a99e073941be3",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport SD FR",
-              "id": "6add8cd72d4a99e0739425a4",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2900,7 +4514,56 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD DE",
+              "id": "6add8cd32d4a99e07393f431",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 UK",
+              "id": "6add8cd32d4a99e07393f4a1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
+              "id": "6add8cd62d4a99e073941640",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "DAZN F1",
+              "id": "6add8cd62d4a99e073941b21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United Arab Emirates",
           "countryIMG": "https://flagcdn.com/w40/ae.png",
           "end": "2026-12-04 12:30",
@@ -2916,7 +4579,56 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD DE",
+              "id": "6add8cd32d4a99e07393f431",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 UK",
+              "id": "6add8cd32d4a99e07393f4a1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
+              "id": "6add8cd62d4a99e073941640",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "DAZN F1",
+              "id": "6add8cd62d4a99e073941b21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United Arab Emirates",
           "countryIMG": "https://flagcdn.com/w40/ae.png",
           "end": "2026-12-04 16:00",
@@ -2932,7 +4644,56 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD DE",
+              "id": "6add8cd32d4a99e07393f431",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 UK",
+              "id": "6add8cd32d4a99e07393f4a1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
+              "id": "6add8cd62d4a99e073941640",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "DAZN F1",
+              "id": "6add8cd62d4a99e073941b21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United Arab Emirates",
           "countryIMG": "https://flagcdn.com/w40/ae.png",
           "end": "2026-12-05 13:30",
@@ -2949,6 +4710,54 @@
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
           "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD DE",
+              "id": "6add8cd32d4a99e07393f431",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 UK",
+              "id": "6add8cd32d4a99e07393f4a1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
+              "id": "6add8cd62d4a99e073941640",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "DAZN F1",
+              "id": "6add8cd62d4a99e073941b21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
             {
               "channel_code": "",
               "channel_name": "Canal+ Sport FHD PL",
@@ -3007,10 +4816,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add40b12d4a99e07363f41c",
+              "channel_name": "Canal+ Sport Extra 2 FHD PL",
+              "id": "6add40b12d4a99e07363f41b",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%202%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3035,6 +4844,14 @@
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3083,14 +4900,6 @@
               "id": "6add8cd62d4a99e073941be3",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport SD FR",
-              "id": "6add8cd72d4a99e0739425a4",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3120,6 +4929,54 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD DE",
+              "id": "6add8cd32d4a99e07393f431",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20DE&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 UK",
+              "id": "6add8cd32d4a99e07393f4a1",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
+              "id": "6add8cd62d4a99e073941640",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "DAZN F1",
+              "id": "6add8cd62d4a99e073941b21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport FHD PL",
               "id": "6add40b12d4a99e07363f413",
               "image": "",
@@ -3176,10 +5033,10 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add40b12d4a99e07363f41c",
+              "channel_name": "Canal+ Sport Extra 2 FHD PL",
+              "id": "6add40b12d4a99e07363f41b",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%202%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3204,6 +5061,14 @@
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport SD FR",
+              "id": "6add40b22d4a99e07363feb7",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3252,14 +5117,6 @@
               "id": "6add8cd62d4a99e073941be3",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport SD FR",
-              "id": "6add8cd72d4a99e0739425a4",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3705,16 +5562,7 @@
         {
           "awayTeam": "Texas Tech",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136961",
-          "channels": [
-            {
-              "channel_code": "us",
-              "channel_name": "ESPN FHD US",
-              "id": "6add8cd42d4a99e07393fa59",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/espn-fhd-us.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20FHD%20US&code=us&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
+          "channels": [],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-21 07:00",
@@ -6339,283 +8187,15 @@
       "NCAAW": [],
       "NFL": [
         {
-          "awayTeam": "Seattle Seahawks",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134949",
-          "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "TSN 2 FHD CA",
-              "id": "6add40b12d4a99e07363ed3a",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%202%20FHD%20CA&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-16 00:05",
-          "event": "Las Vegas Raiders vs Seattle Seahawks",
-          "gameID": "2475519",
-          "homeTeam": "Las Vegas Raiders",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134932",
-          "start": "2026-11-15 21:05",
-          "status": "NS",
-          "time": "21:05",
-          "tournament": "NFL"
-        },
-        {
-          "awayTeam": "Los Angeles Rams",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135907",
-          "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "Sky Sports+ FHD UK",
-              "id": "6add8cd32d4a99e07393f4b6",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%2B%20FHD%20UK&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-16 00:05",
-          "event": "Arizona Cardinals vs Los Angeles Rams",
-          "gameID": "2475520",
-          "homeTeam": "Arizona Cardinals",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134946",
-          "start": "2026-11-15 21:05",
-          "status": "NS",
-          "time": "21:05",
-          "tournament": "NFL"
-        },
-        {
-          "awayTeam": "San Francisco 49ers",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134948",
-          "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "FOX 5 New York",
-              "id": "6add8cd52d4a99e073940324",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%205%20New%20York&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "gb",
-              "channel_name": "Sky Sports Golf FHD UK",
-              "id": "6add40ae2d4a99e07363c864",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-golf-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Golf%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "gb",
-              "channel_name": "Sky Sports NFL FHD UK",
-              "id": "6add8cd32d4a99e07393f4b1",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-nfl-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20NFL%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "ca",
-              "channel_name": "RDS 2 CA",
-              "id": "6add8cd62d4a99e07394175b",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/canada/rds-2-ca.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RDS%202%20CA&code=ca&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "de",
-              "channel_name": "RTL FHD DE",
-              "id": "6add40ae2d4a99e07363c54f",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/rtl-fhd-de.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RTL%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "fr",
-              "channel_name": "beIN SPORTS 2 FR FHD",
-              "id": "6add8cd52d4a99e073940887",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/france/bein-sports-2-fr-fhd.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%202%20FR%20FHD&code=fr&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Fox Deportes HD US",
-              "id": "6add40af2d4a99e07363cf21",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Deportes%20HD%20US&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "dk",
-              "channel_name": "TV2 Sport HD DK",
-              "id": "6add40ae2d4a99e07363c422",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/denmark/tv2-sport-hd-dk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TV2%20Sport%20HD%20DK&code=dk&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "br",
-              "channel_name": "ESPN 2 HD BR",
-              "id": "6add40b22d4a99e073640585",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/brazil/espn-2-hd-br.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%202%20HD%20BR&code=br&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "bg",
-              "channel_name": "Max Sport 2 FHD BG",
-              "id": "6add40b32d4a99e0736411db",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/bg/max-sport-2-fhd-bg.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Max%20Sport%202%20FHD%20BG&code=bg&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "il",
-              "channel_name": "Sport 5 Live HD IL",
-              "id": "6add40b32d4a99e07364135b",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/israel/sport-5-live-hd-il.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%205%20Live%20HD%20IL&code=il&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-16 00:25",
-          "event": "Dallas Cowboys vs San Francisco 49ers",
-          "gameID": "2475521",
-          "homeTeam": "Dallas Cowboys",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134934",
-          "start": "2026-11-15 21:25",
-          "status": "NS",
-          "time": "21:25",
-          "tournament": "NFL"
-        },
-        {
-          "awayTeam": "Pittsburgh Steelers",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134925",
-          "channels": [
-            {
-              "channel_code": "us",
-              "channel_name": "NBC US",
-              "id": "6add40af2d4a99e07363cff6",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/nbc-us.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NBC%20US&code=us&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "us",
-              "channel_name": "NBC 4 (WNBC) New York HD US",
-              "id": "6add8cd52d4a99e0739406d3",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/nbc-4-wnbc-new-york-hd-us.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NBC%204%20(WNBC)%20New%20York%20HD%20US&code=us&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "gb",
-              "channel_name": "Sky Sports Main Event HD UK",
-              "id": "6add8cd32d4a99e07393f49c",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-main-event-hd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Main%20Event%20HD%20UK&code=gb&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "gb",
-              "channel_name": "Sky Sports NFL FHD UK",
-              "id": "6add8cd32d4a99e07393f4b1",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-nfl-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20NFL%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "ca",
-              "channel_name": "RDS 2 CA",
-              "id": "6add8cd62d4a99e07394175b",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/canada/rds-2-ca.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RDS%202%20CA&code=ca&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "TSN 2 FHD CA",
-              "id": "6add40b12d4a99e07363ed3a",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%202%20FHD%20CA&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "de",
-              "channel_name": "RTL FHD DE",
-              "id": "6add40ae2d4a99e07363c54f",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/rtl-fhd-de.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RTL%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "de",
-              "channel_name": "Sky Sport Top Event FHD DE",
-              "id": "6add40ae2d4a99e07363c7cb",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-top-event-fhd-de.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Top%20Event%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "ar",
-              "channel_name": "ESPN 2 Primera FHD ARG",
-              "id": "6add8cd72d4a99e073942c97",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/argentina/espn-2-primera-fhd-arg.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%202%20Primera%20FHD%20ARG&code=ar&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "fr",
-              "channel_name": "beIN SPORTS 1 FR FHD",
-              "id": "6add8cd52d4a99e073940885",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/france/bein-sports-1-fr-fhd.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%201%20FR%20FHD&code=fr&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "nl",
-              "channel_name": "ESPN 3 FHD NL",
-              "id": "6add40b12d4a99e07363f7d5",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/netherlands/espn-3-fhd-nl.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%203%20FHD%20NL&code=nl&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "il",
-              "channel_name": "Sport 5 Live HD IL",
-              "id": "6add40b32d4a99e07364135b",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/israel/sport-5-live-hd-il.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%205%20Live%20HD%20IL&code=il&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-16 04:20",
-          "event": "Cincinnati Bengals vs Pittsburgh Steelers",
-          "gameID": "2475522",
-          "homeTeam": "Cincinnati Bengals",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134923",
-          "start": "2026-11-16 01:20",
-          "status": "NS",
-          "time": "01:20",
-          "tournament": "NFL"
-        },
-        {
           "awayTeam": "Los Angeles Chargers",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135908",
           "channels": [
             {
               "channel_code": "gb",
-              "channel_name": "Sky Sports Main Event HD UK",
-              "id": "6add8cd32d4a99e07393f49c",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-main-event-hd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Main%20Event%20HD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "channel_name": "Sky Sports Main Event FHD UK",
+              "id": "6add40ae2d4a99e07363c855",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-main-event-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Main%20Event%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -6628,10 +8208,10 @@
             },
             {
               "channel_code": "us",
-              "channel_name": "ESPN FHD US",
-              "id": "6add8cd42d4a99e07393fa59",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/espn-fhd-us.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20FHD%20US&code=us&user=cdnlivetv&plan=free",
+              "channel_name": "ESPN HD US",
+              "id": "6add40af2d4a99e07363cefc",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/espn-hd-us.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20HD%20US&code=us&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -6720,14 +8300,6 @@
               "id": "6add40b22d4a99e073640585",
               "image": "https://cdnlivetv.tv/api/v1/channels/images6318/brazil/espn-2-hd-br.webp",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%202%20HD%20BR&code=br&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "br",
-              "channel_name": "ESPN 3 FHD BR",
-              "id": "6add40b22d4a99e073640587",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/brazil/espn-3-fhd-br.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%203%20FHD%20BR&code=br&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -8450,24 +10022,7 @@
         {
           "awayTeam": "New York Jets",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134921",
-          "channels": [
-            {
-              "channel_code": "us",
-              "channel_name": "CBS US",
-              "id": "6add40af2d4a99e07363cf91",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/cbs-us.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CBS%20US&code=us&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "us",
-              "channel_name": "CBS 2 (WCBS) New York HD US",
-              "id": "6add8cd52d4a99e07394049a",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/cbs-2-wcbs-new-york-hd-us.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CBS%202%20(WCBS)%20New%20York%20HD%20US&code=us&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
+          "channels": [],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2027-01-10 03:00",
@@ -9043,7 +10598,64 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "UFC Fight Pass 24/7 FHD US",
+              "id": "6add8cd42d4a99e07393fbba",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Fight%20Pass%2024%2F7%20FHD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 24/7 HD US",
+              "id": "6add8cd42d4a99e07393fd1e",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%2024%2F7%20HD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC Channel US",
+              "id": "6add8cd42d4a99e07393fd1f",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Channel%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 1 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f4",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%201%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 2",
+              "id": "6add8cd62d4a99e0739419f5",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%202&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 3 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%203%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC Fightpass HD BR",
+              "id": "6add8cd72d4a99e073942bfb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Fightpass%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Qatar",
           "countryIMG": "https://flagcdn.com/w40/qa.png",
           "end": "2026-11-21 03:00",
@@ -9059,7 +10671,64 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "UFC Fight Pass 24/7 FHD US",
+              "id": "6add8cd42d4a99e07393fbba",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Fight%20Pass%2024%2F7%20FHD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 24/7 HD US",
+              "id": "6add8cd42d4a99e07393fd1e",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%2024%2F7%20HD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC Channel US",
+              "id": "6add8cd42d4a99e07393fd1f",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Channel%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 1 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f4",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%201%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 2",
+              "id": "6add8cd62d4a99e0739419f5",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%202&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 3 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%203%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC Fightpass HD BR",
+              "id": "6add8cd72d4a99e073942bfb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Fightpass%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-12-12 03:00",
@@ -9078,23 +10747,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-16 03:00",
-          "event": "RAW #1747",
-          "gameID": "2624418",
-          "homeTeam": "",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "start": "2026-11-16 00:00",
-          "status": "NS",
-          "time": "00:00",
-          "tournament": "WWE"
-        },
-        {
-          "awayTeam": "",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-20 03:00",
@@ -9110,7 +10780,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-23 03:00",
@@ -9126,7 +10813,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-27 03:00",
@@ -9142,7 +10846,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-28 03:00",
@@ -9158,7 +10879,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-30 03:00",
@@ -9174,7 +10912,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-12-04 03:00",
@@ -9190,7 +10945,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-12-07 03:00",
@@ -9206,7 +10978,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Australia",
           "countryIMG": "https://flagcdn.com/w40/au.png",
           "end": "2026-12-11 03:00",
@@ -9222,7 +11011,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Australia",
           "countryIMG": "https://flagcdn.com/w40/au.png",
           "end": "2026-12-12 03:00",
@@ -9238,7 +11044,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Australia",
           "countryIMG": "https://flagcdn.com/w40/au.png",
           "end": "2026-12-14 03:00",
@@ -9254,7 +11077,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-12-28 03:00",
@@ -9270,8 +11110,8 @@
       ],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1794793986,
-      "total_events": 506,
+      "timestamp": 1794818569,
+      "total_events": 501,
       "total_events_badminton": 4,
       "total_events_basketball": 118,
       "total_events_cricket": 0,
@@ -9288,7 +11128,7 @@
       "total_events_nba": 0,
       "total_events_ncaa": 190,
       "total_events_ncaaw": 0,
-      "total_events_nfl": 130,
+      "total_events_nfl": 126,
       "total_events_nhl": 0,
       "total_events_rugby": 0,
       "total_events_soccer": 16,
@@ -9296,7 +11136,7 @@
       "total_events_ufc": 2,
       "total_events_volleyball": 0,
       "total_events_winter_sports": 0,
-      "total_events_wwe": 12
+      "total_events_wwe": 11
     }
   },
   "ok": true
