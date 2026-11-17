@@ -1,6 +1,6 @@
 {
   "data": {
-    "count": 31,
+    "count": 36,
     "events": [
       {
         "channels": [
@@ -13,9 +13,9 @@
         "event": "Round Robin - A. Fils - R. Jódar",
         "featured": true,
         "icon": "🎾",
-        "id": "ftv:2026-11-17:14:00:atp finals:round robin - a. fils - r. jodar",
+        "id": "ftv:2026-11-17:14:10:atp finals:round robin - a. fils - r. jodar",
         "sport": "Tenis",
-        "time": "14:00"
+        "time": "14:10"
       },
       {
         "channels": [
@@ -131,7 +131,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -145,7 +146,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -159,7 +161,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -173,7 +176,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -187,7 +191,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -201,7 +206,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -215,7 +221,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -229,7 +236,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN App Gratis"
         ],
         "competition": "UEFA Nations League",
         "competition_key": "nationsleague",
@@ -286,15 +294,16 @@
       },
       {
         "channels": [
+          "Movistar Plus+",
           "M+ Deportes 2"
         ],
         "competition": "ATP Finals",
         "competition_key": "tenis",
         "date": "2026-11-18",
-        "event": "Round Robin",
-        "featured": false,
+        "event": "Round Robin - C. Alcaraz - D. Medvedev",
+        "featured": true,
         "icon": "🎾",
-        "id": "ftv:2026-11-18:14:00:atp finals:round robin",
+        "id": "ftv:2026-11-18:14:00:atp finals:round robin - c. alcaraz - d. medvedev",
         "sport": "Tenis",
         "time": "14:00"
       },
@@ -329,6 +338,20 @@
       },
       {
         "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "ATP Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-18",
+        "event": "Round Robin - F. Cobolli - F. Tiafoe",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-18:20:30:atp finals:round robin - f. cobolli - f. tiafoe",
+        "sport": "Tenis",
+        "time": "20:30"
+      },
+      {
+        "channels": [
           "DAZN",
           "DAZN Baloncesto"
         ],
@@ -356,6 +379,64 @@
         "id": "ftv:2026-11-19:03:30:nba:denver nuggets - boston celtics",
         "sport": "Baloncesto",
         "time": "03:30"
+      },
+      {
+        "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "ATP Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-19",
+        "event": "Round Robin - A. Zverev - A. Fils",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-19:14:00:atp finals:round robin - a. zverev - a. fils",
+        "sport": "Tenis",
+        "time": "14:00"
+      },
+      {
+        "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "ATP Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-19",
+        "event": "Round Robin - D. Medvedev - F. Tiafoe",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-19:14:00:atp finals:round robin - d. medvedev - f. tiafoe",
+        "sport": "Tenis",
+        "time": "14:00"
+      },
+      {
+        "channels": [
+          "Movistar Plus+",
+          "M+ Deportes 2"
+        ],
+        "competition": "ATP Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-19",
+        "event": "Round Robin - C. Alcaraz - F. Cobolli",
+        "featured": true,
+        "icon": "🎾",
+        "id": "ftv:2026-11-19:14:00:atp finals:round robin - c. alcaraz - f. cobolli",
+        "sport": "Tenis",
+        "time": "14:00"
+      },
+      {
+        "channels": [
+          "Movistar Plus+",
+          "M+ Deportes 2"
+        ],
+        "competition": "ATP Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-19",
+        "event": "Round Robin - B. Shelton - R. Jódar",
+        "featured": true,
+        "icon": "🎾",
+        "id": "ftv:2026-11-19:14:00:atp finals:round robin - b. shelton - r. jodar",
+        "sport": "Tenis",
+        "time": "14:00"
       },
       {
         "channels": [
