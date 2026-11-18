@@ -1,282 +1,7 @@
 {
   "data": {
-    "count": 36,
+    "count": 30,
     "events": [
-      {
-        "channels": [
-          "Movistar Plus+",
-          "M+ Deportes 2"
-        ],
-        "competition": "ATP Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-17",
-        "event": "Round Robin - A. Fils - R. Jódar",
-        "featured": true,
-        "icon": "🎾",
-        "id": "ftv:2026-11-17:14:10:atp finals:round robin - a. fils - r. jodar",
-        "sport": "Tenis",
-        "time": "14:10"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 2"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-17",
-        "event": "Dubai Basketball - Anadolu Efes Istanbul",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-17:17:00:euroliga:dubai basketball - anadolu efes istanbul",
-        "sport": "Baloncesto",
-        "time": "17:00"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 3"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-17",
-        "event": "Maccabi Tel Aviv BC - Olympiacos Piraeus",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-17:18:00:euroliga:maccabi tel aviv bc - olympiacos piraeus",
-        "sport": "Baloncesto",
-        "time": "18:00"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 4"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-17",
-        "event": "Fenerbahce Istanbul - ASVEL Lyon-Villeurbanne",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-17:19:00:euroliga:fenerbahce istanbul - asvel lyon-villeurbanne",
-        "sport": "Baloncesto",
-        "time": "19:00"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 5"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-17",
-        "event": "Zalgiris Kaunas - FC Bayern Basketball",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-17:19:00:euroliga:zalgiris kaunas - fc bayern basketball",
-        "sport": "Baloncesto",
-        "time": "19:00"
-      },
-      {
-        "channels": [
-          "M+ Deportes 2"
-        ],
-        "competition": "ATP Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-17",
-        "event": "Round Robin - A. Zverev - B. Shelton",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-17:20:30:atp finals:round robin - a. zverev - b. shelton",
-        "sport": "Tenis",
-        "time": "20:30"
-      },
-      {
-        "channels": [
-          "M+ Vamos 2"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-17",
-        "event": "AX Olimpia Milano - Crvena Zvezda MTS Belgrade",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-17:20:30:euroliga:ax olimpia milano - crvena zvezda mts belgrade",
-        "sport": "Baloncesto",
-        "time": "20:30"
-      },
-      {
-        "channels": [
-          "M+ Vamos"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-17",
-        "event": "Barça Basket - Paris Basketball",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-17:20:30:euroliga:barca basket - paris basketball",
-        "sport": "Baloncesto",
-        "time": "20:30"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 2"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-17",
-        "event": "Baskonia - Hapoel Tel Aviv BC",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-17:20:30:euroliga:baskonia - hapoel tel aviv bc",
-        "sport": "Baloncesto",
-        "time": "20:30"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN App Gratis"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-17",
-        "event": "UEFA Nations League - Bosnia - Rumanía",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-17:20:45:uefa nations league:uefa nations league - bosnia - rumania",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN App Gratis"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-17",
-        "event": "UEFA Nations League - Dinamarca - Noruega",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-17:20:45:uefa nations league:uefa nations league - dinamarca - noruega",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN App Gratis"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-17",
-        "event": "UEFA Nations League - Ucrania - Georgia",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-17:20:45:uefa nations league:uefa nations league - ucrania - georgia",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN App Gratis"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-17",
-        "event": "UEFA Nations League - Israel - Austria",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-17:20:45:uefa nations league:uefa nations league - israel - austria",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN App Gratis"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-17",
-        "event": "UEFA Nations League - República Irlanda - Kosovo",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-17:20:45:uefa nations league:uefa nations league - republica irlanda - kosovo",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN App Gratis"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-17",
-        "event": "UEFA Nations League - Hungría - Irlanda del Norte",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-17:20:45:uefa nations league:uefa nations league - hungria - irlanda del norte",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN App Gratis"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-17",
-        "event": "UEFA Nations League - Polonia - Suecia",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-17:20:45:uefa nations league:uefa nations league - polonia - suecia",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN App Gratis"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-17",
-        "event": "UEFA Nations League - Gales - Portugal",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-17:20:45:uefa nations league:uefa nations league - gales - portugal",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-17",
-        "event": "BC Partizan Beograd - Valencia Basket",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-17:20:45:euroliga:bc partizan beograd - valencia basket",
-        "sport": "Baloncesto",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 3"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-17",
-        "event": "Virtus Bologna - Panathinaikos BC",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-17:21:00:euroliga:virtus bologna - panathinaikos bc",
-        "sport": "Baloncesto",
-        "time": "21:00"
-      },
       {
         "channels": [
           "DAZN",
@@ -521,6 +246,198 @@
         "id": "ftv:2026-11-19:21:00:euroliga:valencia basket - virtus bologna",
         "sport": "Baloncesto",
         "time": "21:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN F1"
+        ],
+        "competition": "Fórmula 1",
+        "competition_key": "motor",
+        "date": "2026-11-20",
+        "event": "Fórmula 1 - G.P. Las Vegas (Las Vegas) - Libres 1",
+        "featured": false,
+        "icon": "🏆",
+        "id": "ftv:2026-11-20:01:30:formula 1:formula 1 - g.p. las vegas (las vegas) - libres 1",
+        "sport": "Motor",
+        "time": "01:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto"
+        ],
+        "competition": "NBA",
+        "competition_key": "nba",
+        "date": "2026-11-20",
+        "event": "San Antonio Spurs - Los Angeles Clippers",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-20:02:00:nba:san antonio spurs - los angeles clippers",
+        "sport": "Baloncesto",
+        "time": "02:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN F1"
+        ],
+        "competition": "Fórmula 1",
+        "competition_key": "motor",
+        "date": "2026-11-20",
+        "event": "Fórmula 1 - G.P. Las Vegas (Las Vegas) - Libres 2",
+        "featured": false,
+        "icon": "🏆",
+        "id": "ftv:2026-11-20:05:00:formula 1:formula 1 - g.p. las vegas (las vegas) - libres 2",
+        "sport": "Motor",
+        "time": "05:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN MotoGP"
+        ],
+        "competition": "MotoGP",
+        "competition_key": "motor",
+        "date": "2026-11-20",
+        "event": "MotoGP - G.P. Portugal (Algarve International) - Libres 1",
+        "featured": false,
+        "icon": "🏆",
+        "id": "ftv:2026-11-20:11:45:motogp:motogp - g.p. portugal (algarve international) - libres 1",
+        "sport": "Motor",
+        "time": "11:45"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN MotoGP"
+        ],
+        "competition": "MotoGP",
+        "competition_key": "motor",
+        "date": "2026-11-20",
+        "event": "MotoGP - G.P. Portugal (Algarve International) - Libres",
+        "featured": false,
+        "icon": "🏆",
+        "id": "ftv:2026-11-20:16:00:motogp:motogp - g.p. portugal (algarve international) - libres",
+        "sport": "Motor",
+        "time": "16:00"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 4"
+        ],
+        "competition": "Euroliga",
+        "competition_key": "euroliga",
+        "date": "2026-11-20",
+        "event": "Anadolu Efes Istanbul - ASVEL Lyon-Villeurbanne",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-20:18:30:euroliga:anadolu efes istanbul - asvel lyon-villeurbanne",
+        "sport": "Baloncesto",
+        "time": "18:30"
+      },
+      {
+        "channels": [
+          "Movistar Plus+",
+          "M+ Baloncesto"
+        ],
+        "competition": "Euroliga",
+        "competition_key": "euroliga",
+        "date": "2026-11-20",
+        "event": "Olympiacos Piraeus - Real Madrid Baloncesto",
+        "featured": true,
+        "icon": "🏀",
+        "id": "ftv:2026-11-20:20:15:euroliga:olympiacos piraeus - real madrid baloncesto",
+        "sport": "Baloncesto",
+        "time": "20:15"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 2",
+          "M+ Baloncesto"
+        ],
+        "competition": "Euroliga",
+        "competition_key": "euroliga",
+        "date": "2026-11-20",
+        "event": "Barça Basket - Crvena Zvezda MTS Belgrade",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-20:20:30:euroliga:barca basket - crvena zvezda mts belgrade",
+        "sport": "Baloncesto",
+        "time": "20:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Bundesliga",
+        "competition_key": "bundesliga",
+        "date": "2026-11-20",
+        "event": "FC Bayern - FC Köln",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-20:20:30:bundesliga:fc bayern - fc köln",
+        "sport": "Fútbol",
+        "time": "20:30"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 3"
+        ],
+        "competition": "Euroliga",
+        "competition_key": "euroliga",
+        "date": "2026-11-20",
+        "event": "BC Partizan Beograd - Besiktas JK Istanbul",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-20:20:45:euroliga:bc partizan beograd - besiktas jk istanbul",
+        "sport": "Baloncesto",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Ligue 1",
+        "competition_key": "ligue1",
+        "date": "2026-11-20",
+        "event": "Troyes - Le Havre AC",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-20:20:45:ligue 1:troyes - le havre ac",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "M+ LALIGA",
+          "DAZN",
+          "DAZN App Gratis"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-20",
+        "event": "Athletic Club - Espanyol",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-20:21:00:laliga ea sports:athletic club - espanyol",
+        "sport": "Fútbol",
+        "time": "21:00"
+      },
+      {
+        "channels": [
+          "Primera Federación",
+          "DAZN"
+        ],
+        "competition": "España - Primera Federación",
+        "competition_key": "other_football",
+        "date": "2026-11-20",
+        "event": "RM Castilla - Real Murcia",
+        "featured": true,
+        "icon": "⚽",
+        "id": "ftv:2026-11-20:21:15:espana - primera federacion:rm castilla - real murcia",
+        "sport": "Fútbol",
+        "time": "21:15"
       }
     ],
     "source": "futbolenlatv"
