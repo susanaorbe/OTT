@@ -2156,7 +2156,64 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "UFC Fight Pass 24/7 FHD US",
+              "id": "6add8cd42d4a99e07393fbba",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Fight%20Pass%2024%2F7%20FHD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 24/7 HD US",
+              "id": "6add8cd42d4a99e07393fd1e",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%2024%2F7%20HD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC Channel US",
+              "id": "6add8cd42d4a99e07393fd1f",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Channel%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 1 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f4",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%201%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 2",
+              "id": "6add8cd62d4a99e0739419f5",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%202&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 3 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%203%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC Fightpass HD BR",
+              "id": "6add8cd72d4a99e073942bfb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Fightpass%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "France",
           "countryIMG": "https://flagcdn.com/w40/fr.png",
           "end": "2026-12-19 03:00",
@@ -2626,6 +2683,14 @@
               "id": "6add40b12d4a99e07363f418",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3159,6 +3224,14 @@
               "id": "6add40b12d4a99e07363f418",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -4312,6 +4385,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -4732,6 +4813,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -4957,6 +5046,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 1 FHD PL",
+              "id": "6add40b12d4a99e07363f419",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport Extra 2 FHD PL",
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
@@ -5083,38 +5180,6 @@
       ],
       "NBA": [],
       "NCAA": [
-        {
-          "awayTeam": "Akron",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136167",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-18 07:00",
-          "event": "UMass vs Akron",
-          "gameID": "2499312",
-          "homeTeam": "UMass",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136911",
-          "start": "2026-11-18 04:00",
-          "status": "NS",
-          "time": "04:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
-          "awayTeam": "Central Michigan",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136875",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-18 07:00",
-          "event": "Buffalo vs Central Michigan",
-          "gameID": "2499313",
-          "homeTeam": "Buffalo",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136870",
-          "start": "2026-11-18 04:00",
-          "status": "NS",
-          "time": "04:00",
-          "tournament": "NCAA Division 1 Football"
-        },
         {
           "awayTeam": "Northwestern State",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137060",
@@ -10113,7 +10178,64 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "UFC Fight Pass 24/7 FHD US",
+              "id": "6add8cd42d4a99e07393fbba",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Fight%20Pass%2024%2F7%20FHD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 24/7 HD US",
+              "id": "6add8cd42d4a99e07393fd1e",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%2024%2F7%20HD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC Channel US",
+              "id": "6add8cd42d4a99e07393fd1f",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Channel%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 1 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f4",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%201%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 2",
+              "id": "6add8cd62d4a99e0739419f5",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%202&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 3 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%203%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC Fightpass HD BR",
+              "id": "6add8cd72d4a99e073942bfb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Fightpass%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Qatar",
           "countryIMG": "https://flagcdn.com/w40/qa.png",
           "end": "2026-11-21 03:00",
@@ -10129,7 +10251,64 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "UFC Fight Pass 24/7 FHD US",
+              "id": "6add8cd42d4a99e07393fbba",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Fight%20Pass%2024%2F7%20FHD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 24/7 HD US",
+              "id": "6add8cd42d4a99e07393fd1e",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%2024%2F7%20HD%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC Channel US",
+              "id": "6add8cd42d4a99e07393fd1f",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Channel%20US&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 1 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f4",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%201%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 2",
+              "id": "6add8cd62d4a99e0739419f5",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%202&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC 3 (Solo Eventos)",
+              "id": "6add8cd62d4a99e0739419f6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%203%20(Solo%20Eventos)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "UFC Fightpass HD BR",
+              "id": "6add8cd72d4a99e073942bfb",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=UFC%20Fightpass%20HD%20BR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-12-12 03:00",
@@ -10148,7 +10327,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-20 03:00",
@@ -10164,7 +10360,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-23 03:00",
@@ -10180,7 +10393,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-27 03:00",
@@ -10196,7 +10426,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-28 03:00",
@@ -10212,7 +10459,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-30 03:00",
@@ -10228,7 +10492,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-12-04 03:00",
@@ -10244,7 +10525,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-12-07 03:00",
@@ -10260,7 +10558,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Australia",
           "countryIMG": "https://flagcdn.com/w40/au.png",
           "end": "2026-12-11 03:00",
@@ -10276,7 +10591,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Australia",
           "countryIMG": "https://flagcdn.com/w40/au.png",
           "end": "2026-12-12 03:00",
@@ -10292,7 +10624,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "Australia",
           "countryIMG": "https://flagcdn.com/w40/au.png",
           "end": "2026-12-14 03:00",
@@ -10308,7 +10657,24 @@
         {
           "awayTeam": "",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "ECHOSTAR WWE HD KRD",
+              "id": "6add8cd62d4a99e07394175a",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ECHOSTAR%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "NEWROZ WWE HD KRD",
+              "id": "6add8cd62d4a99e073941997",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NEWROZ%20WWE%20HD%20KRD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-12-28 03:00",
@@ -10324,8 +10690,8 @@
       ],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1794993312,
-      "total_events": 476,
+      "timestamp": 1795025290,
+      "total_events": 474,
       "total_events_badminton": 4,
       "total_events_basketball": 112,
       "total_events_cricket": 0,
@@ -10340,7 +10706,7 @@
       "total_events_mma": 1,
       "total_events_motorsport": 29,
       "total_events_nba": 0,
-      "total_events_ncaa": 187,
+      "total_events_ncaa": 185,
       "total_events_ncaaw": 0,
       "total_events_nfl": 125,
       "total_events_nhl": 0,

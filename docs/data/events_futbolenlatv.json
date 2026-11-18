@@ -107,49 +107,6 @@
       },
       {
         "channels": [
-          "M+ Deportes 2"
-        ],
-        "competition": "ATP Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-19",
-        "event": "Round Robin - A. Zverev - A. Fils",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-19:14:00:atp finals:round robin - a. zverev - a. fils",
-        "sport": "Tenis",
-        "time": "14:00"
-      },
-      {
-        "channels": [
-          "M+ Deportes 2"
-        ],
-        "competition": "ATP Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-19",
-        "event": "Round Robin - D. Medvedev - F. Tiafoe",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-19:14:00:atp finals:round robin - d. medvedev - f. tiafoe",
-        "sport": "Tenis",
-        "time": "14:00"
-      },
-      {
-        "channels": [
-          "Movistar Plus+",
-          "M+ Deportes 2"
-        ],
-        "competition": "ATP Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-19",
-        "event": "Round Robin - C. Alcaraz - F. Cobolli",
-        "featured": true,
-        "icon": "🎾",
-        "id": "ftv:2026-11-19:14:00:atp finals:round robin - c. alcaraz - f. cobolli",
-        "sport": "Tenis",
-        "time": "14:00"
-      },
-      {
-        "channels": [
           "Movistar Plus+",
           "M+ Deportes 2"
         ],
@@ -204,6 +161,20 @@
         "id": "ftv:2026-11-19:20:00:euroliga:fc bayern basketball - baskonia",
         "sport": "Baloncesto",
         "time": "20:00"
+      },
+      {
+        "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "ATP Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-19",
+        "event": "Round Robin - A. Zverev - A. Fils",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-19:20:30:atp finals:round robin - a. zverev - a. fils",
+        "sport": "Tenis",
+        "time": "20:30"
       },
       {
         "channels": [
@@ -309,6 +280,35 @@
       },
       {
         "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "ATP Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-20",
+        "event": "Round Robin - D. Medvedev - F. Tiafoe",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-20:14:00:atp finals:round robin - d. medvedev - f. tiafoe",
+        "sport": "Tenis",
+        "time": "14:00"
+      },
+      {
+        "channels": [
+          "Movistar Plus+",
+          "M+ Deportes 2"
+        ],
+        "competition": "ATP Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-20",
+        "event": "Round Robin - C. Alcaraz - F. Cobolli",
+        "featured": true,
+        "icon": "🎾",
+        "id": "ftv:2026-11-20:14:00:atp finals:round robin - c. alcaraz - f. cobolli",
+        "sport": "Tenis",
+        "time": "14:00"
+      },
+      {
+        "channels": [
           "DAZN",
           "DAZN MotoGP"
         ],
@@ -353,8 +353,7 @@
       },
       {
         "channels": [
-          "M+ Baloncesto 2",
-          "M+ Baloncesto"
+          "M+ Baloncesto 2"
         ],
         "competition": "Euroliga",
         "competition_key": "euroliga",
