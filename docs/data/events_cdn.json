@@ -69,146 +69,6 @@
       ],
       "Basketball": [
         {
-          "awayTeam": "Rīgas Zeļļi",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/156075",
-          "channels": [],
-          "country": "Italy",
-          "countryIMG": "https://flagcdn.com/w40/it.png",
-          "end": "2026-11-18 19:30",
-          "event": "Derthona Basket vs Rīgas Zeļļi",
-          "gameID": "2588492",
-          "homeTeam": "Derthona Basket",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/143963",
-          "start": "2026-11-18 16:30",
-          "status": "NS",
-          "time": "16:30",
-          "tournament": "EuroCup Basketball"
-        },
-        {
-          "awayTeam": "Maxima Roma",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/156537",
-          "channels": [
-            {
-              "channel_code": "ro",
-              "channel_name": "Prima Sport 1 FHD RO",
-              "id": "6add40b22d4a99e07363fd77",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/romania/prima-sport-1-fhd-ro.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Prima%20Sport%201%20FHD%20RO&code=ro&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "Romania",
-          "countryIMG": "https://flagcdn.com/w40/ro.png",
-          "end": "2026-11-18 20:00",
-          "event": "U-BT Cluj-Napoca vs Maxima Roma",
-          "gameID": "2588499",
-          "homeTeam": "U-BT Cluj-Napoca",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/143801",
-          "start": "2026-11-18 17:00",
-          "status": "NS",
-          "time": "17:00",
-          "tournament": "EuroCup Basketball"
-        },
-        {
-          "awayTeam": "CB San Pablo Burgos",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136244",
-          "channels": [],
-          "country": "Slovenia",
-          "countryIMG": "",
-          "end": "2026-11-18 20:30",
-          "event": "KK Cedevita Olimpija vs CB San Pablo Burgos",
-          "gameID": "2588501",
-          "homeTeam": "KK Cedevita Olimpija",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137290",
-          "start": "2026-11-18 17:30",
-          "status": "NS",
-          "time": "17:30",
-          "tournament": "EuroCup Basketball"
-        },
-        {
-          "awayTeam": "Tofaş SK",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136078",
-          "channels": [
-            {
-              "channel_code": "tr",
-              "channel_name": "TRT Spor FHD TR",
-              "id": "6add40b12d4a99e07363f5d2",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/turkey/trt-spor-fhd-tr.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TRT%20Spor%20FHD%20TR&code=tr&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "Germany",
-          "countryIMG": "https://flagcdn.com/w40/de.png",
-          "end": "2026-11-18 21:00",
-          "event": "Niners Chemnitz vs Tofaş SK",
-          "gameID": "2588500",
-          "homeTeam": "Niners Chemnitz",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/140488",
-          "start": "2026-11-18 18:00",
-          "status": "NS",
-          "time": "18:00",
-          "tournament": "EuroCup Basketball"
-        },
-        {
-          "awayTeam": "Śląsk Wrocław",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/137566",
-          "channels": [
-            {
-              "channel_code": "pl",
-              "channel_name": "Polsat Sport Extra 4 FHD PL",
-              "id": "6add8cd62d4a99e073941c47",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/poland/polsat-sport-extra-4-fhd-pl.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Polsat%20Sport%20Extra%204%20FHD%20PL&code=pl&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "Montenegro",
-          "countryIMG": "",
-          "end": "2026-11-18 21:00",
-          "event": "KK Budućnost vs Śląsk Wrocław",
-          "gameID": "2588502",
-          "homeTeam": "KK Budućnost",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136093",
-          "start": "2026-11-18 18:00",
-          "status": "NS",
-          "time": "18:00",
-          "tournament": "EuroCup Basketball"
-        },
-        {
-          "awayTeam": "Le Mans Sarthe Basket",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135241",
-          "channels": [
-            {
-              "channel_code": "gr",
-              "channel_name": "Nova Sports Prime FHD GR",
-              "id": "6add40b32d4a99e0736412b0",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/greece/nova-sports-prime-fhd-gr.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Nova%20Sports%20Prime%20FHD%20GR&code=gr&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "il",
-              "channel_name": "Sport 1 HD IL",
-              "id": "6add40b32d4a99e073641351",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/israel/sport-1-hd-il.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%201%20HD%20IL&code=il&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "Greece",
-          "countryIMG": "https://flagcdn.com/w40/gr.png",
-          "end": "2026-11-18 21:00",
-          "event": "Aris BC vs Le Mans Sarthe Basket",
-          "gameID": "2588505",
-          "homeTeam": "Aris BC",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135628",
-          "start": "2026-11-18 18:00",
-          "status": "NS",
-          "time": "18:00",
-          "tournament": "EuroCup Basketball"
-        },
-        {
           "awayTeam": "Napoli Basket",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/143962",
           "channels": [],
@@ -2234,6 +2094,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
               "id": "6add8cd32d4a99e07393f431",
               "image": "",
@@ -2258,26 +2126,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "DAZN F1",
-              "id": "6add8cd62d4a99e073941b21",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
               "id": "6add8cd62d4a99e073941640",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "DAZN F1",
+              "id": "6add8cd62d4a99e073941b21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2299,6 +2159,14 @@
           "channels": [
             {
               "channel_code": "",
+              "channel_name": "-= Reload your playlist F1 =-",
+              "id": "6add8cd32d4a99e07393f3ef",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Sky Sports F1 HD DE",
               "id": "6add8cd32d4a99e07393f431",
               "image": "",
@@ -2323,26 +2191,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "DAZN F1",
-              "id": "6add8cd62d4a99e073941b21",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "-= Reload your playlist F1 =-",
-              "id": "6add8cd32d4a99e07393f3ef",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=-%3D%20Reload%20your%20playlist%20F1%20%3D-&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "1:00 AM EDT Grand Prix of Australia 10/25 [SPORTSNET+]",
               "id": "6add8cd62d4a99e073941640",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=1%3A00%20AM%20EDT%20Grand%20Prix%20of%20Australia%2010%2F25%20%5BSPORTSNET%2B%5D&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "DAZN F1",
+              "id": "6add8cd62d4a99e073941b21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2699,22 +2559,6 @@
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%202%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add40b12d4a99e07363f41c",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 4 FHD PL",
-              "id": "6add40b12d4a99e07363f41d",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3240,22 +3084,6 @@
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%202%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add40b12d4a99e07363f41c",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 4 FHD PL",
-              "id": "6add40b12d4a99e07363f41d",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -4401,22 +4229,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add40b12d4a99e07363f41c",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 4 FHD PL",
-              "id": "6add40b12d4a99e07363f41d",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport 360 HD FR",
               "id": "6add40b22d4a99e07363feb2",
               "image": "",
@@ -4829,22 +4641,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add40b12d4a99e07363f41c",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 4 FHD PL",
-              "id": "6add40b12d4a99e07363f41d",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "Canal+ Sport 360 HD FR",
               "id": "6add40b22d4a99e07363feb2",
               "image": "",
@@ -5058,22 +4854,6 @@
               "id": "6add40b12d4a99e07363f41b",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%202%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add40b12d4a99e07363f41c",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 4 FHD PL",
-              "id": "6add40b12d4a99e07363f41d",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -10690,10 +10470,10 @@
       ],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1795025290,
-      "total_events": 474,
+      "timestamp": 1795047478,
+      "total_events": 468,
       "total_events_badminton": 4,
-      "total_events_basketball": 112,
+      "total_events_basketball": 106,
       "total_events_cricket": 0,
       "total_events_cycling": 0,
       "total_events_darts": 0,
