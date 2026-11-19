@@ -69,95 +69,6 @@
       ],
       "Basketball": [
         {
-          "awayTeam": "Napoli Basket",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/143962",
-          "channels": [],
-          "country": "France",
-          "countryIMG": "https://flagcdn.com/w40/fr.png",
-          "end": "2026-11-18 21:30",
-          "event": "Bourg-en-Bresse vs Napoli Basket",
-          "gameID": "2588490",
-          "homeTeam": "Bourg-en-Bresse",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135234",
-          "start": "2026-11-18 18:30",
-          "status": "NS",
-          "time": "18:30",
-          "tournament": "EuroCup Basketball"
-        },
-        {
-          "awayTeam": "Reyer Venezia Mestre",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135391",
-          "channels": [],
-          "country": "Germany",
-          "countryIMG": "https://flagcdn.com/w40/de.png",
-          "end": "2026-11-18 21:30",
-          "event": "Skyliners Frankfurt vs Reyer Venezia Mestre",
-          "gameID": "2588498",
-          "homeTeam": "Skyliners Frankfurt",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135425",
-          "start": "2026-11-18 18:30",
-          "status": "NS",
-          "time": "18:30",
-          "tournament": "EuroCup Basketball"
-        },
-        {
-          "awayTeam": "BC Lietkabelis",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136106",
-          "channels": [
-            {
-              "channel_code": "gr",
-              "channel_name": "Nova Sport Start HD GR",
-              "id": "6add40b32d4a99e0736412a8",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/greece/nova-sport-start-hd-gr.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Nova%20Sport%20Start%20HD%20GR&code=gr&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "Bosnia and Herzegovina",
-          "countryIMG": "",
-          "end": "2026-11-18 21:30",
-          "event": "KK Bosna Royal vs BC Lietkabelis",
-          "gameID": "2608076",
-          "homeTeam": "KK Bosna Royal",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/140006",
-          "start": "2026-11-18 18:30",
-          "status": "NS",
-          "time": "18:30",
-          "tournament": "EuroCup Basketball"
-        },
-        {
-          "awayTeam": "BC Neptūnas",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136108",
-          "channels": [],
-          "country": "Italy",
-          "countryIMG": "https://flagcdn.com/w40/it.png",
-          "end": "2026-11-18 22:00",
-          "event": "Trento vs BC Neptūnas",
-          "gameID": "2588491",
-          "homeTeam": "Trento",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135382",
-          "start": "2026-11-18 19:00",
-          "status": "NS",
-          "time": "19:00",
-          "tournament": "EuroCup Basketball"
-        },
-        {
-          "awayTeam": "PAOK BC",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135637",
-          "channels": [],
-          "country": "Spain",
-          "countryIMG": "https://flagcdn.com/w40/es.png",
-          "end": "2026-11-18 22:30",
-          "event": "Basquet Manresa vs PAOK BC",
-          "gameID": "2588495",
-          "homeTeam": "Basquet Manresa",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135087",
-          "start": "2026-11-18 19:30",
-          "status": "NS",
-          "time": "19:30",
-          "tournament": "EuroCup Basketball"
-        },
-        {
           "awayTeam": "AS Monaco Basket",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136263",
           "channels": [],
@@ -1824,63 +1735,6 @@
               "viewers": 0
             }
           ],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-19 03:00",
-          "event": "The RSM Classic",
-          "gameID": "2590079",
-          "homeTeam": "",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "start": "2026-11-19 00:00",
-          "status": "NS",
-          "time": "00:00",
-          "tournament": "PGA Tour"
-        },
-        {
-          "awayTeam": "",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/logo.png",
-          "channels": [
-            {
-              "channel_code": "",
-              "channel_name": "Golf Channel HD US",
-              "id": "6add8cd42d4a99e07393fa82",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Golf%20Channel%20HD%20US&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Sky Sports Golf HD UK",
-              "id": "6add8cd32d4a99e07393f4a8",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Golf%20HD%20UK&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Sky Sports Golf UK",
-              "id": "6add8cd32d4a99e07393f4a6",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Golf%20UK&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Sky Sport Golf HD DE",
-              "id": "6add8cd32d4a99e07393f435",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Golf%20HD%20DE&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Golf+ HD FR",
-              "id": "6add8cd72d4a99e0739425a9",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Golf%2B%20HD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
           "country": "Bahamas",
           "countryIMG": "",
           "end": "2026-12-03 03:00",
@@ -2139,6 +1993,14 @@
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
               "viewers": 0
+            },
+            {
+              "channel_code": "gb",
+              "channel_name": "Sky Sports F1 FHD UK",
+              "id": "6add40ae2d4a99e07363c85c",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "viewers": 0
             }
           ],
           "country": "United States",
@@ -2204,6 +2066,14 @@
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
               "viewers": 0
+            },
+            {
+              "channel_code": "gb",
+              "channel_name": "Sky Sports F1 FHD UK",
+              "id": "6add40ae2d4a99e07363c85c",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "viewers": 0
             }
           ],
           "country": "United States",
@@ -2244,14 +2114,6 @@
               "id": "6add8cd42d4a99e07393fdec",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2325,14 +2187,6 @@
               "id": "6add8cd42d4a99e07393fdec",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2431,6 +2285,14 @@
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=&user=cdnlivetv&plan=free",
               "viewers": 0
+            },
+            {
+              "channel_code": "gb",
+              "channel_name": "Sky Sports F1 FHD UK",
+              "id": "6add40ae2d4a99e07363c85c",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "viewers": 0
             }
           ],
           "country": "United States",
@@ -2498,139 +2360,11 @@
               "viewers": 0
             },
             {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport FHD PL",
-              "id": "6add40b12d4a99e07363f413",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport 2 FHD PL",
-              "id": "6add40b12d4a99e07363f414",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%202%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport 3 FHD PL",
-              "id": "6add40b12d4a99e07363f415",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport 4 FHD PL",
-              "id": "6add40b12d4a99e07363f416",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport 5 FHD PL",
-              "id": "6add40b12d4a99e07363f417",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%205%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 2 FHD PL",
-              "id": "6add40b12d4a99e07363f41b",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%202%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport 360 HD FR",
-              "id": "6add40b22d4a99e07363feb2",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport HD FR",
-              "id": "6add40b22d4a99e07363feb5",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport SD FR",
-              "id": "6add40b22d4a99e07363feb7",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add8cd62d4a99e073941bde",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add8cd62d4a99e073941bdf",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 2 FHD PL",
-              "id": "6add8cd62d4a99e073941be1",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%202%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add8cd62d4a99e073941be2",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 4 FHD PL",
-              "id": "6add8cd62d4a99e073941be3",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport SD FR",
-              "id": "6add8cd72d4a99e0739425a4",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
+              "channel_code": "gb",
+              "channel_name": "Sky Sports F1 FHD UK",
+              "id": "6add40ae2d4a99e07363c85c",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2672,14 +2406,6 @@
               "id": "6add8cd42d4a99e07393fdec",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -2757,14 +2483,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "MotoGP OB2 (D)",
               "id": "6add8cd42d4a99e07393fdee",
               "image": "",
@@ -2838,14 +2556,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "MotoGP OB2 (D)",
               "id": "6add8cd42d4a99e07393fdee",
               "image": "",
@@ -2915,14 +2625,6 @@
               "id": "6add8cd42d4a99e07393fdec",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3023,139 +2725,11 @@
               "viewers": 0
             },
             {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport FHD PL",
-              "id": "6add40b12d4a99e07363f413",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport 2 FHD PL",
-              "id": "6add40b12d4a99e07363f414",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%202%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport 3 FHD PL",
-              "id": "6add40b12d4a99e07363f415",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport 4 FHD PL",
-              "id": "6add40b12d4a99e07363f416",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport 5 FHD PL",
-              "id": "6add40b12d4a99e07363f417",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%205%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add40b12d4a99e07363f418",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add40b12d4a99e07363f419",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 2 FHD PL",
-              "id": "6add40b12d4a99e07363f41b",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%202%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport 360 HD FR",
-              "id": "6add40b22d4a99e07363feb2",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport HD FR",
-              "id": "6add40b22d4a99e07363feb5",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport SD FR",
-              "id": "6add40b22d4a99e07363feb7",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "CANAL+ SPORT 6 FHD PL",
-              "id": "6add8cd62d4a99e073941bde",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CANAL%2B%20SPORT%206%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 1 FHD PL",
-              "id": "6add8cd62d4a99e073941bdf",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%201%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 2 FHD PL",
-              "id": "6add8cd62d4a99e073941be1",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%202%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 3 FHD PL",
-              "id": "6add8cd62d4a99e073941be2",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport Extra 4 FHD PL",
-              "id": "6add8cd62d4a99e073941be3",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport SD FR",
-              "id": "6add8cd72d4a99e0739425a4",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
+              "channel_code": "gb",
+              "channel_name": "Sky Sports F1 FHD UK",
+              "id": "6add40ae2d4a99e07363c85c",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -3197,14 +2771,6 @@
               "id": "6add8cd42d4a99e07393fdec",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3278,14 +2844,6 @@
               "id": "6add8cd42d4a99e07393fdec",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3436,14 +2994,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "MotoGP OB2 (D)",
               "id": "6add8cd42d4a99e07393fdee",
               "image": "",
@@ -3590,14 +3140,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "MotoGP OB2 (D)",
               "id": "6add8cd42d4a99e07393fdee",
               "image": "",
@@ -3667,14 +3209,6 @@
               "id": "6add8cd42d4a99e07393fdec",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3752,14 +3286,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "MotoGP OB2 (D)",
               "id": "6add8cd42d4a99e07393fdee",
               "image": "",
@@ -3829,14 +3355,6 @@
               "id": "6add8cd42d4a99e07393fdec",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB4%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -4060,14 +3578,6 @@
             },
             {
               "channel_code": "",
-              "channel_name": "MotoGP OB3 (D)",
-              "id": "6add8cd42d4a99e07393fded",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20OB3%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
               "channel_name": "MotoGP OB2 (D)",
               "id": "6add8cd42d4a99e07393fdee",
               "image": "",
@@ -4229,10 +3739,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport 360 HD FR",
-              "id": "6add40b22d4a99e07363feb2",
+              "channel_name": "Canal+ Sport Extra 3 FHD PL",
+              "id": "6add40b12d4a99e07363f41c",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 4 FHD PL",
+              "id": "6add40b12d4a99e07363f41d",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -4241,14 +3759,6 @@
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport SD FR",
-              "id": "6add40b22d4a99e07363feb7",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -4641,10 +4151,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport 360 HD FR",
-              "id": "6add40b22d4a99e07363feb2",
+              "channel_name": "Canal+ Sport Extra 3 FHD PL",
+              "id": "6add40b12d4a99e07363f41c",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 4 FHD PL",
+              "id": "6add40b12d4a99e07363f41d",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -4653,14 +4171,6 @@
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport SD FR",
-              "id": "6add40b22d4a99e07363feb7",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -4858,10 +4368,18 @@
             },
             {
               "channel_code": "",
-              "channel_name": "Canal+ Sport 360 HD FR",
-              "id": "6add40b22d4a99e07363feb2",
+              "channel_name": "Canal+ Sport Extra 3 FHD PL",
+              "id": "6add40b12d4a99e07363f41c",
               "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport Extra 4 FHD PL",
+              "id": "6add40b12d4a99e07363f41d",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -4870,14 +4388,6 @@
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Canal+ Sport SD FR",
-              "id": "6add40b22d4a99e07363feb7",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -7251,16 +6761,7 @@
         {
           "awayTeam": "South Carolina",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136948",
-          "channels": [
-            {
-              "channel_code": "us",
-              "channel_name": "ACC Network US",
-              "id": "6add40af2d4a99e07363cf6b",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/acc-network-us.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ACC%20Network%20US&code=us&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
+          "channels": [],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-28 07:00",
@@ -7935,7 +7436,88 @@
         {
           "awayTeam": "Indianapolis Colts",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134927",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "gb",
+              "channel_name": "Sky Sports NFL FHD UK",
+              "id": "6add8cd32d4a99e07393f4b1",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-nfl-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20NFL%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports+ FHD UK",
+              "id": "6add8cd32d4a99e07393f4b6",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%2B%20FHD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "TSN 4 FHD CA",
+              "id": "6add40b12d4a99e07363ed3f",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%204%20FHD%20CA&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "TSN 1 FHD CA",
+              "id": "6add8cd62d4a99e073941790",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%201%20FHD%20CA&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "TSN 5 FHD CA",
+              "id": "6add40b12d4a99e07363ed42",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%205%20FHD%20CA&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "de",
+              "channel_name": "RTL FHD DE",
+              "id": "6add40ae2d4a99e07363c54f",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/rtl-fhd-de.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RTL%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "RDS Info QC",
+              "id": "6add8cd62d4a99e073941552",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RDS%20Info%20QC&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "de",
+              "channel_name": "Sky Sport Top Event FHD DE",
+              "id": "6add40ae2d4a99e07363c7cb",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-top-event-fhd-de.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Top%20Event%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "fr",
+              "channel_name": "beIN SPORTS 2 FR FHD",
+              "id": "6add8cd52d4a99e073940887",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/france/bein-sports-2-fr-fhd.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%202%20FR%20FHD&code=fr&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "nl",
+              "channel_name": "ESPN 1 ULTRA  HD NL",
+              "id": "6add8cd72d4a99e07394213d",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/netherlands/espn-1-ultra-hd-nl.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%201%20ULTRA%20%20HD%20NL&code=nl&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-20 04:15",
@@ -10470,15 +10052,15 @@
       ],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1795047478,
-      "total_events": 468,
+      "timestamp": 1795073898,
+      "total_events": 462,
       "total_events_badminton": 4,
-      "total_events_basketball": 106,
+      "total_events_basketball": 101,
       "total_events_cricket": 0,
       "total_events_cycling": 0,
       "total_events_darts": 0,
       "total_events_futsal": 0,
-      "total_events_golf": 4,
+      "total_events_golf": 3,
       "total_events_handball": 0,
       "total_events_hockey": 0,
       "total_events_horse_racing": 0,
