@@ -1,150 +1,7 @@
 {
   "data": {
-    "count": 67,
+    "count": 86,
     "events": [
-      {
-        "channels": [
-          "DAZN",
-          "DAZN Baloncesto"
-        ],
-        "competition": "NBA",
-        "competition_key": "nba",
-        "date": "2026-11-19",
-        "event": "Miami Heat - Milwaukee Bucks",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-19:01:00:nba:miami heat - milwaukee bucks",
-        "sport": "Baloncesto",
-        "time": "01:00"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN Baloncesto 2"
-        ],
-        "competition": "NBA",
-        "competition_key": "nba",
-        "date": "2026-11-19",
-        "event": "Denver Nuggets - Boston Celtics",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-19:03:30:nba:denver nuggets - boston celtics",
-        "sport": "Baloncesto",
-        "time": "03:30"
-      },
-      {
-        "channels": [
-          "Movistar Plus+",
-          "M+ Deportes 2"
-        ],
-        "competition": "ATP Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-19",
-        "event": "Round Robin - B. Shelton - R. Jódar",
-        "featured": true,
-        "icon": "🎾",
-        "id": "ftv:2026-11-19:14:00:atp finals:round robin - b. shelton - r. jodar",
-        "sport": "Tenis",
-        "time": "14:00"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 4"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-19",
-        "event": "Maccabi Tel Aviv BC - Dubai Basketball",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-19:18:15:euroliga:maccabi tel aviv bc - dubai basketball",
-        "sport": "Baloncesto",
-        "time": "18:15"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 2"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-19",
-        "event": "Zalgiris Kaunas - Panathinaikos BC",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-19:19:00:euroliga:zalgiris kaunas - panathinaikos bc",
-        "sport": "Baloncesto",
-        "time": "19:00"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-19",
-        "event": "FC Bayern Basketball - Baskonia",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-19:20:00:euroliga:fc bayern basketball - baskonia",
-        "sport": "Baloncesto",
-        "time": "20:00"
-      },
-      {
-        "channels": [
-          "M+ Deportes 2"
-        ],
-        "competition": "ATP Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-19",
-        "event": "Round Robin - A. Zverev - A. Fils",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-19:20:30:atp finals:round robin - a. zverev - a. fils",
-        "sport": "Tenis",
-        "time": "20:30"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 3"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-19",
-        "event": "AX Olimpia Milano - Fenerbahce Istanbul",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-19:20:30:euroliga:ax olimpia milano - fenerbahce istanbul",
-        "sport": "Baloncesto",
-        "time": "20:30"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 5"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-19",
-        "event": "Paris Basketball - Hapoel Tel Aviv BC",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-19:20:45:euroliga:paris basketball - hapoel tel aviv bc",
-        "sport": "Baloncesto",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "M+ Vamos"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-19",
-        "event": "Valencia Basket - Virtus Bologna",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-19:21:00:euroliga:valencia basket - virtus bologna",
-        "sport": "Baloncesto",
-        "time": "21:00"
-      },
       {
         "channels": [
           "DAZN",
@@ -509,10 +366,10 @@
         "competition": "ATP Finals",
         "competition_key": "tenis",
         "date": "2026-11-21",
-        "event": "Semifinal 1 - C. Alcaraz - TBD",
+        "event": "Semifinal 1 - C. Alcaraz - B. Shelton",
         "featured": true,
         "icon": "🎾",
-        "id": "ftv:2026-11-21:14:30:atp finals:semifinal 1 - c. alcaraz - tbd",
+        "id": "ftv:2026-11-21:14:30:atp finals:semifinal 1 - c. alcaraz - b. shelton",
         "sport": "Tenis",
         "time": "14:30"
       },
@@ -850,6 +707,20 @@
       },
       {
         "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "ATP Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-21",
+        "event": "Semifinal 2 - A. Zverev - TBD",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-21:19:30:atp finals:semifinal 2 - a. zverev - tbd",
+        "sport": "Tenis",
+        "time": "19:30"
+      },
+      {
+        "channels": [
           "DAZN",
           "DAZN Baloncesto 2"
         ],
@@ -862,20 +733,6 @@
         "id": "ftv:2026-11-21:19:30:liga endesa acb:kids&us manresa - morabanc andorra",
         "sport": "Baloncesto",
         "time": "19:30"
-      },
-      {
-        "channels": [
-          "M+ Deportes 2"
-        ],
-        "competition": "ATP Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-21",
-        "event": "Semifinal 2",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-21:20:30:atp finals:semifinal 2",
-        "sport": "Tenis",
-        "time": "20:30"
       },
       {
         "channels": [
@@ -976,6 +833,430 @@
         "id": "ftv:2026-11-21:21:00:liga endesa acb:ucam murcia cb - casademont zaragoza",
         "sport": "Baloncesto",
         "time": "21:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN F1"
+        ],
+        "competition": "Fórmula 1",
+        "competition_key": "motor",
+        "date": "2026-11-22",
+        "event": "Fórmula 1 - G.P. Las Vegas (Las Vegas) - Carrera",
+        "featured": true,
+        "icon": "🏆",
+        "id": "ftv:2026-11-22:05:00:formula 1:formula 1 - g.p. las vegas (las vegas) - carrera",
+        "sport": "Motor",
+        "time": "05:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto 2"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-22",
+        "event": "Bilbao Basket - Baskonia - ETB2",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-22:12:00:liga endesa acb:bilbao basket - baskonia - etb2",
+        "sport": "Baloncesto",
+        "time": "12:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto 3"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-22",
+        "event": "Monbus Obradoiro - Basquet Girona",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-22:12:00:liga endesa acb:monbus obradoiro - basquet girona",
+        "sport": "Baloncesto",
+        "time": "12:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "M+ Vamos",
+          "DAZN 1"
+        ],
+        "competition": "Liga F",
+        "competition_key": "other_football",
+        "date": "2026-11-22",
+        "event": "Granada Femenino - Real Madrid Femenino",
+        "featured": true,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:12:00:liga f:granada femenino - real madrid femenino",
+        "sport": "Fútbol",
+        "time": "12:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-22",
+        "event": "Básquet Coruña - iLERNA Lleida",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-22:12:30:liga endesa acb:basquet coruna - ilerna lleida",
+        "sport": "Baloncesto",
+        "time": "12:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-22",
+        "event": "Juventus - Venezia FC",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:12:30:serie a:juventus - venezia fc",
+        "sport": "Fútbol",
+        "time": "12:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN MotoGP"
+        ],
+        "competition": "MotoGP",
+        "competition_key": "motor",
+        "date": "2026-11-22",
+        "event": "MotoGP - G.P. Portugal (Algarve International) - Carrera",
+        "featured": true,
+        "icon": "🏆",
+        "id": "ftv:2026-11-22:14:00:motogp:motogp - g.p. portugal (algarve international) - carrera",
+        "sport": "Motor",
+        "time": "14:00"
+      },
+      {
+        "channels": [
+          "DAZN LaLiga",
+          "DAZN"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-22",
+        "event": "FC Barcelona - Villarreal",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:14:00:laliga ea sports:fc barcelona - villarreal",
+        "sport": "Fútbol",
+        "time": "14:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Eredivisie",
+        "competition_key": "eredivisie",
+        "date": "2026-11-22",
+        "event": "Ajax - ADO Den Haag",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:14:30:eredivisie:ajax - ado den haag",
+        "sport": "Fútbol",
+        "time": "14:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Eredivisie",
+        "competition_key": "eredivisie",
+        "date": "2026-11-22",
+        "event": "Sparta Rotterdam - AZ Alkmaar",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:14:30:eredivisie:sparta rotterdam - az alkmaar",
+        "sport": "Fútbol",
+        "time": "14:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN 1"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-22",
+        "event": "Hull City - Brighton",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:15:00:premier league:hull city - brighton",
+        "sport": "Fútbol",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-22",
+        "event": "Bologna - Udinese",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:15:00:serie a:bologna - udinese",
+        "sport": "Fútbol",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-22",
+        "event": "Sassuolo - Genoa",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:15:00:serie a:sassuolo - genoa",
+        "sport": "Fútbol",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Ligue 1",
+        "competition_key": "ligue1",
+        "date": "2026-11-22",
+        "event": "Paris FC - Angers",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:15:00:ligue 1:paris fc - angers",
+        "sport": "Fútbol",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Bundesliga",
+        "competition_key": "bundesliga",
+        "date": "2026-11-22",
+        "event": "Augsburg - Mainz 05",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:15:30:bundesliga:augsburg - mainz 05",
+        "sport": "Fútbol",
+        "time": "15:30"
+      },
+      {
+        "channels": [
+          "M+ LALIGA"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-22",
+        "event": "Racing Santander - Real Sociedad",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:16:15:laliga ea sports:racing santander - real sociedad",
+        "sport": "Fútbol",
+        "time": "16:15"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto 3"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-22",
+        "event": "Valencia Basket - Río Breogán",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-22:17:00:liga endesa acb:valencia basket - rio breogan",
+        "sport": "Baloncesto",
+        "time": "17:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Ligue 1",
+        "competition_key": "ligue1",
+        "date": "2026-11-22",
+        "event": "Lorient - Rennes",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:17:15:ligue 1:lorient - rennes",
+        "sport": "Fútbol",
+        "time": "17:15"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "M+ Vamos",
+          "DAZN 1",
+          "M+ Liga de Campeones"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-22",
+        "event": "Liverpool - Manchester Utd.",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:17:30:premier league:liverpool - manchester utd.",
+        "sport": "Fútbol",
+        "time": "17:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Bundesliga",
+        "competition_key": "bundesliga",
+        "date": "2026-11-22",
+        "event": "Werder Bremen - Hamburger SV",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:17:30:bundesliga:werder bremen - hamburger sv",
+        "sport": "Fútbol",
+        "time": "17:30"
+      },
+      {
+        "channels": [
+          "Movistar Plus+",
+          "M+ Deportes 2"
+        ],
+        "competition": "ATP Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-22",
+        "event": "Final",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-22:18:00:atp finals:final",
+        "sport": "Tenis",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "M+ Vamos 2",
+          "DAZN Baloncesto 2"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-22",
+        "event": "La Laguna Tenerife - Barça Basket",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-22:18:00:liga endesa acb:la laguna tenerife - barca basket",
+        "sport": "Baloncesto",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-22",
+        "event": "AC Milan - Frosinone",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:18:00:serie a:ac milan - frosinone",
+        "sport": "Fútbol",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "DAZN LaLiga",
+          "DAZN"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-22",
+        "event": "Osasuna - Málaga",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:18:30:laliga ea sports:osasuna - malaga",
+        "sport": "Fútbol",
+        "time": "18:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto"
+        ],
+        "competition": "Liga Endesa / ACB",
+        "competition_key": "ligaendesa",
+        "date": "2026-11-22",
+        "event": "Real Madrid Baloncesto - Joventut Badalona",
+        "featured": true,
+        "icon": "🏀",
+        "id": "ftv:2026-11-22:19:00:liga endesa acb:real madrid baloncesto - joventut badalona",
+        "sport": "Baloncesto",
+        "time": "19:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-22",
+        "event": "Atalanta - Inter Milan",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:20:45:serie a:atalanta - inter milan",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Ligue 1",
+        "competition_key": "ligue1",
+        "date": "2026-11-22",
+        "event": "O. Marseille - Le Mans",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:20:45:ligue 1:o. marseille - le mans",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "M+ LALIGA"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-22",
+        "event": "Getafe - At. Madrid",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-22:21:00:laliga ea sports:getafe - at. madrid",
+        "sport": "Fútbol",
+        "time": "21:00"
+      },
+      {
+        "channels": [
+          "Amazon Prime Video"
+        ],
+        "competition": "NBA",
+        "competition_key": "nba",
+        "date": "2026-11-22",
+        "event": "Atlanta Hawks - Detroit Pistons",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-22:21:30:nba:atlanta hawks - detroit pistons",
+        "sport": "Baloncesto",
+        "time": "21:30"
       }
     ],
     "source": "futbolenlatv"
