@@ -1,6 +1,6 @@
 {
   "data": {
-    "count": 66,
+    "count": 67,
     "events": [
       {
         "channels": [
@@ -207,6 +207,22 @@
       },
       {
         "channels": [
+          "DAZN",
+          "DAZN App Gratis",
+          "Teledeporte"
+        ],
+        "competition": "UEFA Nations League",
+        "competition_key": "nationsleague",
+        "date": "2026-11-20",
+        "event": "Sorteo Fase Final",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-20:12:00:uefa nations league:sorteo fase final",
+        "sport": "Fútbol",
+        "time": "12:00"
+      },
+      {
+        "channels": [
           "Movistar Plus+",
           "M+ Deportes 2"
         ],
@@ -295,7 +311,9 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "M+ Vamos 2",
+          "M+ Liga de Campeones"
         ],
         "competition": "Bundesliga",
         "competition_key": "bundesliga",
@@ -456,7 +474,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN 1"
         ],
         "competition": "Premier League",
         "competition_key": "premier",
@@ -626,7 +645,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN 1"
         ],
         "competition": "Premier League",
         "competition_key": "premier",
@@ -743,7 +763,8 @@
       {
         "channels": [
           "DAZN",
-          "M+ Vamos"
+          "M+ Vamos",
+          "M+ Liga de Campeones"
         ],
         "competition": "Serie A",
         "competition_key": "seriea",
@@ -772,7 +793,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN 1"
         ],
         "competition": "Premier League",
         "competition_key": "premier",
