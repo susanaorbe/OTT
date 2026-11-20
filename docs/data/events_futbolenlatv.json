@@ -89,9 +89,9 @@
         "event": "Round Robin - C. Alcaraz - F. Cobolli",
         "featured": true,
         "icon": "🎾",
-        "id": "ftv:2026-11-20:14:00:atp finals:round robin - c. alcaraz - f. cobolli",
+        "id": "ftv:2026-11-20:14:15:atp finals:round robin - c. alcaraz - f. cobolli",
         "sport": "Tenis",
-        "time": "14:00"
+        "time": "14:15"
       },
       {
         "channels": [
@@ -346,6 +346,21 @@
       },
       {
         "channels": [
+          "Movistar Plus+",
+          "M+ Deportes 2"
+        ],
+        "competition": "ATP Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-21",
+        "event": "Semifinal 1 - C. Alcaraz - B. Shelton",
+        "featured": true,
+        "icon": "🎾",
+        "id": "ftv:2026-11-21:14:00:atp finals:semifinal 1 - c. alcaraz - b. shelton",
+        "sport": "Tenis",
+        "time": "14:00"
+      },
+      {
+        "channels": [
           "M+ LALIGA"
         ],
         "competition": "LaLiga EA Sports",
@@ -357,21 +372,6 @@
         "id": "ftv:2026-11-21:14:00:laliga ea sports:alaves - deportivo",
         "sport": "Fútbol",
         "time": "14:00"
-      },
-      {
-        "channels": [
-          "Movistar Plus+",
-          "M+ Deportes 2"
-        ],
-        "competition": "ATP Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-21",
-        "event": "Semifinal 1 - C. Alcaraz - B. Shelton",
-        "featured": true,
-        "icon": "🎾",
-        "id": "ftv:2026-11-21:14:30:atp finals:semifinal 1 - c. alcaraz - b. shelton",
-        "sport": "Tenis",
-        "time": "14:30"
       },
       {
         "channels": [
