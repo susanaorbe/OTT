@@ -1,246 +1,7 @@
 {
   "data": {
-    "count": 86,
+    "count": 76,
     "events": [
-      {
-        "channels": [
-          "DAZN",
-          "DAZN F1"
-        ],
-        "competition": "Fórmula 1",
-        "competition_key": "motor",
-        "date": "2026-11-20",
-        "event": "Fórmula 1 - G.P. Las Vegas (Las Vegas) - Libres 1",
-        "featured": false,
-        "icon": "🏆",
-        "id": "ftv:2026-11-20:01:30:formula 1:formula 1 - g.p. las vegas (las vegas) - libres 1",
-        "sport": "Motor",
-        "time": "01:30"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN Baloncesto"
-        ],
-        "competition": "NBA",
-        "competition_key": "nba",
-        "date": "2026-11-20",
-        "event": "San Antonio Spurs - Los Angeles Clippers",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-20:02:00:nba:san antonio spurs - los angeles clippers",
-        "sport": "Baloncesto",
-        "time": "02:00"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN F1"
-        ],
-        "competition": "Fórmula 1",
-        "competition_key": "motor",
-        "date": "2026-11-20",
-        "event": "Fórmula 1 - G.P. Las Vegas (Las Vegas) - Libres 2",
-        "featured": false,
-        "icon": "🏆",
-        "id": "ftv:2026-11-20:05:00:formula 1:formula 1 - g.p. las vegas (las vegas) - libres 2",
-        "sport": "Motor",
-        "time": "05:00"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN MotoGP"
-        ],
-        "competition": "MotoGP",
-        "competition_key": "motor",
-        "date": "2026-11-20",
-        "event": "MotoGP - G.P. Portugal (Algarve International) - Libres 1",
-        "featured": false,
-        "icon": "🏆",
-        "id": "ftv:2026-11-20:11:45:motogp:motogp - g.p. portugal (algarve international) - libres 1",
-        "sport": "Motor",
-        "time": "11:45"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN App Gratis",
-          "Teledeporte"
-        ],
-        "competition": "UEFA Nations League",
-        "competition_key": "nationsleague",
-        "date": "2026-11-20",
-        "event": "Sorteo Fase Final",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-20:12:00:uefa nations league:sorteo fase final",
-        "sport": "Fútbol",
-        "time": "12:00"
-      },
-      {
-        "channels": [
-          "Movistar Plus+",
-          "M+ Deportes 2"
-        ],
-        "competition": "ATP Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-20",
-        "event": "Round Robin - C. Alcaraz - F. Cobolli",
-        "featured": true,
-        "icon": "🎾",
-        "id": "ftv:2026-11-20:14:15:atp finals:round robin - c. alcaraz - f. cobolli",
-        "sport": "Tenis",
-        "time": "14:15"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN MotoGP"
-        ],
-        "competition": "MotoGP",
-        "competition_key": "motor",
-        "date": "2026-11-20",
-        "event": "MotoGP - G.P. Portugal (Algarve International) - Libres",
-        "featured": false,
-        "icon": "🏆",
-        "id": "ftv:2026-11-20:16:00:motogp:motogp - g.p. portugal (algarve international) - libres",
-        "sport": "Motor",
-        "time": "16:00"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 4"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-20",
-        "event": "Anadolu Efes Istanbul - ASVEL Lyon-Villeurbanne",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-20:18:30:euroliga:anadolu efes istanbul - asvel lyon-villeurbanne",
-        "sport": "Baloncesto",
-        "time": "18:30"
-      },
-      {
-        "channels": [
-          "Movistar Plus+",
-          "M+ Baloncesto"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-20",
-        "event": "Olympiacos Piraeus - Real Madrid Baloncesto",
-        "featured": true,
-        "icon": "🏀",
-        "id": "ftv:2026-11-20:20:15:euroliga:olympiacos piraeus - real madrid baloncesto",
-        "sport": "Baloncesto",
-        "time": "20:15"
-      },
-      {
-        "channels": [
-          "M+ Deportes 2"
-        ],
-        "competition": "ATP Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-20",
-        "event": "Round Robin - D. Medvedev - F. Tiafoe",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-20:20:30:atp finals:round robin - d. medvedev - f. tiafoe",
-        "sport": "Tenis",
-        "time": "20:30"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 2",
-          "M+ Baloncesto"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-20",
-        "event": "Barça Basket - Crvena Zvezda MTS Belgrade",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-20:20:30:euroliga:barca basket - crvena zvezda mts belgrade",
-        "sport": "Baloncesto",
-        "time": "20:30"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "M+ Vamos 2",
-          "M+ Liga de Campeones"
-        ],
-        "competition": "Bundesliga",
-        "competition_key": "bundesliga",
-        "date": "2026-11-20",
-        "event": "FC Bayern - FC Köln",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-20:20:30:bundesliga:fc bayern - fc köln",
-        "sport": "Fútbol",
-        "time": "20:30"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 3"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-20",
-        "event": "BC Partizan Beograd - Besiktas JK Istanbul",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-20:20:45:euroliga:bc partizan beograd - besiktas jk istanbul",
-        "sport": "Baloncesto",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "Ligue 1",
-        "competition_key": "ligue1",
-        "date": "2026-11-20",
-        "event": "Troyes - Le Havre AC",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-20:20:45:ligue 1:troyes - le havre ac",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "M+ LALIGA",
-          "DAZN",
-          "DAZN App Gratis"
-        ],
-        "competition": "LaLiga EA Sports",
-        "competition_key": "laliga",
-        "date": "2026-11-20",
-        "event": "Athletic Club - Espanyol",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-20:21:00:laliga ea sports:athletic club - espanyol",
-        "sport": "Fútbol",
-        "time": "21:00"
-      },
-      {
-        "channels": [
-          "Primera Federación",
-          "DAZN"
-        ],
-        "competition": "España - Primera Federación",
-        "competition_key": "other_football",
-        "date": "2026-11-20",
-        "event": "RM Castilla - Real Murcia",
-        "featured": true,
-        "icon": "⚽",
-        "id": "ftv:2026-11-20:21:15:espana - primera federacion:rm castilla - real murcia",
-        "sport": "Fútbol",
-        "time": "21:15"
-      },
       {
         "channels": [
           "DAZN",
@@ -346,21 +107,6 @@
       },
       {
         "channels": [
-          "Movistar Plus+",
-          "M+ Deportes 2"
-        ],
-        "competition": "ATP Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-21",
-        "event": "Semifinal 1 - C. Alcaraz - B. Shelton",
-        "featured": true,
-        "icon": "🎾",
-        "id": "ftv:2026-11-21:14:00:atp finals:semifinal 1 - c. alcaraz - b. shelton",
-        "sport": "Tenis",
-        "time": "14:00"
-      },
-      {
-        "channels": [
           "M+ LALIGA"
         ],
         "competition": "LaLiga EA Sports",
@@ -372,6 +118,21 @@
         "id": "ftv:2026-11-21:14:00:laliga ea sports:alaves - deportivo",
         "sport": "Fútbol",
         "time": "14:00"
+      },
+      {
+        "channels": [
+          "Movistar Plus+",
+          "M+ Deportes 2"
+        ],
+        "competition": "ATP Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-21",
+        "event": "Semifinal 1 - C. Alcaraz - B. Shelton",
+        "featured": true,
+        "icon": "🎾",
+        "id": "ftv:2026-11-21:14:30:atp finals:semifinal 1 - c. alcaraz - b. shelton",
+        "sport": "Tenis",
+        "time": "14:30"
       },
       {
         "channels": [
@@ -707,20 +468,6 @@
       },
       {
         "channels": [
-          "M+ Deportes 2"
-        ],
-        "competition": "ATP Finals",
-        "competition_key": "tenis",
-        "date": "2026-11-21",
-        "event": "Semifinal 2 - A. Zverev - TBD",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-21:19:30:atp finals:semifinal 2 - a. zverev - tbd",
-        "sport": "Tenis",
-        "time": "19:30"
-      },
-      {
-        "channels": [
           "DAZN",
           "DAZN Baloncesto 2"
         ],
@@ -733,6 +480,20 @@
         "id": "ftv:2026-11-21:19:30:liga endesa acb:kids&us manresa - morabanc andorra",
         "sport": "Baloncesto",
         "time": "19:30"
+      },
+      {
+        "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "ATP Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-21",
+        "event": "Semifinal 2 - A. Zverev - D. Medvedev",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-21:20:30:atp finals:semifinal 2 - a. zverev - d. medvedev",
+        "sport": "Tenis",
+        "time": "20:30"
       },
       {
         "channels": [
@@ -1257,6 +1018,94 @@
         "id": "ftv:2026-11-22:21:30:nba:atlanta hawks - detroit pistons",
         "sport": "Baloncesto",
         "time": "21:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto 3"
+        ],
+        "competition": "NBA",
+        "competition_key": "nba",
+        "date": "2026-11-23",
+        "event": "Miami Heat - Oklahoma C. Thunder",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-23:00:00:nba:miami heat - oklahoma c. thunder",
+        "sport": "Baloncesto",
+        "time": "00:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "NBA",
+        "competition_key": "nba",
+        "date": "2026-11-23",
+        "event": "Washington Wizards - Orlando Magic",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-23:01:00:nba:washington wizards - orlando magic",
+        "sport": "Baloncesto",
+        "time": "01:00"
+      },
+      {
+        "channels": [
+          "Movistar Plus+",
+          "Teledeporte"
+        ],
+        "competition": "Copa del Rey",
+        "competition_key": "copadelrey",
+        "date": "2026-11-23",
+        "event": "Sorteo 2ª Eliminatoria - RFEF.es",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-23:12:30:copa del rey:sorteo 2ª eliminatoria - rfef.es",
+        "sport": "Fútbol",
+        "time": "12:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-23",
+        "event": "Monza - Fiorentina",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-23:20:45:serie a:monza - fiorentina",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN LaLiga",
+          "DAZN"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-23",
+        "event": "Levante - Elche",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-23:21:00:laliga ea sports:levante - elche",
+        "sport": "Fútbol",
+        "time": "21:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN 1"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-23",
+        "event": "Brentford - Everton",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-23:21:00:premier league:brentford - everton",
+        "sport": "Fútbol",
+        "time": "21:00"
       }
     ],
     "source": "futbolenlatv"
