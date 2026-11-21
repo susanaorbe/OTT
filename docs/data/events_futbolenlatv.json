@@ -164,6 +164,21 @@
       },
       {
         "channels": [
+          "DAZN",
+          "DAZN MotoGP"
+        ],
+        "competition": "MotoGP",
+        "competition_key": "motor",
+        "date": "2026-11-21",
+        "event": "MotoGP - G.P. Portugal (Algarve International) - Sprint",
+        "featured": true,
+        "icon": "🏆",
+        "id": "ftv:2026-11-21:15:30:motogp:motogp - g.p. portugal (algarve international) - sprint",
+        "sport": "Motor",
+        "time": "15:30"
+      },
+      {
+        "channels": [
           "DAZN"
         ],
         "competition": "Bundesliga",
@@ -231,21 +246,6 @@
         "id": "ftv:2026-11-21:15:30:bundesliga:sv elversberg - freiburg",
         "sport": "Fútbol",
         "time": "15:30"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN MotoGP"
-        ],
-        "competition": "MotoGP",
-        "competition_key": "motor",
-        "date": "2026-11-21",
-        "event": "MotoGP - G.P. Portugal (Algarve International) - Sprint",
-        "featured": true,
-        "icon": "🏆",
-        "id": "ftv:2026-11-21:16:00:motogp:motogp - g.p. portugal (algarve international) - sprint",
-        "sport": "Motor",
-        "time": "16:00"
       },
       {
         "channels": [
@@ -321,7 +321,7 @@
       },
       {
         "channels": [
-          "DAZN LaLiga",
+          "DAZN LaLiga 2",
           "DAZN"
         ],
         "competition": "LaLiga EA Sports",
