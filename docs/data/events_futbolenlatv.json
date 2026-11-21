@@ -1,6 +1,6 @@
 {
   "data": {
-    "count": 76,
+    "count": 77,
     "events": [
       {
         "channels": [
@@ -745,6 +745,20 @@
       },
       {
         "channels": [
+          "M+ Deportes 2"
+        ],
+        "competition": "ATP Finals",
+        "competition_key": "tenis",
+        "date": "2026-11-22",
+        "event": "Final Dobles",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-22:15:00:atp finals:final dobles",
+        "sport": "Tenis",
+        "time": "15:00"
+      },
+      {
+        "channels": [
           "DAZN",
           "DAZN 1"
         ],
@@ -896,10 +910,10 @@
         "competition": "ATP Finals",
         "competition_key": "tenis",
         "date": "2026-11-22",
-        "event": "Final",
-        "featured": false,
+        "event": "Final - TBD - C. Alcaraz",
+        "featured": true,
         "icon": "🎾",
-        "id": "ftv:2026-11-22:18:00:atp finals:final",
+        "id": "ftv:2026-11-22:18:00:atp finals:final - tbd - c. alcaraz",
         "sport": "Tenis",
         "time": "18:00"
       },
