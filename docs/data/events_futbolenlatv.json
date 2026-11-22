@@ -35,7 +35,8 @@
       {
         "channels": [
           "DAZN",
-          "DAZN Baloncesto 3"
+          "DAZN Baloncesto 3",
+          "TVG2"
         ],
         "competition": "Liga Endesa / ACB",
         "competition_key": "ligaendesa",
