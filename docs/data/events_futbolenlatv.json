@@ -1,6 +1,6 @@
 {
   "data": {
-    "count": 37,
+    "count": 38,
     "events": [
       {
         "channels": [
@@ -16,20 +16,6 @@
         "id": "ftv:2026-11-23:00:00:nba:miami heat - oklahoma c. thunder",
         "sport": "Baloncesto",
         "time": "00:00"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "NBA",
-        "competition_key": "nba",
-        "date": "2026-11-23",
-        "event": "Washington Wizards - Orlando Magic",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-23:01:00:nba:washington wizards - orlando magic",
-        "sport": "Baloncesto",
-        "time": "01:00"
       },
       {
         "channels": [
@@ -92,7 +78,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN Baloncesto"
         ],
         "competition": "NBA",
         "competition_key": "nba",
@@ -103,6 +90,20 @@
         "id": "ftv:2026-11-24:01:30:nba:minnesota timberwolves - brooklyn nets",
         "sport": "Baloncesto",
         "time": "01:30"
+      },
+      {
+        "channels": [
+          "Premier Padel YouTube"
+        ],
+        "competition": "México Major",
+        "competition_key": "padel",
+        "date": "2026-11-24",
+        "event": "1ª Ronda - Premier Padel Tour",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-24:02:00:mexico major:1ª ronda - premier padel tour",
+        "sport": "Pádel",
+        "time": "02:00"
       },
       {
         "channels": [
@@ -324,7 +325,22 @@
       },
       {
         "channels": [
-          "DAZN"
+          "Premier Padel YouTube"
+        ],
+        "competition": "México Major",
+        "competition_key": "padel",
+        "date": "2026-11-24",
+        "event": "1ª Ronda - Premier Padel Tour",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-24:23:00:mexico major:1ª ronda - premier padel tour",
+        "sport": "Pádel",
+        "time": "23:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto"
         ],
         "competition": "NBA",
         "competition_key": "nba",
@@ -528,7 +544,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN Baloncesto"
         ],
         "competition": "NBA",
         "competition_key": "nba",
