@@ -1,81 +1,7 @@
 {
   "data": {
-    "count": 38,
+    "count": 42,
     "events": [
-      {
-        "channels": [
-          "DAZN",
-          "DAZN Baloncesto 3"
-        ],
-        "competition": "NBA",
-        "competition_key": "nba",
-        "date": "2026-11-23",
-        "event": "Miami Heat - Oklahoma C. Thunder",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-23:00:00:nba:miami heat - oklahoma c. thunder",
-        "sport": "Baloncesto",
-        "time": "00:00"
-      },
-      {
-        "channels": [
-          "Movistar Plus+",
-          "Teledeporte"
-        ],
-        "competition": "Copa del Rey",
-        "competition_key": "copadelrey",
-        "date": "2026-11-23",
-        "event": "Sorteo 2ª Eliminatoria - RFEF.es",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-23:12:30:copa del rey:sorteo 2ª eliminatoria - rfef.es",
-        "sport": "Fútbol",
-        "time": "12:30"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "Serie A",
-        "competition_key": "seriea",
-        "date": "2026-11-23",
-        "event": "Monza - Fiorentina",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-23:20:45:serie a:monza - fiorentina",
-        "sport": "Fútbol",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "DAZN LaLiga",
-          "DAZN"
-        ],
-        "competition": "LaLiga EA Sports",
-        "competition_key": "laliga",
-        "date": "2026-11-23",
-        "event": "Levante - Elche",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-23:21:00:laliga ea sports:levante - elche",
-        "sport": "Fútbol",
-        "time": "21:00"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN 1"
-        ],
-        "competition": "Premier League",
-        "competition_key": "premier",
-        "date": "2026-11-23",
-        "event": "Brentford - Everton",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-23:21:00:premier league:brentford - everton",
-        "sport": "Fútbol",
-        "time": "21:00"
-      },
       {
         "channels": [
           "DAZN",
@@ -556,6 +482,135 @@
         "id": "ftv:2026-11-25:23:00:nba:philadelphia 76ers - miami heat",
         "sport": "Baloncesto",
         "time": "23:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto 2"
+        ],
+        "competition": "NBA",
+        "competition_key": "nba",
+        "date": "2026-11-26",
+        "event": "Oklahoma C. Thunder - Minnesota Timberwolves",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-26:01:30:nba:oklahoma c. thunder - minnesota timberwolves",
+        "sport": "Baloncesto",
+        "time": "01:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-26",
+        "event": "Gran Bretaña - Nicaragua",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-26:05:00:premier league:gran bretana - nicaragua",
+        "sport": "Fútbol",
+        "time": "05:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-26",
+        "event": "China - República Checa",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-26:11:30:premier league:china - republica checa",
+        "sport": "Fútbol",
+        "time": "11:30"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 2"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-26",
+        "event": "Fase de Clasificación - Lituania - Serbia",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-26:17:30:copa mundial de la fifa:fase de clasificacion - lituania - serbia",
+        "sport": "Fútbol",
+        "time": "17:30"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 4"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-26",
+        "event": "Fase de Clasificación - Grecia - Georgia",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-26:19:00:copa mundial de la fifa:fase de clasificacion - grecia - georgia",
+        "sport": "Fútbol",
+        "time": "19:00"
+      },
+      {
+        "channels": [
+          "M+ Vamos 2",
+          "M+ Baloncesto",
+          "Teledeporte"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-26",
+        "event": "Fase de Clasificación - Montenegro - España",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-26:19:00:copa mundial de la fifa:fase de clasificacion - montenegro - espana",
+        "sport": "Fútbol",
+        "time": "19:00"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 2"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-26",
+        "event": "Fase de Clasificación - Italia - Turquía",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-26:20:00:copa mundial de la fifa:fase de clasificacion - italia - turquia",
+        "sport": "Fútbol",
+        "time": "20:00"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 3"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-26",
+        "event": "Fase de Clasificación - Portugal - Ucrania",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-26:20:00:copa mundial de la fifa:fase de clasificacion - portugal - ucrania",
+        "sport": "Fútbol",
+        "time": "20:00"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 5"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-26",
+        "event": "Fase de Clasificación - Islandia - Bosnia",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-26:20:30:copa mundial de la fifa:fase de clasificacion - islandia - bosnia",
+        "sport": "Fútbol",
+        "time": "20:30"
       }
     ],
     "source": "futbolenlatv"
