@@ -1,6 +1,6 @@
 {
   "data": {
-    "count": 51,
+    "count": 54,
     "events": [
       {
         "channels": [
@@ -75,7 +75,6 @@
       },
       {
         "channels": [
-          "Movistar Plus+",
           "M+ Baloncesto 2"
         ],
         "competition": "Euroliga",
@@ -90,6 +89,7 @@
       },
       {
         "channels": [
+          "Movistar Plus+",
           "M+ Baloncesto"
         ],
         "competition": "Euroliga",
@@ -206,6 +206,20 @@
         "id": "ftv:2026-11-25:21:00:uefa champions league:lille - fc bayern",
         "sport": "Fútbol",
         "time": "21:00"
+      },
+      {
+        "channels": [
+          "Premier Padel YouTube"
+        ],
+        "competition": "México Major",
+        "competition_key": "padel",
+        "date": "2026-11-25",
+        "event": "2ª Ronda - Premier Padel Tour",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-25:22:00:mexico major:2ª ronda - premier padel tour",
+        "sport": "Pádel",
+        "time": "22:00"
       },
       {
         "channels": [
@@ -398,6 +412,20 @@
         "id": "ftv:2026-11-26:20:30:copa mundial de la fifa:fase de clasificacion - islandia - bosnia",
         "sport": "Fútbol",
         "time": "20:30"
+      },
+      {
+        "channels": [
+          "Premier Padel YouTube"
+        ],
+        "competition": "México Major",
+        "competition_key": "padel",
+        "date": "2026-11-26",
+        "event": "3ª Ronda - Premier Padel Tour",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-26:22:00:mexico major:3ª ronda - premier padel tour",
+        "sport": "Pádel",
+        "time": "22:00"
       },
       {
         "channels": [
@@ -732,6 +760,21 @@
         "id": "ftv:2026-11-27:21:00:premier league:nottingham forest - chelsea",
         "sport": "Fútbol",
         "time": "21:00"
+      },
+      {
+        "channels": [
+          "M+ Vamos",
+          "M+ Deportes"
+        ],
+        "competition": "México Major",
+        "competition_key": "padel",
+        "date": "2026-11-27",
+        "event": "1/4 de final femenino - Premier Padel Tour",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-27:23:00:mexico major:1 4 de final femenino - premier padel tour",
+        "sport": "Pádel",
+        "time": "23:00"
       },
       {
         "channels": [

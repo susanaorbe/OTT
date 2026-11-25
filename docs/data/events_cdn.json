@@ -1985,14 +1985,6 @@
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
             }
           ],
           "country": "Spain",
@@ -2138,14 +2130,6 @@
               "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2293,14 +2277,6 @@
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
             }
           ],
           "country": "Spain",
@@ -2373,14 +2349,6 @@
               "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2455,14 +2423,6 @@
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
             }
           ],
           "country": "Spain",
@@ -2535,14 +2495,6 @@
               "id": "6add8cd42d4a99e07393fdf0",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -2763,14 +2715,6 @@
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20HELI%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "MotoGP Ambient (D)",
-              "id": "6add8cd42d4a99e07393fdf1",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
             }
           ],
           "country": "Spain",
@@ -2919,6 +2863,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport 360 HD FR",
+              "id": "6add40b22d4a99e07363feb2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport HD FR",
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
@@ -2931,6 +2883,14 @@
               "id": "6add40b22d4a99e07363feb7",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Tipik FHD BE",
+              "id": "6add40b22d4a99e07363fff3",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Tipik%20FHD%20BE&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3331,6 +3291,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport 360 HD FR",
+              "id": "6add40b22d4a99e07363feb2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport HD FR",
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
@@ -3343,6 +3311,14 @@
               "id": "6add40b22d4a99e07363feb7",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Tipik FHD BE",
+              "id": "6add40b22d4a99e07363fff3",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Tipik%20FHD%20BE&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3548,6 +3524,14 @@
             },
             {
               "channel_code": "",
+              "channel_name": "Canal+ Sport 360 HD FR",
+              "id": "6add40b22d4a99e07363feb2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
               "channel_name": "Canal+ Sport HD FR",
               "id": "6add40b22d4a99e07363feb5",
               "image": "",
@@ -3560,6 +3544,14 @@
               "id": "6add40b22d4a99e07363feb7",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Tipik FHD BE",
+              "id": "6add40b22d4a99e07363fff3",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Tipik%20FHD%20BE&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -6797,7 +6789,7 @@
       ],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1795606150,
+      "timestamp": 1795638965,
       "total_events": 307,
       "total_events_badminton": 3,
       "total_events_basketball": 101,
