@@ -9,267 +9,6 @@
         ],
         "competition": "NBA",
         "competition_key": "nba",
-        "date": "2026-11-24",
-        "event": "Minnesota Timberwolves - Brooklyn Nets",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-24:01:30:nba:minnesota timberwolves - brooklyn nets",
-        "sport": "Baloncesto",
-        "time": "01:30"
-      },
-      {
-        "channels": [
-          "Premier Padel YouTube"
-        ],
-        "competition": "México Major",
-        "competition_key": "padel",
-        "date": "2026-11-24",
-        "event": "1ª Ronda - Premier Padel Tour",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-24:02:00:mexico major:1ª ronda - premier padel tour",
-        "sport": "Pádel",
-        "time": "02:00"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-24",
-        "event": "Besiktas JK Istanbul - Paris Basketball",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-24:18:00:euroliga:besiktas jk istanbul - paris basketball",
-        "sport": "Baloncesto",
-        "time": "18:00"
-      },
-      {
-        "channels": [
-          "M+ Liga de Campeones 2"
-        ],
-        "competition": "UEFA Champions League",
-        "competition_key": "champions",
-        "date": "2026-11-24",
-        "event": "Galatasaray - Aston Villa",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-24:18:45:uefa champions league:galatasaray - aston villa",
-        "sport": "Fútbol",
-        "time": "18:45"
-      },
-      {
-        "channels": [
-          "M+ Liga de Campeones 3"
-        ],
-        "competition": "UEFA Champions League",
-        "competition_key": "champions",
-        "date": "2026-11-24",
-        "event": "Bodø/Glimt - LASK Linz",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-24:18:45:uefa champions league:bodø glimt - lask linz",
-        "sport": "Fútbol",
-        "time": "18:45"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 2"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-24",
-        "event": "Crvena Zvezda MTS Belgrade - Virtus Bologna",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-24:19:00:euroliga:crvena zvezda mts belgrade - virtus bologna",
-        "sport": "Baloncesto",
-        "time": "19:00"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 3"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-24",
-        "event": "FC Bayern Basketball - Maccabi Tel Aviv BC",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-24:20:00:euroliga:fc bayern basketball - maccabi tel aviv bc",
-        "sport": "Baloncesto",
-        "time": "20:00"
-      },
-      {
-        "channels": [
-          "M+ Vamos"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-24",
-        "event": "Valencia Basket - Panathinaikos BC",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-24:20:30:euroliga:valencia basket - panathinaikos bc",
-        "sport": "Baloncesto",
-        "time": "20:30"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 4"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-24",
-        "event": "ASVEL Lyon-Villeurbanne - AX Olimpia Milano",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-24:20:45:euroliga:asvel lyon-villeurbanne - ax olimpia milano",
-        "sport": "Baloncesto",
-        "time": "20:45"
-      },
-      {
-        "channels": [
-          "M+ Liga de Campeones 3",
-          "M+ Liga de Campeones 4"
-        ],
-        "competition": "UEFA Champions League",
-        "competition_key": "champions",
-        "date": "2026-11-24",
-        "event": "Arsenal - Borussia Dortmund",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-24:21:00:uefa champions league:arsenal - borussia dortmund",
-        "sport": "Fútbol",
-        "time": "21:00"
-      },
-      {
-        "channels": [
-          "M+ Liga de Campeones 4",
-          "M+ Liga de Campeones 5"
-        ],
-        "competition": "UEFA Champions League",
-        "competition_key": "champions",
-        "date": "2026-11-24",
-        "event": "Manchester City - Napoli",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-24:21:00:uefa champions league:manchester city - napoli",
-        "sport": "Fútbol",
-        "time": "21:00"
-      },
-      {
-        "channels": [
-          "Movistar Plus+",
-          "M+ Liga de Campeones",
-          "M+ Liga de Campeones 4"
-        ],
-        "competition": "UEFA Champions League",
-        "competition_key": "champions",
-        "date": "2026-11-24",
-        "event": "Real Madrid - PSV Eindhoven",
-        "featured": true,
-        "icon": "⚽",
-        "id": "ftv:2026-11-24:21:00:uefa champions league:real madrid - psv eindhoven",
-        "sport": "Fútbol",
-        "time": "21:00"
-      },
-      {
-        "channels": [
-          "M+ Liga de Campeones 4",
-          "M+ Liga de Campeones 6"
-        ],
-        "competition": "UEFA Champions League",
-        "competition_key": "champions",
-        "date": "2026-11-24",
-        "event": "Feyenoord - FC Porto",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-24:21:00:uefa champions league:feyenoord - fc porto",
-        "sport": "Fútbol",
-        "time": "21:00"
-      },
-      {
-        "channels": [
-          "M+ Liga de Campeones 4",
-          "M+ Liga de Campeones 8"
-        ],
-        "competition": "UEFA Champions League",
-        "competition_key": "champions",
-        "date": "2026-11-24",
-        "event": "RB Leipzig - Lens",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-24:21:00:uefa champions league:rb leipzig - lens",
-        "sport": "Fútbol",
-        "time": "21:00"
-      },
-      {
-        "channels": [
-          "M+ Liga de Campeones 2",
-          "M+ Liga de Campeones 4"
-        ],
-        "competition": "UEFA Champions League",
-        "competition_key": "champions",
-        "date": "2026-11-24",
-        "event": "Slovan Bratislava - Real Betis",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-24:21:00:uefa champions league:slovan bratislava - real betis",
-        "sport": "Fútbol",
-        "time": "21:00"
-      },
-      {
-        "channels": [
-          "M+ Liga de Campeones 4",
-          "M+ Liga de Campeones 7"
-        ],
-        "competition": "UEFA Champions League",
-        "competition_key": "champions",
-        "date": "2026-11-24",
-        "event": "Como 1907 - AEK FC",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-24:21:00:uefa champions league:como 1907 - aek fc",
-        "sport": "Fútbol",
-        "time": "21:00"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto"
-        ],
-        "competition": "Euroliga",
-        "competition_key": "euroliga",
-        "date": "2026-11-24",
-        "event": "Barça Basket - Fenerbahce Istanbul",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-24:21:00:euroliga:barca basket - fenerbahce istanbul",
-        "sport": "Baloncesto",
-        "time": "21:00"
-      },
-      {
-        "channels": [
-          "Premier Padel YouTube"
-        ],
-        "competition": "México Major",
-        "competition_key": "padel",
-        "date": "2026-11-24",
-        "event": "1ª Ronda - Premier Padel Tour",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-24:23:00:mexico major:1ª ronda - premier padel tour",
-        "sport": "Pádel",
-        "time": "23:00"
-      },
-      {
-        "channels": [
-          "DAZN",
-          "DAZN Baloncesto"
-        ],
-        "competition": "NBA",
-        "competition_key": "nba",
         "date": "2026-11-25",
         "event": "Denver Nuggets - Dallas Mavericks",
         "featured": false,
@@ -611,6 +350,265 @@
         "id": "ftv:2026-11-26:20:30:copa mundial de la fifa:fase de clasificacion - islandia - bosnia",
         "sport": "Fútbol",
         "time": "20:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-27",
+        "event": "Nicaragua - República Checa",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-27:05:00:premier league:nicaragua - republica checa",
+        "sport": "Fútbol",
+        "time": "05:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN MotoGP",
+          "DAZN App Gratis"
+        ],
+        "competition": "MotoGP",
+        "competition_key": "motor",
+        "date": "2026-11-27",
+        "event": "MotoGP - G.P. C. Valenciana (Ricardo Tormo) - Libres 1 - BE MAD - Mediaset Infinity",
+        "featured": false,
+        "icon": "🏆",
+        "id": "ftv:2026-11-27:10:45:motogp:motogp - g.p. c. valenciana (ricardo tormo) - libres 1 - be mad - mediaset infinity",
+        "sport": "Motor",
+        "time": "10:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-27",
+        "event": "Gran Bretaña - China",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-27:11:30:premier league:gran bretana - china",
+        "sport": "Fútbol",
+        "time": "11:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN F1"
+        ],
+        "competition": "Fórmula 1",
+        "competition_key": "motor",
+        "date": "2026-11-27",
+        "event": "Fórmula 1 - G.P. Catar (Losail) - Libres 1",
+        "featured": false,
+        "icon": "🏆",
+        "id": "ftv:2026-11-27:14:30:formula 1:formula 1 - g.p. catar (losail) - libres 1",
+        "sport": "Motor",
+        "time": "14:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN MotoGP",
+          "DAZN App Gratis"
+        ],
+        "competition": "MotoGP",
+        "competition_key": "motor",
+        "date": "2026-11-27",
+        "event": "MotoGP - G.P. C. Valenciana (Ricardo Tormo) - Libres - BE MAD - Mediaset Infinity",
+        "featured": false,
+        "icon": "🏆",
+        "id": "ftv:2026-11-27:15:00:motogp:motogp - g.p. c. valenciana (ricardo tormo) - libres - be mad - mediaset infinity",
+        "sport": "Motor",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN F1"
+        ],
+        "competition": "Fórmula 1",
+        "competition_key": "motor",
+        "date": "2026-11-27",
+        "event": "Fórmula 1 - FIA Fórmula 2 - G.P. Catar (Losail) - Clasificación",
+        "featured": true,
+        "icon": "🏆",
+        "id": "ftv:2026-11-27:16:00:formula 1:formula 1 - fia formula 2 - g.p. catar (losail) - clasificacion",
+        "sport": "Motor",
+        "time": "16:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN F1"
+        ],
+        "competition": "Fórmula 1",
+        "competition_key": "motor",
+        "date": "2026-11-27",
+        "event": "Fórmula 1 - G.P. Catar (Losail) - Libres 2",
+        "featured": false,
+        "icon": "🏆",
+        "id": "ftv:2026-11-27:18:00:formula 1:formula 1 - g.p. catar (losail) - libres 2",
+        "sport": "Motor",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 3"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-27",
+        "event": "Fase de Clasificación - Estonia - Francia",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-27:18:00:copa mundial de la fifa:fase de clasificacion - estonia - francia",
+        "sport": "Fútbol",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-27",
+        "event": "Fase de Clasificación - Letonia - Alemania",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-27:18:30:copa mundial de la fifa:fase de clasificacion - letonia - alemania",
+        "sport": "Fútbol",
+        "time": "18:30"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 2"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-27",
+        "event": "Fase de Clasificación - Suecia - Hungría",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-27:19:00:copa mundial de la fifa:fase de clasificacion - suecia - hungria",
+        "sport": "Fútbol",
+        "time": "19:00"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 5"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-27",
+        "event": "Fase de Clasificación - Holanda - Israel",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-27:20:00:copa mundial de la fifa:fase de clasificacion - holanda - israel",
+        "sport": "Fútbol",
+        "time": "20:00"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 4"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-27",
+        "event": "Fase de Clasificación - Eslovenia - Finlandia",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-27:20:00:copa mundial de la fifa:fase de clasificacion - eslovenia - finlandia",
+        "sport": "Fútbol",
+        "time": "20:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Bundesliga",
+        "competition_key": "bundesliga",
+        "date": "2026-11-27",
+        "event": "Werder Bremen - Borussia M'gladbach",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-27:20:30:bundesliga:werder bremen - borussia m'gladbach",
+        "sport": "Fútbol",
+        "time": "20:30"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 3"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-27",
+        "event": "Fase de Clasificación - Polonia - Croacia",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-27:20:45:copa mundial de la fifa:fase de clasificacion - polonia - croacia",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-27",
+        "event": "Venezia FC - Bologna",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-27:20:45:serie a:venezia fc - bologna",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Ligue 1",
+        "competition_key": "ligue1",
+        "date": "2026-11-27",
+        "event": "Stade Brestois - Paris FC",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-27:20:45:ligue 1:stade brestois - paris fc",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "M+ LALIGA"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-27",
+        "event": "Levante - Racing Santander",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-27:21:00:laliga ea sports:levante - racing santander",
+        "sport": "Fútbol",
+        "time": "21:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-27",
+        "event": "Nottingham Forest - Chelsea",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-27:21:00:premier league:nottingham forest - chelsea",
+        "sport": "Fútbol",
+        "time": "21:00"
       }
     ],
     "source": "futbolenlatv"
