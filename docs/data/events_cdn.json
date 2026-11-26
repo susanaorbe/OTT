@@ -1768,10 +1768,10 @@
           "channels": [
             {
               "channel_code": "gb",
-              "channel_name": "Sky Sports F1 FHD UK",
-              "id": "6add40ae2d4a99e07363c85c",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-hd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=gb&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -1809,10 +1809,10 @@
           "channels": [
             {
               "channel_code": "gb",
-              "channel_name": "Sky Sports F1 FHD UK",
-              "id": "6add40ae2d4a99e07363c85c",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-hd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=gb&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -1898,10 +1898,10 @@
           "channels": [
             {
               "channel_code": "gb",
-              "channel_name": "Sky Sports F1 FHD UK",
-              "id": "6add40ae2d4a99e07363c85c",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-hd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=gb&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -1923,10 +1923,10 @@
           "channels": [
             {
               "channel_code": "gb",
-              "channel_name": "Sky Sports F1 FHD UK",
-              "id": "6add40ae2d4a99e07363c85c",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-hd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=gb&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -1964,10 +1964,10 @@
           "channels": [
             {
               "channel_code": "gb",
-              "channel_name": "Sky Sports F1 FHD UK",
-              "id": "6add40ae2d4a99e07363c85c",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "channel_name": "Sky Sports F1 HD UK",
+              "id": "6add8cd32d4a99e07393f4a2",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-hd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20HD%20UK&code=gb&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -3359,47 +3359,6 @@
       ],
       "NCAAW": [],
       "NFL": [
-        {
-          "awayTeam": "Green Bay Packers",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134940",
-          "channels": [
-            {
-              "channel_code": "ca",
-              "channel_name": "RDS 2 CA",
-              "id": "6add8cd62d4a99e07394175b",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/canada/rds-2-ca.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RDS%202%20CA&code=ca&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "TSN 1 FHD CA",
-              "id": "6add8cd62d4a99e073941790",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%201%20FHD%20CA&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "il",
-              "channel_name": "Sport 5 Live HD IL",
-              "id": "6add40b32d4a99e07364135b",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/israel/sport-5-live-hd-il.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%205%20Live%20HD%20IL&code=il&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-26 04:00",
-          "event": "Los Angeles Rams vs Green Bay Packers",
-          "gameID": "2475537",
-          "homeTeam": "Los Angeles Rams",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/135907",
-          "start": "2026-11-26 01:00",
-          "status": "NS",
-          "time": "01:00",
-          "tournament": "NFL"
-        },
         {
           "awayTeam": "Chicago Bears",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134938",
@@ -5810,8 +5769,8 @@
       ],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1795662231,
-      "total_events": 307,
+      "timestamp": 1795695294,
+      "total_events": 306,
       "total_events_badminton": 3,
       "total_events_basketball": 101,
       "total_events_cricket": 0,
@@ -5828,7 +5787,7 @@
       "total_events_nba": 0,
       "total_events_ncaa": 59,
       "total_events_ncaaw": 0,
-      "total_events_nfl": 112,
+      "total_events_nfl": 111,
       "total_events_nhl": 0,
       "total_events_rugby": 0,
       "total_events_soccer": 1,
