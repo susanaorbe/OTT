@@ -515,7 +515,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN 1"
         ],
         "competition": "Premier League",
         "competition_key": "premier",
@@ -743,10 +744,10 @@
         "competition": "MotoGP",
         "competition_key": "motor",
         "date": "2026-11-28",
-        "event": "MotoGP - G.P. C. Valenciana (Ricardo Tormo) - Sprint - Mediaset Infinity - Telecinco",
+        "event": "MotoGP - G.P. C. Valenciana (Ricardo Tormo) - Sprint - BE MAD - Mediaset Infinity",
         "featured": true,
         "icon": "🏆",
-        "id": "ftv:2026-11-28:15:00:motogp:motogp - g.p. c. valenciana (ricardo tormo) - sprint - mediaset infinity - telecinco",
+        "id": "ftv:2026-11-28:15:00:motogp:motogp - g.p. c. valenciana (ricardo tormo) - sprint - be mad - mediaset infinity",
         "sport": "Motor",
         "time": "15:00"
       },
@@ -837,7 +838,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN 1"
         ],
         "competition": "Premier League",
         "competition_key": "premier",
@@ -851,7 +853,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN 2"
         ],
         "competition": "Premier League",
         "competition_key": "premier",
@@ -939,7 +942,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN 1"
         ],
         "competition": "Premier League",
         "competition_key": "premier",
@@ -1095,7 +1099,8 @@
       },
       {
         "channels": [
-          "DAZN"
+          "DAZN",
+          "DAZN Baloncesto"
         ],
         "competition": "NBA",
         "competition_key": "nba",
