@@ -1,212 +1,7 @@
 {
   "data": {
-    "count": 76,
+    "count": 101,
     "events": [
-      {
-        "channels": [
-          "DAZN",
-          "DAZN Baloncesto 2"
-        ],
-        "competition": "NBA",
-        "competition_key": "nba",
-        "date": "2026-11-26",
-        "event": "Oklahoma C. Thunder - Minnesota Timberwolves",
-        "featured": false,
-        "icon": "🏀",
-        "id": "ftv:2026-11-26:01:30:nba:oklahoma c. thunder - minnesota timberwolves",
-        "sport": "Baloncesto",
-        "time": "01:30"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "Premier League",
-        "competition_key": "premier",
-        "date": "2026-11-26",
-        "event": "Gran Bretaña - Nicaragua",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-26:05:00:premier league:gran bretana - nicaragua",
-        "sport": "Fútbol",
-        "time": "05:00"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "Premier League",
-        "competition_key": "premier",
-        "date": "2026-11-26",
-        "event": "China - República Checa",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-26:11:30:premier league:china - republica checa",
-        "sport": "Fútbol",
-        "time": "11:30"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "Copa Mundial de la FIFA",
-        "competition_key": "mundial",
-        "date": "2026-11-26",
-        "event": "Fase de Clasificación - Arabia Saudí - China",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-26:14:00:copa mundial de la fifa:fase de clasificacion - arabia saudi - china",
-        "sport": "Fútbol",
-        "time": "14:00"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "Copa Mundial de la FIFA",
-        "competition_key": "mundial",
-        "date": "2026-11-26",
-        "event": "Fase de Clasificación - Catar - Corea del Sur",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-26:17:00:copa mundial de la fifa:fase de clasificacion - catar - corea del sur",
-        "sport": "Fútbol",
-        "time": "17:00"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 2",
-          "DAZN"
-        ],
-        "competition": "Copa Mundial de la FIFA",
-        "competition_key": "mundial",
-        "date": "2026-11-26",
-        "event": "Fase de Clasificación - Lituania - Serbia",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-26:17:30:copa mundial de la fifa:fase de clasificacion - lituania - serbia",
-        "sport": "Fútbol",
-        "time": "17:30"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 4",
-          "DAZN"
-        ],
-        "competition": "Copa Mundial de la FIFA",
-        "competition_key": "mundial",
-        "date": "2026-11-26",
-        "event": "Fase de Clasificación - Grecia - Georgia",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-26:19:00:copa mundial de la fifa:fase de clasificacion - grecia - georgia",
-        "sport": "Fútbol",
-        "time": "19:00"
-      },
-      {
-        "channels": [
-          "M+ Vamos 2",
-          "M+ Baloncesto",
-          "DAZN",
-          "Teledeporte"
-        ],
-        "competition": "Copa Mundial de la FIFA",
-        "competition_key": "mundial",
-        "date": "2026-11-26",
-        "event": "Fase de Clasificación - Montenegro - España",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-26:19:00:copa mundial de la fifa:fase de clasificacion - montenegro - espana",
-        "sport": "Fútbol",
-        "time": "19:00"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 2",
-          "DAZN"
-        ],
-        "competition": "Copa Mundial de la FIFA",
-        "competition_key": "mundial",
-        "date": "2026-11-26",
-        "event": "Fase de Clasificación - Italia - Turquía",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-26:20:00:copa mundial de la fifa:fase de clasificacion - italia - turquia",
-        "sport": "Fútbol",
-        "time": "20:00"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 3",
-          "DAZN"
-        ],
-        "competition": "Copa Mundial de la FIFA",
-        "competition_key": "mundial",
-        "date": "2026-11-26",
-        "event": "Fase de Clasificación - Portugal - Ucrania",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-26:20:00:copa mundial de la fifa:fase de clasificacion - portugal - ucrania",
-        "sport": "Fútbol",
-        "time": "20:00"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "Copa Mundial de la FIFA",
-        "competition_key": "mundial",
-        "date": "2026-11-26",
-        "event": "Fase de Clasificación - Líbano - Japón",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-26:20:00:copa mundial de la fifa:fase de clasificacion - libano - japon",
-        "sport": "Fútbol",
-        "time": "20:00"
-      },
-      {
-        "channels": [
-          "M+ Baloncesto 5",
-          "DAZN"
-        ],
-        "competition": "Copa Mundial de la FIFA",
-        "competition_key": "mundial",
-        "date": "2026-11-26",
-        "event": "Fase de Clasificación - Islandia - Bosnia",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-26:20:30:copa mundial de la fifa:fase de clasificacion - islandia - bosnia",
-        "sport": "Fútbol",
-        "time": "20:30"
-      },
-      {
-        "channels": [
-          "Premier Padel YouTube"
-        ],
-        "competition": "México Major",
-        "competition_key": "padel",
-        "date": "2026-11-26",
-        "event": "3ª Ronda - Premier Padel Tour",
-        "featured": false,
-        "icon": "🎾",
-        "id": "ftv:2026-11-26:22:00:mexico major:3ª ronda - premier padel tour",
-        "sport": "Pádel",
-        "time": "22:00"
-      },
-      {
-        "channels": [
-          "DAZN"
-        ],
-        "competition": "Copa Mundial de la FIFA",
-        "competition_key": "mundial",
-        "date": "2026-11-26",
-        "event": "Uruguay - Canadá",
-        "featured": false,
-        "icon": "⚽",
-        "id": "ftv:2026-11-26:23:10:copa mundial de la fifa:uruguay - canada",
-        "sport": "Fútbol",
-        "time": "23:10"
-      },
       {
         "channels": [
           "DAZN"
@@ -1111,6 +906,582 @@
         "id": "ftv:2026-11-28:23:00:nba:washington wizards - orlando magic",
         "sport": "Baloncesto",
         "time": "23:00"
+      },
+      {
+        "channels": [
+          "M+ Vamos 2",
+          "M+ Deportes"
+        ],
+        "competition": "México Major",
+        "competition_key": "padel",
+        "date": "2026-11-29",
+        "event": "Semifinal Femenina - Premier Padel Tour",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-29:01:00:mexico major:semifinal femenina - premier padel tour",
+        "sport": "Pádel",
+        "time": "01:00"
+      },
+      {
+        "channels": [
+          "M+ Deportes"
+        ],
+        "competition": "México Major",
+        "competition_key": "padel",
+        "date": "2026-11-29",
+        "event": "Semifinal Masculina - Premier Padel Tour",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-29:03:00:mexico major:semifinal masculina - premier padel tour",
+        "sport": "Pádel",
+        "time": "03:00"
+      },
+      {
+        "channels": [
+          "M+ Deportes"
+        ],
+        "competition": "México Major",
+        "competition_key": "padel",
+        "date": "2026-11-29",
+        "event": "Semifinal Masculina - Premier Padel Tour",
+        "featured": false,
+        "icon": "🎾",
+        "id": "ftv:2026-11-29:05:00:mexico major:semifinal masculina - premier padel tour",
+        "sport": "Pádel",
+        "time": "05:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-29",
+        "event": "Udinese - Fiorentina",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:12:30:serie a:udinese - fiorentina",
+        "sport": "Fútbol",
+        "time": "12:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN F1"
+        ],
+        "competition": "Fórmula 1",
+        "competition_key": "motor",
+        "date": "2026-11-29",
+        "event": "Fórmula 1 - FIA Fórmula 2 - G.P. Catar (Losail) - Carrera 2",
+        "featured": true,
+        "icon": "🏆",
+        "id": "ftv:2026-11-29:13:00:formula 1:formula 1 - fia formula 2 - g.p. catar (losail) - carrera 2",
+        "sport": "Motor",
+        "time": "13:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN 1"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-29",
+        "event": "Everton - Liverpool",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:13:00:premier league:everton - liverpool",
+        "sport": "Fútbol",
+        "time": "13:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN MotoGP",
+          "Movistar Plus+",
+          "DAZN App Gratis"
+        ],
+        "competition": "MotoGP",
+        "competition_key": "motor",
+        "date": "2026-11-29",
+        "event": "MotoGP - G.P. C. Valenciana (Ricardo Tormo) - Carrera - Mediaset Infinity - Telecinco",
+        "featured": true,
+        "icon": "🏆",
+        "id": "ftv:2026-11-29:14:00:motogp:motogp - g.p. c. valenciana (ricardo tormo) - carrera - mediaset infinity - telecinco",
+        "sport": "Motor",
+        "time": "14:00"
+      },
+      {
+        "channels": [
+          "DAZN LaLiga 2",
+          "DAZN"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-29",
+        "event": "Valencia CF - Osasuna",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:14:00:laliga ea sports:valencia cf - osasuna",
+        "sport": "Fútbol",
+        "time": "14:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Eredivisie",
+        "competition_key": "eredivisie",
+        "date": "2026-11-29",
+        "event": "Feyenoord - Ajax",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:14:30:eredivisie:feyenoord - ajax",
+        "sport": "Fútbol",
+        "time": "14:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "M+ Vamos",
+          "M+ Liga de Campeones"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-29",
+        "event": "Sassuolo - Napoli",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:15:00:serie a:sassuolo - napoli",
+        "sport": "Fútbol",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Ligue 1",
+        "competition_key": "ligue1",
+        "date": "2026-11-29",
+        "event": "Auxerre - O. Marseille",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:15:00:ligue 1:auxerre - o. marseille",
+        "sport": "Fútbol",
+        "time": "15:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-29",
+        "event": "Sunderland - Tottenham",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:15:05:premier league:sunderland - tottenham",
+        "sport": "Fútbol",
+        "time": "15:05"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN 1"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-29",
+        "event": "Fulham - Bournemouth",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:15:05:premier league:fulham - bournemouth",
+        "sport": "Fútbol",
+        "time": "15:05"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN 2"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-29",
+        "event": "Brighton - Newcastle",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:15:05:premier league:brighton - newcastle",
+        "sport": "Fútbol",
+        "time": "15:05"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN 4"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-29",
+        "event": "Crystal Palace - Hull City",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:15:05:premier league:crystal palace - hull city",
+        "sport": "Fútbol",
+        "time": "15:05"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Bundesliga",
+        "competition_key": "bundesliga",
+        "date": "2026-11-29",
+        "event": "Freiburg - RB Leipzig",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:15:30:bundesliga:freiburg - rb leipzig",
+        "sport": "Fútbol",
+        "time": "15:30"
+      },
+      {
+        "channels": [
+          "Primera Federación",
+          "DAZN"
+        ],
+        "competition": "España - Primera Federación",
+        "competition_key": "other_football",
+        "date": "2026-11-29",
+        "event": "Rayo Majadahonda - RM Castilla",
+        "featured": true,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:16:00:espana - primera federacion:rayo majadahonda - rm castilla",
+        "sport": "Fútbol",
+        "time": "16:00"
+      },
+      {
+        "channels": [
+          "DAZN LaLiga",
+          "DAZN"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-29",
+        "event": "Deportivo - FC Barcelona",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:16:15:laliga ea sports:deportivo - fc barcelona",
+        "sport": "Fútbol",
+        "time": "16:15"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 2"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-29",
+        "event": "Fase de Clasificación - Georgia - Portugal",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:16:30:copa mundial de la fifa:fase de clasificacion - georgia - portugal",
+        "sport": "Fútbol",
+        "time": "16:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Eredivisie",
+        "competition_key": "eredivisie",
+        "date": "2026-11-29",
+        "event": "PEC Zwolle - AZ Alkmaar",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:16:45:eredivisie:pec zwolle - az alkmaar",
+        "sport": "Fútbol",
+        "time": "16:45"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN F1"
+        ],
+        "competition": "Fórmula 1",
+        "competition_key": "motor",
+        "date": "2026-11-29",
+        "event": "Fórmula 1 - G.P. Catar (Losail) - Carrera",
+        "featured": true,
+        "icon": "🏆",
+        "id": "ftv:2026-11-29:17:00:formula 1:formula 1 - g.p. catar (losail) - carrera",
+        "sport": "Motor",
+        "time": "17:00"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 4",
+          "DAZN"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-29",
+        "event": "Fase de Clasificación - Turquía - Islandia",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:17:00:copa mundial de la fifa:fase de clasificacion - turquia - islandia",
+        "sport": "Fútbol",
+        "time": "17:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Ligue 1",
+        "competition_key": "ligue1",
+        "date": "2026-11-29",
+        "event": "Toulouse - Rennes",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:17:15:ligue 1:toulouse - rennes",
+        "sport": "Fútbol",
+        "time": "17:15"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 3",
+          "DAZN"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-29",
+        "event": "Fase de Clasificación - Ucrania - Montenegro",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:17:30:copa mundial de la fifa:fase de clasificacion - ucrania - montenegro",
+        "sport": "Fútbol",
+        "time": "17:30"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "M+ Vamos",
+          "DAZN 1",
+          "M+ Liga de Campeones"
+        ],
+        "competition": "Premier League",
+        "competition_key": "premier",
+        "date": "2026-11-29",
+        "event": "Arsenal - Manchester City",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:17:30:premier league:arsenal - manchester city",
+        "sport": "Fútbol",
+        "time": "17:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Bundesliga",
+        "competition_key": "bundesliga",
+        "date": "2026-11-29",
+        "event": "Hoffenheim - Augsburg",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:17:30:bundesliga:hoffenheim - augsburg",
+        "sport": "Fútbol",
+        "time": "17:30"
+      },
+      {
+        "channels": [
+          "M+ Vamos 2",
+          "M+ Baloncesto",
+          "DAZN",
+          "Teledeporte"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-29",
+        "event": "Fase de Clasificación - España - Grecia",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:18:00:copa mundial de la fifa:fase de clasificacion - espana - grecia",
+        "sport": "Fútbol",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 5"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-29",
+        "event": "Fase de Clasificación - Bosnia - Lituania",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:18:00:copa mundial de la fifa:fase de clasificacion - bosnia - lituania",
+        "sport": "Fútbol",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN MotoGP",
+          "DAZN App Gratis"
+        ],
+        "competition": "MotoGP",
+        "competition_key": "motor",
+        "date": "2026-11-29",
+        "event": "MotoGP - Gala FIM MotoGP Awards - Temporada 2026",
+        "featured": false,
+        "icon": "🏆",
+        "id": "ftv:2026-11-29:18:00:motogp:motogp - gala fim motogp awards - temporada 2026",
+        "sport": "Motor",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-29",
+        "event": "AS Roma - Monza",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:18:00:serie a:as roma - monza",
+        "sport": "Fútbol",
+        "time": "18:00"
+      },
+      {
+        "channels": [
+          "M+ LALIGA"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-29",
+        "event": "Celta - Villarreal",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:18:30:laliga ea sports:celta - villarreal",
+        "sport": "Fútbol",
+        "time": "18:30"
+      },
+      {
+        "channels": [
+          "M+ Baloncesto 2",
+          "DAZN"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-29",
+        "event": "Fase de Clasificación - Serbia - Italia",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:19:00:copa mundial de la fifa:fase de clasificacion - serbia - italia",
+        "sport": "Fútbol",
+        "time": "19:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "M+ Vamos",
+          "M+ Liga de Campeones"
+        ],
+        "competition": "Bundesliga",
+        "competition_key": "bundesliga",
+        "date": "2026-11-29",
+        "event": "Borussia Dortmund - Bayer Leverkusen",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:19:30:bundesliga:borussia dortmund - bayer leverkusen",
+        "sport": "Fútbol",
+        "time": "19:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Eredivisie",
+        "competition_key": "eredivisie",
+        "date": "2026-11-29",
+        "event": "NEC Nijmegen - Twente",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:20:00:eredivisie:nec nijmegen - twente",
+        "sport": "Fútbol",
+        "time": "20:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Serie A",
+        "competition_key": "seriea",
+        "date": "2026-11-29",
+        "event": "Como 1907 - Juventus",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:20:45:serie a:como 1907 - juventus",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Ligue 1",
+        "competition_key": "ligue1",
+        "date": "2026-11-29",
+        "event": "O. Lyonnais - AS Monaco",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:20:45:ligue 1:o. lyonnais - as monaco",
+        "sport": "Fútbol",
+        "time": "20:45"
+      },
+      {
+        "channels": [
+          "DAZN LaLiga",
+          "DAZN"
+        ],
+        "competition": "LaLiga EA Sports",
+        "competition_key": "laliga",
+        "date": "2026-11-29",
+        "event": "Real Sociedad - Sevilla FC",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:21:00:laliga ea sports:real sociedad - sevilla fc",
+        "sport": "Fútbol",
+        "time": "21:00"
+      },
+      {
+        "channels": [
+          "Amazon Prime Video"
+        ],
+        "competition": "NBA",
+        "competition_key": "nba",
+        "date": "2026-11-29",
+        "event": "San Antonio Spurs - Boston Celtics",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-29:22:00:nba:san antonio spurs - boston celtics",
+        "sport": "Baloncesto",
+        "time": "22:00"
+      },
+      {
+        "channels": [
+          "DAZN",
+          "DAZN Baloncesto"
+        ],
+        "competition": "NBA",
+        "competition_key": "nba",
+        "date": "2026-11-29",
+        "event": "Memphis Grizzlies - Los Angeles Lakers",
+        "featured": false,
+        "icon": "🏀",
+        "id": "ftv:2026-11-29:22:00:nba:memphis grizzlies - los angeles lakers",
+        "sport": "Baloncesto",
+        "time": "22:00"
       }
     ],
     "source": "futbolenlatv"

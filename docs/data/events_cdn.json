@@ -1993,6 +1993,86 @@
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
               "viewers": 0
+            },
+            {
+              "channel_code": "gb",
+              "channel_name": "TNT Sports 2 FHD UK",
+              "id": "6add40ae2d4a99e07363c892",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-2-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%202%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "de",
+              "channel_name": "Sky Sport Mix FHD DE",
+              "id": "6add40ae2d4a99e07363c7d1",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-mix-fhd-de.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Mix%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "de",
+              "channel_name": "Sky Sport Top Event FHD DE",
+              "id": "6add40ae2d4a99e07363c7cb",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-top-event-fhd-de.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Top%20Event%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport 360 HD FR",
+              "id": "6add40b22d4a99e07363feb2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "pt",
+              "channel_name": "Sport TV 4 HD PT",
+              "id": "6add40b12d4a99e07363fa79",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/portugal/sport-tv-4-hd-pt.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%20TV%204%20HD%20PT&code=pt&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "ar",
+              "channel_name": "ESPN FHD ARG",
+              "id": "6add40b22d4a99e073640841",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/argentina/espn-fhd-arg.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20FHD%20ARG&code=ar&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "gr",
+              "channel_name": "Cosmote Sport 5 HD GR",
+              "id": "6add40b32d4a99e073641265",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/greece/cosmote-sport-5-hd-gr.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Cosmote%20Sport%205%20HD%20GR&code=gr&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Cytavision Sports 6 HD CY",
+              "id": "6add40b32d4a99e0736412cd",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Cytavision%20Sports%206%20HD%20CY&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "pl",
+              "channel_name": "Polsat Sport Premium 2 FHD PL",
+              "id": "6add40b12d4a99e07363f490",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/poland/polsat-sport-premium-2-fhd-pl.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Polsat%20Sport%20Premium%202%20FHD%20PL&code=pl&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "nl",
+              "channel_name": "Ziggo Sport FHD NL",
+              "id": "6add8cd72d4a99e073942178",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/netherlands/ziggo-sport-fhd-nl.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Ziggo%20Sport%20FHD%20NL&code=nl&user=cdnlivetv&plan=free",
+              "viewers": 0
             }
           ],
           "country": "Spain",
@@ -2300,6 +2380,86 @@
               "id": "6add8cd42d4a99e07393fdf1",
               "image": "",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=MotoGP%20Ambient%20(D)&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "gb",
+              "channel_name": "TNT Sports 2 FHD UK",
+              "id": "6add40ae2d4a99e07363c892",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-2-fhd-uk.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%202%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "de",
+              "channel_name": "Sky Sport Mix FHD DE",
+              "id": "6add40ae2d4a99e07363c7d1",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-mix-fhd-de.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Mix%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "de",
+              "channel_name": "Sky Sport Top Event FHD DE",
+              "id": "6add40ae2d4a99e07363c7cb",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-top-event-fhd-de.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Top%20Event%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Canal+ Sport 360 HD FR",
+              "id": "6add40b22d4a99e07363feb2",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "pt",
+              "channel_name": "Sport TV 4 HD PT",
+              "id": "6add40b12d4a99e07363fa79",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/portugal/sport-tv-4-hd-pt.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%20TV%204%20HD%20PT&code=pt&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "ar",
+              "channel_name": "ESPN FHD ARG",
+              "id": "6add40b22d4a99e073640841",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/argentina/espn-fhd-arg.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20FHD%20ARG&code=ar&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "gr",
+              "channel_name": "Cosmote Sport 5 HD GR",
+              "id": "6add40b32d4a99e073641265",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/greece/cosmote-sport-5-hd-gr.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Cosmote%20Sport%205%20HD%20GR&code=gr&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Cytavision Sports 6 HD CY",
+              "id": "6add40b32d4a99e0736412cd",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Cytavision%20Sports%206%20HD%20CY&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "pl",
+              "channel_name": "Polsat Sport Premium 2 FHD PL",
+              "id": "6add40b12d4a99e07363f490",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/poland/polsat-sport-premium-2-fhd-pl.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Polsat%20Sport%20Premium%202%20FHD%20PL&code=pl&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "nl",
+              "channel_name": "Ziggo Sport FHD NL",
+              "id": "6add8cd72d4a99e073942178",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/netherlands/ziggo-sport-fhd-nl.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Ziggo%20Sport%20FHD%20NL&code=nl&user=cdnlivetv&plan=free",
               "viewers": 0
             }
           ],
@@ -3531,22 +3691,6 @@
       "NBA": [],
       "NCAA": [
         {
-          "awayTeam": "Tuskegee",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/157097",
-          "channels": [],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-26 23:00",
-          "event": "Alabama State vs Tuskegee",
-          "gameID": "2598599",
-          "homeTeam": "Alabama State",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136983",
-          "start": "2026-11-26 20:00",
-          "status": "NS",
-          "time": "20:00",
-          "tournament": "NCAA Division 1 Football"
-        },
-        {
           "awayTeam": "TCU",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/136955",
           "channels": [],
@@ -4478,243 +4622,9 @@
       "NCAAW": [],
       "NFL": [
         {
-          "awayTeam": "Chicago Bears",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134938",
-          "channels": [
-            {
-              "channel_code": "us",
-              "channel_name": "CBS US",
-              "id": "6add40af2d4a99e07363cf91",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/cbs-us.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CBS%20US&code=us&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "us",
-              "channel_name": "CBS 2 (WCBS) New York HD US",
-              "id": "6add8cd52d4a99e07394049a",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/cbs-2-wcbs-new-york-hd-us.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=CBS%202%20(WCBS)%20New%20York%20HD%20US&code=us&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "TSN 1 FHD CA",
-              "id": "6add8cd62d4a99e073941790",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%201%20FHD%20CA&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "ca",
-              "channel_name": "RDS CA",
-              "id": "6add40b12d4a99e07363ed29",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/canada/rds-ca.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RDS%20CA&code=ca&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "TSN 3 FHD CA",
-              "id": "6add40b12d4a99e07363ed3d",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%203%20FHD%20CA&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "TSN 5 FHD CA",
-              "id": "6add40b12d4a99e07363ed42",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%205%20FHD%20CA&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "TSN 4 FHD CA",
-              "id": "6add40b12d4a99e07363ed3f",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%204%20FHD%20CA&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "gb",
-              "channel_name": "Sky Sports NFL FHD UK",
-              "id": "6add8cd32d4a99e07393f4b1",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-nfl-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20NFL%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "fr",
-              "channel_name": "beIN SPORTS 1 FR FHD",
-              "id": "6add8cd52d4a99e073940885",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/france/bein-sports-1-fr-fhd.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%201%20FR%20FHD&code=fr&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "nl",
-              "channel_name": "ESPN 2 FHD NL",
-              "id": "6add40b12d4a99e07363f7d7",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/netherlands/espn-2-fhd-nl.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%202%20FHD%20NL&code=nl&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "il",
-              "channel_name": "Sport 5 Live HD IL",
-              "id": "6add40b32d4a99e07364135b",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/israel/sport-5-live-hd-il.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%205%20Live%20HD%20IL&code=il&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-26 21:00",
-          "event": "Detroit Lions vs Chicago Bears",
-          "gameID": "2475538",
-          "homeTeam": "Detroit Lions",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134939",
-          "start": "2026-11-26 18:00",
-          "status": "NS",
-          "time": "18:00",
-          "tournament": "NFL"
-        },
-        {
-          "awayTeam": "Philadelphia Eagles",
-          "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134936",
-          "channels": [
-            {
-              "channel_code": "us",
-              "channel_name": "FOX US",
-              "id": "6add40af2d4a99e07363cfae",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/fox-us.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20US&code=us&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "FOX 5 New York",
-              "id": "6add8cd52d4a99e073940324",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%205%20New%20York&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "gb",
-              "channel_name": "5Action HD UK",
-              "id": "6add8cd32d4a99e07393f52a",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/5action-hd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=5Action%20HD%20UK&code=gb&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "gb",
-              "channel_name": "Sky Sports NFL FHD UK",
-              "id": "6add8cd32d4a99e07393f4b1",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-nfl-fhd-uk.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20NFL%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "TSN 1 FHD CA",
-              "id": "6add8cd62d4a99e073941790",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%201%20FHD%20CA&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "ca",
-              "channel_name": "RDS CA",
-              "id": "6add40b12d4a99e07363ed29",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/canada/rds-ca.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RDS%20CA&code=ca&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "TSN 3 FHD CA",
-              "id": "6add40b12d4a99e07363ed3d",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%203%20FHD%20CA&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "TSN 4 FHD CA",
-              "id": "6add40b12d4a99e07363ed3f",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%204%20FHD%20CA&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "fr",
-              "channel_name": "beIN SPORTS 1 FR FHD",
-              "id": "6add8cd52d4a99e073940885",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/france/bein-sports-1-fr-fhd.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%201%20FR%20FHD&code=fr&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "nl",
-              "channel_name": "ESPN 2 FHD NL",
-              "id": "6add40b12d4a99e07363f7d7",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/netherlands/espn-2-fhd-nl.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%202%20FHD%20NL&code=nl&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "de",
-              "channel_name": "Sky Sport Top Event FHD DE",
-              "id": "6add40ae2d4a99e07363c7cb",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-top-event-fhd-de.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Top%20Event%20FHD%20DE&code=de&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "",
-              "channel_name": "Fox Deportes HD US",
-              "id": "6add40af2d4a99e07363cf21",
-              "image": "",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Deportes%20HD%20US&code=&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
-            {
-              "channel_code": "il",
-              "channel_name": "Sport 5 Live HD IL",
-              "id": "6add40b32d4a99e07364135b",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/israel/sport-5-live-hd-il.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%205%20Live%20HD%20IL&code=il&user=cdnlivetv&plan=free",
-              "viewers": 0
-            }
-          ],
-          "country": "United States",
-          "countryIMG": "https://flagcdn.com/w40/us.png",
-          "end": "2026-11-27 00:30",
-          "event": "Dallas Cowboys vs Philadelphia Eagles",
-          "gameID": "2475539",
-          "homeTeam": "Dallas Cowboys",
-          "homeTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134934",
-          "start": "2026-11-26 21:30",
-          "status": "NS",
-          "time": "21:30",
-          "tournament": "NFL"
-        },
-        {
           "awayTeam": "Kansas City Chiefs",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134931",
           "channels": [
-            {
-              "channel_code": "us",
-              "channel_name": "NBC US",
-              "id": "6add40af2d4a99e07363cff6",
-              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-states/nbc-us.webp",
-              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=NBC%20US&code=us&user=cdnlivetv&plan=free",
-              "viewers": 0
-            },
             {
               "channel_code": "us",
               "channel_name": "NBC 4 (WNBC) New York HD US",
@@ -4769,6 +4679,14 @@
               "id": "6add8cd32d4a99e07393f4b1",
               "image": "https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-nfl-fhd-uk.webp",
               "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20NFL%20FHD%20UK&code=gb&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "Sky Sports Main Event HD UK",
+              "id": "6add8cd32d4a99e07393f49c",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Main%20Event%20HD%20UK&code=&user=cdnlivetv&plan=free",
               "viewers": 0
             },
             {
@@ -4843,7 +4761,40 @@
         {
           "awayTeam": "Denver Broncos",
           "awayTeamIMG": "https://cdnlivetv.tv/api/v1/team/images/134930",
-          "channels": [],
+          "channels": [
+            {
+              "channel_code": "",
+              "channel_name": "TSN 1 FHD CA",
+              "id": "6add8cd62d4a99e073941790",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%201%20FHD%20CA&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "TSN 3 FHD CA",
+              "id": "6add40b12d4a99e07363ed3d",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%203%20FHD%20CA&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "ca",
+              "channel_name": "RDS 2 CA",
+              "id": "6add8cd62d4a99e07394175b",
+              "image": "https://cdnlivetv.tv/api/v1/channels/images6318/canada/rds-2-ca.webp",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=RDS%202%20CA&code=ca&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
+              "channel_code": "",
+              "channel_name": "VIP beIN SPORTS 8 FHD",
+              "id": "6add40b02d4a99e07363df21",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=VIP%20beIN%20SPORTS%208%20FHD&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            }
+          ],
           "country": "United States",
           "countryIMG": "https://flagcdn.com/w40/us.png",
           "end": "2026-11-27 23:00",
@@ -6285,6 +6236,14 @@
               "viewers": 0
             },
             {
+              "channel_code": "",
+              "channel_name": "Sky Sports Main Event HD UK",
+              "id": "6add8cd32d4a99e07393f49c",
+              "image": "",
+              "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Main%20Event%20HD%20UK&code=&user=cdnlivetv&plan=free",
+              "viewers": 0
+            },
+            {
               "channel_code": "fr",
               "channel_name": "beIN SPORTS 1 FR FHD",
               "id": "6add8cd52d4a99e073940885",
@@ -7056,8 +7015,8 @@
       ],
       "Winter Sports": [],
       "cached": true,
-      "timestamp": 1795729107,
-      "total_events": 306,
+      "timestamp": 1795751234,
+      "total_events": 303,
       "total_events_badminton": 3,
       "total_events_basketball": 101,
       "total_events_cricket": 0,
@@ -7072,9 +7031,9 @@
       "total_events_mma": 1,
       "total_events_motorsport": 17,
       "total_events_nba": 0,
-      "total_events_ncaa": 59,
+      "total_events_ncaa": 58,
       "total_events_ncaaw": 0,
-      "total_events_nfl": 111,
+      "total_events_nfl": 109,
       "total_events_nhl": 0,
       "total_events_rugby": 0,
       "total_events_soccer": 1,
