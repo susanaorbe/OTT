@@ -1,6 +1,6 @@
 {
   "data": {
-    "count": 101,
+    "count": 107,
     "events": [
       {
         "channels": [
@@ -254,7 +254,8 @@
       },
       {
         "channels": [
-          "M+ Baloncesto 3"
+          "M+ Baloncesto 3",
+          "DAZN"
         ],
         "competition": "Copa Mundial de la FIFA",
         "competition_key": "mundial",
@@ -954,6 +955,34 @@
         "channels": [
           "DAZN"
         ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-29",
+        "event": "Fase de Clasificación - Siria - Nueva Zelanda",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:07:00:copa mundial de la fifa:fase de clasificacion - siria - nueva zelanda",
+        "sport": "Fútbol",
+        "time": "07:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-29",
+        "event": "Fase de Clasificación - Irán - Filipinas",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:10:00:copa mundial de la fifa:fase de clasificacion - iran - filipinas",
+        "sport": "Fútbol",
+        "time": "10:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
         "competition": "Serie A",
         "competition_key": "seriea",
         "date": "2026-11-29",
@@ -963,6 +992,20 @@
         "id": "ftv:2026-11-29:12:30:serie a:udinese - fiorentina",
         "sport": "Fútbol",
         "time": "12:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-29",
+        "event": "Fase de Clasificación - Jordania - Australia",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:13:00:copa mundial de la fifa:fase de clasificacion - jordania - australia",
+        "sport": "Fútbol",
+        "time": "13:00"
       },
       {
         "channels": [
@@ -993,6 +1036,20 @@
         "id": "ftv:2026-11-29:13:00:premier league:everton - liverpool",
         "sport": "Fútbol",
         "time": "13:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-29",
+        "event": "Fase de Clasificación - Catar - Japón",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:14:00:copa mundial de la fifa:fase de clasificacion - catar - japon",
+        "sport": "Fútbol",
+        "time": "14:00"
       },
       {
         "channels": [
@@ -1175,7 +1232,8 @@
       },
       {
         "channels": [
-          "M+ Baloncesto 2"
+          "M+ Baloncesto 2",
+          "DAZN"
         ],
         "competition": "Copa Mundial de la FIFA",
         "competition_key": "mundial",
@@ -1228,6 +1286,20 @@
         "featured": false,
         "icon": "⚽",
         "id": "ftv:2026-11-29:17:00:copa mundial de la fifa:fase de clasificacion - turquia - islandia",
+        "sport": "Fútbol",
+        "time": "17:00"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-29",
+        "event": "Fase de Clasificación - Arabia Saudí - Corea del Sur",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:17:00:copa mundial de la fifa:fase de clasificacion - arabia saudi - corea del sur",
         "sport": "Fútbol",
         "time": "17:00"
       },
@@ -1310,7 +1382,8 @@
       },
       {
         "channels": [
-          "M+ Baloncesto 5"
+          "M+ Baloncesto 5",
+          "DAZN"
         ],
         "competition": "Copa Mundial de la FIFA",
         "competition_key": "mundial",
@@ -1396,6 +1469,20 @@
         "id": "ftv:2026-11-29:19:30:bundesliga:borussia dortmund - bayer leverkusen",
         "sport": "Fútbol",
         "time": "19:30"
+      },
+      {
+        "channels": [
+          "DAZN"
+        ],
+        "competition": "Copa Mundial de la FIFA",
+        "competition_key": "mundial",
+        "date": "2026-11-29",
+        "event": "Fase de Clasificación - Líbano - China",
+        "featured": false,
+        "icon": "⚽",
+        "id": "ftv:2026-11-29:20:00:copa mundial de la fifa:fase de clasificacion - libano - china",
+        "sport": "Fútbol",
+        "time": "20:00"
       },
       {
         "channels": [
